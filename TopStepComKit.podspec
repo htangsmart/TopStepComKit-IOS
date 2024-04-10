@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.frameworks       = 'Foundation', 'UIKit', 'CoreBluetooth'
 
   s.requires_arc = true
-  s.vendored_frameworks = 'Products/TopStepComKit.framework', 'Rtt/persimwearSDK.framework', 'fw/flywearsdk.framework'
-  s.resource = 'res/WearApi.bundle', 'res/TSBundle.bundle'
+  s.vendored_frameworks = 'TopStepComKit/Products/TopStepComKit.framework', 'TopStepComKit/Rtt/persimwearSDK.framework', 'TopStepComKit/fw/flywearsdk.framework'
+  s.resource = 'TopStepComKit/res/WearApi.bundle', 'TopStepComKit/res/TSBundle.bundle'
   
   s.dependency 'ReactiveObjC'
   s.dependency 'FitCloudKit'
