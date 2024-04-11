@@ -1948,7 +1948,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 ```
 
 13、自动发送心率模式
--```
+```
 (void)sendHeartrate_auto_mode:(TPSMiscSettingModel_State)heartrate_auto_mode
 ```
 调用举例：
