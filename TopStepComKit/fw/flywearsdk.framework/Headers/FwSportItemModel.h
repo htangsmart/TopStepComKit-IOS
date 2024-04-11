@@ -23,6 +23,7 @@
 
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;
 -(instancetype)initWithNSData:(NSData*)jsonData;
+-(void)addNext0DurationData:(FwSportItemModel*)model;
 -(NSData*)toJsonNSData;
 
 @end
