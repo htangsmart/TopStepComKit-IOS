@@ -1,9 +1,9 @@
-#安装方法
-##1、podfile文件中增加以下路径
+# 安装方法
+## 1、podfile文件中增加以下路径
 ```
 pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 ```
-##2、初始化sdk，在AppDelegate中执行以下语句
+## 2、初始化sdk，在AppDelegate中执行以下语句
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
         ...
@@ -11,9 +11,9 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
         ...
 }
 ```
-#接口说明
-##1、蓝牙连接
-###1、获取蓝牙状态
+# 接口说明
+## 1、蓝牙连接
+### 1、获取蓝牙状态
 ```
 -(CBManagerState)getCBManagerState
 ```
@@ -44,7 +44,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 }
 ```
 
-###2、获得连接
+### 2、获得连接
 ```
 -(TPSConnnectResult_State)getConnectState
 ```
@@ -72,7 +72,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 }
 ```
 
-###3、扫描状态
+### 3、扫描状态
 ```
 -(RACSubject<TPSScanResult*>*)startScan
 ```
@@ -102,7 +102,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 }
 ```
 
-###4、停止扫描
+### 4、停止扫描
 ```
 -(void)stopScan
 ```
@@ -132,7 +132,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 }
 
 ```
-###5、连接地址
+### 5、连接地址
 ```
 -(RACSubject<TPSConnectResult*>*)connectWithMac:(NSString*)mac extraParam:(TPSExtraConnectParam*)extraParam
 调用举例：
@@ -172,7 +172,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 }
 
 ```
-###6、连接设备
+### 6、连接设备
 ```
 -(RACSubject<TPSConnectResult*>*)connectWithCBPeripheral:(CBPeripheral*)peripheral mac:(NSString*)mac extraParam:(TPSExtraConnectParam*)extraParam
 ```
@@ -209,7 +209,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 }
 
 ```
-###7、通过用户信息自动连接之前的设备
+### 7、通过用户信息自动连接之前的设备
 ```
 -(RACSubject<TPSConnectResult*>*)autoConnectLastPeripheralWithUserInfo:(TPSExtraConnectParam*)extraParam
 ```
@@ -235,7 +235,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
     }
 }
 ```
-###8、取消自动连接
+### 8、取消自动连接
 ```
 -(void)cancelAutoConnectLastPeripheral
 ```
@@ -257,7 +257,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 ```
 
 
-###9、观察连接结果
+### 9、观察连接结果
 ```
 -(RACSubject<TPSConnectResult*>*)observeConnectResult
 ```
@@ -324,7 +324,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 }
 ```
 
-###10、断开连接
+### 10、断开连接
 ```
 -(void)disconnect
 ```
@@ -348,7 +348,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
     }
 }
 ```
-###11、解绑账号
+### 11、解绑账号
 ```
 -(void)unbindDevWithUserId:(NSString*)userId block:(TPSSendMsgResult _Nullable)block
 ```
@@ -374,7 +374,7 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 }
 ```
 
-###12、获取设备
+### 12、获取设备
 ```
 -(TPSExPeripheral*)getPeripheral
 ```
@@ -404,8 +404,8 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 
 
 
-##2.设备基本信息
-###1、获取设备信息
+## 2.设备基本信息
+### 1、获取设备信息
 ```
 -(RACSubject<TPSDevInfoModel*>*)getDevInfo
 ```
