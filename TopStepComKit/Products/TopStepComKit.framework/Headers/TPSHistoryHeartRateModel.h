@@ -14,12 +14,22 @@
 @property (nonatomic, assign) long timestamp;
 @property (nonatomic, assign) int heartRate;
 
+
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;
+
 -(instancetype)initWithNSData:(NSData*)jsonData;
+
 -(NSData*)toJsonNSData;
 
 -(instancetype)initWithFwModel:(FwHistoryHeartRateModel*)fwHistoryHeartRateModel;
+
+
 +(NSArray<TPSHistoryHeartRateModel*>*)toTPSArrWithFwArr:(NSArray<FwHistoryHeartRateModel*>*)fwArr;
+
+
++(NSArray<TPSHistoryHeartRateModel*>*)heartRateModelFormArray:(NSArray<NSDictionary*>*)fitcloudModelArray;
+
+
 
 @end
 

@@ -25,6 +25,8 @@ typedef void(^TPSMusicListCallback)(NSArray<TPSMusicModel*> * musicList);
 ///@param fileName -文件名，不是全路径
 -(void)cancelPushMusicWithFileName:(NSString*)fileName;
 
+-(void)musicOnLogMessage:(NSString*)message level:(int)level;
+
 @end
 
 

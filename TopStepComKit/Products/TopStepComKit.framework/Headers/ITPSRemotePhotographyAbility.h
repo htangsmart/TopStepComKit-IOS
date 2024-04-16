@@ -19,6 +19,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)exitRemotePhotography;
 
 
+/// 手环控制手机拍照
+- (void)remotePhotographyOnTakePhotoCtrl ;
+
+/// 手表通知App退出拍照
+- (void)remotePhotographyOnExitCamera ;
 
 @end
 

@@ -166,7 +166,7 @@
 		</data>
 		<key>Headers/FwSportItemModel.h</key>
 		<data>
-		HC3qQ3sWbiCejj3PUq37UXYumvE=
+		GCji0ww1PFRQ4WCtoEFhD7DTPfU=
 		</data>
 		<key>Headers/FwSportTargetModel.h</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>Headers/IFwDialAbility.h</key>
 		<data>
-		gX8itEKWQreXU/VwHmK+dB3zcEI=
+		ckBeEmfSMI7ox3u35xWNamGdfZA=
 		</data>
 		<key>Headers/IFwEleBookAbility.h</key>
 		<data>
@@ -362,7 +362,7 @@
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
+		IgorAA0w+jz3Z6R4STl979HpNOk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1279,11 +1279,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HC3qQ3sWbiCejj3PUq37UXYumvE=
+			GCji0ww1PFRQ4WCtoEFhD7DTPfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4nRJynGcDwSMvTmlvHYHM/JDbsUaPFryQT2AvsIXC9U=
+			kSZOUiVHHONN8EeiXnn3K6Wt1JlgVsOoKx14DmHwsIg=
 			</data>
 		</dict>
 		<key>Headers/FwSportTargetModel.h</key>
@@ -1488,11 +1488,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gX8itEKWQreXU/VwHmK+dB3zcEI=
+			ckBeEmfSMI7ox3u35xWNamGdfZA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7iI5dVDBQagZE7GhMDf+h1KTAT4e27z9jj2/5y44R+Y=
+			386mwy3arFws//vltpTz2Wg8Cq8Baj94AKKQSEGPUqA=
 			</data>
 		</dict>
 		<key>Headers/IFwEleBookAbility.h</key>
@@ -1807,11 +1807,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
+			IgorAA0w+jz3Z6R4STl979HpNOk=
 			</data>
 			<key>hash2</key>
 			<data>
-			cKuE/EBoeYQRSbtKsdtSCj+1W5bRPuhz9FVQd9WUscU=
+			dPT8ek0RfGeMbnJu/OSM1IFDDddi79gjYopBKB4RfKM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

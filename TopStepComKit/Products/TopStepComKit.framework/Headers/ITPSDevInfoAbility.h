@@ -24,16 +24,15 @@
 
 -(void)resetToFactoryState:(TPSSendMsgResult _Nullable)block;
 
-
 -(TPSDevInfoModel*)getExistDevInfo;
+
 -(void)sendPhoneSystemTime;
-
-
 
 - (RACSubject*)restartPeripheral;
 
 - (RACSubject*)shutdownPeripheral;
 
+- (void)updateBattery:(CGFloat)batteryValue;
 
 
 @end

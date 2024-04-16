@@ -49,6 +49,7 @@
 #import <TopStepComKit/ITPSRemindSettingAbility.h>
 
 #import <TopStepComKit/TPSDevice.h>
+#import <TopStepComKit/ITPSSynchronousDataAbility.h>
 
 @interface TPSSdk : NSObject
 
@@ -207,6 +208,12 @@
  提醒设置
  */
 @property (nonatomic,strong) id<ITPSRemindSettingAbility>  remindSettingAbility;
+
+/**
+ 数据同步功能
+ */
+@property(nonatomic, strong) id<ITPSSynchronousDataAbility> synchronousDataAbility;
+
 
 @end
 

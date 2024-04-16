@@ -9,6 +9,7 @@
 
 
 @class FwRemindDistrubModel;
+@class FitCloudDNDSetting;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) double end;
 
 + (TPSRemindDistrubModel *)distrubModelWithFWDistrub:(FwRemindDistrubModel *)distrubModel;
+
+// 配置免打扰数据 FitCloudDNDSetting
++ (TPSRemindDistrubModel *)configModelWithDNDSetting:(FitCloudDNDSetting *)dndSet;
 
 - (NSDictionary *)toDictonary;
 

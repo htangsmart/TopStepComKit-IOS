@@ -18,11 +18,11 @@ typedef void(^TPSMiscSettingCallback)(TPSMiscSettingModel* miscSettingModel);
 
 +(instancetype)share;
 /*
- * @brief 运动单位
+ * @brief 获取所有设置项数据
  */
 -(void)getAllMiscSetting:(TPSMiscSettingCallback)block;
 /*
- * @brief 运动单位
+ * @brief
  */
 -(void)sendTarget_drink_warn:(TPSMiscSettingModel_State)target_drink_warn;
 /*

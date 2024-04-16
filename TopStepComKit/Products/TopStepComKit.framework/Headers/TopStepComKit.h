@@ -117,6 +117,8 @@ FOUNDATION_EXPORT const unsigned char TopStepComKitVersionString[];
 #import <TopStepComKit/TPSDaySleepEntity.h>
 #import <TopStepComKit/TPSSportItemModel.h>
 
+#import <TopStepComKit/ITPSSynchronousDataAbility.h>
+
 
 
 

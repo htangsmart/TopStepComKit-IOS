@@ -50,6 +50,15 @@
 -(RACSubject*)observeWatchStopFindingPhone;
 
 
+/*
+*@brief 手环请求查找手机
+*/
+-(void)finderOnFindiPhoneEvent;
+/**
+*@brief 手环请求查找手机停止
+*/
+-(void)finderOnStopFindiPhoneEvent;
+
 @end
 
 

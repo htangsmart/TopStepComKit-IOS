@@ -1466,7 +1466,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		PXYqHUFW92D+cGy8FbAxaiVuAbI=
+		8h20CvCZUYbiTMMB3KbHXIERQfI=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1478,7 +1478,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		/A0dCTB/TyMhkU9HnRHcPGud0HU=
+		eGL1h+feXZOgMf1UG0U/ScmpEi0=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1514,11 +1514,11 @@
 		</data>
 		<key>Headers/ITPSDevInfoAbility.h</key>
 		<data>
-		x0m4+5hRcPKY/rmA6nw0j7W4FKk=
+		i6tWkFHZyUwhutzQfYd+uu5DNqE=
 		</data>
 		<key>Headers/ITPSDialAbility.h</key>
 		<data>
-		hgBHqmSIRjJnRj4hcY4aqUR8pfE=
+		+XJsPCHLZvZllvbDnnzTdl/MC3E=
 		</data>
 		<key>Headers/ITPSEleBookAbility.h</key>
 		<data>
@@ -1530,7 +1530,7 @@
 		</data>
 		<key>Headers/ITPSFinderAbility.h</key>
 		<data>
-		W2n9nAH3+FZiwRqDgOx5ya70lAA=
+		X3uoUStdcEzD3Vz571IYY0NbJa0=
 		</data>
 		<key>Headers/ITPSHeartRateDataAbility.h</key>
 		<data>
@@ -1542,11 +1542,11 @@
 		</data>
 		<key>Headers/ITPSMiscSettingAbility.h</key>
 		<data>
-		SoFvwO3TrNTau3ERgFvK/TF0awI=
+		qMFYPlO8M1ekCzaXy9a6ty59ieI=
 		</data>
 		<key>Headers/ITPSMusicAbility.h</key>
 		<data>
-		o9NLah41qVVIsyxyOoLCz6WGkRo=
+		1wG39QoWbhj3vawy+O2QNgbDOek=
 		</data>
 		<key>Headers/ITPSNavAbility.h</key>
 		<data>
@@ -1570,7 +1570,7 @@
 		</data>
 		<key>Headers/ITPSRemotePhotographyAbility.h</key>
 		<data>
-		wSZbEH3YO5vwUQWFZwVoQ+4gD8w=
+		JcRpTiOdPF3KiQXMjSBE1+ovFjM=
 		</data>
 		<key>Headers/ITPSSPO2Ability.h</key>
 		<data>
@@ -1591,6 +1591,10 @@
 		<key>Headers/ITPSStressDataAbility.h</key>
 		<data>
 		cJanS63u6AHxZom/C0hT5LAMHms=
+		</data>
+		<key>Headers/ITPSSynchronousDataAbility.h</key>
+		<data>
+		pLkrTZqMF4pdQ3PBJopRsqojAo0=
 		</data>
 		<key>Headers/ITPSWearBaseAbility.h</key>
 		<data>
@@ -1690,7 +1694,7 @@
 		</data>
 		<key>Headers/TPSHistoryHeartRateModel.h</key>
 		<data>
-		+y9b8uuBkpLz5sasqHrfC4REoYw=
+		MZNY/KYspliXk3DNfJRDrX5ftDg=
 		</data>
 		<key>Headers/TPSHistorySPO2Model.h</key>
 		<data>
@@ -1746,11 +1750,11 @@
 		</data>
 		<key>Headers/TPSRemindDistrubModel.h</key>
 		<data>
-		Zt6Du0LMZ4YYmCRd4tg8S+4HgP8=
+		5lXJFG3CeNCrGjELH3ZLkzxPG6Y=
 		</data>
 		<key>Headers/TPSRemindSettingModel.h</key>
 		<data>
-		+sBMgQQumfKQS9zmTv6h2glpaP0=
+		tDmQOYtdcbbIR0MXVj1EzGmj0GQ=
 		</data>
 		<key>Headers/TPSScanResult.h</key>
 		<data>
@@ -1758,7 +1762,7 @@
 		</data>
 		<key>Headers/TPSSdk.h</key>
 		<data>
-		bhdwDsALfcorpddnAA1/LJFp2fc=
+		Eb8AUGaodADQWs4IS3tQF5sUhc8=
 		</data>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
 		<data>
@@ -1778,7 +1782,7 @@
 		</data>
 		<key>Headers/TPSSportTargetModel.h</key>
 		<data>
-		rGrQ1YXB1Uy2+sUHK27LnJDW83Y=
+		aoMnivB+ywI6C26LCAxEUC5AT1g=
 		</data>
 		<key>Headers/TPSStressConfigModel.h</key>
 		<data>
@@ -1822,7 +1826,7 @@
 		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
-		q7s+gSqEQsY+BvobjO1z3RoirRU=
+		mOUFwgu68hxMhO6SNrzGFROQEPM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -1847,6 +1851,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		f8+XxgUmCsXjxDXUjD7hZgybzSo=
+		</data>
+		<key>TSBundle.bundle/TSSql.sql</key>
+		<data>
+		7ZLyWYkoYIX+LI5mDXRcBl1CxFk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -4601,11 +4609,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PXYqHUFW92D+cGy8FbAxaiVuAbI=
+			8h20CvCZUYbiTMMB3KbHXIERQfI=
 			</data>
 			<key>hash2</key>
 			<data>
-			L/ZlDQm/ErQEiXaFeKa2yGoAVIpoATvIIXBHwav1MVI=
+			h/rODWEdAZ147n7ebtqDmLrfOdyIka4v7RCzFpngqKs=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4634,11 +4642,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/A0dCTB/TyMhkU9HnRHcPGud0HU=
+			eGL1h+feXZOgMf1UG0U/ScmpEi0=
 			</data>
 			<key>hash2</key>
 			<data>
-			2NI+j8dXbBvo19kk1i6gLLf3mFl+bzcCZwPo7KOEPWg=
+			RYs7TcmzXWrqAULAkuCULw93SWlmQHSY7hvH9JdW1bU=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -4733,22 +4741,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x0m4+5hRcPKY/rmA6nw0j7W4FKk=
+			i6tWkFHZyUwhutzQfYd+uu5DNqE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3+H7diRhiw99Ng2i2SYaF9v9q6ctaKol/rlQ1A7l+o8=
+			M2mxssOTh2EmTi2pbCRLCffaSa7NXPeFKjyXnkqNkdc=
 			</data>
 		</dict>
 		<key>Headers/ITPSDialAbility.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hgBHqmSIRjJnRj4hcY4aqUR8pfE=
+			+XJsPCHLZvZllvbDnnzTdl/MC3E=
 			</data>
 			<key>hash2</key>
 			<data>
-			opu/fp3cDINyUHL1b1mssCN5xLPiuxOXnSt1nuvU7xs=
+			ADJ7vAbcBRpXmLEb91qyniMb4+49PXejHVevN66gqUE=
 			</data>
 		</dict>
 		<key>Headers/ITPSEleBookAbility.h</key>
@@ -4777,11 +4785,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W2n9nAH3+FZiwRqDgOx5ya70lAA=
+			X3uoUStdcEzD3Vz571IYY0NbJa0=
 			</data>
 			<key>hash2</key>
 			<data>
-			QbW4+0X2i9YzCyNsfHWzEdB5zGb+HNh42CyqETH1WkM=
+			22HGRmbCx92LtZDYzrbfitWi5x/zZ/Izr47tXRzb8Yk=
 			</data>
 		</dict>
 		<key>Headers/ITPSHeartRateDataAbility.h</key>
@@ -4810,22 +4818,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SoFvwO3TrNTau3ERgFvK/TF0awI=
+			qMFYPlO8M1ekCzaXy9a6ty59ieI=
 			</data>
 			<key>hash2</key>
 			<data>
-			cosA7xnYIIhHZURHp/55JCw89gtjiLwoYB9ejjlummE=
+			Fp4vdYZRfwDY58nW6+3kObWjOGzXcdkynZklqQYnVVM=
 			</data>
 		</dict>
 		<key>Headers/ITPSMusicAbility.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o9NLah41qVVIsyxyOoLCz6WGkRo=
+			1wG39QoWbhj3vawy+O2QNgbDOek=
 			</data>
 			<key>hash2</key>
 			<data>
-			0d5WCn3oHeGcpRqJAV0cma/ENY5dmX+ruPeabMaqkcU=
+			IcRIr+mWnbUdpUiQkXkp5u5LDIKg5aATwoHMpxh23M0=
 			</data>
 		</dict>
 		<key>Headers/ITPSNavAbility.h</key>
@@ -4887,11 +4895,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wSZbEH3YO5vwUQWFZwVoQ+4gD8w=
+			JcRpTiOdPF3KiQXMjSBE1+ovFjM=
 			</data>
 			<key>hash2</key>
 			<data>
-			WnoNfOg/DdwzNZbMNk47CUgptxG7lCxfj1jtZDpeW2s=
+			BHTbFth3uxNQOTs9i8AWppoK5fhz0Gawhm/qirCEqk0=
 			</data>
 		</dict>
 		<key>Headers/ITPSSPO2Ability.h</key>
@@ -4947,6 +4955,17 @@
 			<key>hash2</key>
 			<data>
 			DtVUA++OHrvMnpEIU2T6OJgYs/5sree2oQFNOvkEswo=
+			</data>
+		</dict>
+		<key>Headers/ITPSSynchronousDataAbility.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pLkrTZqMF4pdQ3PBJopRsqojAo0=
+			</data>
+			<key>hash2</key>
+			<data>
+			2cH7uEm6bXe4rTE2KqFHAGwVsbZgccbhx0SzTVVcRas=
 			</data>
 		</dict>
 		<key>Headers/ITPSWearBaseAbility.h</key>
@@ -5217,11 +5236,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+y9b8uuBkpLz5sasqHrfC4REoYw=
+			MZNY/KYspliXk3DNfJRDrX5ftDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			AEY1AmQLwyKOe70zXofAxJcBGyOm9dyPFgums+F1nTU=
+			ICosLEete1UMagFr8TvxGB3VvkaS3bjVKa6010e5PXM=
 			</data>
 		</dict>
 		<key>Headers/TPSHistorySPO2Model.h</key>
@@ -5371,22 +5390,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zt6Du0LMZ4YYmCRd4tg8S+4HgP8=
+			5lXJFG3CeNCrGjELH3ZLkzxPG6Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			XsIR+ftgRzadpfafq0BL1pKUobyVc8nlF5TUM1w47VM=
+			kkl3aTmZP9hIxKCHIZDsQhJ8nPTOR4lIelpoMurFXCg=
 			</data>
 		</dict>
 		<key>Headers/TPSRemindSettingModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+sBMgQQumfKQS9zmTv6h2glpaP0=
+			tDmQOYtdcbbIR0MXVj1EzGmj0GQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			NZnnJT5ovwMAwumCKfYJs0TfkR18ATpfR/FfP0IZrcI=
+			n6ET/abxvJYajKf1VC3cmlUPlkLDGy29Uo7HZIfSxho=
 			</data>
 		</dict>
 		<key>Headers/TPSScanResult.h</key>
@@ -5404,11 +5423,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bhdwDsALfcorpddnAA1/LJFp2fc=
+			Eb8AUGaodADQWs4IS3tQF5sUhc8=
 			</data>
 			<key>hash2</key>
 			<data>
-			vxoYowbujBAWS/uilpCjPj3jzQV0nUTKvZBb8OnQ8pY=
+			zhDzttxWTdmOXLzzIB4sI6mE0yvTjImVNYmbPErhViI=
 			</data>
 		</dict>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
@@ -5459,11 +5478,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rGrQ1YXB1Uy2+sUHK27LnJDW83Y=
+			aoMnivB+ywI6C26LCAxEUC5AT1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			jHRbn32cN3pD9h3JyjvFoIX1uJ7bOp7db1jSS5PLCug=
+			fvOAPVDkQGPVHcbMfo7DB9KBiHo69aRibGbPU4ODjs0=
 			</data>
 		</dict>
 		<key>Headers/TPSStressConfigModel.h</key>
@@ -5580,11 +5599,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q7s+gSqEQsY+BvobjO1z3RoirRU=
+			mOUFwgu68hxMhO6SNrzGFROQEPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BhfpCfR8bfQ8tHbJgSzw1JNLvhCbrrjz+I2ul1ooxWE=
+			Ds4i+mosjJlT61hVi1lcLdjFfyDAf/ihlYz7hWdIHxI=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
@@ -5640,6 +5659,17 @@
 			<key>hash2</key>
 			<data>
 			TsSXoAwXrug7+rmLc9tiV8TTf5oWnGsqO/ONm/AYkws=
+			</data>
+		</dict>
+		<key>TSBundle.bundle/TSSql.sql</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ZLyWYkoYIX+LI5mDXRcBl1CxFk=
+			</data>
+			<key>hash2</key>
+			<data>
+			6NNyVYvoi4AYRwPl4wy6Dj5NqF+tM+VFzpCRo1lf420=
 			</data>
 		</dict>
 	</dict>

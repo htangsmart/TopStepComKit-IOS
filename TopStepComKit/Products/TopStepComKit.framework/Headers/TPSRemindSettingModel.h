@@ -55,6 +55,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (TPSRemindSettingModel *)toTPSModelWithFCPDRModel:(FitCloudDRObject *)drObject;
 
 
+/*
+ 将勿扰数据添配置到提醒中
+ remindModel: 提醒数据
+ disturbModel: 勿扰数据
+ */
++ (TPSRemindSettingModel *)confRemindWithDNDSet:(TPSRemindSettingModel *)remindModel
+                                   andDNDConfig:(TPSRemindDistrubModel *)disturbModel;
 @end
 
 NS_ASSUME_NONNULL_END

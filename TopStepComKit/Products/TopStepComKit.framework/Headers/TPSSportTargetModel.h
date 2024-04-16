@@ -9,6 +9,8 @@
 #define TPSSportTargetModel_h
 
 @class FwSportTargetModel;
+@class FitCloudDailyGoalObject;
+
 @interface TPSSportTargetModel : NSObject
 
 //今日活动时长 单位分钟
@@ -36,8 +38,14 @@
 //    @"target.target_sport_num"//
 //];
 
+
 -(instancetype)initWithFwModel:(FwSportTargetModel*)fwSportTargetModel;
+
+-(instancetype)initWithFCPModel:(FitCloudDailyGoalObject*)fcpSportTargetModel;
+
 -(FwSportTargetModel*)toFwModel;
+
+
 
 @end
 
