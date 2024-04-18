@@ -31,6 +31,7 @@ typedef NS_ENUM(UInt8, TPSHistorySleep_Type){
 @property (nonatomic, assign) int duration;
 
 -(instancetype)initWithFwModel:(FwHistorySleepModel*)fwHistorySleepModel;
+-(NSData*)toJsonNSData;
 
 @end
 

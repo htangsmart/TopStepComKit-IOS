@@ -1466,7 +1466,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		8h20CvCZUYbiTMMB3KbHXIERQfI=
+		PSVxoIwAV+y8pJh4Q32/UHv8uGc=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1478,7 +1478,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		eGL1h+feXZOgMf1UG0U/ScmpEi0=
+		+cBQH06Vy7ZT8jS3B02iFtWJ8Dk=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1702,7 +1702,7 @@
 		</data>
 		<key>Headers/TPSHistorySleepModel.h</key>
 		<data>
-		FChs/8y5Vg1bBTB59zSxtpVvjqw=
+		lTfHRjSLPQFuc43giYyrqaZcLlE=
 		</data>
 		<key>Headers/TPSHistorySportModel.h</key>
 		<data>
@@ -1854,7 +1854,7 @@
 		</data>
 		<key>TSBundle.bundle/TSSql.sql</key>
 		<data>
-		7ZLyWYkoYIX+LI5mDXRcBl1CxFk=
+		blkd9PGzdAkHcLAr5R6QvCbx3Y8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -4609,11 +4609,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8h20CvCZUYbiTMMB3KbHXIERQfI=
+			PSVxoIwAV+y8pJh4Q32/UHv8uGc=
 			</data>
 			<key>hash2</key>
 			<data>
-			h/rODWEdAZ147n7ebtqDmLrfOdyIka4v7RCzFpngqKs=
+			6jgjyz4X6ST1Bzd5N/4say4624QHMlr+JBvzrooUrUY=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4642,11 +4642,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eGL1h+feXZOgMf1UG0U/ScmpEi0=
+			+cBQH06Vy7ZT8jS3B02iFtWJ8Dk=
 			</data>
 			<key>hash2</key>
 			<data>
-			RYs7TcmzXWrqAULAkuCULw93SWlmQHSY7hvH9JdW1bU=
+			08UP1Xt8zgVeXgBREwJILJOYMMIlsqDyW+i17clMe5o=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -5258,11 +5258,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FChs/8y5Vg1bBTB59zSxtpVvjqw=
+			lTfHRjSLPQFuc43giYyrqaZcLlE=
 			</data>
 			<key>hash2</key>
 			<data>
-			yHxrSn14/dejksbbzXJEnO7PEKk/LU862mL8ukcKbs4=
+			CURDb0hCCc2vYPl8LnLSBEkLQgrOcqSOtBrwswa84Xk=
 			</data>
 		</dict>
 		<key>Headers/TPSHistorySportModel.h</key>
@@ -5665,11 +5665,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7ZLyWYkoYIX+LI5mDXRcBl1CxFk=
+			blkd9PGzdAkHcLAr5R6QvCbx3Y8=
 			</data>
 			<key>hash2</key>
 			<data>
-			6NNyVYvoi4AYRwPl4wy6Dj5NqF+tM+VFzpCRo1lf420=
+			UPV60tnukqt+nwPGB9wz5yPwmfI2wvvqyXKKCeAxVaw=
 			</data>
 		</dict>
 	</dict>

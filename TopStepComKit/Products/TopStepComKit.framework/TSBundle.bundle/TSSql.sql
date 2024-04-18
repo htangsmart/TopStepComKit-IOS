@@ -91,8 +91,9 @@ CREATE TABLE IF NOT EXISTS tb_sleep (
     timestamp           DOUBLE,                             /* 时间戳 */
     record_time         INT,                                /* ??? */
     start_time          INT,                                /* ??? */
-    type                INT,                                /* 睡眠类型 清醒0xFF 浅睡0x01 深睡0x02 快速眼动0x03 零星小睡0x04 */
+    type                INT,                                /* 睡眠类型 参考TPSHistorySleep_Type */
     duration            INT,                                /* ??? */
+    belong_day          INT,                                /* 睡眠属于哪一天，秒级时间戳，取那天的0时 */
     data                BLOB                                /* 睡眠数据 */
 );
 
