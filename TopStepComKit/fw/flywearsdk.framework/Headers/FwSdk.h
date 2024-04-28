@@ -45,7 +45,7 @@
 #import <flywearsdk/FwHistorySleepModel.h>
 
 #import <flywearsdk/IFwLanguageAbility.h>
-
+#import <flywearsdk/IFwHttpAbility.h>
 #import <flywearsdk/IFwRemotePhotographyAbility.h>
 
 
@@ -210,6 +210,11 @@
  遥控拍照
  */
 @property (nonatomic,strong) id<IFwRemotePhotographyAbility>  remotePhotoAbility;
+
+/**
+ http协议中转透传
+ */
+@property (nonatomic,strong) id<IFwHttpAbility> httpAbility;
 
 @end
 

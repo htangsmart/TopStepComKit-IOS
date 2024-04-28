@@ -47,6 +47,7 @@
 
 
 #import <TopStepComKit/ITPSRemindSettingAbility.h>
+#import <TopStepComKit/ITPSHttpAbility.h>
 
 #import <TopStepComKit/TPSDevice.h>
 #import <TopStepComKit/ITPSSynchronousDataAbility.h>
@@ -213,6 +214,13 @@
  数据同步功能
  */
 @property(nonatomic, strong) id<ITPSSynchronousDataAbility> synchronousDataAbility;
+
+/**
+ http协议透传功能
+ */
+@property(nonatomic, strong) id<ITPSHttpAbility> httpAbility;
+
+
 
 
 @end

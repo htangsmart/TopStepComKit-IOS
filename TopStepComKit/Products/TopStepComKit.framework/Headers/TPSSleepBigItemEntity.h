@@ -20,11 +20,18 @@ typedef NS_ENUM(UInt8, TPSSleepAnalyEntity_Sleep_Type){
 
 @property(nonatomic,assign) long start_time;
 @property(nonatomic,assign) long end_time;
-@property(nonatomic,assign) int deepMinute;
-@property(nonatomic,assign) int lightMinute;
-@property(nonatomic,assign) int rapidEyeMoveMinute;
-@property(nonatomic,assign) int napMinute;
-@property(nonatomic,assign) int wakeMinute;
+@property(nonatomic,assign) double deepMinute;
+@property(nonatomic,assign) int deepSeconds;
+@property(nonatomic,assign) double lightMinute;
+@property(nonatomic,assign) int lightSeconds;
+@property(nonatomic,assign) double rapidEyeMoveMinute;
+@property(nonatomic,assign) int rapidEyeMoveSeconds;
+@property(nonatomic,assign) double napMinute;
+@property(nonatomic,assign) int napSeconds;
+@property(nonatomic,assign) double napMinuteWithoutWake;
+@property(nonatomic,assign) int napSecondsWithoutWake;
+@property(nonatomic,assign) double wakeMinute;
+@property(nonatomic,assign) int wakeSeconds;
 @property(nonatomic,assign) int deepCount;
 @property(nonatomic,assign) int lightCount;
 @property(nonatomic,assign) int rapidEyeMoveCount;
@@ -35,7 +42,8 @@ typedef NS_ENUM(UInt8, TPSSleepAnalyEntity_Sleep_Type){
 @property(nonatomic,assign) double rapidEyeMoveProportion;
 @property(nonatomic,assign) double napProportion;
 @property(nonatomic,assign) double wakeProportion;
-@property(nonatomic,assign) int totalSleepMinute;
+@property(nonatomic,assign) double totalSleepMinute;
+@property(nonatomic,assign) int totalSleepSeconds;
 @property(nonatomic,assign) TPSSleepAnalyEntity_Sleep_Type type;
 @property(nonatomic,strong) NSMutableArray<TPSHistorySleepModel*>* smallItemList;
 

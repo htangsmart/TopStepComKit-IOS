@@ -29,6 +29,12 @@ typedef void(^FwFileSizeCallback)(float sizeInByte);
 -(void)getDevFileTreeWithWatchFilePath:(NSString*)watchFilePath block:(FwFileListCallback)block;
 -(void)notifyDevAfterUpdate:(FwFileUpdateModel*)model remoteAppId:(NSString*)remoteAppId;
 -(void)getDirSizeInfo:(NSString*)remoteFolder block:(FwFileSizeCallback)block;
+-(void)pullFileWithRemotePath:(NSString*)remotePath localPath:(NSString*)localPath block:(onProgressResult)block;
+/**
+ 取消拉取文件
+ @param fileName -文件名，不是全路径
+ */
+-(void)cancelPullWithFileName:(NSString*)fileName;
 
 @end
 

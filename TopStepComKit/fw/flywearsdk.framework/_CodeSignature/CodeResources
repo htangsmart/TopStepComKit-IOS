@@ -94,7 +94,7 @@
 		</data>
 		<key>Headers/FwHistorySleepModel.h</key>
 		<data>
-		HPqNTXnXlYOaKZ5IiZlQTUYc/lI=
+		jnvwgZCJIUBHRt/Pi2aseiA7kgU=
 		</data>
 		<key>Headers/FwHistorySportModel.h</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Headers/FwSdk.h</key>
 		<data>
-		HdI66cwdDP7ewVIt5n/XV+cj5Q8=
+		CSLSqAtoOI3Rd9jRWhUmHQyJfqg=
 		</data>
 		<key>Headers/FwSpo2ConfigModel.h</key>
 		<data>
@@ -196,13 +196,21 @@
 		<data>
 		Frr6yhv399RswWJicTo7blYq4DM=
 		</data>
+		<key>Headers/FwWebRequestModel.h</key>
+		<data>
+		Mi7fmRqU8BgnVHSc3PeL2rtKa1E=
+		</data>
+		<key>Headers/FwWebResponseModel.h</key>
+		<data>
+		N35UDN2zH0b4aWaGt3YJoLSGSzA=
+		</data>
 		<key>Headers/FwWorldClockModel.h</key>
 		<data>
 		MFFWERVklz55E/ozmToc/iN5u/E=
 		</data>
 		<key>Headers/Fw_Tools.h</key>
 		<data>
-		jVU0aUvA1SP+kjCV/UiMvsFgtko=
+		eH4UD76jZBqpmfPJeT/z9EhkVVI=
 		</data>
 		<key>Headers/IFwActivityDataAbility.h</key>
 		<data>
@@ -250,7 +258,7 @@
 		</data>
 		<key>Headers/IFwFileAbility.h</key>
 		<data>
-		rv02cz0WhxLr5p6wmBamOH5yz/A=
+		IQPzwSr0bnM+0E8tC07KLJlCOA8=
 		</data>
 		<key>Headers/IFwFinderAbility.h</key>
 		<data>
@@ -263,6 +271,10 @@
 		<key>Headers/IFwHeartRateDataAbility.h</key>
 		<data>
 		nDT9I3Jeo3o1thfhq/lKe9PpJKs=
+		</data>
+		<key>Headers/IFwHttpAbility.h</key>
+		<data>
+		j7Lu8oDqKfJbUX0pcaPVbL7jQEU=
 		</data>
 		<key>Headers/IFwLanguageAbility.h</key>
 		<data>
@@ -298,7 +310,7 @@
 		</data>
 		<key>Headers/IFwRemotePhotographyAbility.h</key>
 		<data>
-		AeyZvZE2W4qbGbYSu2bs7+UJFOc=
+		GnkbfpU+hqetOe2BLEh14DuMwNg=
 		</data>
 		<key>Headers/IFwSPO2Ability.h</key>
 		<data>
@@ -342,7 +354,7 @@
 		</data>
 		<key>Headers/flywearsdk.h</key>
 		<data>
-		WGyWw8WAb5FVTPRJplcZsmTu4xY=
+		9WhlncX4+yIeAv2nujIcwIUdm1U=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -362,7 +374,7 @@
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IgorAA0w+jz3Z6R4STl979HpNOk=
+		Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1081,11 +1093,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HPqNTXnXlYOaKZ5IiZlQTUYc/lI=
+			jnvwgZCJIUBHRt/Pi2aseiA7kgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6LFOXR6133fm1YYnC5CkbCmeii9JYUF6kFn+9p3pKk=
+			8dxWszTknSKVAz+tk6bqtcYUa3i+fC4V+AaH7eJ4X5w=
 			</data>
 		</dict>
 		<key>Headers/FwHistorySportModel.h</key>
@@ -1257,11 +1269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HdI66cwdDP7ewVIt5n/XV+cj5Q8=
+			CSLSqAtoOI3Rd9jRWhUmHQyJfqg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rh/5QO6NrbMzfSigA6f7yB1/AZkIwMC7XqNw1uvcXLI=
+			3HZKV4syrhqAgpd+P6JYqK7IWZkzK0QX2dBLat/ENpk=
 			</data>
 		</dict>
 		<key>Headers/FwSpo2ConfigModel.h</key>
@@ -1363,6 +1375,28 @@
 			BrkV0jTaLRhwLss4IPa4xWiTrzcUR+xYGFrEbNYnMAo=
 			</data>
 		</dict>
+		<key>Headers/FwWebRequestModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Mi7fmRqU8BgnVHSc3PeL2rtKa1E=
+			</data>
+			<key>hash2</key>
+			<data>
+			lisEXKbId6WAzcb6iDKo1ftdAvWm1Y+PEBnup18qb/k=
+			</data>
+		</dict>
+		<key>Headers/FwWebResponseModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N35UDN2zH0b4aWaGt3YJoLSGSzA=
+			</data>
+			<key>hash2</key>
+			<data>
+			krLEc//j0+1itWOwFT4aoYUVhvXpddVMTpgV7/pZ400=
+			</data>
+		</dict>
 		<key>Headers/FwWorldClockModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -1378,11 +1412,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jVU0aUvA1SP+kjCV/UiMvsFgtko=
+			eH4UD76jZBqpmfPJeT/z9EhkVVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			uOOcp29Gc0EDqfVIY4w3L1SkRWRMx2Of+umyH3R9gHQ=
+			kNBw/E2uuVVsTCoxG33asNMEke7ff0BV6sgZmJPAMrw=
 			</data>
 		</dict>
 		<key>Headers/IFwActivityDataAbility.h</key>
@@ -1510,11 +1544,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rv02cz0WhxLr5p6wmBamOH5yz/A=
+			IQPzwSr0bnM+0E8tC07KLJlCOA8=
 			</data>
 			<key>hash2</key>
 			<data>
-			lkoxQzwZT3uPfOWMLmtn6TQDYDKEKmczCZ53qNfgwl8=
+			3NbVWaT/02zemKVLlC0MHXz4y0qzstCDnII4ewB1qCw=
 			</data>
 		</dict>
 		<key>Headers/IFwFinderAbility.h</key>
@@ -1548,6 +1582,17 @@
 			<key>hash2</key>
 			<data>
 			Fpwfy4nFvDvfY2CVMVDCqzJMrfQPS4/RPxuhYivICYw=
+			</data>
+		</dict>
+		<key>Headers/IFwHttpAbility.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j7Lu8oDqKfJbUX0pcaPVbL7jQEU=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ew1mGALbyTGPDGkZwu35zO6aEE3WF1D3nD5K23aiCLg=
 			</data>
 		</dict>
 		<key>Headers/IFwLanguageAbility.h</key>
@@ -1642,11 +1687,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AeyZvZE2W4qbGbYSu2bs7+UJFOc=
+			GnkbfpU+hqetOe2BLEh14DuMwNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			aymlKCqRlVVQlCZx8n2xBW2wZymmPuGaXqnIBXCBE+8=
+			82iD0u0kxIAY1FhuuwSs8Uwcek4/XUkvQT9TefuWaIc=
 			</data>
 		</dict>
 		<key>Headers/IFwSPO2Ability.h</key>
@@ -1763,11 +1808,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WGyWw8WAb5FVTPRJplcZsmTu4xY=
+			9WhlncX4+yIeAv2nujIcwIUdm1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			xtrfwg/vc5cpky9exKf0i/gPxq02GhGfP+750Jr4nek=
+			khW9aDvOXI7hpZwtQjyLE8vxZk5CkIkmsiSBGxtoIp8=
 			</data>
 		</dict>
 		<key>Modules/flywearsdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
@@ -1807,11 +1852,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IgorAA0w+jz3Z6R4STl979HpNOk=
+			Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			dPT8ek0RfGeMbnJu/OSM1IFDDddi79gjYopBKB4RfKM=
+			cKuE/EBoeYQRSbtKsdtSCj+1W5bRPuhz9FVQd9WUscU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

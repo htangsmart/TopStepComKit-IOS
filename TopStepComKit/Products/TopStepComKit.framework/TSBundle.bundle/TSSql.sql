@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS tb_sleep (
     record_time         INT,                                /* ??? */
     start_time          INT,                                /* ??? */
     type                INT,                                /* 睡眠类型 参考TPSHistorySleep_Type */
-    duration            INT,                                /* ??? */
+    duration            INT,                                /* 改为用秒做单位，否则会有误差 */
     belong_day          INT,                                /* 睡眠属于哪一天，秒级时间戳，取那天的0时 */
     data                BLOB                                /* 睡眠数据 */
 );

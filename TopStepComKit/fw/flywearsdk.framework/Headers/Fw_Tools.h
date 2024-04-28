@@ -127,6 +127,8 @@ typedef void(^Fw_Action)(void);
 
 +(NSDate*)toStartOfDate:(NSDate*)toConvertDate;
 
++(NSData*)convertWavToPcm:(NSString *)inputFilePath outputFilePath:(NSString *)outputFilePath;
+
 
 @end
 

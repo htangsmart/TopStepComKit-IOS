@@ -125,6 +125,11 @@ typedef void(^TPS_Action)(void);
 
 +(NSDate*)toStartOfDate:(NSDate*)toConvertDate;
 
+//获取一个时间戳组成的数组，各个时间戳是那一天的零时。
++(NSArray*)timestampArrFromEachStartOfDay:(NSTimeInterval)startTime endTime:(NSTimeInterval)endTime;
+
++(NSData*)convertWavToPcm:(NSString *)inputFilePath outputFilePath:(NSString *)outputFilePath;
+
 @end
 
 

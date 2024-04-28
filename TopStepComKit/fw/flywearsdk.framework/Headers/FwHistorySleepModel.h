@@ -29,7 +29,7 @@ typedef NS_ENUM(UInt8, FwHistorySleep_Type){
 @property (nonatomic, assign) long start_time;
 
 @property (nonatomic, assign) FwHistorySleep_Type type;
-//该睡眠时段的时长，分钟
+//该睡眠时段的时长，秒
 @property (nonatomic, assign) int duration;
 
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;

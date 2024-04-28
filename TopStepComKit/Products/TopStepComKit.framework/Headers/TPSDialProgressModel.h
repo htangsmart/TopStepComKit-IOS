@@ -25,6 +25,8 @@ typedef NS_ENUM(UInt8,TPSDialProgressModel_Event_Type){
 
 -(instancetype)initWithFwModel:(FwDialProgressModel*)fwDialProgressModel;
 
++ (instancetype)progresslWithPercent:(CGFloat)percent eventType:(TPSDialProgressModel_Event_Type)eventType;
+
 @end
 
 

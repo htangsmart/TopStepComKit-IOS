@@ -123,3 +123,7 @@ FOUNDATION_EXPORT const unsigned char flywearsdkVersionString[];
 #import <flywearsdk/FwSpo2ConfigModel.h>
 #import <flywearsdk/FwSportItemModel.h>
 
+#import <flywearsdk/FwWebRequestModel.h>
+#import <flywearsdk/FwWebResponseModel.h>
+#import <flywearsdk/IFwHttpAbility.h>
+

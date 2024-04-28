@@ -91,8 +91,9 @@ CREATE TABLE IF NOT EXISTS tb_sleep (
     timestamp           DOUBLE,                             /* 时间戳 */
     record_time         INT,                                /* ??? */
     start_time          INT,                                /* ??? */
-    type                INT,                                /* 睡眠类型 清醒0xFF 浅睡0x01 深睡0x02 快速眼动0x03 零星小睡0x04 */
-    duration            INT,                                /* ??? */
+    type                INT,                                /* 睡眠类型 参考TPSHistorySleep_Type */
+    duration            INT,                                /* 改为用秒做单位，否则会有误差 */
+    belong_day          INT,                                /* 睡眠属于哪一天，秒级时间戳，取那天的0时 */
     data                BLOB                                /* 睡眠数据 */
 );
 
@@ -117,6 +118,8 @@ CREATE TABLE IF NOT EXISTS tb_sport_running (
     sport_id            INT,                                /* ??? */
     type                INT,                                /* ??? */
     start_time          double,                             /* 运动开始时间戳 */
+    duration            INT,                                /* 运动持续时间 */
+    step                INT,                                /* 步数 */
     data                BLOB                                /* 跑步运动信息图表数据 */
 );
 

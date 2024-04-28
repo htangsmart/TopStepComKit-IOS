@@ -16,6 +16,7 @@ typedef NS_ENUM(NSUInteger, TPSSDKType) {
     eTPSSDKFWM,//绅聚
 };
 
+@class FitCloudOption;
 @interface TPSDevice : NSObject
 
 + (instancetype)share;
@@ -39,6 +40,13 @@ typedef NS_ENUM(NSUInteger, TPSSDKType) {
  *
  */
 - (NSString *)fitSDKPrefixes;
+
+/*
+ * @brief 获取合适的fitcloud-sdk的配置，每个厂家可能要设置不同的值
+ *
+ */
+- (FitCloudOption*)getFitcloudOption;
+
 @end
 
 NS_ASSUME_NONNULL_END

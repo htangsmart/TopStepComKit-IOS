@@ -27,7 +27,7 @@ typedef NS_ENUM(UInt8, TPSHistorySleep_Type){
 //该睡眠时段的起始时间戳,秒
 @property (nonatomic, assign) long start_time;
 @property (nonatomic, assign) TPSHistorySleep_Type type;
-//该睡眠时段的时长，分钟
+//该睡眠时段的时长，秒
 @property (nonatomic, assign) int duration;
 
 -(instancetype)initWithFwModel:(FwHistorySleepModel*)fwHistorySleepModel;

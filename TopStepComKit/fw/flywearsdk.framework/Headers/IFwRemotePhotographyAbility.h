@@ -13,9 +13,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)share;
 
-- (RACSubject *)enterRemotePhotography;
-
+/// app进入拍照页面
+- (void)enterRemotePhotography:(void(^)(void))takePhotoBlock;
+/// app退出拍照页面
 - (void)exitRemotePhotography;
+
+/// 监听手表进入拍照页面
+- (void)observerWatchEnterRemotePhotography:(void(^)(void(^takePhotoBlock)(void)))watchEnterRemotePhotographyBlock;
+/// 监听手表退出拍照页面
+- (void)observerWatchExitRemotePhotography:(void(^)(void))watchExitRemotePhotographyBlock;
+
 
 
 @end
