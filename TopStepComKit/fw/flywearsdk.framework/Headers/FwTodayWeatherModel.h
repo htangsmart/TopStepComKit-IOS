@@ -25,9 +25,26 @@
 @property (nonatomic, assign) int windAngle;
 @property (nonatomic, assign) int windSpeed;
 @property (nonatomic, assign) int humidity;
+
+/// 紫外线等级
+@property(nonatomic, assign) NSInteger uvIndex;
+
+/// 能见度，最大30000米，单位：米
+@property(nonatomic, assign) NSInteger visibility;
+
 @property (nonatomic, strong) NSArray<FwFutureHourWeatherModel*>* futureHourWeather;
 
--(instancetype)initWithCurTemperature:(int)curTemperature minTemperature:(int)minTemperature maxTemperature:(int)maxTemperature airpressure:(int)airpressure wind:(int)wind windAngle:(int)windAngle windSpeed:(int)windSpeed humidity:(int)humidity futureHourList:(NSArray<FwFutureHourWeatherModel*>*)futureHourWeather;
+-(instancetype)initWithCurTemperature:(int)curTemperature 
+                       minTemperature:(int)minTemperature
+                       maxTemperature:(int)maxTemperature
+                          airpressure:(int)airpressure
+                                 wind:(int)wind
+                            windAngle:(int)windAngle
+                            windSpeed:(int)windSpeed
+                             humidity:(int)humidity
+                              uvIndex:(NSInteger)uvIndex
+                           visibility:(NSInteger)visibility
+                       futureHourList:(NSArray<FwFutureHourWeatherModel*>*)futureHourWeather;
 
 @end
 

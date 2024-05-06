@@ -8,6 +8,8 @@
 #ifndef IWearEleBookSync_h
 #define IWearEleBookSync_h
 
+#define TSWearEleBookSync_Watch_Ebook_FilePath @"/data/share/com.realthread.EBook/EBook/"
+
 #import <flywearsdk/IFwWearBaseAbility.h>
 #import <flywearsdk/FwEBookModel.h>
 #import <flywearsdk/FwProgressModel.h>

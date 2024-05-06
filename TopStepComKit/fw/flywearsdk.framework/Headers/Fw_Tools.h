@@ -129,6 +129,8 @@ typedef void(^Fw_Action)(void);
 
 +(NSData*)convertWavToPcm:(NSString *)inputFilePath outputFilePath:(NSString *)outputFilePath;
 
++(NSString*)writeToTmpFile:(NSData*)data fileName:(NSString*)fileName;
+
 
 @end
 

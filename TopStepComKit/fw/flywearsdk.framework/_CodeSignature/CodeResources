@@ -178,7 +178,7 @@
 		</data>
 		<key>Headers/FwTodayWeatherModel.h</key>
 		<data>
-		BRoOksfUv7EjY9lnypFdV625UhQ=
+		Re0YcKph9zj88jNlNgGd6w5CVVI=
 		</data>
 		<key>Headers/FwWalletModel.h</key>
 		<data>
@@ -198,11 +198,11 @@
 		</data>
 		<key>Headers/FwWebRequestModel.h</key>
 		<data>
-		Mi7fmRqU8BgnVHSc3PeL2rtKa1E=
+		7epZt6gJLEC7gswMHkg0kOjTNno=
 		</data>
 		<key>Headers/FwWebResponseModel.h</key>
 		<data>
-		N35UDN2zH0b4aWaGt3YJoLSGSzA=
+		Og/ZdTJz5Uf7CgtWDR68vt1qlsY=
 		</data>
 		<key>Headers/FwWorldClockModel.h</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Headers/Fw_Tools.h</key>
 		<data>
-		eH4UD76jZBqpmfPJeT/z9EhkVVI=
+		seT+fyVfQuaslt3nOmUQhiNo0eo=
 		</data>
 		<key>Headers/IFwActivityDataAbility.h</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>Headers/IFwEleBookAbility.h</key>
 		<data>
-		EabhdZbwjP8d+aQGvcfzmYJBWHw=
+		1Qqh7ZGdNqp3b0xSFLMtA0OIlYo=
 		</data>
 		<key>Headers/IFwFileAbility.h</key>
 		<data>
@@ -362,7 +362,7 @@
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		uk1PrlO+P3EUKqTY2RpiZKc+14E=
+		UyQYjWRc07c37jMWRU9EgEhOB5U=
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -374,7 +374,7 @@
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
+		1xWnNBoQ3ZRI8JGENmcee0qBZh8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1324,11 +1324,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BRoOksfUv7EjY9lnypFdV625UhQ=
+			Re0YcKph9zj88jNlNgGd6w5CVVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hpqh13XTpfZOj23SumvIkb3Gk6o2rHhhggrava0EQLI=
+			P2QezC28AZzJr1HwMdvVzCcBhj9pmVjXCgTK2Q7nYHQ=
 			</data>
 		</dict>
 		<key>Headers/FwWalletModel.h</key>
@@ -1379,22 +1379,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Mi7fmRqU8BgnVHSc3PeL2rtKa1E=
+			7epZt6gJLEC7gswMHkg0kOjTNno=
 			</data>
 			<key>hash2</key>
 			<data>
-			lisEXKbId6WAzcb6iDKo1ftdAvWm1Y+PEBnup18qb/k=
+			T+kyP4YD4Otq+79iVcgubZBpG5MqAEHHlaEhPqej/zE=
 			</data>
 		</dict>
 		<key>Headers/FwWebResponseModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N35UDN2zH0b4aWaGt3YJoLSGSzA=
+			Og/ZdTJz5Uf7CgtWDR68vt1qlsY=
 			</data>
 			<key>hash2</key>
 			<data>
-			krLEc//j0+1itWOwFT4aoYUVhvXpddVMTpgV7/pZ400=
+			DhpCyyWnDdD+En1zksgY8/9KgU2NVcpEuw1A+tpyL0E=
 			</data>
 		</dict>
 		<key>Headers/FwWorldClockModel.h</key>
@@ -1412,11 +1412,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eH4UD76jZBqpmfPJeT/z9EhkVVI=
+			seT+fyVfQuaslt3nOmUQhiNo0eo=
 			</data>
 			<key>hash2</key>
 			<data>
-			kNBw/E2uuVVsTCoxG33asNMEke7ff0BV6sgZmJPAMrw=
+			zUOacoqVIVeStT6kdhAdKLRHyQgCeXGPp5xheeN1DlI=
 			</data>
 		</dict>
 		<key>Headers/IFwActivityDataAbility.h</key>
@@ -1533,11 +1533,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EabhdZbwjP8d+aQGvcfzmYJBWHw=
+			1Qqh7ZGdNqp3b0xSFLMtA0OIlYo=
 			</data>
 			<key>hash2</key>
 			<data>
-			+p8Xjnw9DM0mG3aL97/StoPzWNfi8pjuRUTCEdbYlx8=
+			x0HT3oqrEtPHJErVgL+AHRgVy+TEUpqVjU998cH2704=
 			</data>
 		</dict>
 		<key>Headers/IFwFileAbility.h</key>
@@ -1819,11 +1819,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1PrlO+P3EUKqTY2RpiZKc+14E=
+			UyQYjWRc07c37jMWRU9EgEhOB5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			8NoVt3BEIulcnieZ5nr9iEZo5aN0Oajz123P6SwowIk=
+			9G2E9zUiy1Np5uJT86yodWPoMnwoUVDhj7ebH5DNUGA=
 			</data>
 		</dict>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -1852,11 +1852,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
+			1xWnNBoQ3ZRI8JGENmcee0qBZh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			cKuE/EBoeYQRSbtKsdtSCj+1W5bRPuhz9FVQd9WUscU=
+			mgqq4DACNgaCYrAWMtzd12c8ELsg/Bkd9eAh28VOxSU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

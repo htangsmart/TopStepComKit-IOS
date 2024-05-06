@@ -325,7 +325,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		tn0ezPPa0nHOPtdCpx+dmH/OviE=
+		4hqyx4LcrCRl9VSjRjka/Pnz8dc=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -1466,7 +1466,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		ahXdM/7m/+0ABN7jM3tiEo29iWE=
+		HdWFQpQ2WcRmF4zKdWOyIjJiDlI=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1478,7 +1478,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		N04WLLzvXoGXpqF860ZOz4Vz7Zo=
+		wY3UjtnkA1tDpyk/8CuZPYDWSm4=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1794,7 +1794,7 @@
 		</data>
 		<key>Headers/TPSTodayWeatherModel.h</key>
 		<data>
-		bQ53/HT/ON2L2Z7wiwJo8JdiGnM=
+		2kMcJectTCv07+HEJHpPPLNl2Yw=
 		</data>
 		<key>Headers/TPSWalletModel.h</key>
 		<data>
@@ -1818,11 +1818,11 @@
 		</data>
 		<key>Headers/TPSWebRequestModel.h</key>
 		<data>
-		ZpxHMOAoVjv274TcKe/Pj9HXreM=
+		g7qqYaRwgVvTPPFkgwQVbHPhS4I=
 		</data>
 		<key>Headers/TPSWebResponseModel.h</key>
 		<data>
-		hSOV2bRxcPYK/7EHc2w28yU7nK4=
+		iYKjm7rhe4gGBOpuZ72FMHqOOSU=
 		</data>
 		<key>Headers/TPSWorldClockModel.h</key>
 		<data>
@@ -1830,7 +1830,7 @@
 		</data>
 		<key>Headers/TPS_Tools.h</key>
 		<data>
-		HVQLB4AOFSMtFgCJqU4cqd9ojpU=
+		FMrdxcFmNsvL1nNqD+V3TXbhpGc=
 		</data>
 		<key>Headers/TopStepComKit-Swift.h</key>
 		<data>
@@ -1846,7 +1846,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		nwE+dloaneRBa2CptepGdTEP7LM=
+		tRCTBF3T8W+jJk1lif7ISmv9wko=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -1858,7 +1858,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CPQanul1zY/K/rV3Qlg7Nmylc3Q=
+		F9WR6fXAsolljswpQl5CO3x6zsI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2341,11 +2341,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tn0ezPPa0nHOPtdCpx+dmH/OviE=
+			4hqyx4LcrCRl9VSjRjka/Pnz8dc=
 			</data>
 			<key>hash2</key>
 			<data>
-			4eIN3OOClggwBHM7jIw5Bjly0R7VJIEA5FfOCCQuOQs=
+			svFtj9DfpW+HoM2LVE30ggFk8MF3bBVw3EHslG/hlqE=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
@@ -4621,11 +4621,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ahXdM/7m/+0ABN7jM3tiEo29iWE=
+			HdWFQpQ2WcRmF4zKdWOyIjJiDlI=
 			</data>
 			<key>hash2</key>
 			<data>
-			GJqFN6Zrp87oMSW6W4S15uBp4WcnsXWC3r28qCBttoI=
+			u+Ytw1GrTuSZa6wRP+Ucm7bme9ELMT+/wZ5PF/WYtNQ=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4654,11 +4654,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N04WLLzvXoGXpqF860ZOz4Vz7Zo=
+			wY3UjtnkA1tDpyk/8CuZPYDWSm4=
 			</data>
 			<key>hash2</key>
 			<data>
-			vVwmd9jMmyLozfp4Z+uDTpgv+Y0vDLK1H5SSOcSOmhU=
+			5MEBqJsBj4AJzAfCcdfoq7qbPSg4PEjFBl2PtfQAvy8=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -5523,11 +5523,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bQ53/HT/ON2L2Z7wiwJo8JdiGnM=
+			2kMcJectTCv07+HEJHpPPLNl2Yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			1a2+wgbRCIKx5Ew1Mu1dIlfIlo7BsASwqAW6dCvOjIc=
+			wqNay3iPGX8hbrJag+fLJTWE+0fTDAqSqrK/xZJBlm8=
 			</data>
 		</dict>
 		<key>Headers/TPSWalletModel.h</key>
@@ -5589,22 +5589,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZpxHMOAoVjv274TcKe/Pj9HXreM=
+			g7qqYaRwgVvTPPFkgwQVbHPhS4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			FrLsjSws91ENOcwlSswPLx65WK0IM0DPs5XFDOQtjlc=
+			THFTNu4dmV8CMQggCIDOR5ZvWs+W7ogVtW9Q+PjgxLo=
 			</data>
 		</dict>
 		<key>Headers/TPSWebResponseModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hSOV2bRxcPYK/7EHc2w28yU7nK4=
+			iYKjm7rhe4gGBOpuZ72FMHqOOSU=
 			</data>
 			<key>hash2</key>
 			<data>
-			V6nlcZwHY60ownfYFGJC4mKRsQ6YlFKeP8rP8u+Swq8=
+			6vdPE7GWcRzFvXG+Emw4WDmHFfzuqOVul9umM23oBhI=
 			</data>
 		</dict>
 		<key>Headers/TPSWorldClockModel.h</key>
@@ -5622,11 +5622,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HVQLB4AOFSMtFgCJqU4cqd9ojpU=
+			FMrdxcFmNsvL1nNqD+V3TXbhpGc=
 			</data>
 			<key>hash2</key>
 			<data>
-			xNf1YgnVO3fD46jH5QtZadwjVB1o/u54NDShGVrmNpQ=
+			zuSMGIPohUwrrDxtP2CAuZqh9Srh3oFtGx8tFqz10ow=
 			</data>
 		</dict>
 		<key>Headers/TopStepComKit-Swift.h</key>
@@ -5655,11 +5655,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nwE+dloaneRBa2CptepGdTEP7LM=
+			tRCTBF3T8W+jJk1lif7ISmv9wko=
 			</data>
 			<key>hash2</key>
 			<data>
-			x7nvcs2l8MkwPW1FeKtvFEJ9D+nnM0YwoRSW2VOkt2c=
+			ltyD2PHejO6A7DoEuCYaxIQQizzU48worZm9JEDyK4k=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -5688,11 +5688,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CPQanul1zY/K/rV3Qlg7Nmylc3Q=
+			F9WR6fXAsolljswpQl5CO3x6zsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bzeCBjG39P6792m81AzXuGIw/WdE4CiWMOZLnNNEyfc=
+			phH4bzfnOdWTmdrbp0l/Mo5VDCk2IEhUcrrZY87jFuE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
