@@ -11,6 +11,7 @@
 #import <Foundation/Foundation.h>
 
 @class FitCloudContactObject;
+@class FitCloudEmergencyContactObject;
 @class FwContactModel;
 @interface TPSContactModel : NSObject
 
@@ -34,6 +35,9 @@
 
 +(NSArray<FitCloudContactObject*>*)toFCPArrWithTPSArr:(NSArray<TPSContactModel*>*)tpsArr;
 
+// 拼装紧急联系人
++ (NSArray<FitCloudEmergencyContactObject *>*)emergencyToTFCPEmergencyArr:(TPSContactModel *)model;
++ (NSMutableArray <TPSContactModel *> *)emergencyToArrWithFCPArr:(NSArray <FitCloudEmergencyContactObject *>*)fwArr;
 @end
 
 

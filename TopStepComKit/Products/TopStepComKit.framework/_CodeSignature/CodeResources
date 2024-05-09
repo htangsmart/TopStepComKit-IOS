@@ -1466,7 +1466,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		HdWFQpQ2WcRmF4zKdWOyIjJiDlI=
+		mLxac3meaJcOM5w1t/26P619A78=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1478,7 +1478,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		wY3UjtnkA1tDpyk/8CuZPYDWSm4=
+		P+so33e2+sQHUQsJDj7ZmJBBzsg=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1626,7 +1626,7 @@
 		</data>
 		<key>Headers/TPSContactModel.h</key>
 		<data>
-		ZM10WGC6jv9nKzduktE3uS+jk/E=
+		KhUtNKsAnblwJjKUHnHulGLhpqQ=
 		</data>
 		<key>Headers/TPSCurDayActivityModel.h</key>
 		<data>
@@ -1846,7 +1846,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		tRCTBF3T8W+jJk1lif7ISmv9wko=
+		nwE+dloaneRBa2CptepGdTEP7LM=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -1858,7 +1858,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		F9WR6fXAsolljswpQl5CO3x6zsI=
+		CPQanul1zY/K/rV3Qlg7Nmylc3Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4621,11 +4621,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HdWFQpQ2WcRmF4zKdWOyIjJiDlI=
+			mLxac3meaJcOM5w1t/26P619A78=
 			</data>
 			<key>hash2</key>
 			<data>
-			u+Ytw1GrTuSZa6wRP+Ucm7bme9ELMT+/wZ5PF/WYtNQ=
+			S88CXW0Kw4iNxM7Xk/vX8WvzEHHgaQZw5n16W6kp5Ck=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4654,11 +4654,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wY3UjtnkA1tDpyk/8CuZPYDWSm4=
+			P+so33e2+sQHUQsJDj7ZmJBBzsg=
 			</data>
 			<key>hash2</key>
 			<data>
-			5MEBqJsBj4AJzAfCcdfoq7qbPSg4PEjFBl2PtfQAvy8=
+			/NXka1zTzTvwSdxBBVEzWB0BjoJifBPq4Tpg3gTdB9Y=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -5061,11 +5061,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZM10WGC6jv9nKzduktE3uS+jk/E=
+			KhUtNKsAnblwJjKUHnHulGLhpqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			sNsj30D+ydBRYHVIhfXn6KhUs4gCJwkw5mNlcJy3xWM=
+			7C8PSlJPIHGc3gKhQv+qTKncmod1ldQhrsqywrK+DRE=
 			</data>
 		</dict>
 		<key>Headers/TPSCurDayActivityModel.h</key>
@@ -5655,11 +5655,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tRCTBF3T8W+jJk1lif7ISmv9wko=
+			nwE+dloaneRBa2CptepGdTEP7LM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ltyD2PHejO6A7DoEuCYaxIQQizzU48worZm9JEDyK4k=
+			x7nvcs2l8MkwPW1FeKtvFEJ9D+nnM0YwoRSW2VOkt2c=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -5688,11 +5688,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F9WR6fXAsolljswpQl5CO3x6zsI=
+			CPQanul1zY/K/rV3Qlg7Nmylc3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			phH4bzfnOdWTmdrbp0l/Mo5VDCk2IEhUcrrZY87jFuE=
+			bzeCBjG39P6792m81AzXuGIw/WdE4CiWMOZLnNNEyfc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

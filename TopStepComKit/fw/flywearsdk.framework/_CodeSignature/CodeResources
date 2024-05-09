@@ -362,7 +362,7 @@
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		UyQYjWRc07c37jMWRU9EgEhOB5U=
+		uk1PrlO+P3EUKqTY2RpiZKc+14E=
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -374,7 +374,7 @@
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1xWnNBoQ3ZRI8JGENmcee0qBZh8=
+		Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1819,11 +1819,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UyQYjWRc07c37jMWRU9EgEhOB5U=
+			uk1PrlO+P3EUKqTY2RpiZKc+14E=
 			</data>
 			<key>hash2</key>
 			<data>
-			9G2E9zUiy1Np5uJT86yodWPoMnwoUVDhj7ebH5DNUGA=
+			8NoVt3BEIulcnieZ5nr9iEZo5aN0Oajz123P6SwowIk=
 			</data>
 		</dict>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -1852,11 +1852,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1xWnNBoQ3ZRI8JGENmcee0qBZh8=
+			Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			mgqq4DACNgaCYrAWMtzd12c8ELsg/Bkd9eAh28VOxSU=
+			cKuE/EBoeYQRSbtKsdtSCj+1W5bRPuhz9FVQd9WUscU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
