@@ -8,8 +8,17 @@
 #ifndef TPSDialModel_h
 #define TPSDialModel_h
 
+typedef NS_ENUM(NSUInteger, TSDialTimePosition) {
+    eDialTimePositionTop = 0,         //上方
+    eDialTimePositionBottom = 1,      //下方
+    eDialTimePositionLeft = 2,        //左方
+    eDialTimePositionRight = 3,       //右方
+};
+
 @class FwDialModel;
 @interface TPSDialModel : NSObject
+
+
 
 /// 表盘ID
 @property(nonatomic, strong) NSString* dialId;
@@ -23,6 +32,13 @@
 @property(nonatomic, assign) BOOL isEditable;
 @property(nonatomic, assign) BOOL isHide;
 
+@property (nonatomic,strong) NSString * filePath;
+
+@property (nonatomic,strong) UIImage * backgroundImage;
+
+@property (nonatomic,strong) UIImage * previewImage;
+
+@property (nonatomic,assign) TSDialTimePosition dialTimePosition;
 
 -(instancetype)initWithFwModel:(FwDialModel*)fwDialModel;
 

@@ -17,6 +17,8 @@
 NS_ASSUME_NONNULL_BEGIN
 @class FitCloudLSRObject;
 @class FitCloudDRObject;
+@class FitCloudPersonalizedReminderObject;
+
 @interface TPSRemindSettingModel : NSObject
 
 @property (nonatomic,assign) NSInteger remindId;//0为久坐，1喝水，2吃药
@@ -54,6 +56,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (TPSRemindSettingModel *)toTPSModelWithFCPDRModel:(FitCloudDRObject *)drObject;
 
+
+// 851 个性化提醒
++ (TPSRemindSettingModel *)configModelWithFitCloudRemindModel:(FitCloudPersonalizedReminderObject *)remindObject;
 
 /*
  将勿扰数据添配置到提醒中

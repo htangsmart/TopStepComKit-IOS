@@ -18,6 +18,7 @@
 -(instancetype)initWithNSData:(NSData*)jsonData;
 -(instancetype)initWithFwModel:(FwHistoryStressModel*)fwHistoryStressModel;
 -(NSData*)toJsonNSData;
++(NSArray<TPSHistoryStressModel*>*)stressModelFormArray:(NSArray<NSDictionary*>*)fitcloudModelArray;
 
 @end
 

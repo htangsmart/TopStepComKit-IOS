@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 配置免打扰数据 FitCloudDNDSetting
 + (TPSRemindDistrubModel *)configModelWithDNDSetting:(FitCloudDNDSetting *)dndSet;
 
+//// 851 个性化提醒
+//+ (TPSRemindDistrubModel *)configModelWithFitCloudRemind:(FitCloudPersonalizedReminderObject *)remindObject;
+
 - (NSDictionary *)toDictonary;
 
 @end

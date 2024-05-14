@@ -40,6 +40,7 @@
 -(void)disconnect;
 -(void)unbindDevWithUserId:(NSString*)userId block:(FwSendMsgResult _Nullable)block;
 -(FwExPeripheral*)getPeripheral;
+-(RACSubject<NSNumber*>*_Nonnull)getIsBtConnected;
 
 @end
 

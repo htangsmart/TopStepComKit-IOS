@@ -30,7 +30,7 @@ typedef NS_ENUM(UInt8, TPSExtraConnectParam_Gender){
 @property(nonatomic, assign) float weight;
 /**
  验证码，非必填。如果验证码一致，则绑定时跳过弹框确认。
- 只用于绑定时无需恢复出厂的设备(目前仅传音805H项目生效)
+ 只用于绑定时无需恢复出厂的设备(目前仅传音805H项目生效)  851 随机码也适用
  */
 @property(nonatomic, strong) NSString* authCode;
 

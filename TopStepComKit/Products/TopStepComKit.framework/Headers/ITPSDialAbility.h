@@ -39,7 +39,12 @@ typedef void(^TPSDialGetCurDialCallback)(TPSDialModel* model);
 /*
  * @brief 推送本地表盘到手表
  */
--(void)pushDialWithLocalPath:(NSString*)localPath dialId:(NSString*)dialId block:(TPSDialProgressCallback)block;
+-(void)pushLocalDialWithDial:(TPSDialModel *)dialModel block:(TPSDialProgressCallback)block;
+
+/*
+ * @brief 推送自定义表盘到手表
+ */
+-(void)pushCustomerDialWithDial:(TPSDialModel *)dialModel block:(TPSDialProgressCallback)block;
 
 /*
  * @brief  删除手表表盘
@@ -57,6 +62,18 @@ typedef void(^TPSDialGetCurDialCallback)(TPSDialModel* model);
  * @brief 修改自定义表盘位置信息
  */
 -(void)setDialFrameInfo:(NSDictionary *)frameInfo block:(TPSSendMsgResult)block;
+
+
+/*
+ * @brief 注册表盘被删除事件
+ */
+- (void)registerWatchDialBeenDeleted:(void(^)(NSString *beDeletedDialId))deletedBlock;
+
+/*
+ * @brief 注册表盘被修改事件
+ */
+- (void)registerWatchDialBeenChanged:(void(^)(NSString *selectedDialId))changedBlock;
+
 
 @end
 

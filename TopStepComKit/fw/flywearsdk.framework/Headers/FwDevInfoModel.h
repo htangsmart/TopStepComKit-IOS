@@ -33,6 +33,15 @@
 @property(nonatomic, strong) NSString* screen_shape;
 @property(nonatomic, strong) NSString* screen_size;
 
+@property(nonatomic, strong) NSString* dialPreview;
+
+
+@property (nonatomic,assign) CGFloat dialPreviewSize_width;
+
+@property (nonatomic,assign) CGFloat dialPreviewSize_Height;
+
+@property (nonatomic,assign) CGFloat dialPreviewCorner;
+
 
 
 

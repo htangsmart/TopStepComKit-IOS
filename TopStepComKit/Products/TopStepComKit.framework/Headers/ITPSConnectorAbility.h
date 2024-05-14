@@ -40,6 +40,7 @@
 -(void)disconnect;
 -(void)unbindDevWithUserId:(NSString*)userId block:(TPSSendMsgResult _Nullable)block;
 -(TPSExPeripheral*)getPeripheral;
+-(RACSubject<NSNumber*>*_Nonnull)getIsBtConnected;
 
 @end
 

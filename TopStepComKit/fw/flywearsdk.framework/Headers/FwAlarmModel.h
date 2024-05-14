@@ -18,9 +18,8 @@
 @property(nonatomic,assign)BOOL isRemindLater;
 @property(nonatomic,strong)NSArray  *repeatDays;
 
-
-
 +(FwAlarmModel *)alarmJsonToObject:(NSDictionary*)dic;
+
 -(NSDictionary*)toAlarmJson;
 
 -(NSString*)stringRepeatDaysStr;
@@ -29,6 +28,20 @@
 
 -(int)getClockNumId;
 -(NSString*)genFwIdWithNumId:(int)numId;
+
+/*
+ * @brief 对比两个闹钟是否是同一个
+ *
+ * @param alarmModel 另一个闹钟model
+ */
+- (BOOL)isEqualToModel:(FwAlarmModel *)alarmModel;
+
+
+-(NSDictionary*)toAddedJson;
+
+-(NSDictionary*)toModifyJson;
+
+-(NSDictionary*)toDeletedJson;
 
 
 @end

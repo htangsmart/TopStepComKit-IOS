@@ -42,7 +42,12 @@ typedef void(^FwDialGetCurDialCallback)(FwDialModel* model);
 /*
  * @brief 推送本地表盘到手表
  */
--(void)pushDialWithLocalPath:(NSString*)localPath dialId:(NSString*)dialId block:(FwDialProgressCallback)block;
+-(void)pushLocalDialWithLocalPath:(NSString*)localPath dialId:(NSString*)dialId block:(FwDialProgressCallback)block;
+
+/*
+ * @brief 推送自定义表盘到手表
+ */
+-(void)pushCustomerDialWithLocalPath:(NSString*)localPath dialId:(NSString*)dialId block:(FwDialProgressCallback)block;
 
 /*
  * @brief  删除手表表盘
@@ -61,6 +66,17 @@ typedef void(^FwDialGetCurDialCallback)(FwDialModel* model);
  */
 -(void)setDialFrameInfo:(NSDictionary *)frameInfo block:(FwSendMsgResult)block;
 
+/*
+ * @brief 注册表盘被删除事件
+ */
+- (void)registerWatchDialBeenDeleted:(void(^)(NSString *beDeletedDialId))deletedBlock;
+
+/*
+ * @brief 注册表盘被修改事件
+ */
+- (void)registerWatchDialBeenChanged:(void(^)(NSString *selectedDialId))changedBlock;
+
+                             
 @end
 
 

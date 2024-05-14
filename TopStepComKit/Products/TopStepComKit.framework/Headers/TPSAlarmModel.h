@@ -29,6 +29,7 @@ typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
 @property(nonatomic,assign)int  min;
 @property(nonatomic,assign)BOOL  enable;
 @property(nonatomic,assign)BOOL isRemindLater;
+@property (nonatomic, copy) NSString * remark;
 @property (nonatomic, assign) TPSAlarmRepeat repeatOptions;
 
 -(instancetype)initWithFwModel:(FwAlarmModel*)fwAlarmModel;
@@ -39,6 +40,7 @@ typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
 
 +(NSArray<TPSAlarmModel*>*)toTPSArrayWithFCPModelArr:(NSArray<FitCloudAlarmObject*>*)fcpArr;
 +(NSArray<FitCloudAlarmObject*>*)toFCPArrayWithTPSModelArr:(NSArray<TPSAlarmModel*>*)tpsArr;
+
 
 
 @end
