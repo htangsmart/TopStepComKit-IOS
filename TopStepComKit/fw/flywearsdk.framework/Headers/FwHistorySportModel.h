@@ -70,7 +70,7 @@ typedef NS_ENUM(UInt8, FwSportDes_Type){
     FwSportDes_Type_CalmingMeditation = 55, //      舒缓冥想
     FwSportDes_Type_AirWalker = 56, //      漫步机
     FwSportDes_Type_RockClimbing = 57, //      攀岩
-    FwSportDes_Type_MountainBiking = 58, //      沙滩车
+    FwSportDes_Type_Atv = 58, //      沙滩车
     FwSportDes_Type_Paragliding = 59, //      滑翔伞
     FwSportDes_Type_Parkour = 60, //      跑酷
     FwSportDes_Type_Basketball = 61, //      篮球
@@ -152,7 +152,11 @@ typedef NS_ENUM(UInt8, FwSportDes_Type){
     FwSportDes_Type_Trampolining = 137, //      蹦床
     FwSportDes_Type_RopeSkipping = 138, //      跳绳
     FwSportDes_Type_OutdoorSoccer = 139, //      户外足球
-
+    FwSportDes_Type_WallBall = 140, //      墙球
+    FwSportDes_Type_SnowCar = 141, //      雪车
+    FwSportDes_Type_Kickboxing = 142, //      踢拳
+    FwSportDes_Type_RollerSkating = 143, //      轮滑
+    FwSportDes_Type_Skateboard = 144, //      滑板
 
 };
 

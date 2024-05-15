@@ -87,6 +87,10 @@ typedef void(^Fw_Action)(void);
 
 +(void)setPeripheralIdentifer:(NSString*)peripheralIdentifer;
 
++(NSArray*)getHistoryPeripheralIdentiferList;
+
++(void)addHistoryPeripheralIdentiferList:(NSString*)pId;
+
 +(NSDictionary*)dictionaryWithJsonString:(NSString*)jsonString;
 
 +(NSString*)dataChangeToString:(NSData *)data;

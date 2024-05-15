@@ -71,7 +71,7 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
     TPSSportDes_Type_CalmingMeditation = 55, //      舒缓冥想
     TPSSportDes_Type_AirWalker = 56, //      漫步机
     TPSSportDes_Type_RockClimbing = 57, //      攀岩
-    TPSSportDes_Type_MountainBiking = 58, //      沙滩车
+    TPSSportDes_Type_Atv = 58, //      沙滩车
     TPSSportDes_Type_Paragliding = 59, //      滑翔伞
     TPSSportDes_Type_Parkour = 60, //      跑酷
     TPSSportDes_Type_Basketball = 61, //      篮球
@@ -153,8 +153,11 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
     TPSSportDes_Type_Trampolining = 137, //      蹦床
     TPSSportDes_Type_RopeSkipping = 138, //      跳绳
     TPSSportDes_Type_OutdoorSoccer = 139, //      户外足球
-
-
+    TPSSportDes_Type_WallBall = 140, //      墙球
+    TPSSportDes_Type_SnowCar = 141, //      雪车
+    TPSSportDes_Type_Kickboxing = 142, //      踢拳
+    TPSSportDes_Type_RollerSkating = 143, //      轮滑
+    TPSSportDes_Type_Skateboard = 144, //      滑板
 };
 
 @property (nonatomic, assign) long sport_id;

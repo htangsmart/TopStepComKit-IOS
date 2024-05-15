@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		JT3HpuySPu4vJY+xGjmmNywUVPw=
+		ssFP9/LHbdAlpLTJh74CTVi4t74=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		vUDDi9sJGMlh6DHj/+zQst+Btmw=
+		NypRQtFSvfHbKw0Vni96loUdq1s=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1664,7 +1664,7 @@
 		</data>
 		<key>Headers/TPSDevInfoModel.h</key>
 		<data>
-		1PrI0WVl9xkzX260+CZO/ymfSUs=
+		sscHIx1UJ5kWsPPb6/ijRHiFBHU=
 		</data>
 		<key>Headers/TPSDevice.h</key>
 		<data>
@@ -1728,7 +1728,7 @@
 		</data>
 		<key>Headers/TPSHistorySportModel.h</key>
 		<data>
-		+1xG8O31Kfg+VhHM2H+Hgf7xYQo=
+		HXUGdPXNxDoCJ8rcf3L6wPT5Gjo=
 		</data>
 		<key>Headers/TPSHistoryStressModel.h</key>
 		<data>
@@ -4665,11 +4665,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JT3HpuySPu4vJY+xGjmmNywUVPw=
+			ssFP9/LHbdAlpLTJh74CTVi4t74=
 			</data>
 			<key>hash2</key>
 			<data>
-			saptDpIucyVJm8JZYl9jGBCyvSXQ+wz44KF9Kz15kSY=
+			74PPMgfpJxOi3lTFZSfpe0j8fcZ/g2/KGsEM2+6d188=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4698,11 +4698,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vUDDi9sJGMlh6DHj/+zQst+Btmw=
+			NypRQtFSvfHbKw0Vni96loUdq1s=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZIgCUiGxVB0G2FmhenCbPDr3pYHSPuic1cQZbd1Hc5k=
+			bdPmBrS38QuKMbG03AGjbno9L9jP7NZyj1voAMscRN8=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -5160,11 +5160,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1PrI0WVl9xkzX260+CZO/ymfSUs=
+			sscHIx1UJ5kWsPPb6/ijRHiFBHU=
 			</data>
 			<key>hash2</key>
 			<data>
-			N4j4pJQ9x803CHShSkQOl3R+vF1aW2fIg/Sn7uQBL4M=
+			lP/kyvM9MMNo2oeeG95RENlbQ/HFpEbrSQoOi1q1Dys=
 			</data>
 		</dict>
 		<key>Headers/TPSDevice.h</key>
@@ -5336,11 +5336,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+1xG8O31Kfg+VhHM2H+Hgf7xYQo=
+			HXUGdPXNxDoCJ8rcf3L6wPT5Gjo=
 			</data>
 			<key>hash2</key>
 			<data>
-			fRh9HYPCDJI11G3y24bGOR2oyb2OXJ56ODX2MA5N0/g=
+			rhXzis2+z0V6ZSRs15QF8Gk6Bz2jnW4wTcBiHPeHdns=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryStressModel.h</key>

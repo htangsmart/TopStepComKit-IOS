@@ -12,6 +12,7 @@
 @property(nonatomic,strong)NSString*  clockId;
 /// 闹钟名
 @property(nonatomic,strong)NSString *label;
+
 @property(nonatomic,assign)int  hour;
 @property(nonatomic,assign)int  min;
 @property(nonatomic,assign)BOOL  enable;
