@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		4ye/FLH4fN7q708J/HVpStbD3Fk=
+		w1XjjgmXkQ62XAsi5gtk+rjXcm0=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		YIxNwFwV847O08IIqa+o3y3wuJk=
+		hXDuGoEdPMfg3x6a2SSCU4dyapE=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1630,9 +1630,13 @@
 		<data>
 		NHTq6RB+5T0CC0usdSMn/q8fOyg=
 		</data>
+		<key>Headers/OrmAdapter.h</key>
+		<data>
+		qY79XDA6t68l+MvmGSHCT40iOPI=
+		</data>
 		<key>Headers/TPSAlarmModel.h</key>
 		<data>
-		9Uyu0ny24yFsOInoCALWJfx2+6k=
+		HORMaVbCvMXnMXAgnLbxTB4UiMk=
 		</data>
 		<key>Headers/TPSAlbumUpdateModel.h</key>
 		<data>
@@ -1856,7 +1860,7 @@
 		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
-		1ohhNzH6RW3iI3Xp30N98jwtBjc=
+		PKf/PgEn5PDhkfLSM8AeyGvcKmA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -4665,11 +4669,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4ye/FLH4fN7q708J/HVpStbD3Fk=
+			w1XjjgmXkQ62XAsi5gtk+rjXcm0=
 			</data>
 			<key>hash2</key>
 			<data>
-			fTktdDtgL3lSp9KUYz2Q60Cccfl8gumQ1fN8JeNoK8w=
+			N/cHmEtyvIRh6lB5G8MwejOfraM6LBHqnwaCd/JR7Rw=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4698,11 +4702,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YIxNwFwV847O08IIqa+o3y3wuJk=
+			hXDuGoEdPMfg3x6a2SSCU4dyapE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q3eSl3ZUUthaOFlowm3VP8Tt9tsMQKCfmX+goHqM+bw=
+			dmHfkRluTAC5sUfenGv+NNysoUbv6tmotOJqC6uNybE=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -5068,15 +5072,26 @@
 			61mEvqlp7kinRwzwcmTBq3/O9Dwu9JW4QEzlBud82F4=
 			</data>
 		</dict>
+		<key>Headers/OrmAdapter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qY79XDA6t68l+MvmGSHCT40iOPI=
+			</data>
+			<key>hash2</key>
+			<data>
+			p8EHGIt2vak2cA4qBIVsdLcL6GdknbABybdazfBMhsc=
+			</data>
+		</dict>
 		<key>Headers/TPSAlarmModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9Uyu0ny24yFsOInoCALWJfx2+6k=
+			HORMaVbCvMXnMXAgnLbxTB4UiMk=
 			</data>
 			<key>hash2</key>
 			<data>
-			xsc+rFZJL9kmSpslJGJXKVpVTIlvUYH+CK8KKf96zNU=
+			Tp87M2LZ8KzOID2TD3IncTM6NQjPIfO5r3iJo4CdzP8=
 			</data>
 		</dict>
 		<key>Headers/TPSAlbumUpdateModel.h</key>
@@ -5688,11 +5703,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ohhNzH6RW3iI3Xp30N98jwtBjc=
+			PKf/PgEn5PDhkfLSM8AeyGvcKmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			i+NnxkeQs8949duJsFsoLic59OgHAJH4uNnwHQG+wOY=
+			xEBghQO+GGyoxr2lJweqacM1djlSCJ0RxkjuR1nW7EM=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>

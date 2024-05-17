@@ -122,6 +122,7 @@ FOUNDATION_EXPORT const unsigned char TopStepComKitVersionString[];
 #import <TopStepComKit/TPSWebRequestModel.h>
 #import <TopStepComKit/TPSWebResponseModel.h>
 #import <TopStepComKit/ITPSHttpAbility.h>
+#import <TopStepComKit/OrmAdapter.h>
 
 
 

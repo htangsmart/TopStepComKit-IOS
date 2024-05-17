@@ -21,13 +21,12 @@
 
 +(FwAlarmModel *)alarmJsonToObject:(NSDictionary*)dic;
 
--(NSDictionary*)toAlarmJson;
-
 -(NSString*)stringRepeatDaysStr;
 
 -(NSArray*)stringRepeatDaysArr;
 
 -(int)getClockNumId;
+
 -(NSString*)genFwIdWithNumId:(int)numId;
 
 /*

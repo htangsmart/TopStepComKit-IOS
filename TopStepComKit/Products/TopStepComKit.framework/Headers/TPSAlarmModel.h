@@ -24,6 +24,7 @@ typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
 @interface TPSAlarmModel : NSObject
 
 @property(nonatomic,assign)int alarmId;
+@property (nonatomic,strong) NSString * alarmIdentifier;
 @property(nonatomic,strong)NSString *label;
 @property(nonatomic,assign)int  hour;
 @property(nonatomic,assign)int  min;
