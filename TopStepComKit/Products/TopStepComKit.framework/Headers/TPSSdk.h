@@ -57,6 +57,7 @@
 +(instancetype)share;
 
 - (void)initDeviceType:(NSString *)deviceType;
+- (void)initDeviceTypeWith:(TPSDeviceType)deviceType;
 
 -(void)initSdk;
 

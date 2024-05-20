@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		w1XjjgmXkQ62XAsi5gtk+rjXcm0=
+		Ir7CnDcOTMa1h5rS4o8i7y7vjqM=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		hXDuGoEdPMfg3x6a2SSCU4dyapE=
+		gIVrKj9Kqm7LupeGYx8IV7jZJwo=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1672,7 +1672,7 @@
 		</data>
 		<key>Headers/TPSDevice.h</key>
 		<data>
-		91FrM5flqGYFJ4kKRFYzhEmFcfg=
+		+hPtcLr8poCYeglU2UMEQ5gZhyI=
 		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
@@ -1788,7 +1788,7 @@
 		</data>
 		<key>Headers/TPSSdk.h</key>
 		<data>
-		vAjK50gxVlE0VyaMf+wQxpbfknk=
+		6lYhlVKWm1Qt3zc4pWEIm/p8mCQ=
 		</data>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
 		<data>
@@ -4669,11 +4669,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w1XjjgmXkQ62XAsi5gtk+rjXcm0=
+			Ir7CnDcOTMa1h5rS4o8i7y7vjqM=
 			</data>
 			<key>hash2</key>
 			<data>
-			N/cHmEtyvIRh6lB5G8MwejOfraM6LBHqnwaCd/JR7Rw=
+			BsxrGl/vtnQ3qy1/cCB5yItWUItdgIL+bQFYYzDpAnQ=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4702,11 +4702,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hXDuGoEdPMfg3x6a2SSCU4dyapE=
+			gIVrKj9Kqm7LupeGYx8IV7jZJwo=
 			</data>
 			<key>hash2</key>
 			<data>
-			dmHfkRluTAC5sUfenGv+NNysoUbv6tmotOJqC6uNybE=
+			cLaKIy+76AayGeDoEtL2P3BMdpw4DcERNN8/w9V/+s8=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -5186,11 +5186,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			91FrM5flqGYFJ4kKRFYzhEmFcfg=
+			+hPtcLr8poCYeglU2UMEQ5gZhyI=
 			</data>
 			<key>hash2</key>
 			<data>
-			vgwfT1M10yQMpuwO1U3Vt+dPMKK1a7seZOt2pmlKj7U=
+			J4qSBVz3CkPeqKuudl9YQ7JTjKfN8z8aqM0a+3qa+dc=
 			</data>
 		</dict>
 		<key>Headers/TPSDialModel.h</key>
@@ -5505,11 +5505,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vAjK50gxVlE0VyaMf+wQxpbfknk=
+			6lYhlVKWm1Qt3zc4pWEIm/p8mCQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q0L0VI1LhN4H62POAYu2b9JhGf9KjT5pS0JaWsbVf+U=
+			wOe1Az5yR0JA1GfR3mFdXGNMVG71BO2klDv4cNpXEWk=
 			</data>
 		</dict>
 		<key>Headers/TPSSleepBigItemEntity.h</key>

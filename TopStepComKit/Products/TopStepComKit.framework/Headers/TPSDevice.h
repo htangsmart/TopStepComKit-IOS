@@ -16,6 +16,12 @@ typedef NS_ENUM(NSUInteger, TPSSDKType) {
     eTPSSDKFWM,//绅聚
 };
 
+typedef NS_ENUM(NSUInteger, TPSDeviceType) {
+    TPSDeviceType_OSW850H,
+    TPSDeviceType_OSW851H,
+    TPSDeviceType_OSW805,
+};
+
 @class FitCloudOption;
 @interface TPSDevice : NSObject
 
