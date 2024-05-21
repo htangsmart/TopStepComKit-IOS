@@ -29,6 +29,7 @@
 #import "LocalizedLabel.h"
 #import "LocalizedButton.h"
 #import <TopStepComKit/TPSSdk.h>
+#import <TopStepComKit/TPS_Tools.h>
 #import <ReactiveObjC.h>
 
 #endif /* FitCloudKitDemo_Prefix_pch */

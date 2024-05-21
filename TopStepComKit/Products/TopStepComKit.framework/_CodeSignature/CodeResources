@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		Ir7CnDcOTMa1h5rS4o8i7y7vjqM=
+		WF4rwdtrNy3pjXnkSLtz13CDeW8=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		gIVrKj9Kqm7LupeGYx8IV7jZJwo=
+		zfyHZpWlo5IutyjIzLZ97JHEI+Y=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -4669,11 +4669,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ir7CnDcOTMa1h5rS4o8i7y7vjqM=
+			WF4rwdtrNy3pjXnkSLtz13CDeW8=
 			</data>
 			<key>hash2</key>
 			<data>
-			BsxrGl/vtnQ3qy1/cCB5yItWUItdgIL+bQFYYzDpAnQ=
+			eHM5667WbKtcnabv4K20gSggNi9rrn6xjN3i6+AEfKI=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4702,11 +4702,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gIVrKj9Kqm7LupeGYx8IV7jZJwo=
+			zfyHZpWlo5IutyjIzLZ97JHEI+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			cLaKIy+76AayGeDoEtL2P3BMdpw4DcERNN8/w9V/+s8=
+			kMqF74YCjN9Or2d1tlsCB09yxqZ1V8lnYXY8NHYn+uc=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>

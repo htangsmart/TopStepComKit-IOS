@@ -120,6 +120,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DF517862BFC6F1D00ECFBDA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		89A438A422B0D19700555B98 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +148,7 @@
 		89A438AF22B0D19700555B98 /* FitCloudKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1DF517862BFC6F1D00ECFBDA /* Tools */,
 				89C5154923083B22000BD54C /* Vendors */,
 				89A438B022B0D19700555B98 /* AppDelegate.h */,
 				89A438B122B0D19700555B98 /* AppDelegate.m */,

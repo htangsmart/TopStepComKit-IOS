@@ -9,6 +9,7 @@
 #import "DeviceSearchListController.h"
 #import "DeviceCell.h"
 #import "DeviceBindingController.h"
+#import <TopStepComKit/TPS_Tools.h>
 
 #define USER_ID @"10000"
 
@@ -146,6 +147,8 @@
             TPSScanResult* item = [self.peripherals objectAtIndex:indexPath.row];
             if([item isKindOfClass:[TPSScanResult class]] && item.peripheral.state != CBPeripheralStateConnecting && (item.peripheral.state != CBPeripheralStateConnected))
             {
+                //Record the last MAC address, and next time you can automatically connect based on this MAC address
+                [TPS_Tools setUser:item.mac forKey:@"lastMac"];
                 //When binding, you need to pass the user's userId (defined by yourself), gender, age, height, and weight to the watch
                 TPSExtraConnectParam* extraParam = [[TPSExtraConnectParam alloc] initWithUserId:@"123456789" gender:0 age:18 height:180 weight:65];
                 RACSubject<TPSConnectResult*>* conRacSubject = [[TPSSdk share].connectorAbility connectWithCBPeripheral:item.peripheral mac:item.mac extraParam:extraParam];

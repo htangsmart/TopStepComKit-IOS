@@ -29,8 +29,8 @@ target 'FitCloudKitDemo' do
   pod 'JPImageresizerView'
   pod 'TSDialWidget', git: 'https://github.com/htangsmart/TSDialWidget-iOS.git'
   #拓步-BES
-  pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
-#  pod 'TopStepComKit', :path => '../'
+#  pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
+  pod 'TopStepComKit', :path => '../'
   
   #################################################################################
   
