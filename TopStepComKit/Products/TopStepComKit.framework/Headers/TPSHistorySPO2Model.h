@@ -20,6 +20,10 @@
 +(NSArray<TPSHistorySPO2Model*>*)toTPSArrWithFwArr:(NSArray<FwHistorySPO2Model*>*)fwArr;
 -(NSData*)toJsonNSData;
 
+
+
+
+
 @end
 
 #endif /* HistoryHeartRateModel */

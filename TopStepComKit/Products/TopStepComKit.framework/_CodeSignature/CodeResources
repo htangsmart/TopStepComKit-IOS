@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		WF4rwdtrNy3pjXnkSLtz13CDeW8=
+		7gL+wMZV/LRnIxcdIUEFBPIjYNI=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		zfyHZpWlo5IutyjIzLZ97JHEI+Y=
+		b6EbYKTxJB++y6FdxgGiZDLrx9o=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1644,7 +1644,7 @@
 		</data>
 		<key>Headers/TPSConnectResult.h</key>
 		<data>
-		8G3p/gHgWMvtnrpyOrDYlYsZtPE=
+		Jo4PiVCtF9B7klP7DjAeFse+hrQ=
 		</data>
 		<key>Headers/TPSContactModel.h</key>
 		<data>
@@ -1844,7 +1844,7 @@
 		</data>
 		<key>Headers/TPSWebResponseModel.h</key>
 		<data>
-		iYKjm7rhe4gGBOpuZ72FMHqOOSU=
+		yrG4JIxzbql9T0BC8ADC5UAN0+E=
 		</data>
 		<key>Headers/TPSWorldClockModel.h</key>
 		<data>
@@ -4669,11 +4669,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WF4rwdtrNy3pjXnkSLtz13CDeW8=
+			7gL+wMZV/LRnIxcdIUEFBPIjYNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			eHM5667WbKtcnabv4K20gSggNi9rrn6xjN3i6+AEfKI=
+			Vs+SnrqQyoGfgpB5msysA8HCxvn0yzu/WXJxCrfq8r4=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4702,11 +4702,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zfyHZpWlo5IutyjIzLZ97JHEI+Y=
+			b6EbYKTxJB++y6FdxgGiZDLrx9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			kMqF74YCjN9Or2d1tlsCB09yxqZ1V8lnYXY8NHYn+uc=
+			nySBflwpmVY5yYoP4zgnKalqrhl3k5E53ppTUEpXO/c=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -5109,11 +5109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8G3p/gHgWMvtnrpyOrDYlYsZtPE=
+			Jo4PiVCtF9B7klP7DjAeFse+hrQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			digHbdSSkZZucObBS/sXapKqlSL0/gFBPrHEnH0ujgc=
+			1x0vGHVY4tSOwz25fu0kGUq+J1tY9/sstFhbMLY20IE=
 			</data>
 		</dict>
 		<key>Headers/TPSContactModel.h</key>
@@ -5659,11 +5659,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iYKjm7rhe4gGBOpuZ72FMHqOOSU=
+			yrG4JIxzbql9T0BC8ADC5UAN0+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			6vdPE7GWcRzFvXG+Emw4WDmHFfzuqOVul9umM23oBhI=
+			ZX1eexIxpftNZMQ9WMOLUNg/9+UI2I+NpcChDc70PSc=
 			</data>
 		</dict>
 		<key>Headers/TPSWorldClockModel.h</key>

@@ -23,11 +23,12 @@ typedef NS_ENUM(UInt8, TPSConnnectResult_Error_Code){
     TPSConnnectResult_Error_Code_Ble_Failed,
     TPSConnnectResult_Error_Code_Binding,
     TPSConnnectResult_Error_Code_Lose_Signal,
-    TPSConnnectResult_Error_Code_Disconnect_By_User,
+    TPSConnnectResult_Error_Code_Disconnect_By_User_InApp,
     TPSConnnectResult_Error_Code_Under_IOS13,
     TPSConnnectResult_Error_Code_Low_Battery,
     TPSConnnectResult_Error_Code_Wait_Reboot,
     TPSConnnectResult_Error_Code_Other_Fail,
+    TPSConnnectResult_Error_Code_Disconnect_By_User_InSystemSetting,
 };
 
 +(instancetype)new NS_UNAVAILABLE;

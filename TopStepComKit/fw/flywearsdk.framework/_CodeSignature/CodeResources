@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/FwConnectResult.h</key>
 		<data>
-		pbw+JeCsS9FBNkQKgwnm+I5txSc=
+		/BvqFvICf+W1fFG5CopPXxFByj8=
 		</data>
 		<key>Headers/FwContactModel.h</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Headers/FwWebResponseModel.h</key>
 		<data>
-		Og/ZdTJz5Uf7CgtWDR68vt1qlsY=
+		czPKxf6oU4ipf909MDKsPHv4MTY=
 		</data>
 		<key>Headers/FwWorldClockModel.h</key>
 		<data>
@@ -362,7 +362,7 @@
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		uk1PrlO+P3EUKqTY2RpiZKc+14E=
+		UyQYjWRc07c37jMWRU9EgEhOB5U=
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -374,7 +374,7 @@
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
+		1xWnNBoQ3ZRI8JGENmcee0qBZh8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -873,11 +873,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pbw+JeCsS9FBNkQKgwnm+I5txSc=
+			/BvqFvICf+W1fFG5CopPXxFByj8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IiwzHuSCeka9dyOs4nIWaOlIaTA2ZCL35gs1j8qVWjw=
+			c0roqp+iDyH9Z8dg+F1KjNcky3zZgGjzsDM8lI9RIGI=
 			</data>
 		</dict>
 		<key>Headers/FwContactModel.h</key>
@@ -1390,11 +1390,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Og/ZdTJz5Uf7CgtWDR68vt1qlsY=
+			czPKxf6oU4ipf909MDKsPHv4MTY=
 			</data>
 			<key>hash2</key>
 			<data>
-			DhpCyyWnDdD+En1zksgY8/9KgU2NVcpEuw1A+tpyL0E=
+			d+Z3mG0iOpNvPc4Vp6DCzsLdWwgU2Pcam8mdztP5d+U=
 			</data>
 		</dict>
 		<key>Headers/FwWorldClockModel.h</key>
@@ -1819,11 +1819,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uk1PrlO+P3EUKqTY2RpiZKc+14E=
+			UyQYjWRc07c37jMWRU9EgEhOB5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			8NoVt3BEIulcnieZ5nr9iEZo5aN0Oajz123P6SwowIk=
+			9G2E9zUiy1Np5uJT86yodWPoMnwoUVDhj7ebH5DNUGA=
 			</data>
 		</dict>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -1852,11 +1852,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z9jeUpFWmrVgAxZWYTN7+7hoE+E=
+			1xWnNBoQ3ZRI8JGENmcee0qBZh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			cKuE/EBoeYQRSbtKsdtSCj+1W5bRPuhz9FVQd9WUscU=
+			mgqq4DACNgaCYrAWMtzd12c8ELsg/Bkd9eAh28VOxSU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

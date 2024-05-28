@@ -217,9 +217,11 @@
         self.subTitleLabel.text = NSLocalizedString(@"Please keep the smart watch nearby your iPhone.", nil);
         self.bindingImageView.hidden = NO;
         self.resultView.alpha = 0.0f;
-        //0520被leiwei屏蔽
-//        [FitCloudKit bindUserObject:USER_ID abortIfExist:NO block:^(BOOL succeed, NSError *error) {
-//        }];
+        NSString* lastMac = [TPS_Tools getUserByKey:@"lastMac"];
+        if(lastMac){
+            TPSExtraConnectParam* extraParam = [[TPSExtraConnectParam alloc] initWithUserId:@"123456789" gender:0 age:18 height:180 weight:65];
+            [[TPSSdk share].connectorAbility connectWithMac:lastMac extraParam:extraParam];
+        }
     }
     else
     {

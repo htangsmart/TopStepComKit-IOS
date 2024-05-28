@@ -16,7 +16,7 @@
     {
         FitCloudOption *option = [FitCloudOption defaultOption];
         option.debugMode = NO;
-        option.shouldAutoConnect = YES;
+        option.shouldAutoConnect = NO;
         self.fitCloudKit = [FitCloudKit initWithOption:option callback:self];
     }
 }

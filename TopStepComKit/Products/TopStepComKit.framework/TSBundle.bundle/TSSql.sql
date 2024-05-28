@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS tb_step (
     allStep             INT,                                /* 总步数 */
     totalMileage        DOUBLE,                             /* 距离(cm) */
     totalConsumption    INT,                                /* ??? */
-    duration            INT                                 /* 运动时长(分钟) */
+    duration            DOUBLE,                             /* 运动时长(分钟) */
     calory              INT                                 /* 卡路里(小卡) */
 );
 

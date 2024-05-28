@@ -22,11 +22,12 @@ typedef NS_ENUM(UInt8, FwConnnectResult_Error_Code){
     FwConnnectResult_Error_Code_Ble_Failed,
     FwConnnectResult_Error_Code_Binding,
     FwConnnectResult_Error_Code_Lose_Signal,
-    FwConnnectResult_Error_Code_Disconnect_By_User,
+    FwConnnectResult_Error_Code_Disconnect_By_User_InApp,
     FwConnnectResult_Error_Code_Under_IOS13,
     FwConnnectResult_Error_Code_Low_Battery,
     FwConnnectResult_Error_Code_Wait_Reboot,
     FwConnnectResult_Error_Code_Other_Fail,
+    FwConnnectResult_Error_Code_Disconnect_By_User_InSystemSetting,
 };
 
 +(instancetype)new NS_UNAVAILABLE;

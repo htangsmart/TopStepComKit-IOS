@@ -16,6 +16,7 @@
  0--网络请求成功,1--网络请求失败
  */
 @property(nonatomic, assign) int error;
+@property(nonatomic, assign) NSString* errorMsg;
 @property(nonatomic, strong) NSString* appId;
 @property(nonatomic, strong) NSString* funName;
 /**

@@ -8,11 +8,17 @@
 #ifndef TPSStressConfigModel_h
 #define TPSStressConfigModel_h
 
+@class FitCloudHTMSingleObject;
+
 @class FwStressConfigModel;
 @interface TPSStressConfigModel : NSObject
 
 -(instancetype)initWithFwModel:(FwStressConfigModel*)fwModel;
 -(FwStressConfigModel*)toFwModel;
+
+
+-(instancetype)initWithFitClpodModel:(FitCloudHTMSingleObject*)fitModel;
+-(FitCloudHTMSingleObject*)toFitModel;
 
 @property (nonatomic, assign) BOOL autoMonitorEnable;
 /**
