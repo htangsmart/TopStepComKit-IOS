@@ -33,8 +33,35 @@
 {
     if(indexPath.row == 0)
     {
-        [FitCloudKit getSedentaryRemindSettingWithBlock:^(BOOL succeed, FitCloudLSRObject *lsrSetting, NSError *error) {
-            XLOG_INFO(@"Sedentary Remind Settings:\nisOn:%@\noffWhenLunchBreak:%@\nbegin:%@\nend:%@", @(lsrSetting.on), @(lsrSetting.offWhenLunchBreak), @(lsrSetting.begin), @(lsrSetting.end));
+        XLOG_INFO(@"\n获取久坐提醒设置...\nGet sedentary reminder settings...");
+        // 1.先获取提醒设置 2.获取提醒设置后找出久坐设置
+        // 1. Get the reminder settings first
+        // 2. After getting the reminder settings, find the sedentary settings
+        [TPSSdk.share.remindSettingAbility requestRemindSettingDataFormWatchSuccess:^(NSArray<TPSRemindSettingModel *> * _Nullable remindSettingList) {
+            
+            if ([remindSettingList isKindOfClass:NSArray.class]) {
+                
+                __block TPSRemindSettingModel *remindSettingModel;
+                [remindSettingList enumerateObjectsUsingBlock:^(TPSRemindSettingModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                   
+                    // 0为久坐，1喝水，2吃药
+                    // 0 means sitting for a long time,
+                    // 1 means drinking water
+                    // 2 means taking medicine
+                    if (obj.remindId == 0) {
+                        
+                        remindSettingModel = obj;
+                        XLOG_INFO(@"Sedentary Remind Settings:\nisOn:%@\nbegin:%@\nend:%@", @(obj.isEnabled), @(obj.start), @(obj.end));
+                    }
+                }];
+                if (!remindSettingList) {
+                    
+                    XLOG_INFO(@"\n未找到久坐提醒\nNo sedentary reminder found");
+                }
+            } else {
+                
+                XLOG_INFO(@"\n未找到久坐提醒\nNo sedentary reminder found");
+            }
             dispatch_async(dispatch_get_main_queue(), ^{
                 ConsoleResultToastTip(self.view);
             });
@@ -42,16 +69,23 @@
     }
     else if(indexPath.row == 1)
     {
-        FitCloudLSRObject *settings = [FitCloudLSRObject new];
-        settings.on = true;
-        settings.offWhenLunchBreak = true;
-        settings.begin = 60*9;
-        settings.end = 60*20;
-        [FitCloudKit setSedentaryRemind:settings block:^(BOOL succeed, NSError *error) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                OpResultToastTip(self.view, succeed);
-            });
-        }];
+        
+        TPSRemindSettingModel *remindSettingModel = [[TPSRemindSettingModel alloc] init];
+        
+//        FitCloudLSRObject *settings = [FitCloudLSRObject new];
+//        settings.on = true;
+//        settings.offWhenLunchBreak = true;
+//        settings.begin = 60*9;
+//        settings.end = 60*20;
+//        [FitCloudKit setSedentaryRemind:settings block:^(BOOL succeed, NSError *error) {
+//            
+//        }];
+        
+//        [TPSSdk.share.remindSettingAbility setRemindValueWithValue:<#(NSDictionary * _Nonnull)#> index:<#(NSArray * _Nullable)#> success:<#^(BOOL isSendOK)success#>]
+//        
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            OpResultToastTip(self.view, succeed);
+//        });
     }
 }
 

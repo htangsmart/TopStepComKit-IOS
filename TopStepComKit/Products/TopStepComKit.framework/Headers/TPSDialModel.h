@@ -5,17 +5,20 @@
 //  Created by Topstep on 2024/1/23.
 //
 
+
 #ifndef TPSDialModel_h
 #define TPSDialModel_h
 
 typedef NS_ENUM(NSUInteger, TSDialTimePosition) {
-    eDialTimePositionTop = 0,         //上方
-    eDialTimePositionBottom = 1,      //下方
-    eDialTimePositionLeft = 2,        //左方
-    eDialTimePositionRight = 3,       //右方
+    eDialTimePositionLeft = 0,        //左方
+    eDialTimePositionTop = 1,         //上方
+    eDialTimePositionRight = 2,       //右方
+    eDialTimePositionBottom = 3,      //下方
 };
 
 @class FwDialModel;
+
+
 @interface TPSDialModel : NSObject
 
 
@@ -43,6 +46,7 @@ typedef NS_ENUM(NSUInteger, TSDialTimePosition) {
 -(instancetype)initWithFwModel:(FwDialModel*)fwDialModel;
 
 +(NSArray<TPSDialModel*>*)toTPSArrWithFwArr:(NSArray<FwDialModel*>*)fwArr;
+
 
 @end
 

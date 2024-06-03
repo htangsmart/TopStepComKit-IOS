@@ -48,10 +48,9 @@ typedef NS_OPTIONS(NSInteger, TSDataType) {
 + (instancetype _Nonnull )share;
 
 /// 将手表数据同步到SDK
-///  @param type 同步数据的类型
 ///  @param userID 当前用户的ID 用于标识数据属于哪个用户
 ///  @param block 同步完成后返回的结果，包含了同步失败的类型
-- (void)synchronousDataWithType:(TSDataType)type userID:(NSString *_Nullable)userID result:(void(^_Nullable)(TSDataType errorTypes))block;
+- (void)synchronousDataWithUserID:(NSString *_Nullable)userID result:(void(^_Nullable)(TSDataType errorTypes))block;
 
 /// 删除SDK缓存数据
 /// @param type 删除数据的类型

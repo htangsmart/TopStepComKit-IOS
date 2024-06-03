@@ -31,5 +31,6 @@
 #import <TopStepComKit/TPSSdk.h>
 #import <TopStepComKit/TPS_Tools.h>
 #import <ReactiveObjC.h>
+#import "YYModel.h"
 
 #endif /* FitCloudKitDemo_Prefix_pch */

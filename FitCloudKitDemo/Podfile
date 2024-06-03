@@ -14,7 +14,8 @@ target 'FitCloudKitDemo' do
   pod 'QuickTraceiOSLogger'
   pod 'YYCategories'
   pod 'Toast'
-  
+  pod 'YYModel'
+
   #############################---拓步Pod---######################################
   # 拓步智能手表 SDK
   pod 'FitCloudKit', git: 'https://github.com/htangsmart/FitCloudPro-SDK-iOS.git'
