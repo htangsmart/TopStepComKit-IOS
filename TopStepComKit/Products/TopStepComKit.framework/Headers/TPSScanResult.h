@@ -24,6 +24,7 @@
 @property(nonatomic, strong) NSNumber* RSSI;
 @property(nonatomic, strong) NSDictionary<NSString *,id>* advertisementData;
 @property(nonatomic, strong) CBCentralManager* central;
+@property (nonatomic, assign) CBPeripheralState state;
 
 @end
 

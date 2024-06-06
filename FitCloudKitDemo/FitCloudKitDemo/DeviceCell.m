@@ -37,7 +37,7 @@
 {
     self.peripheral = peripheral;
     _showStatus = showStatus;
-    self.name.text = peripheral.peripheral.name == nil || peripheral.peripheral.name.length == 0 ? @"UNKNOWN" : peripheral.peripheral.name;
+    self.name.text = peripheral.name == nil || peripheral.name.length == 0 ? @"UNKNOWN" : peripheral.name;
     if([self.name.text hasPrefix:@"H"])
     {
         self.name.text = [self.name.text substringFromIndex:1];

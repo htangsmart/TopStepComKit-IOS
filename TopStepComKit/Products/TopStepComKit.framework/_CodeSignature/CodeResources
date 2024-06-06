@@ -1188,7 +1188,7 @@
 		</data>
 		<key>Headers/TPSDevice.h</key>
 		<data>
-		+hPtcLr8poCYeglU2UMEQ5gZhyI=
+		CdzNcjbiWheGa6ITjNZ2hVQf8fQ=
 		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
@@ -1300,7 +1300,7 @@
 		</data>
 		<key>Headers/TPSScanResult.h</key>
 		<data>
-		ZA00KsEobOUbmL1hlwII0BJ/gdY=
+		WwMtvFdo/pMr6rpCPbwU6ZDNjS4=
 		</data>
 		<key>Headers/TPSSdk.h</key>
 		<data>
@@ -1396,7 +1396,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YFq6GVJj+zOrOGEFnYUwK+z6Xbc=
+		XxcrjuNQc+ykqTtUMGdmIm3kEIA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3371,11 +3371,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+hPtcLr8poCYeglU2UMEQ5gZhyI=
+			CdzNcjbiWheGa6ITjNZ2hVQf8fQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			J4qSBVz3CkPeqKuudl9YQ7JTjKfN8z8aqM0a+3qa+dc=
+			l52kC7wX9QKgtlBOZPOh/Of6/k3tOdGlgzhgPAomrfA=
 			</data>
 		</dict>
 		<key>Headers/TPSDialModel.h</key>
@@ -3679,11 +3679,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZA00KsEobOUbmL1hlwII0BJ/gdY=
+			WwMtvFdo/pMr6rpCPbwU6ZDNjS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fx0P1pQQQjvKFN63xuTeb3LWx1ACAMRu82pnfYXeGb4=
+			kllxwgsEhz85MqJnDR3BwMQ8Ri59tKCZJXc0/D7wcOg=
 			</data>
 		</dict>
 		<key>Headers/TPSSdk.h</key>
@@ -3932,11 +3932,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YFq6GVJj+zOrOGEFnYUwK+z6Xbc=
+			XxcrjuNQc+ykqTtUMGdmIm3kEIA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qr3FH6EORt0USiWft2IdZiLR5dQKfyu208EGxwjhR2k=
+			aNnet9qa82UUBfEje3+Te4R8VBICcp6ac40qlm6WAJk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
