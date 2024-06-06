@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		oCdOygmwVzfew/xEWET5yAbhuKc=
+		41E8kDDBbPUgGS8aGqukvykrWVc=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		9YOP303tIVaVbEVQR+68UP0JbL4=
+		Vmd72brpddIdiaEnLAoX3+K6Mn8=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1520,7 +1520,7 @@
 		</data>
 		<key>Headers/ITPSConnectorAbility.h</key>
 		<data>
-		+VZtC18qIsAJoyXlB1dyDs1ENB0=
+		Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
 		</data>
 		<key>Headers/ITPSContactAbility.h</key>
 		<data>
@@ -1588,7 +1588,7 @@
 		</data>
 		<key>Headers/ITPSRemindSettingAbility.h</key>
 		<data>
-		vcgEXOYSgb0GJLE52iSPadcO4iM=
+		3mS9uZarrDrh+qreYc2gKUGX++o=
 		</data>
 		<key>Headers/ITPSRemotePhotographyAbility.h</key>
 		<data>
@@ -1616,7 +1616,7 @@
 		</data>
 		<key>Headers/ITPSSynchronousDataAbility.h</key>
 		<data>
-		mz65NcfcbcK8oW5uo9jCebWBWwM=
+		EXF71W4BCmwkZNk1BdkUXvksbFE=
 		</data>
 		<key>Headers/ITPSWearBaseAbility.h</key>
 		<data>
@@ -1868,11 +1868,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8LM9K2b1/qA54cCjr5xy49Zphb8=
+		pYh+SfX7VWpOFBWYQBJNRYr/k3M=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		8xKRXk3lTzw6tZQV7KKfuLZlibU=
+		tRCTBF3T8W+jJk1lif7ISmv9wko=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -1884,7 +1884,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ze2TB4pAflPyQ8Lqb8ez9YvrDW0=
+		F9WR6fXAsolljswpQl5CO3x6zsI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4673,11 +4673,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oCdOygmwVzfew/xEWET5yAbhuKc=
+			41E8kDDBbPUgGS8aGqukvykrWVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			QsuIXMI7mHVbChiMjhzpdbAIEl2zMdpZ9uHiwzBrBJI=
+			xtgKiYC6zfHPnZvmzoDwzr6GW55zJ0VWNykSNe5+kvU=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4706,11 +4706,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9YOP303tIVaVbEVQR+68UP0JbL4=
+			Vmd72brpddIdiaEnLAoX3+K6Mn8=
 			</data>
 			<key>hash2</key>
 			<data>
-			6relzalxJwSFLTjhXLOXcSuyzO4sRenueckRMfZfXY8=
+			4iFQNFUDANpkEIn+3xs9PEF09aDXMAX5gc6/jpJTLfs=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -4772,11 +4772,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+VZtC18qIsAJoyXlB1dyDs1ENB0=
+			Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0UEvmxfZcl/jzAWTD7HPCL9iktmbu055wSLM8OTpXbs=
+			DnvEoX7J8vtUNAEy54DY4NsgjXoCYwhUWeIK1y4a0eg=
 			</data>
 		</dict>
 		<key>Headers/ITPSContactAbility.h</key>
@@ -4959,11 +4959,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vcgEXOYSgb0GJLE52iSPadcO4iM=
+			3mS9uZarrDrh+qreYc2gKUGX++o=
 			</data>
 			<key>hash2</key>
 			<data>
-			1+YfTbtnqw8+RAcuKA6d0+zszrDSHIcODJgORFThxlg=
+			TIOqicI9IBFx1qdys7feiDkRxilOduTONlAFmO8C+P8=
 			</data>
 		</dict>
 		<key>Headers/ITPSRemotePhotographyAbility.h</key>
@@ -5036,11 +5036,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mz65NcfcbcK8oW5uo9jCebWBWwM=
+			EXF71W4BCmwkZNk1BdkUXvksbFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			NgzotN0rknd307KolttHqshg+MHRjVd3SkatQcsxSxw=
+			WyAE4ZzWPQHLlgX8T5/dMdfO2XnJ8fgtogwi9WpMsAg=
 			</data>
 		</dict>
 		<key>Headers/ITPSWearBaseAbility.h</key>
@@ -5729,11 +5729,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8xKRXk3lTzw6tZQV7KKfuLZlibU=
+			tRCTBF3T8W+jJk1lif7ISmv9wko=
 			</data>
 			<key>hash2</key>
 			<data>
-			f2EMo0AkBtw07IYpI/tvxxKCyx+tUQI6j/R5IVjrSBA=
+			ltyD2PHejO6A7DoEuCYaxIQQizzU48worZm9JEDyK4k=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -5762,11 +5762,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ze2TB4pAflPyQ8Lqb8ez9YvrDW0=
+			F9WR6fXAsolljswpQl5CO3x6zsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XPL2cPxQ5MwBXx89xxRUo2Nx6zfkxE5V9oGUrngLP68=
+			phH4bzfnOdWTmdrbp0l/Mo5VDCk2IEhUcrrZY87jFuE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
