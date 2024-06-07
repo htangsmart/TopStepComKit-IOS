@@ -9,7 +9,7 @@
 #import "DemoListController.h"
 #define ConsoleResultToastTip(v) [v makeToast:NSLocalizedString(@"View the results in the console.", nil) duration:3.0f position:CSToastPositionTop]
 
-@interface DemoListController ()
+@interface DemoListController ()<UIDocumentPickerDelegate>
 
 - (IBAction)OnGoBack:(id)sender;
 @end
@@ -22,17 +22,42 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 0)
+    if(indexPath.row == 1)
     {
         [self fetchSportsDataToday];
     }
-    else if(indexPath.row == 1)
+    else if(indexPath.row == 2)
     {
         [self manualSyncData];
     }
-    else if(indexPath.row == 2)
+    else if(indexPath.row == 16)
     {
+        [self otaTest];
+    }
+}
+
+- (void)otaTest {
+    UIDocumentPickerViewController *picker = [[UIDocumentPickerViewController alloc] initWithDocumentTypes:@[ @"public.item" ] inMode:(UIDocumentPickerModeImport)];
+    picker.delegate = self;
+    picker.modalPresentationStyle = UIModalPresentationFormSheet;
+    picker.allowsMultipleSelection = false;
+    [self presentViewController:picker animated:true completion:nil];
+}
+
+- (void)beginOtaWithFilePath:(NSString *)path {
+    
+    [TPSSdk.share.otaAbility otaUpdateWithLocalPath:path block:^(TPSProgressModel *model) {
+       
+        XLOG_INFO(@"ota progress: %f, state: %d", model.percent, model.eventType);
+    }];
+}
+
+- (void)documentPicker:(UIDocumentPickerViewController *)controller didPickDocumentsAtURLs:(NSArray<NSURL *> *)urls {
+    if (controller.documentPickerMode == UIDocumentPickerModeImport) {
         
+        if ([urls isKindOfClass:NSArray.class] && urls.count > 0) {
+            [self beginOtaWithFilePath:urls.firstObject.absoluteString];
+        }
     }
 }
 

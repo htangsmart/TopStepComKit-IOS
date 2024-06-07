@@ -30,15 +30,29 @@
 {
     if(indexPath.row == 0)
     {
-        FitCloudWeatherObject *weather_callback = [FitCloudWeatherObject new];
-        weather_callback.temperature = 30;
-        weather_callback.min = weather_callback.max = weather_callback.temperature;
-        weather_callback.weathertype = WEATHERTYPE_SUNNY;
-        weather_callback.city = @"深圳";
+        TPSFutureHourWeatherModel *futureHourModel1 = [[TPSFutureHourWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 3600 describe:TPSWeatherDescribeType_ENUM_CLEAR_DAY temperature:30];
+        TPSFutureHourWeatherModel *futureHourModel2 = [[TPSFutureHourWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 7200 describe:TPSWeatherDescribeType_ENUM_CLOUDY temperature:25];
+        
+        NSArray<TPSFutureHourWeatherModel *> *futureHourModelArr = [NSArray arrayWithObjects:futureHourModel1, futureHourModel2, nil];
+        
+        TPSTodayWeatherModel *todayModel = [[TPSTodayWeatherModel alloc] initWithCurTemperature:28 minTemperature:22 maxTemperature:34 airpressure:50 wind:3 windAngle:2 windSpeed:10 humidity:10 uvIndex:3 visibility:10 futureHourList:futureHourModelArr];
+        
+        TPSFutureDayWeatherModel *futureModel1 = [[TPSFutureDayWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 86400 describe:TPSWeatherDescribeType_ENUM_PARTLY_CLOUDY_DAY minTemperature:23 maxTemperature:33];
+        TPSFutureDayWeatherModel *futureModel2 = [[TPSFutureDayWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 172800 describe:TPSWeatherDescribeType_ENUM_CLEAR_DAY minTemperature:25 maxTemperature:35];
+        TPSFutureDayWeatherModel *futureModel3 = [[TPSFutureDayWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 259200 describe:TPSWeatherDescribeType_ENUM_CLEAR_DAY minTemperature:24 maxTemperature:34];
+        
+        NSArray<TPSFutureDayWeatherModel *> *futureModelArr = [NSArray arrayWithObjects:futureModel1, futureModel2, futureModel3, nil];
+        
+        TPSWeatherModel *model = [[TPSWeatherModel alloc] initWithCity:@"深圳" temperatureUnit:0 updateTime:[[NSDate date] timeIntervalSince1970] todayWeather:todayModel futureDayWeather:futureModelArr];
+        
         __weak typeof(self) weakSelf = self;
-        [FitCloudKit syncWeather:weather_callback block:^(BOOL succeed, NSError *error) {
+        [TPSSdk.share.weatherAbility sendWeather:model block:^(BOOL isSendOK) {
             dispatch_async(dispatch_get_main_queue(), ^{
-                OpResultToastTip(weakSelf.view, succeed);
+                if (isSendOK) {
+                    OpResultToastTip(weakSelf.view, YES);
+                } else {
+                    OpResultToastTip(weakSelf.view, NO);
+                }
             });
         }];
     }

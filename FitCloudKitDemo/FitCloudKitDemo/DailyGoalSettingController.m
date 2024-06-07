@@ -29,21 +29,24 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if(indexPath.row == 0)
-    {
-
+    {        
+        TPSSportTargetModel *model = [TPSSportTargetModel new];
+        model.steps = 10000;
+        model.stand_time = 60;
+        model.sport_time = 30;
+        model.sport_num = 3;
+        model.calorie = 30;
+        model.distance = 5000;
         __weak typeof(self) weakSelf = self;
-        NSInteger stepGoal = 8000;
-        CGFloat distanceGoalInKM = 5.5;
-        CGFloat caloryGoalInKCal = 500;
-        
-        //0520被leiwei屏蔽
-//        [FitCloudKit setDailyGoalWithStepCount:(UInt32)(stepGoal) distance:(UInt32)(distanceGoalInKM*100000) calory:(UInt32)(caloryGoalInKCal*1000) timestamp:nil block:^(BOOL succeed, NSError *error) {
-//            dispatch_async(dispatch_get_main_queue(), ^{
-//                OpResultToastTip(weakSelf.view, succeed);
-//            });
-//            
-//        }];
-        
+        [TPSSdk.share.sportTargetAbility sendSportTargets:model block:^(BOOL isSendOK) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (isSendOK) {
+                    OpResultToastTip(weakSelf.view, YES);
+                } else {
+                    OpResultToastTip(weakSelf.view, NO);
+                }
+            });
+        }];
     }
 }
 

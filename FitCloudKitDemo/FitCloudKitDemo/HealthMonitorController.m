@@ -28,27 +28,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 0)
-    {
-        [FitCloudKit getHealthTimingMonitorSettingWithBlock:^(BOOL succeed, FitCloudHTMObject *htmSetting, NSError *error) {
-            XLOG_INFO(@"Health Monitor Settings:\nisOn:%@\nbegin:%@\nend:%@", @(htmSetting.on), @(htmSetting.begin), @(htmSetting.end));
-            dispatch_async(dispatch_get_main_queue(), ^{
-                ConsoleResultToastTip(self.view);
-            });
-        }];
-    }
-    else if(indexPath.row == 1)
-    {
-        FitCloudHTMObject *settings = [FitCloudHTMObject new];
-        settings.on = true;
-        settings.begin = 60*9;
-        settings.end = 60*20;
-        [FitCloudKit setHealthTimingMonitor:settings block:^(BOOL succeed, NSError *error) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                OpResultToastTip(self.view, succeed);
-            });
-        }];
-    }
+    
 }
 
 /*

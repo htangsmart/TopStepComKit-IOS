@@ -30,83 +30,19 @@
 {
     if(indexPath.row == 0)
     {
-        FitCloudAllConfigObject* allConfig = [FitCloudKit allConfig];
-        FITCLOUDPREFER prefer = allConfig ? allConfig.prefer : 0;
-        BOOL bImperial = prefer & FITCLOUDPREFER_IMPERIALUNIT;
-        [self braceletSyncWithLengthWeightPerfer:!bImperial];
-        
+        [TPSSdk.share.miscSettingAbility sendSport_sportUnit:MiscSettingModel_TSTPS_Sport_Unit_British_System];
+        OpResultToastTip(self.view, YES);
     }
     else if(indexPath.row == 1)
     {
-        FitCloudAllConfigObject* allConfig = [FitCloudKit allConfig];
-        FITCLOUDPREFER prefer = allConfig ? allConfig.prefer : 0;
-        BOOL bFahrenheit = prefer & FITCLOUDPREFER_FAHRENHEIT;
-        [self braceletSyncWithTemperaturePerfer:!bFahrenheit];
+        [TPSSdk.share.miscSettingAbility sendWeather_temp_unit:TPSMiscSettingModel_Temperature_Unit_C];
+        OpResultToastTip(self.view, YES);
     }
     else if(indexPath.row == 2)
     {
-        FitCloudAllConfigObject* allConfig = [FitCloudKit allConfig];
-        FITCLOUDPREFER prefer = allConfig ? allConfig.prefer : 0;
-        BOOL b12Hr = prefer & FITCLOUDPREFER_SHOWAS12HOURS;
-        [self braceletSyncWithTimeFormatPerfer:!b12Hr];
+        [TPSSdk.share.miscSettingAbility sendSystem_timing_method:TPSMiscSettingModel_Time_Format_24];
+        OpResultToastTip(self.view, YES);
     }
-}
-
--(void) braceletSyncWithLengthWeightPerfer:(BOOL)bImperial
-{
-    FitCloudAllConfigObject* allConfig = [FitCloudKit allConfig];
-    FITCLOUDPREFER newPrefer = allConfig ? allConfig.prefer : 0;
-    
-    newPrefer = bImperial ? (newPrefer | FITCLOUDPREFER_IMPERIALUNIT) : (newPrefer & (~FITCLOUDPREFER_IMPERIALUNIT));
-    __weak typeof(self) weakSelf = self;
-    [FitCloudKit setFitCloudPrefer:newPrefer block:^(BOOL succeed, NSError *error) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            OpResultToastTip(weakSelf.view, succeed);
-        });
-        if(!succeed)
-        {
-            return;
-        }
-        allConfig.prefer = newPrefer;
-    }];
-}
-
--(void) braceletSyncWithTemperaturePerfer:(BOOL)bFahrenheit
-{
-    FitCloudAllConfigObject* allConfig = [FitCloudKit allConfig];
-    FITCLOUDPREFER newPrefer = allConfig ? allConfig.prefer : 0;
-    
-    newPrefer = bFahrenheit ? (newPrefer | FITCLOUDPREFER_FAHRENHEIT) : (newPrefer & (~FITCLOUDPREFER_FAHRENHEIT));
-    __weak typeof(self) weakSelf = self;
-    [FitCloudKit setFitCloudPrefer:newPrefer block:^(BOOL succeed, NSError *error) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            OpResultToastTip(weakSelf.view, succeed);
-        });
-        if(!succeed)
-        {
-            return;
-        }
-        allConfig.prefer = newPrefer;
-    }];
-}
-
--(void) braceletSyncWithTimeFormatPerfer:(BOOL)b12Hr
-{
-    FitCloudAllConfigObject* allConfig = [FitCloudKit allConfig];
-    FITCLOUDPREFER newPrefer = allConfig ? allConfig.prefer : 0;
-    
-    newPrefer = b12Hr ? (newPrefer | FITCLOUDPREFER_SHOWAS12HOURS) : (newPrefer & (~FITCLOUDPREFER_SHOWAS12HOURS));
-    __weak typeof(self) weakSelf = self;
-    [FitCloudKit setFitCloudPrefer:newPrefer block:^(BOOL succeed, NSError *error) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            OpResultToastTip(weakSelf.view, succeed);
-        });
-        if(!succeed)
-        {
-            return;
-        }
-        allConfig.prefer = newPrefer;
-    }];
 }
 
 /*

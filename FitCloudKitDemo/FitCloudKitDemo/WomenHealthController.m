@@ -27,17 +27,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 0)
-    {
-        WOMENHEALTHMODE mode = WOMENHEALTHMODE_MENSES;
-        FitCloudWomenHealthSetting *whSetting = [FitCloudWomenHealthSetting settingwithMode:mode advanceDaysToRemind:1 offsetMinutesInDayOfRemind:10*60 mensesDuration:7 menstrualCycle:28 recentMenstruationBegin:@"2023-07-01" daysOfFinishSinceMensesBegin:0 pregancyRemindType:PREGNANCYREMINDTYPE_DAYSBEFOREEDC];
-        __weak typeof(self) weakSelf = self;
-        [FitCloudKit setWomenHealthConfig:whSetting block:^(BOOL succeed, NSError *error) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                OpResultToastTip(weakSelf.view, succeed);
-            });
-        }];
-    }
+    
 }
 
 /*

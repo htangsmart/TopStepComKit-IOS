@@ -32,6 +32,8 @@ typedef NS_ENUM(NSUInteger, TSDialTimePosition) {
 @property(nonatomic, strong) NSString* icon;
 @property(nonatomic, strong) NSString* version;
 
+@property (nonatomic,strong) UIColor * textColor;
+
 @property(nonatomic, assign) BOOL isEditable;
 @property(nonatomic, assign) BOOL isHide;
 

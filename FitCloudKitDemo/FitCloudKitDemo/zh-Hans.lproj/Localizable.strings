@@ -55,20 +55,24 @@
 "Click to run the demo" = "点击运行示例";
 "View the results in the console." = "请在控制台查看结果。";
 
-"Get Sports Data Today" = "获取今日运动数据";
-"Manual Sync Data" = "手动同步";
-"Message Reminder" = "消息提醒";
-"Alarm" = "闹钟";
-"Sedentary Remind" = "久坐提醒";
-"Drink Remind" = "喝水提醒";
-"Wrist Wake Up" = "抬腕唤醒";
+"Get History Data (completed)" = "获取历史数据 (已完成)";
+"Get Sports Data Today (completed)" = "获取今日运动数据 (已完成)";
+"Manual Sync Data (completed)" = "手动同步 (已完成)";
+"Message Reminder (completed)" = "消息提醒 (已完成)";
+"Alarm (completed)" = "闹钟 (已完成)";
+"Sedentary Remind (completed)" = "久坐提醒 (已完成)";
+"Drink Remind (completed)" = "喝水提醒 (已完成)";
+"Wrist Wake Up (Incomplete)" = "抬腕唤醒 (不完整)";
 "Health Monitor Settings" = "健康监控设置";
 "Screen Display" = "屏幕显示";
 "Health Measurement" = "健康测量";
-"Daily Goal Settings" = "每日目标设置";
-"Unit Prefer Settings" = "单位偏好设置";
+"Daily Goal Settings (completed)" = "每日目标设置 (已完成)";
+"Unit Prefer Settings (completed)" = "单位偏好设置 (已完成)";
 "User Profile Settings" = "用户资料设置";
-"Sync Weather" = "同步天气";
+"Sync Weather (completed)" = "同步天气 (已完成)";
+
+"History Heart Rate Data" = "历史心率数据";
+"History SPO2 Data" = "历史血氧数据";
 
 "Whether Support Mail Reminder" = "手环是否支持邮件提醒";
 "Wheather Support TelegramAndViber Reminder" = "手环是否支持Telegram和Viber提醒";

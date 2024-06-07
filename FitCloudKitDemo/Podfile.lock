@@ -17,7 +17,7 @@ PODS:
   - BitByteData (2.0.4)
   - FitCloudDFUKit (1.3.1-beta.21):
     - iOSDFULibrary (~> 4.11.0)
-  - FitCloudKit (1.2.9-beta.111)
+  - FitCloudKit (1.2.9-beta.117)
   - FitCloudNWFKit (1.0.2-beta.1):
     - zipzap (~> 8.1.1)
   - FitCloudWFKit (1.1.7-beta.7)
@@ -150,16 +150,16 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FitCloudDFUKit:
-    :commit: 498cba2ed5e40b37caf04cb9a8db730c8ea220d1
+    :commit: 230571093c9f6fa0df44239ca5cd0823de0ee596
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
-    :commit: 498cba2ed5e40b37caf04cb9a8db730c8ea220d1
+    :commit: 230571093c9f6fa0df44239ca5cd0823de0ee596
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudNWFKit:
-    :commit: 498cba2ed5e40b37caf04cb9a8db730c8ea220d1
+    :commit: 230571093c9f6fa0df44239ca5cd0823de0ee596
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudWFKit:
-    :commit: 498cba2ed5e40b37caf04cb9a8db730c8ea220d1
+    :commit: 230571093c9f6fa0df44239ca5cd0823de0ee596
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   TSDialWidget:
     :commit: 4d4a16a1bdd4bb6641a7590403c8ca8b9fb7a952
@@ -169,7 +169,7 @@ SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   BitByteData: 2422ed269fcddc44976d97f171a183d25ef535ce
   FitCloudDFUKit: cc3b1599f0e891a407f76e8f53e8b2efbdb8d1e3
-  FitCloudKit: 1c3d58c09ce585a2d882c7350c45098e62a8fedf
+  FitCloudKit: 5b9020d0d29d77353c6d1d1346e3d10a8233978b
   FitCloudNWFKit: 10f5a3637bf6c192e901a2ed1c2921698c065288
   FitCloudWFKit: 14ee73929b0c274e94a278c3428aac665ff0cd8f
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
