@@ -52,6 +52,10 @@ typedef NS_OPTIONS(NSInteger, TSDataType) {
 ///  @param block 同步完成后返回的结果，包含了同步失败的类型
 - (void)synchronousDataWithUserID:(NSString *_Nullable)userID result:(void(^_Nullable)(TSDataType errorTypes))block;
 
+
+- (void)synchronousDataWithType:(TSDataType)type userID:(NSString *)userID result:(void(^)(TSDataType errorTypes))block;
+
+
 /// 删除SDK缓存数据
 /// @param type 删除数据的类型
 /// @param userID 有值删除指定用户的数据，空值删除所有用户的数据

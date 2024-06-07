@@ -28,34 +28,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 0)
-    {
-        FitCloudUserProfileObject* profile = [FitCloudUserProfileObject new];
-        profile.gender = FITCLOUDGENDER_FEMALE;
-        profile.age = 29;
-        profile.height = 160;
-        profile.weight = 55;
-         __weak typeof(self) weakSelf = self;
-        [FitCloudKit setUserProfile:profile block:^(BOOL succeed, NSError *error) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                OpResultToastTip(weakSelf.view, succeed);
-            });
-        }];
-    }
-    else if(indexPath.row == 1)
-    {
-        FitCloudAllConfigObject* allConfig = [FitCloudKit allConfig];
-        FitCloudBPRObject *bprSetting = allConfig.bprSetting;
-        bprSetting.on = TRUE;
-        bprSetting.diastolic = 80;
-        bprSetting.systolic = 120;
-        __weak typeof(self) weakSelf = self;
-        [FitCloudKit setBloodPressureRefer:bprSetting block:^(BOOL succeed, NSError *error) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                OpResultToastTip(weakSelf.view, succeed);
-            });
-        }];
-    }
+    
 }
 
 /*

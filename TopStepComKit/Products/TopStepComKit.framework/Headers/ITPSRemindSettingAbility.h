@@ -21,10 +21,8 @@ typedef void(^TPSRemindSettingCallback)(NSArray<TPSRemindSettingModel*>* _Nullab
 
 - (void)resetRemindIndex:(NSArray *_Nullable)indexArray success:(TPSSendMsgResult _Nullable )success;
 
-// 查询提醒
 - (void)requestRemindSettingDataFormWatchSuccess:(TPSRemindSettingCallback _Nullable)success;
 
-/// 设置提醒
 - (void)setRemindValueWithValue:(NSDictionary *_Nonnull)valueDict index:(NSArray *_Nullable)indexArray success:(TPSSendMsgResult _Nullable)success;
 
 

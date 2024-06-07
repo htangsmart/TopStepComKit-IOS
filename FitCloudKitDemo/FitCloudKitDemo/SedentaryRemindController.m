@@ -69,23 +69,61 @@
     }
     else if(indexPath.row == 1)
     {
-        
-        TPSRemindSettingModel *remindSettingModel = [[TPSRemindSettingModel alloc] init];
-        
-//        FitCloudLSRObject *settings = [FitCloudLSRObject new];
-//        settings.on = true;
-//        settings.offWhenLunchBreak = true;
-//        settings.begin = 60*9;
-//        settings.end = 60*20;
-//        [FitCloudKit setSedentaryRemind:settings block:^(BOOL succeed, NSError *error) {
-//            
-//        }];
-        
-//        [TPSSdk.share.remindSettingAbility setRemindValueWithValue:<#(NSDictionary * _Nonnull)#> index:<#(NSArray * _Nullable)#> success:<#^(BOOL isSendOK)success#>]
-//        
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            OpResultToastTip(self.view, succeed);
-//        });
+        [TPSSdk.share.remindSettingAbility requestRemindSettingDataFormWatchSuccess:^(NSArray<TPSRemindSettingModel *> * _Nullable remindSettingList) {
+            if (!remindSettingList) {
+                XLOG_INFO(@"\n未找到久坐提醒\nNo sedentary reminder found");
+                return;
+            }
+            
+            NSMutableArray<TPSRemindSettingModel *> *remindSettingMutList = [remindSettingList mutableCopy];
+            __block BOOL isFound = NO;
+            __block TPSRemindSettingModel *remindSettingModel;
+            [remindSettingMutList enumerateObjectsUsingBlock:^(TPSRemindSettingModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+               
+                // 0为久坐，1喝水，2吃药
+                // 0 means sitting for a long time,
+                // 1 means drinking water
+                // 2 means taking medicine
+                if (obj.remindId == 0) {
+                    isFound = YES;
+                    remindSettingModel = obj;
+                    XLOG_INFO(@"Sedentary Remind Settings:\nisOn:%@\nbegin:%@\nend:%@", @(obj.isEnabled), @(obj.start), @(obj.end));
+                }
+            }];
+            
+            if (isFound) {
+                remindSettingModel.isEnabled = YES;
+                remindSettingModel.type = 1;
+                remindSettingModel.start = 0;
+                remindSettingModel.end = 1440;
+                remindSettingModel.interval = 1;
+                remindSettingModel.repeat = @[@1, @2, @3, @4, @5];
+            } else {
+                TPSRemindSettingModel *remindSettingModel = [TPSRemindSettingModel new];
+                remindSettingModel.remindId = 0;
+                remindSettingModel.isEnabled = YES;
+                remindSettingModel.type = 1;
+                remindSettingModel.start = 0;
+                remindSettingModel.end = 1440;
+                remindSettingModel.interval = 1;
+                remindSettingModel.repeat = @[@1, @2, @3, @4, @5];
+                [remindSettingMutList addObject:remindSettingModel];
+            }
+            NSArray *indexArray = [TPSRemindSettingModel transferIndexRemindSettingModelToDict:remindSettingMutList];
+            NSDictionary *valueDict = [TPSRemindSettingModel remindSettingValueWithArray:remindSettingMutList];
+            XLOG_INFO(@"indexArray --- %@", indexArray);
+            XLOG_INFO(@"valueDict --- %@",valueDict);
+            
+            [TPSSdk.share.remindSettingAbility setRemindValueWithValue:valueDict index:indexArray success:^(BOOL isSendOK) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    if (isSendOK) {
+                        OpResultToastTip(self.view, YES);
+                    } else {
+                        OpResultToastTip(self.view, NO);
+                    }
+                });
+            }];
+        }];
     }
 }
 

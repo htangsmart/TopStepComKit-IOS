@@ -22,17 +22,13 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 0)
+    if(indexPath.row == 1)
     {
         [self fetchSportsDataToday];
     }
-    else if(indexPath.row == 1)
-    {
-        [self manualSyncData];
-    }
     else if(indexPath.row == 2)
     {
-        
+        [self manualSyncData];
     }
 }
 

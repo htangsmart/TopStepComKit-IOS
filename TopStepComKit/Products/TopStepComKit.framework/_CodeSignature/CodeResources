@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		oCdOygmwVzfew/xEWET5yAbhuKc=
+		m0bE8gEg6qqmovlqMok9OUU4zqw=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		9YOP303tIVaVbEVQR+68UP0JbL4=
+		3sq+kwB7bDeIsBFaMu09c36IBFg=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1588,7 +1588,7 @@
 		</data>
 		<key>Headers/ITPSRemindSettingAbility.h</key>
 		<data>
-		vcgEXOYSgb0GJLE52iSPadcO4iM=
+		3mS9uZarrDrh+qreYc2gKUGX++o=
 		</data>
 		<key>Headers/ITPSRemotePhotographyAbility.h</key>
 		<data>
@@ -1868,11 +1868,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8LM9K2b1/qA54cCjr5xy49Zphb8=
+		fRH2F+boMTZZFD8jrFhlqzxMnTk=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		8xKRXk3lTzw6tZQV7KKfuLZlibU=
+		4R+uLSzlWORimoCIn5ZdVrclZII=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -1884,7 +1884,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ze2TB4pAflPyQ8Lqb8ez9YvrDW0=
+		EhXy1L1PzFlDJk7FL6BUdRYx++Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4673,11 +4673,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oCdOygmwVzfew/xEWET5yAbhuKc=
+			m0bE8gEg6qqmovlqMok9OUU4zqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QsuIXMI7mHVbChiMjhzpdbAIEl2zMdpZ9uHiwzBrBJI=
+			wEXN0nMd/xMlloUlPa04if/ztguWavdZCpQ+hz3g6NU=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4706,11 +4706,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9YOP303tIVaVbEVQR+68UP0JbL4=
+			3sq+kwB7bDeIsBFaMu09c36IBFg=
 			</data>
 			<key>hash2</key>
 			<data>
-			6relzalxJwSFLTjhXLOXcSuyzO4sRenueckRMfZfXY8=
+			tebDjkQTkcUWPMKzBMGDyYr3pjC+sqR9cwAt9brnOd8=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -4959,11 +4959,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vcgEXOYSgb0GJLE52iSPadcO4iM=
+			3mS9uZarrDrh+qreYc2gKUGX++o=
 			</data>
 			<key>hash2</key>
 			<data>
-			1+YfTbtnqw8+RAcuKA6d0+zszrDSHIcODJgORFThxlg=
+			TIOqicI9IBFx1qdys7feiDkRxilOduTONlAFmO8C+P8=
 			</data>
 		</dict>
 		<key>Headers/ITPSRemotePhotographyAbility.h</key>
@@ -5729,11 +5729,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8xKRXk3lTzw6tZQV7KKfuLZlibU=
+			4R+uLSzlWORimoCIn5ZdVrclZII=
 			</data>
 			<key>hash2</key>
 			<data>
-			f2EMo0AkBtw07IYpI/tvxxKCyx+tUQI6j/R5IVjrSBA=
+			xrNX4FZolqCcpnMckhtn4ZCh03T8FCZQPSFc8YM1ctI=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -5762,11 +5762,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ze2TB4pAflPyQ8Lqb8ez9YvrDW0=
+			EhXy1L1PzFlDJk7FL6BUdRYx++Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			XPL2cPxQ5MwBXx89xxRUo2Nx6zfkxE5V9oGUrngLP68=
+			vw29Qcxi4qGjmGlZGXCqGN3WcuXGL42h//aQGQS0qNk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
