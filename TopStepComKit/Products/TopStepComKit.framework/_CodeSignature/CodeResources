@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		m0bE8gEg6qqmovlqMok9OUU4zqw=
+		iZhSHiF7QDKtkUjY1Jvly0WxoPo=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		3sq+kwB7bDeIsBFaMu09c36IBFg=
+		bXE+KOrgIwsvRh/LS2hv5fXkoPM=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1520,7 +1520,7 @@
 		</data>
 		<key>Headers/ITPSConnectorAbility.h</key>
 		<data>
-		+VZtC18qIsAJoyXlB1dyDs1ENB0=
+		Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
 		</data>
 		<key>Headers/ITPSContactAbility.h</key>
 		<data>
@@ -1616,7 +1616,7 @@
 		</data>
 		<key>Headers/ITPSSynchronousDataAbility.h</key>
 		<data>
-		mz65NcfcbcK8oW5uo9jCebWBWwM=
+		EXF71W4BCmwkZNk1BdkUXvksbFE=
 		</data>
 		<key>Headers/ITPSWearBaseAbility.h</key>
 		<data>
@@ -1680,7 +1680,7 @@
 		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
-		dXPsOpDpl5tHQIE6SpQpOOFT7CE=
+		5FfEg1nASBK7G1Q1lFvtC+ZYIG4=
 		</data>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<data>
@@ -4673,11 +4673,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m0bE8gEg6qqmovlqMok9OUU4zqw=
+			iZhSHiF7QDKtkUjY1Jvly0WxoPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			wEXN0nMd/xMlloUlPa04if/ztguWavdZCpQ+hz3g6NU=
+			XWBlMnAby4j0kINbo8d/L3tbapLTZv/Y2H6FV8hKPiU=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4706,11 +4706,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3sq+kwB7bDeIsBFaMu09c36IBFg=
+			bXE+KOrgIwsvRh/LS2hv5fXkoPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			tebDjkQTkcUWPMKzBMGDyYr3pjC+sqR9cwAt9brnOd8=
+			SSxAU/wGpcik5jWcEH3knQE0BIm9OSJzmEBvsmFitOE=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -4772,11 +4772,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+VZtC18qIsAJoyXlB1dyDs1ENB0=
+			Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0UEvmxfZcl/jzAWTD7HPCL9iktmbu055wSLM8OTpXbs=
+			DnvEoX7J8vtUNAEy54DY4NsgjXoCYwhUWeIK1y4a0eg=
 			</data>
 		</dict>
 		<key>Headers/ITPSContactAbility.h</key>
@@ -5036,11 +5036,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mz65NcfcbcK8oW5uo9jCebWBWwM=
+			EXF71W4BCmwkZNk1BdkUXvksbFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			NgzotN0rknd307KolttHqshg+MHRjVd3SkatQcsxSxw=
+			WyAE4ZzWPQHLlgX8T5/dMdfO2XnJ8fgtogwi9WpMsAg=
 			</data>
 		</dict>
 		<key>Headers/ITPSWearBaseAbility.h</key>
@@ -5212,11 +5212,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dXPsOpDpl5tHQIE6SpQpOOFT7CE=
+			5FfEg1nASBK7G1Q1lFvtC+ZYIG4=
 			</data>
 			<key>hash2</key>
 			<data>
-			rtI69g8IRgiCuiGVcqEzKEbhS0gnw/KkIahB18Akpl8=
+			7JBhqlw7BpY3I9drxGAXDI2EYWD22V9rwXmmR+Txlkk=
 			</data>
 		</dict>
 		<key>Headers/TPSDialProgressModel.h</key>

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FwAlarmModel.h</key>
 		<data>
-		XOEWa3q/F3J6s5bE/zSqGwaiIpo=
+		IWhkfbxklS+nCAYDyUTs+64h0KQ=
 		</data>
 		<key>Headers/FwAlbumUpdateModel.h</key>
 		<data>
@@ -34,7 +34,11 @@
 		</data>
 		<key>Headers/FwDevInfoModel.h</key>
 		<data>
-		lt0WR3eEf+MgHbnCTYqBaY+haJY=
+		FXJ1ikeWlUMrMCjo01Co8GWWwGU=
+		</data>
+		<key>Headers/FwDevLimitModel.h</key>
+		<data>
+		RTygHfSadaYuH8QSKICGm0+jhuE=
 		</data>
 		<key>Headers/FwDialModel.h</key>
 		<data>
@@ -218,7 +222,7 @@
 		</data>
 		<key>Headers/IFwAlarmAbility.h</key>
 		<data>
-		bKTivEQJaq5zL64sjuazgJ2+AVU=
+		PtyUBWRwbUt5m7plXGrYby0rxq8=
 		</data>
 		<key>Headers/IFwAlbumAbility.h</key>
 		<data>
@@ -851,11 +855,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XOEWa3q/F3J6s5bE/zSqGwaiIpo=
+			IWhkfbxklS+nCAYDyUTs+64h0KQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZZrbOwx0QYwbBACouBiWp25ajPMD7jNgr4nLT9pfA+g=
+			6SkD6Q3b2LtFlyOJhql9/5kpQwyTa7Se0pQaCJs9cfE=
 			</data>
 		</dict>
 		<key>Headers/FwAlbumUpdateModel.h</key>
@@ -928,11 +932,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lt0WR3eEf+MgHbnCTYqBaY+haJY=
+			FXJ1ikeWlUMrMCjo01Co8GWWwGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			OdvyNOaeGAxbQ+TG4SmP/almhixvErynuSTxR3J00/k=
+			NrTAz7mBXkEfD9wjnoVSWaTEor2BvwSOJINAIZceHX8=
+			</data>
+		</dict>
+		<key>Headers/FwDevLimitModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RTygHfSadaYuH8QSKICGm0+jhuE=
+			</data>
+			<key>hash2</key>
+			<data>
+			kWKmLvf1lsTx8iZz/K2YvmT3ASdnujSdvpZxATEktNA=
 			</data>
 		</dict>
 		<key>Headers/FwDialModel.h</key>
@@ -1434,11 +1449,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bKTivEQJaq5zL64sjuazgJ2+AVU=
+			PtyUBWRwbUt5m7plXGrYby0rxq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			XKUs5+m5oFizKddhRHxoIiNqFyWWRq7W3JQvANe8yUY=
+			qWfBM0WUhVutJuqS/eAYOsU8deG9j4Cz6La5irP9eDw=
 			</data>
 		</dict>
 		<key>Headers/IFwAlbumAbility.h</key>
