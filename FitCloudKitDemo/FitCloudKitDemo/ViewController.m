@@ -68,6 +68,11 @@
     }
     
     [self registerNotificationObsever];
+    NSString* lastMac = [TPS_Tools getUserByKey:@"lastMac"];
+    if(lastMac){
+        TPSExtraConnectParam* extraParam = [[TPSExtraConnectParam alloc] initWithUserId:@"123456789" gender:0 age:18 height:180 weight:65];
+        [[TPSSdk share].connectorAbility reconnectWithMac:lastMac extraParam:extraParam];
+    }
 }
 
 -(void) registerNotificationObsever{
