@@ -20,12 +20,9 @@ typedef void(^FwAlarmListCallback)(NSArray<FwAlarmModel*>* _Nullable alarmList);
 +(instancetype)share;
 
 -(void)getAlarmList:(FwAlarmListCallback)block;
-
--(void)sendAlarmList:(NSArray<FwAlarmModel*>*)alarmList success:(void(^)(NSArray*alarmList))success;
-
+-(void)sendAlarmList:(NSArray<FwAlarmModel*>*)alarmList block:(FwSendMsgResult)block;
 -(RACSubject*)observeAlarmChange;
 
-- (NSString *)newClockId;
 
 @end
 

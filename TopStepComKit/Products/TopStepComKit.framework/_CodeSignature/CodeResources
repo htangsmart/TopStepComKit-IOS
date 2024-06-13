@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		U/dtPvxnqc2f2OjpFMzYwe9N484=
+		rCktNQeAZVk44PQ72ICWjFXc3AY=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		WxrGyJX3itPCNuVEgni5cFuC6F0=
+		agjbBIVijH0hjs97zTH7NiGVwMg=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1504,7 +1504,7 @@
 		</data>
 		<key>Headers/ITPSAlarmAbility.h</key>
 		<data>
-		Frcrs8rbVbI5KgLyjxSkeZosc2c=
+		/d+NArnij4tDkh6rTSEmXuirwX0=
 		</data>
 		<key>Headers/ITPSAlbumAbility.h</key>
 		<data>
@@ -1520,7 +1520,7 @@
 		</data>
 		<key>Headers/ITPSConnectorAbility.h</key>
 		<data>
-		Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
+		+VZtC18qIsAJoyXlB1dyDs1ENB0=
 		</data>
 		<key>Headers/ITPSContactAbility.h</key>
 		<data>
@@ -1564,7 +1564,7 @@
 		</data>
 		<key>Headers/ITPSMiscSettingAbility.h</key>
 		<data>
-		qMFYPlO8M1ekCzaXy9a6ty59ieI=
+		qsyCYoJg8MtN2V8njT0QOxbkpr8=
 		</data>
 		<key>Headers/ITPSMusicAbility.h</key>
 		<data>
@@ -1616,7 +1616,7 @@
 		</data>
 		<key>Headers/ITPSSynchronousDataAbility.h</key>
 		<data>
-		EXF71W4BCmwkZNk1BdkUXvksbFE=
+		pLkrTZqMF4pdQ3PBJopRsqojAo0=
 		</data>
 		<key>Headers/ITPSWearBaseAbility.h</key>
 		<data>
@@ -1668,11 +1668,7 @@
 		</data>
 		<key>Headers/TPSDevInfoModel.h</key>
 		<data>
-		kE0GfxKiMCmQ1DE+7L7RJ+KtLq0=
-		</data>
-		<key>Headers/TPSDevLimitModel.h</key>
-		<data>
-		cBqBod2yMaRFHqpqFwtOCjliSzk=
+		sscHIx1UJ5kWsPPb6/ijRHiFBHU=
 		</data>
 		<key>Headers/TPSDevice.h</key>
 		<data>
@@ -1680,7 +1676,7 @@
 		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
-		5FfEg1nASBK7G1Q1lFvtC+ZYIG4=
+		Hz3CstZoJ6oQbp6EsxGaFiK93f4=
 		</data>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<data>
@@ -1856,7 +1852,7 @@
 		</data>
 		<key>Headers/TPS_Tools.h</key>
 		<data>
-		FMrdxcFmNsvL1nNqD+V3TXbhpGc=
+		8A2stpH+gzdEjZ1YSrXXKXwQFEQ=
 		</data>
 		<key>Headers/TopStepComKit-Swift.h</key>
 		<data>
@@ -1868,23 +1864,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fRH2F+boMTZZFD8jrFhlqzxMnTk=
+		pYh+SfX7VWpOFBWYQBJNRYr/k3M=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		4R+uLSzlWORimoCIn5ZdVrclZII=
+		nwE+dloaneRBa2CptepGdTEP7LM=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		fYqSYKODZxzwStWXYD0+l3vhOxQ=
+		</data>
+		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		XW9irFLWvr+l7WpCKXPMXTibJVg=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		GjpdHH5jsCZWuNTVeLLJvXQhSxg=
 		</data>
+		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		XW9irFLWvr+l7WpCKXPMXTibJVg=
+		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EhXy1L1PzFlDJk7FL6BUdRYx++Q=
+		T44Z4OEQEKFNb2ZHt84Hrha6YR4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4673,11 +4677,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U/dtPvxnqc2f2OjpFMzYwe9N484=
+			rCktNQeAZVk44PQ72ICWjFXc3AY=
 			</data>
 			<key>hash2</key>
 			<data>
-			NH7C30jX6CxhS+U5kZxjECUNMlKzv2d44P8srEJHiPM=
+			nqqVRIcxSKSuGiYi6X9Bn18w9CSNe7Gw0ldG+OJ0LdY=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4706,11 +4710,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WxrGyJX3itPCNuVEgni5cFuC6F0=
+			agjbBIVijH0hjs97zTH7NiGVwMg=
 			</data>
 			<key>hash2</key>
 			<data>
-			45s0ZiCzOSX7KzFYl80tKLWx7ohY3U0jxBDSM9GDWcM=
+			4JyjO2Oebe1QTzcgTeQtfWxmGK9+xw8/pchVStmqNzA=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -4728,11 +4732,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Frcrs8rbVbI5KgLyjxSkeZosc2c=
+			/d+NArnij4tDkh6rTSEmXuirwX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			drXFBD0qKTx4XUwK4TppW/BMTsTsbHjgcgsIMjRVodo=
+			zUG8EbsVbLqKhLGqEutqU38ryhbkBoHSLBj/0yZPFoQ=
 			</data>
 		</dict>
 		<key>Headers/ITPSAlbumAbility.h</key>
@@ -4772,11 +4776,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
+			+VZtC18qIsAJoyXlB1dyDs1ENB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			DnvEoX7J8vtUNAEy54DY4NsgjXoCYwhUWeIK1y4a0eg=
+			0UEvmxfZcl/jzAWTD7HPCL9iktmbu055wSLM8OTpXbs=
 			</data>
 		</dict>
 		<key>Headers/ITPSContactAbility.h</key>
@@ -4893,11 +4897,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qMFYPlO8M1ekCzaXy9a6ty59ieI=
+			qsyCYoJg8MtN2V8njT0QOxbkpr8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fp4vdYZRfwDY58nW6+3kObWjOGzXcdkynZklqQYnVVM=
+			Z53PSngiayhINBv2ZdzTJ8empPaQAhCP2fwKv+d5DME=
 			</data>
 		</dict>
 		<key>Headers/ITPSMusicAbility.h</key>
@@ -5036,11 +5040,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EXF71W4BCmwkZNk1BdkUXvksbFE=
+			pLkrTZqMF4pdQ3PBJopRsqojAo0=
 			</data>
 			<key>hash2</key>
 			<data>
-			WyAE4ZzWPQHLlgX8T5/dMdfO2XnJ8fgtogwi9WpMsAg=
+			2cH7uEm6bXe4rTE2KqFHAGwVsbZgccbhx0SzTVVcRas=
 			</data>
 		</dict>
 		<key>Headers/ITPSWearBaseAbility.h</key>
@@ -5179,22 +5183,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kE0GfxKiMCmQ1DE+7L7RJ+KtLq0=
+			sscHIx1UJ5kWsPPb6/ijRHiFBHU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ga0nH2VhVYwudCHX1VCnz2CfhKLkV2d/8NcLCTIlgMM=
-			</data>
-		</dict>
-		<key>Headers/TPSDevLimitModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cBqBod2yMaRFHqpqFwtOCjliSzk=
-			</data>
-			<key>hash2</key>
-			<data>
-			NnMuylykAX7u+ui38OYFqjMV2xVhdPbtrZ3dHdC6qzI=
+			lP/kyvM9MMNo2oeeG95RENlbQ/HFpEbrSQoOi1q1Dys=
 			</data>
 		</dict>
 		<key>Headers/TPSDevice.h</key>
@@ -5212,11 +5205,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5FfEg1nASBK7G1Q1lFvtC+ZYIG4=
+			Hz3CstZoJ6oQbp6EsxGaFiK93f4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7JBhqlw7BpY3I9drxGAXDI2EYWD22V9rwXmmR+Txlkk=
+			5vADq0AHRBmQ7lmvrIS6u9rJoPgLX2QkjWwbxf1eqHA=
 			</data>
 		</dict>
 		<key>Headers/TPSDialProgressModel.h</key>
@@ -5696,11 +5689,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FMrdxcFmNsvL1nNqD+V3TXbhpGc=
+			8A2stpH+gzdEjZ1YSrXXKXwQFEQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zuSMGIPohUwrrDxtP2CAuZqh9Srh3oFtGx8tFqz10ow=
+			xPk0WucaAAKcm8DyhZTQWVGSVTIEb6cn7mT5ibHp7lY=
 			</data>
 		</dict>
 		<key>Headers/TopStepComKit-Swift.h</key>
@@ -5729,22 +5722,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4R+uLSzlWORimoCIn5ZdVrclZII=
+			nwE+dloaneRBa2CptepGdTEP7LM=
 			</data>
 			<key>hash2</key>
 			<data>
-			xrNX4FZolqCcpnMckhtn4ZCh03T8FCZQPSFc8YM1ctI=
+			x7nvcs2l8MkwPW1FeKtvFEJ9D+nnM0YwoRSW2VOkt2c=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			fYqSYKODZxzwStWXYD0+l3vhOxQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			7xQWu5Mb1T19Yqs2YgPTwMzS2ZFkA01iIfSEWRj42zw=
+			</data>
+		</dict>
+		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XW9irFLWvr+l7WpCKXPMXTibJVg=
+			</data>
+			<key>hash2</key>
+			<data>
+			OsRpCfQ6chCOYH0RFAz7vyZP4rmKpQk35wF3DZJBNVM=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -5758,15 +5762,26 @@
 			HbqGqBMQnvpsYTyyxvej5pp8KbuvjfoffNbZdXa2D9o=
 			</data>
 		</dict>
+		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XW9irFLWvr+l7WpCKXPMXTibJVg=
+			</data>
+			<key>hash2</key>
+			<data>
+			OsRpCfQ6chCOYH0RFAz7vyZP4rmKpQk35wF3DZJBNVM=
+			</data>
+		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EhXy1L1PzFlDJk7FL6BUdRYx++Q=
+			T44Z4OEQEKFNb2ZHt84Hrha6YR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			vw29Qcxi4qGjmGlZGXCqGN3WcuXGL42h//aQGQS0qNk=
+			9m2Da3Oit4c/LMi3rUMMvp/MZUZ5w2UrUAEgepfVQGc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
