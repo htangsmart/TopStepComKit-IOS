@@ -18,28 +18,102 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    __weak typeof(self) weakSelf = self;
+    if (indexPath.row == 0) {
+        // 获取心率监测配置
+        [TPSSdk.share.heartRateDataAbility getHrConfig:^(TPSHrConfigModel * _Nullable configModel) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                ConsoleResultToastTip(weakSelf.view);
+            });
+            XLOG_INFO(@"autoMonitorEnable: %@\n autoMonitorStartTime: %d\n autoMonitorEndTime：%d\n autoMonitorInterval: %d", configModel.autoMonitorEnable, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.autoMonitorInterval);
+        }];
+    } else if (indexPath.row == 1) {
+        // 设置心率监测配置
+        TPSHrConfigModel *model = [TPSHrConfigModel new];
+        model.autoMonitorEnable = YES;
+        model.autoMonitorStartTime = 600;
+        model.autoMonitorEndTime = 1200;
+        model.autoMonitorInterval = 1;
+        model.sportAlarmEnable = YES;
+        model.maxSportAlarmHr = 180;
+        model.minSportAlarmHr = 60;
+        model.restAlarmEnable = YES;
+        model.maxRestAlarmHr = 120;
+        model.minRestAlarmHr = 40;
+        [TPSSdk.share.heartRateDataAbility setHrConfig:model block:^(BOOL isSendOK) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (isSendOK) {
+                    OpResultToastTip(weakSelf.view, YES);
+                } else {
+                    OpResultToastTip(weakSelf.view, NO);
+                }
+            });
+        }];
+    } else if (indexPath.row == 2) {
+        // 获取血氧监测配置
+        [TPSSdk.share.spo2Ability getSpo2Config:^(TPSSpo2ConfigModel * _Nullable configModel) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                ConsoleResultToastTip(weakSelf.view);
+            });
+            XLOG_INFO(@"autoMonitorEnable: %@\n autoMonitorStartTime: %d\n autoMonitorEndTime：%d\n autoMonitorInterval: %d", configModel.autoMonitorEnable, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.autoMonitorInterval);
+        }];
+    } else if (indexPath.row == 3) {
+        // 设置血氧监测配置
+        TPSSpo2ConfigModel *model = [TPSSpo2ConfigModel new];
+        model.autoMonitorEnable = YES;
+        model.autoMonitorStartTime = 600;
+        model.autoMonitorEndTime = 1200;
+        model.autoMonitorInterval = 1;
+        model.alarmEnable = YES;
+        model.maxAlarmSpo2 = 99;
+        model.minAlarmSpo2 = 90;
+        model.restAlarmEnable = YES;
+        model.maxRestAlarmSpo2 = 99;
+        model.minRestAlarmSpo2 = 90;
+        [TPSSdk.share.spo2Ability setSpo2Config:model block:^(BOOL isSendOK) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (isSendOK) {
+                    OpResultToastTip(weakSelf.view, YES);
+                } else {
+                    OpResultToastTip(weakSelf.view, NO);
+                }
+            });
+        }];
+    } else if (indexPath.row == 4) {
+        // 获取压力监测配置
+        [TPSSdk.share.stressDataAbility getHrConfig:^(TPSStressConfigModel * _Nullable configModel) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                ConsoleResultToastTip(weakSelf.view);
+            });
+            XLOG_INFO(@"autoMonitorEnable: %@\n autoMonitorStartTime: %d\n autoMonitorEndTime：%d\n autoMonitorInterval: %d", configModel.autoMonitorEnable, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.autoMonitorInterval);
+        }];
+    } else if (indexPath.row == 5) {
+        // 设置压力监测配置
+        TPSStressConfigModel *model = [TPSStressConfigModel new];
+        model.autoMonitorEnable = YES;
+        model.autoMonitorStartTime = 600;
+        model.autoMonitorEndTime = 1200;
+        model.autoMonitorInterval = 1;
+        model.alarmEnable = YES;
+        model.maxAlarmStress = 100;
+        model.minAlarmStress = 60;
+        model.restAlarmEnable = YES;
+        model.maxRestAlarmStress = 80;
+        model.minRestAlarmStress = 40;
+        [TPSSdk.share.stressDataAbility setHrConfig:model block:^(BOOL isSendOK) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (isSendOK) {
+                    OpResultToastTip(weakSelf.view, YES);
+                } else {
+                    OpResultToastTip(weakSelf.view, NO);
+                }
+            });
+        }];
+    }
 }
-
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 
 - (IBAction)OnGoBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
