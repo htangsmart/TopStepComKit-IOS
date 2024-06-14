@@ -1484,7 +1484,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		rCktNQeAZVk44PQ72ICWjFXc3AY=
+		aiewKb0eR0hOsABvAU1MXmjLBqY=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1496,7 +1496,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		agjbBIVijH0hjs97zTH7NiGVwMg=
+		Ql6hQdF6N3M5eVZ2fpFfS/O9qd4=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1504,7 +1504,7 @@
 		</data>
 		<key>Headers/ITPSAlarmAbility.h</key>
 		<data>
-		/d+NArnij4tDkh6rTSEmXuirwX0=
+		Frcrs8rbVbI5KgLyjxSkeZosc2c=
 		</data>
 		<key>Headers/ITPSAlbumAbility.h</key>
 		<data>
@@ -1520,7 +1520,7 @@
 		</data>
 		<key>Headers/ITPSConnectorAbility.h</key>
 		<data>
-		+VZtC18qIsAJoyXlB1dyDs1ENB0=
+		Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
 		</data>
 		<key>Headers/ITPSContactAbility.h</key>
 		<data>
@@ -1616,7 +1616,7 @@
 		</data>
 		<key>Headers/ITPSSynchronousDataAbility.h</key>
 		<data>
-		pLkrTZqMF4pdQ3PBJopRsqojAo0=
+		EXF71W4BCmwkZNk1BdkUXvksbFE=
 		</data>
 		<key>Headers/ITPSWearBaseAbility.h</key>
 		<data>
@@ -1668,7 +1668,11 @@
 		</data>
 		<key>Headers/TPSDevInfoModel.h</key>
 		<data>
-		sscHIx1UJ5kWsPPb6/ijRHiFBHU=
+		kE0GfxKiMCmQ1DE+7L7RJ+KtLq0=
+		</data>
+		<key>Headers/TPSDevLimitModel.h</key>
+		<data>
+		cBqBod2yMaRFHqpqFwtOCjliSzk=
 		</data>
 		<key>Headers/TPSDevice.h</key>
 		<data>
@@ -1676,7 +1680,7 @@
 		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
-		Hz3CstZoJ6oQbp6EsxGaFiK93f4=
+		5FfEg1nASBK7G1Q1lFvtC+ZYIG4=
 		</data>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<data>
@@ -4677,11 +4681,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rCktNQeAZVk44PQ72ICWjFXc3AY=
+			aiewKb0eR0hOsABvAU1MXmjLBqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			nqqVRIcxSKSuGiYi6X9Bn18w9CSNe7Gw0ldG+OJ0LdY=
+			JelCVZpc3necueRD/2KgITQb0anYZBe/pO/f/ZsRTvE=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4710,11 +4714,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			agjbBIVijH0hjs97zTH7NiGVwMg=
+			Ql6hQdF6N3M5eVZ2fpFfS/O9qd4=
 			</data>
 			<key>hash2</key>
 			<data>
-			4JyjO2Oebe1QTzcgTeQtfWxmGK9+xw8/pchVStmqNzA=
+			iYHRhaNDdM/EiYHHHdHgkwMYkTgMaND6rQL+VMWrUUU=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -4732,11 +4736,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/d+NArnij4tDkh6rTSEmXuirwX0=
+			Frcrs8rbVbI5KgLyjxSkeZosc2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			zUG8EbsVbLqKhLGqEutqU38ryhbkBoHSLBj/0yZPFoQ=
+			drXFBD0qKTx4XUwK4TppW/BMTsTsbHjgcgsIMjRVodo=
 			</data>
 		</dict>
 		<key>Headers/ITPSAlbumAbility.h</key>
@@ -4776,11 +4780,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+VZtC18qIsAJoyXlB1dyDs1ENB0=
+			Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0UEvmxfZcl/jzAWTD7HPCL9iktmbu055wSLM8OTpXbs=
+			DnvEoX7J8vtUNAEy54DY4NsgjXoCYwhUWeIK1y4a0eg=
 			</data>
 		</dict>
 		<key>Headers/ITPSContactAbility.h</key>
@@ -5040,11 +5044,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pLkrTZqMF4pdQ3PBJopRsqojAo0=
+			EXF71W4BCmwkZNk1BdkUXvksbFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			2cH7uEm6bXe4rTE2KqFHAGwVsbZgccbhx0SzTVVcRas=
+			WyAE4ZzWPQHLlgX8T5/dMdfO2XnJ8fgtogwi9WpMsAg=
 			</data>
 		</dict>
 		<key>Headers/ITPSWearBaseAbility.h</key>
@@ -5183,11 +5187,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sscHIx1UJ5kWsPPb6/ijRHiFBHU=
+			kE0GfxKiMCmQ1DE+7L7RJ+KtLq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			lP/kyvM9MMNo2oeeG95RENlbQ/HFpEbrSQoOi1q1Dys=
+			ga0nH2VhVYwudCHX1VCnz2CfhKLkV2d/8NcLCTIlgMM=
+			</data>
+		</dict>
+		<key>Headers/TPSDevLimitModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cBqBod2yMaRFHqpqFwtOCjliSzk=
+			</data>
+			<key>hash2</key>
+			<data>
+			NnMuylykAX7u+ui38OYFqjMV2xVhdPbtrZ3dHdC6qzI=
 			</data>
 		</dict>
 		<key>Headers/TPSDevice.h</key>
@@ -5205,11 +5220,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Hz3CstZoJ6oQbp6EsxGaFiK93f4=
+			5FfEg1nASBK7G1Q1lFvtC+ZYIG4=
 			</data>
 			<key>hash2</key>
 			<data>
-			5vADq0AHRBmQ7lmvrIS6u9rJoPgLX2QkjWwbxf1eqHA=
+			7JBhqlw7BpY3I9drxGAXDI2EYWD22V9rwXmmR+Txlkk=
 			</data>
 		</dict>
 		<key>Headers/TPSDialProgressModel.h</key>

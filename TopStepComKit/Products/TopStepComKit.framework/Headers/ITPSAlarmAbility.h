@@ -20,8 +20,10 @@ typedef void(^TPSAlarmListCallback)(NSArray<TPSAlarmModel*>* _Nullable alarmList
 +(instancetype)share;
 
 -(void)getAlarmList:(TPSAlarmListCallback)block;
--(void)sendAlarmList:(NSArray<TPSAlarmModel*>*)alarmList block:(TPSSendMsgResult)block;
+-(void)sendAlarmList:(NSArray<TPSAlarmModel*>*)alarmList block:(void(^)(NSArray *alarmList))block;
 -(RACSubject*)observeAlarmChange;
+
+- (NSString *)newClockId;
 
 @end
 

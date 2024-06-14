@@ -4,9 +4,11 @@
 //
 //  Created by Topstep on 2023/12/16.
 //
-
+#import <flywearsdk/FwDevLimitModel.h>
 #ifndef DevInfoModel_h
 #define DevInfoModel_h
+
+
 
 @interface FwDevInfoModel : NSObject
 
@@ -34,6 +36,10 @@
 @property(nonatomic, strong) NSString* screen_size;
 
 @property(nonatomic, strong) NSString* dialPreview;
+
+@property(nonatomic, strong) FwDevLimitModel* limit;
+
+
 
 
 @property (nonatomic,assign) CGFloat dialPreviewSize_width;
