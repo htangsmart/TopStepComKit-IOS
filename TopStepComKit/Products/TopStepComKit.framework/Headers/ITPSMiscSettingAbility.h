@@ -30,7 +30,7 @@ typedef void(^TPSMiscSettingCallback)(TPSMiscSettingModel* miscSettingModel);
  */
 -(void)sendTarget_sit_warn:(TPSMiscSettingModel_State)target_sit_warn;
 /*
- * @brief 运动单位
+ * @brief 加强检测（对不同皮肤进行调整）
  */
 -(void)sendHt_health_enhanced:(TPSMiscSettingModel_State)ht_health_enhanced;
 /*
