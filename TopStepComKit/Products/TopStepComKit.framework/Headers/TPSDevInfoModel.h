@@ -31,14 +31,21 @@
 @property(nonatomic, strong) NSString* projectId;
 /// mac地址 不带冒号
 @property(nonatomic, strong) NSString* mac;
+
 @property(nonatomic, strong) NSString* deviceModel;
+
 @property(nonatomic, strong) NSString* deviceSn;
 
 @property(nonatomic, strong) NSString* device_model;
+
 @property(nonatomic, strong) NSString* device_sn;
+
 @property(nonatomic, strong) NSString* os_version;
+
 @property(nonatomic, strong) NSString* device_manufacturer;
+
 @property(nonatomic, strong) NSString* screen_shape;
+
 @property(nonatomic, strong) NSString* screen_size;
 
 @property(nonatomic, strong) TPSDevLimitModel* limit;

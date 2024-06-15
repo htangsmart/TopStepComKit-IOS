@@ -10,7 +10,7 @@
 
 @class FwRemindDistrubModel;
 @class FitCloudDNDSetting;
-
+@class WMNoDisturb;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TPSRemindDistrubModel : NSObject
@@ -30,6 +30,9 @@ NS_ASSUME_NONNULL_BEGIN
 //+ (TPSRemindDistrubModel *)configModelWithFitCloudRemind:(FitCloudPersonalizedReminderObject *)remindObject;
 
 - (NSDictionary *)toDictonary;
+
+
++ (TPSRemindDistrubModel *)distrubModelWithWMDistrub:(WMNoDisturb *)distrubModel;
 
 @end
 

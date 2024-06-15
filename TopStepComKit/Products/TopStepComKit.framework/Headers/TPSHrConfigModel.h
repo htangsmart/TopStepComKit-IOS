@@ -5,11 +5,15 @@
 //  Created by Topstep on 2024/3/21.
 //
 
+#import <TopStepComKit/TSJConnectorAbility.h>
+
 #ifndef TPSHrConfigModel_h
 #define TPSHrConfigModel_h
 
 @class FwHrConfigModel;
 @class FitCloudHRAlarmObject;
+@class WMHeartRateConfigModel;
+
 @interface TPSHrConfigModel : NSObject
 
 -(instancetype)initWithFwModel:(FwHrConfigModel*)fwModel;
@@ -53,6 +57,11 @@
 /// 静息最高心率
 @property (nonatomic, assign) int maxRestAlarmHr;
 
+
+
+- (instancetype)initWithWMModel:(WMHeartRateConfigModel *)wmModel;
+
+-(WMHeartRateConfigModel*)toWMModel;
 
 
 @end
