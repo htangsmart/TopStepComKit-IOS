@@ -28,21 +28,21 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 ConsoleResultToastTip(weakSelf.view);
             });
-            XLOG_INFO(@"autoMonitorEnable: %@\n autoMonitorStartTime: %d\n autoMonitorEndTime：%d\n autoMonitorInterval: %d", configModel.autoMonitorEnable, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.autoMonitorInterval);
+            XLOG_INFO(@"sportAlarmEnable: %d maxSportAlarmHr: %d restAlarmEnable：%d maxRestAlarmHr: %d", configModel.sportAlarmEnable, configModel.maxSportAlarmHr, configModel.restAlarmEnable, configModel.maxRestAlarmHr);
         }];
     } else if (indexPath.row == 1) {
         // 设置心率监测配置
         TPSHrConfigModel *model = [TPSHrConfigModel new];
-        model.autoMonitorEnable = YES;
-        model.autoMonitorStartTime = 600;
-        model.autoMonitorEndTime = 1200;
-        model.autoMonitorInterval = 1;
+//        model.autoMonitorEnable = YES;
+//        model.autoMonitorStartTime = 600;
+//        model.autoMonitorEndTime = 1200;
+//        model.autoMonitorInterval = 1;
         model.sportAlarmEnable = YES;
         model.maxSportAlarmHr = 180;
-        model.minSportAlarmHr = 60;
+//        model.minSportAlarmHr = 60;
         model.restAlarmEnable = YES;
         model.maxRestAlarmHr = 120;
-        model.minRestAlarmHr = 40;
+//        model.minRestAlarmHr = 40;
         [TPSSdk.share.heartRateDataAbility setHrConfig:model block:^(BOOL isSendOK) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 if (isSendOK) {
@@ -58,7 +58,7 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 ConsoleResultToastTip(weakSelf.view);
             });
-            XLOG_INFO(@"autoMonitorEnable: %@\n autoMonitorStartTime: %d\n autoMonitorEndTime：%d\n autoMonitorInterval: %d", configModel.autoMonitorEnable, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.autoMonitorInterval);
+            XLOG_INFO(@"autoMonitorEnable: %d autoMonitorStartTime: %d autoMonitorEndTime：%d autoMonitorInterval: %d", configModel.autoMonitorEnable, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.autoMonitorInterval);
         }];
     } else if (indexPath.row == 3) {
         // 设置血氧监测配置
@@ -88,7 +88,7 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 ConsoleResultToastTip(weakSelf.view);
             });
-            XLOG_INFO(@"autoMonitorEnable: %@\n autoMonitorStartTime: %d\n autoMonitorEndTime：%d\n autoMonitorInterval: %d", configModel.autoMonitorEnable, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.autoMonitorInterval);
+            XLOG_INFO(@"autoMonitorEnable: %d autoMonitorStartTime: %d autoMonitorEndTime：%d autoMonitorInterval: %d", configModel.autoMonitorEnable, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.autoMonitorInterval);
         }];
     } else if (indexPath.row == 5) {
         // 设置压力监测配置

@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <TopStepComKit/ITPSWearBaseAbility.h>
+#import <TopStepComKit/TPSLanguageModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
