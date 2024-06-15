@@ -7,18 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B7B5D9B2C1165D100B7D12F /* flywearsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D962C1165D100B7D12F /* flywearsdk.framework */; };
-		4B7B5D9C2C1165D100B7D12F /* flywearsdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D962C1165D100B7D12F /* flywearsdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B7B5D9D2C1165D100B7D12F /* h264encoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D972C1165D100B7D12F /* h264encoder.framework */; };
-		4B7B5D9E2C1165D100B7D12F /* h264encoder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D972C1165D100B7D12F /* h264encoder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B7B5D9F2C1165D100B7D12F /* persimwearSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D982C1165D100B7D12F /* persimwearSDK.framework */; };
-		4B7B5DA02C1165D100B7D12F /* persimwearSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D982C1165D100B7D12F /* persimwearSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B7B5DA12C1165D100B7D12F /* UNIWatchMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D992C1165D100B7D12F /* UNIWatchMate.framework */; };
-		4B7B5DA22C1165D100B7D12F /* UNIWatchMate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D992C1165D100B7D12F /* UNIWatchMate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B7B5DA32C1165D100B7D12F /* SJWatchLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */; };
-		4B7B5DA42C1165D100B7D12F /* SJWatchLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */; };
-		7217CE3FFC6FFDF025355DC3 /* libPods-FitCloudKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1577722496F42A93B414DFF /* libPods-FitCloudKitDemo.a */; };
 		8902EA55230C2B97003FF418 /* DemoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902EA54230C2B97003FF418 /* DemoListController.m */; };
 		891FA8D6231A98AD0097E996 /* SedentaryRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D5231A98AD0097E996 /* SedentaryRemindController.m */; };
 		891FA8D9231AAAA20097E996 /* DrinkRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D8231AAAA20097E996 /* DrinkRemindController.m */; };
@@ -53,27 +42,11 @@
 		A5885A9DCCF1699BB2325B44 /* Pods_FitCloudKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD583F0D1DC79CFA659ACFB4 /* Pods_FitCloudKitDemo.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		4B7B5DA52C1165D100B7D12F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4B7B5DA42C1165D100B7D12F /* SJWatchLib.framework in Embed Frameworks */,
-				4B7B5DA22C1165D100B7D12F /* UNIWatchMate.framework in Embed Frameworks */,
-				4B7B5D9C2C1165D100B7D12F /* flywearsdk.framework in Embed Frameworks */,
-				4B7B5D9E2C1165D100B7D12F /* h264encoder.framework in Embed Frameworks */,
-				4B7B5DA02C1165D100B7D12F /* persimwearSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		1511A057B1CD59EA0B4E8EED /* Pods-FitCloudKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCloudKitDemo.release.xcconfig"; path = "Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4674C6148BD9C164A509FD6C /* Pods-FitCloudKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCloudKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4B17E0232C11B7F8002A7E94 /* HistoryDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDataController.h; sourceTree = "<group>"; };
+		4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDataController.m; sourceTree = "<group>"; };
 		4B7B5D862C1162DD00B7D12F /* UNIWatchMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UNIWatchMate.framework; path = ../TopStepComKit/Products/TopStepComKit.framework/Frameworks/UNIWatchMate.framework; sourceTree = "<group>"; };
 		4B7B5D872C1162DD00B7D12F /* flywearsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flywearsdk.framework; path = ../TopStepComKit/Products/TopStepComKit.framework/Frameworks/flywearsdk.framework; sourceTree = "<group>"; };
 		4B7B5D882C1162DD00B7D12F /* h264encoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = h264encoder.framework; path = ../TopStepComKit/Products/TopStepComKit.framework/Frameworks/h264encoder.framework; sourceTree = "<group>"; };
@@ -84,8 +57,6 @@
 		4B7B5D982C1165D100B7D12F /* persimwearSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = persimwearSDK.framework; path = ../TopStepComKit/OtherSDK/persimwearSDK.framework; sourceTree = "<group>"; };
 		4B7B5D992C1165D100B7D12F /* UNIWatchMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UNIWatchMate.framework; path = ../TopStepComKit/OtherSDK/UNIWatchMate.framework; sourceTree = "<group>"; };
 		4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SJWatchLib.framework; path = ../TopStepComKit/OtherSDK/SJWatchLib.framework; sourceTree = "<group>"; };
-		4B17E0232C11B7F8002A7E94 /* HistoryDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDataController.h; sourceTree = "<group>"; };
-		4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDataController.m; sourceTree = "<group>"; };
 		8902EA53230C2B97003FF418 /* DemoListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoListController.h; sourceTree = "<group>"; };
 		8902EA54230C2B97003FF418 /* DemoListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoListController.m; sourceTree = "<group>"; };
 		891FA8D4231A98AD0097E996 /* SedentaryRemindController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SedentaryRemindController.h; sourceTree = "<group>"; };
@@ -155,11 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7B5DA12C1165D100B7D12F /* UNIWatchMate.framework in Frameworks */,
-				4B7B5D9F2C1165D100B7D12F /* persimwearSDK.framework in Frameworks */,
-				4B7B5D9D2C1165D100B7D12F /* h264encoder.framework in Frameworks */,
-				4B7B5DA32C1165D100B7D12F /* SJWatchLib.framework in Frameworks */,
-				4B7B5D9B2C1165D100B7D12F /* flywearsdk.framework in Frameworks */,
 				A5885A9DCCF1699BB2325B44 /* Pods_FitCloudKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +298,6 @@
 				89A438AB22B0D19700555B98 /* Resources */,
 				9C8224D039CDEBB40E1AEF86 /* [CP] Copy Pods Resources */,
 				E615B22E5F84D41863426F21 /* [CP] Embed Pods Frameworks */,
-				4B7B5DA52C1165D100B7D12F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
