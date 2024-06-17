@@ -30,7 +30,7 @@
     {
         [self manualSyncData];
     }
-    else if(indexPath.row == 16)
+    else if(indexPath.row == 19)
     {
         [self otaTest];
     }

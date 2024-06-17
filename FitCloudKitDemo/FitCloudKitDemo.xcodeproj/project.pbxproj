@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */; };
 		4B7B5D9B2C1165D100B7D12F /* flywearsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D962C1165D100B7D12F /* flywearsdk.framework */; };
 		4B7B5D9C2C1165D100B7D12F /* flywearsdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D962C1165D100B7D12F /* flywearsdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4B7B5D9D2C1165D100B7D12F /* h264encoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D972C1165D100B7D12F /* h264encoder.framework */; };
@@ -17,8 +18,13 @@
 		4B7B5DA22C1165D100B7D12F /* UNIWatchMate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D992C1165D100B7D12F /* UNIWatchMate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4B7B5DA32C1165D100B7D12F /* SJWatchLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */; };
 		4B7B5DA42C1165D100B7D12F /* SJWatchLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */; };
-		7217CE3FFC6FFDF025355DC3 /* libPods-FitCloudKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1577722496F42A93B414DFF /* libPods-FitCloudKitDemo.a */; };
+		4BF7394B2C1AD2F300FF0FD8 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */; };
+		4BF7394E2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */; };
+		4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */; };
+		52CD395D2C1D6A4900085BFC /* FindDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CD395C2C1D6A4900085BFC /* FindDeviceController.m */; };
+		52CD39602C1D6A6300085BFC /* ContractListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CD395F2C1D6A6300085BFC /* ContractListController.m */; };
+		52CD39642C1D6A7C00085BFC /* MusicPusherListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CD39632C1D6A7C00085BFC /* MusicPusherListController.m */; };
+		52CD39672C1D6AC900085BFC /* DialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CD39662C1D6AC900085BFC /* DialController.m */; };
 		8902EA55230C2B97003FF418 /* DemoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902EA54230C2B97003FF418 /* DemoListController.m */; };
 		891FA8D6231A98AD0097E996 /* SedentaryRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D5231A98AD0097E996 /* SedentaryRemindController.m */; };
 		891FA8D9231AAAA20097E996 /* DrinkRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D8231AAAA20097E996 /* DrinkRemindController.m */; };
@@ -74,6 +80,8 @@
 /* Begin PBXFileReference section */
 		1511A057B1CD59EA0B4E8EED /* Pods-FitCloudKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCloudKitDemo.release.xcconfig"; path = "Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4674C6148BD9C164A509FD6C /* Pods-FitCloudKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCloudKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4B17E0232C11B7F8002A7E94 /* HistoryDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDataController.h; sourceTree = "<group>"; };
+		4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDataController.m; sourceTree = "<group>"; };
 		4B7B5D862C1162DD00B7D12F /* UNIWatchMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UNIWatchMate.framework; path = ../TopStepComKit/Products/TopStepComKit.framework/Frameworks/UNIWatchMate.framework; sourceTree = "<group>"; };
 		4B7B5D872C1162DD00B7D12F /* flywearsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flywearsdk.framework; path = ../TopStepComKit/Products/TopStepComKit.framework/Frameworks/flywearsdk.framework; sourceTree = "<group>"; };
 		4B7B5D882C1162DD00B7D12F /* h264encoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = h264encoder.framework; path = ../TopStepComKit/Products/TopStepComKit.framework/Frameworks/h264encoder.framework; sourceTree = "<group>"; };
@@ -84,8 +92,20 @@
 		4B7B5D982C1165D100B7D12F /* persimwearSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = persimwearSDK.framework; path = ../TopStepComKit/OtherSDK/persimwearSDK.framework; sourceTree = "<group>"; };
 		4B7B5D992C1165D100B7D12F /* UNIWatchMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UNIWatchMate.framework; path = ../TopStepComKit/OtherSDK/UNIWatchMate.framework; sourceTree = "<group>"; };
 		4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SJWatchLib.framework; path = ../TopStepComKit/OtherSDK/SJWatchLib.framework; sourceTree = "<group>"; };
-		4B17E0232C11B7F8002A7E94 /* HistoryDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDataController.h; sourceTree = "<group>"; };
-		4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDataController.m; sourceTree = "<group>"; };
+		4BF739492C1AD2F300FF0FD8 /* SettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		4BF7394C2C1AEA7500FF0FD8 /* BasicDeviceInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicDeviceInfoController.h; sourceTree = "<group>"; };
+		4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicDeviceInfoController.m; sourceTree = "<group>"; };
+		4BF7394F2C1AEAB700FF0FD8 /* RemotePhotographyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemotePhotographyController.h; sourceTree = "<group>"; };
+		4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemotePhotographyController.m; sourceTree = "<group>"; };
+		52CD395B2C1D6A4900085BFC /* FindDeviceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindDeviceController.h; sourceTree = "<group>"; };
+		52CD395C2C1D6A4900085BFC /* FindDeviceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindDeviceController.m; sourceTree = "<group>"; };
+		52CD395E2C1D6A6300085BFC /* ContractListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractListController.h; sourceTree = "<group>"; };
+		52CD395F2C1D6A6300085BFC /* ContractListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContractListController.m; sourceTree = "<group>"; };
+		52CD39622C1D6A7C00085BFC /* MusicPusherListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPusherListController.h; sourceTree = "<group>"; };
+		52CD39632C1D6A7C00085BFC /* MusicPusherListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPusherListController.m; sourceTree = "<group>"; };
+		52CD39652C1D6AC900085BFC /* DialController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialController.h; sourceTree = "<group>"; };
+		52CD39662C1D6AC900085BFC /* DialController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialController.m; sourceTree = "<group>"; };
 		8902EA53230C2B97003FF418 /* DemoListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoListController.h; sourceTree = "<group>"; };
 		8902EA54230C2B97003FF418 /* DemoListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoListController.m; sourceTree = "<group>"; };
 		891FA8D4231A98AD0097E996 /* SedentaryRemindController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SedentaryRemindController.h; sourceTree = "<group>"; };
@@ -239,6 +259,20 @@
 				898ADEB5231EB6DA00342172 /* WeatherController.m */,
 				89A891AA2A56B08F0073CEBA /* WomenHealthController.h */,
 				89A891AB2A56B08F0073CEBA /* WomenHealthController.m */,
+				4BF739492C1AD2F300FF0FD8 /* SettingsController.h */,
+				4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */,
+				4BF7394C2C1AEA7500FF0FD8 /* BasicDeviceInfoController.h */,
+				4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */,
+				4BF7394F2C1AEAB700FF0FD8 /* RemotePhotographyController.h */,
+				4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */,
+				52CD395E2C1D6A6300085BFC /* ContractListController.h */,
+				52CD395F2C1D6A6300085BFC /* ContractListController.m */,
+				52CD395B2C1D6A4900085BFC /* FindDeviceController.h */,
+				52CD395C2C1D6A4900085BFC /* FindDeviceController.m */,
+				52CD39622C1D6A7C00085BFC /* MusicPusherListController.h */,
+				52CD39632C1D6A7C00085BFC /* MusicPusherListController.m */,
+				52CD39652C1D6AC900085BFC /* DialController.h */,
+				52CD39662C1D6AC900085BFC /* DialController.m */,
 				89C515552308499D000BD54C /* DeviceCell.h */,
 				89C515562308499D000BD54C /* DeviceCell.m */,
 				89A438B622B0D19700555B98 /* Main.storyboard */,
@@ -470,12 +504,15 @@
 				89A438CC22B0ED3800555B98 /* AppDelegate+LoggerService.m in Sources */,
 				898ADEB0231E941200342172 /* UnitPreferController.m in Sources */,
 				898ADEB6231EB6DA00342172 /* WeatherController.m in Sources */,
+				4BF7394E2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m in Sources */,
 				89EA5159230ED2A200EDC1F0 /* MessageReminderController.m in Sources */,
 				891FA8D9231AAAA20097E996 /* DrinkRemindController.m in Sources */,
 				893B449C231D5C260057EC21 /* DailyGoalSettingController.m in Sources */,
 				8975895F231169FE0005C1A2 /* AlarmController.m in Sources */,
 				89C5155A2308579F000BD54C /* DeviceBindingController.m in Sources */,
 				89C51554230840B2000BD54C /* DeviceSearchListController.m in Sources */,
+				52CD39602C1D6A6300085BFC /* ContractListController.m in Sources */,
+				4BF7394B2C1AD2F300FF0FD8 /* SettingsController.m in Sources */,
 				898ADEB3231EB43C00342172 /* UserProfileController.m in Sources */,
 				89C515572308499D000BD54C /* DeviceCell.m in Sources */,
 				4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */,
@@ -483,10 +520,14 @@
 				89C5156023085958000BD54C /* MoView.m in Sources */,
 				892ADC8D2313FB6B00934A08 /* WristWakeUpController.m in Sources */,
 				891FA8DC231AAE030097E996 /* HealthMonitorController.m in Sources */,
+				4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */,
+				52CD395D2C1D6A4900085BFC /* FindDeviceController.m in Sources */,
 				89C5155123083B22000BD54C /* LocalizedButton.m in Sources */,
 				891FA8DF231AB3D20097E996 /* ScreenDispayController.m in Sources */,
 				8902EA55230C2B97003FF418 /* DemoListController.m in Sources */,
 				89C5156123085958000BD54C /* MoCurveLayer.m in Sources */,
+				52CD39642C1D6A7C00085BFC /* MusicPusherListController.m in Sources */,
+				52CD39672C1D6AC900085BFC /* DialController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -594,6 +636,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -649,6 +692,7 @@
 			baseConfigurationReference = 4674C6148BD9C164A509FD6C /* Pods-FitCloudKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DY5A9J889;
@@ -709,6 +753,7 @@
 			baseConfigurationReference = 1511A057B1CD59EA0B4E8EED /* Pods-FitCloudKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DY5A9J889;

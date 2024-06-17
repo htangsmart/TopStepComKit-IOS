@@ -18,12 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -35,25 +29,30 @@
     }
     else if(indexPath.row == 1)
     {
-        [TPSSdk.share.miscSettingAbility sendWeather_temp_unit:TPSMiscSettingModel_Temperature_Unit_C];
+        [TPSSdk.share.miscSettingAbility sendSport_sportUnit:MiscSettingModel_TSTPS_Sport_Unit_Metric_System];
         OpResultToastTip(self.view, YES);
     }
     else if(indexPath.row == 2)
     {
-        [TPSSdk.share.miscSettingAbility sendSystem_timing_method:TPSMiscSettingModel_Time_Format_24];
+        [TPSSdk.share.miscSettingAbility sendSystem_timing_method:TPSMiscSettingModel_Time_Format_12];
         OpResultToastTip(self.view, YES);
+    }
+    else if(indexPath.row == 3)
+    {
+        [TPSSdk.share.miscSettingAbility sendSystem_timing_method:TPSMiscSettingModel_Time_Format_24];
+    }
+    else if(indexPath.row == 4)
+    {
+        [TPSSdk.share.miscSettingAbility sendWeather_temp_unit:TPSMiscSettingModel_Temperature_Unit_C];
+
+    }
+    else if(indexPath.row == 5)
+    {
+        [TPSSdk.share.miscSettingAbility sendWeather_temp_unit:TPSMiscSettingModel_Temperature_Unit_F];
+
     }
 }
 
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 - (IBAction)OnGoBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }

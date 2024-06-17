@@ -4,7 +4,7 @@
 //
 //  Created by pcjbird on 2019/9/3.
 //  Copyright © 2019 HetangSmart. All rights reserved.
-//
+//  天气 --- Weather
 
 #import "WeatherController.h"
 #define ConsoleResultToastTip(v) [v makeToast:NSLocalizedString(@"View the results in the console.", nil) duration:3.0f position:CSToastPositionTop]
@@ -18,18 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 0)
-    {
+    if(indexPath.row == 0) {
+        // 同步天气 --- Sync Weather
         TPSFutureHourWeatherModel *futureHourModel1 = [[TPSFutureHourWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 3600 describe:TPSWeatherDescribeType_ENUM_CLEAR_DAY temperature:30];
         TPSFutureHourWeatherModel *futureHourModel2 = [[TPSFutureHourWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 7200 describe:TPSWeatherDescribeType_ENUM_CLOUDY temperature:25];
         
@@ -41,7 +35,7 @@
         TPSFutureDayWeatherModel *futureModel2 = [[TPSFutureDayWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 172800 describe:TPSWeatherDescribeType_ENUM_CLEAR_DAY minTemperature:25 maxTemperature:35];
         TPSFutureDayWeatherModel *futureModel3 = [[TPSFutureDayWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 259200 describe:TPSWeatherDescribeType_ENUM_CLEAR_DAY minTemperature:24 maxTemperature:34];
         
-        NSArray<TPSFutureDayWeatherModel *> *futureModelArr = [NSArray arrayWithObjects:futureModel1, futureModel2, futureModel3, nil];
+        NSArray<TPSFutureDayWeatherModel *> *futureModelArr = [NSArray arrayWithObjects:futureModel1, futureModel2, futureModel3,futureModel3,futureModel3,futureModel3,futureModel3, nil];
         
         TPSWeatherModel *model = [[TPSWeatherModel alloc] initWithCity:@"深圳" temperatureUnit:0 updateTime:[[NSDate date] timeIntervalSince1970] todayWeather:todayModel futureDayWeather:futureModelArr];
         
@@ -55,18 +49,16 @@
                 }
             });
         }];
+    } else if (indexPath.row == 1) {
+        // 天气开关(开) --- Weather Switch (Open)
+        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Open];
+        OpResultToastTip(self.view, YES);
+    } else if (indexPath.row == 2) {
+        // 天气开关(关) --- Weather Switch (Close)
+        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Close];
+        OpResultToastTip(self.view, YES);
     }
 }
-
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 
 - (IBAction)OnGoBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];

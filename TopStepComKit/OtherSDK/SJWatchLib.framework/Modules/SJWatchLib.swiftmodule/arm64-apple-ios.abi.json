@@ -3,6 +3,265 @@
     "kind": "Root",
     "name": "TopLevel",
     "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TopStepComKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TopStepComKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestSwift",
+        "printedName": "TestSwift",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestSwift",
+                "printedName": "TopStepComKit.TestSwift",
+                "usr": "c:@M@TopStepComKit@objc(cs)TestSwift"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TopStepComKit9TestSwiftC6sharedACvpZ",
+            "mangledName": "$s13TopStepComKit9TestSwiftC6sharedACvpZ",
+            "moduleName": "TopStepComKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestSwift",
+                    "printedName": "TopStepComKit.TestSwift",
+                    "usr": "c:@M@TopStepComKit@objc(cs)TestSwift"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TopStepComKit9TestSwiftC6sharedACvgZ",
+                "mangledName": "$s13TopStepComKit9TestSwiftC6sharedACvgZ",
+                "moduleName": "TopStepComKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "copy",
+            "printedName": "copy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TopStepComKit@objc(cs)TestSwift(im)copy",
+            "mangledName": "$s13TopStepComKit9TestSwiftC4copyypyF",
+            "moduleName": "TopStepComKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "copy",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mutableCopy",
+            "printedName": "mutableCopy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TopStepComKit@objc(cs)TestSwift(im)mutableCopy",
+            "mangledName": "$s13TopStepComKit9TestSwiftC11mutableCopyypyF",
+            "moduleName": "TopStepComKit",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "mutableCopy",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestSwift",
+                "printedName": "TopStepComKit.TestSwift",
+                "usr": "c:@M@TopStepComKit@objc(cs)TestSwift"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TopStepComKit@objc(cs)TestSwift(cm)sharedInstance",
+            "mangledName": "$s13TopStepComKit9TestSwiftC14sharedInstanceACyFZ",
+            "moduleName": "TopStepComKit",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TopStepComKit@objc(cs)TestSwift(im)start",
+            "mangledName": "$s13TopStepComKit9TestSwiftC5startyyF",
+            "moduleName": "TopStepComKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initPmw",
+            "printedName": "initPmw()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TopStepComKit9TestSwiftC7initPmwyyF",
+            "mangledName": "$s13TopStepComKit9TestSwiftC7initPmwyyF",
+            "moduleName": "TopStepComKit",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TopStepComKit@objc(cs)TestSwift",
+        "mangledName": "$s13TopStepComKit9TestSwiftC",
+        "moduleName": "TopStepComKit",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
     "json_format_version": 8
   },
   "ConstValues": []

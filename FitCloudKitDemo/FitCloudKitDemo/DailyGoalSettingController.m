@@ -18,12 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -32,11 +26,11 @@
     {        
         TPSSportTargetModel *model = [TPSSportTargetModel new];
         model.steps = 10000;
-        model.stand_time = 60;
+        model.stand_time = 50;
         model.sport_time = 30;
         model.sport_num = 3;
-        model.calorie = 30;
-        model.distance = 5000;
+        model.calorie = 350;
+        model.distance = 3000;
         __weak typeof(self) weakSelf = self;
         [TPSSdk.share.sportTargetAbility sendSportTargets:model block:^(BOOL isSendOK) {
             dispatch_async(dispatch_get_main_queue(), ^{
@@ -50,15 +44,6 @@
     }
 }
 
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 - (IBAction)OnGoBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
