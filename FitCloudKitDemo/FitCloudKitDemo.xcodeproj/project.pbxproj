@@ -11,6 +11,7 @@
 		4BF7394B2C1AD2F300FF0FD8 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */; };
 		4BF7394E2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */; };
 		4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */; };
+		4BF739542C1D81A200FF0FD8 /* DialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739532C1D81A200FF0FD8 /* DialController.m */; };
 		7217CE3FFC6FFDF025355DC3 /* libPods-FitCloudKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1577722496F42A93B414DFF /* libPods-FitCloudKitDemo.a */; };
 		8902EA55230C2B97003FF418 /* DemoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902EA54230C2B97003FF418 /* DemoListController.m */; };
 		891FA8D6231A98AD0097E996 /* SedentaryRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D5231A98AD0097E996 /* SedentaryRemindController.m */; };
@@ -56,6 +57,8 @@
 		4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicDeviceInfoController.m; sourceTree = "<group>"; };
 		4BF7394F2C1AEAB700FF0FD8 /* RemotePhotographyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemotePhotographyController.h; sourceTree = "<group>"; };
 		4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemotePhotographyController.m; sourceTree = "<group>"; };
+		4BF739522C1D81A200FF0FD8 /* DialController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialController.h; sourceTree = "<group>"; };
+		4BF739532C1D81A200FF0FD8 /* DialController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialController.m; sourceTree = "<group>"; };
 		8902EA53230C2B97003FF418 /* DemoListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoListController.h; sourceTree = "<group>"; };
 		8902EA54230C2B97003FF418 /* DemoListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoListController.m; sourceTree = "<group>"; };
 		891FA8D4231A98AD0097E996 /* SedentaryRemindController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SedentaryRemindController.h; sourceTree = "<group>"; };
@@ -210,6 +213,8 @@
 				4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */,
 				4BF7394F2C1AEAB700FF0FD8 /* RemotePhotographyController.h */,
 				4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */,
+				4BF739522C1D81A200FF0FD8 /* DialController.h */,
+				4BF739532C1D81A200FF0FD8 /* DialController.m */,
 				89C515552308499D000BD54C /* DeviceCell.h */,
 				89C515562308499D000BD54C /* DeviceCell.m */,
 				89A438B622B0D19700555B98 /* Main.storyboard */,
@@ -449,6 +454,7 @@
 				89C5155123083B22000BD54C /* LocalizedButton.m in Sources */,
 				891FA8DF231AB3D20097E996 /* ScreenDispayController.m in Sources */,
 				8902EA55230C2B97003FF418 /* DemoListController.m in Sources */,
+				4BF739542C1D81A200FF0FD8 /* DialController.m in Sources */,
 				89C5156123085958000BD54C /* MoCurveLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

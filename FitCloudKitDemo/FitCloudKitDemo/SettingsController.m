@@ -32,12 +32,12 @@
         }];
     } else if (indexPath.row == 1) {
         // 穿戴手(左手) --- Wear Hand (left)
-        [TPSSdk.share.miscSettingAbility sendHabit_wear_hand:TPSMiscSettingModel_Wear_Hand_Left];
-        OpResultToastTip(self.view, YES);
+//        [TPSSdk.share.miscSettingAbility sendHabit_wear_hand:TPSMiscSettingModel_Wear_Hand_Left];
+//        OpResultToastTip(self.view, YES);
     } else if (indexPath.row == 2) {
         // 穿戴手(右手) --- Wear Hand (right)
-        [TPSSdk.share.miscSettingAbility sendHabit_wear_hand:TPSMiscSettingModel_Wear_Hand_Right];
-        OpResultToastTip(self.view, YES);
+//        [TPSSdk.share.miscSettingAbility sendHabit_wear_hand:TPSMiscSettingModel_Wear_Hand_Right];
+//        OpResultToastTip(self.view, YES);
     } else if (indexPath.row == 3) {
         // 增强监测(开) --- Health Enhanced monitoring (open)
         [TPSSdk.share.miscSettingAbility sendHt_health_enhanced:TPSMiscSettingModel_State_Open];
