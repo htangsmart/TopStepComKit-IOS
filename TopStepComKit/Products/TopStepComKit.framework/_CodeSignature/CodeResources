@@ -1502,7 +1502,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		grLm6vdWZR5Sc0SbPGMmMqcwRtU=
+		VqLMbexaJf37N5mb0vB2UHLnE5w=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1514,7 +1514,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		xRcIqiX3cr+AyxnitJqBnLeOpf4=
+		cMt6+qun789ZzRiVKoeRBDTVWOc=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1890,7 +1890,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		4R+uLSzlWORimoCIn5ZdVrclZII=
+		x/Bx8rsV1Zgu3ASpPsSKSqamc/8=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -4725,11 +4725,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			grLm6vdWZR5Sc0SbPGMmMqcwRtU=
+			VqLMbexaJf37N5mb0vB2UHLnE5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			TLGIMDyWfyxFuFZV/cNQ15vHwg7n2IQHBNaM7yIGM4Y=
+			5d1PCAKCKZ8aL6s9KjkMk2+jA/6tIBAQqpNwQ6QaIGI=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4758,11 +4758,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xRcIqiX3cr+AyxnitJqBnLeOpf4=
+			cMt6+qun789ZzRiVKoeRBDTVWOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			cSSEvW2MNDoDVQyj6yUJ7vWb1xg8wxYpvx8VSudTtTc=
+			bNGjDaADfRyH7yWERye1SmSz4NrwITOOM2WRVlUS2bo=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -5781,11 +5781,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4R+uLSzlWORimoCIn5ZdVrclZII=
+			x/Bx8rsV1Zgu3ASpPsSKSqamc/8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xrNX4FZolqCcpnMckhtn4ZCh03T8FCZQPSFc8YM1ctI=
+			vHt8PTsSKlEtlAIlsYOzT0fMMMNReGdrIuqKS/nZd7w=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
