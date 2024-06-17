@@ -26,12 +26,12 @@
     __weak typeof(self) weakSelf = self;
     if (indexPath.row == 0) {
         // 语言 --- Language
-        
         [[TPSSdk.share.languageSettingAbility queryCurrentLanguage] subscribeNext:^(TPSLanguageModel * _Nullable x) {
             NSLog(@"Language is %@",x.name);
-            OpResultToastTip(weakSelf.view, YES);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                OpResultToastTip(weakSelf.view, YES);
+            });
         }];
-        
     } else if (indexPath.row == 1) {
         TPSLanguageModel *model = [[TPSLanguageModel alloc] initWithName:@"en"];
         [[TPSSdk.share.languageSettingAbility setCurrentLangue:model] subscribeNext:^(id  _Nullable x) {
@@ -39,29 +39,26 @@
         } error:^(NSError * _Nullable error) {
             OpResultToastTip(weakSelf.view, NO);
         }];
-
     } else if (indexPath.row == 2) {
         // 穿戴手(左手) --- Wear Hand (left)
         [TPSSdk.share.miscSettingAbility sendHabit_wear_hand:TPSMiscSettingModel_Wear_Hand_Left];
         OpResultToastTip(self.view, YES);
-
     } else if (indexPath.row == 3) {
         // 穿戴手(右手) --- Wear Hand (right)
         [TPSSdk.share.miscSettingAbility sendHabit_wear_hand:TPSMiscSettingModel_Wear_Hand_Right];
         OpResultToastTip(self.view, YES);
-
     } else if (indexPath.row == 4) {
         // 增强监测(开) --- Health Enhanced monitoring (open)
         [TPSSdk.share.miscSettingAbility sendHt_health_enhanced:TPSMiscSettingModel_State_Open];
         OpResultToastTip(self.view, YES);
-
     } else if (indexPath.row == 5) {
         // 增强监测(关) --- Health Enhanced monitoring (close)
         [TPSSdk.share.miscSettingAbility sendHt_health_enhanced:TPSMiscSettingModel_State_Close];
         OpResultToastTip(self.view, YES);
-
+    } else if (indexPath.row == 6) {
+        [TPSSdk.share.miscSettingAbility sendHt_sos:TPSMiscSettingModel_State_Open];
+        OpResultToastTip(self.view, YES);
     }
-
 }
 
 - (IBAction)OnGoBack:(id)sender {

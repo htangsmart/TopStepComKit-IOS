@@ -2,7 +2,7 @@
 //  DialController.h
 //  FitCloudKitDemo
 //
-//  Created by 磐石 on 2024/6/15.
+//  Created by Zhuanz on 2024/6/15.
 //  Copyright © 2024 HetangSmart. All rights reserved.
 //
 

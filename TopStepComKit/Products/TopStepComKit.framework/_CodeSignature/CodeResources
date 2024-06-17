@@ -1090,11 +1090,11 @@
 		</data>
 		<key>Headers/ITPSLanguageAbility.h</key>
 		<data>
-		4UMOnrvFkPW5QfkbUqWNv1j+z1M=
+		K5Ed+bZ1KNdAGMAY9+aQWxTxDr4=
 		</data>
 		<key>Headers/ITPSMiscSettingAbility.h</key>
 		<data>
-		qMFYPlO8M1ekCzaXy9a6ty59ieI=
+		qsyCYoJg8MtN2V8njT0QOxbkpr8=
 		</data>
 		<key>Headers/ITPSMusicAbility.h</key>
 		<data>
@@ -1386,7 +1386,7 @@
 		</data>
 		<key>Headers/TPS_Tools.h</key>
 		<data>
-		FMrdxcFmNsvL1nNqD+V3TXbhpGc=
+		8A2stpH+gzdEjZ1YSrXXKXwQFEQ=
 		</data>
 		<key>Headers/TSJConnectorAbility.h</key>
 		<data>
@@ -1398,7 +1398,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pYh+SfX7VWpOFBWYQBJNRYr/k3M=
+		fRH2F+boMTZZFD8jrFhlqzxMnTk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3080,22 +3080,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4UMOnrvFkPW5QfkbUqWNv1j+z1M=
+			K5Ed+bZ1KNdAGMAY9+aQWxTxDr4=
 			</data>
 			<key>hash2</key>
 			<data>
-			gMVjk3UQCX/UMVTctOxL2BO8Io8dVJZtovPZTj8mB64=
+			vkApnl7sf2sv+VUlC/bwH5t6ebNEoyI2jkajKn0svXo=
 			</data>
 		</dict>
 		<key>Headers/ITPSMiscSettingAbility.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qMFYPlO8M1ekCzaXy9a6ty59ieI=
+			qsyCYoJg8MtN2V8njT0QOxbkpr8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fp4vdYZRfwDY58nW6+3kObWjOGzXcdkynZklqQYnVVM=
+			Z53PSngiayhINBv2ZdzTJ8empPaQAhCP2fwKv+d5DME=
 			</data>
 		</dict>
 		<key>Headers/ITPSMusicAbility.h</key>
@@ -3894,11 +3894,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FMrdxcFmNsvL1nNqD+V3TXbhpGc=
+			8A2stpH+gzdEjZ1YSrXXKXwQFEQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zuSMGIPohUwrrDxtP2CAuZqh9Srh3oFtGx8tFqz10ow=
+			xPk0WucaAAKcm8DyhZTQWVGSVTIEb6cn7mT5ibHp7lY=
 			</data>
 		</dict>
 		<key>Headers/TSJConnectorAbility.h</key>

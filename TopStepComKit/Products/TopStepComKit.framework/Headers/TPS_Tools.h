@@ -13,6 +13,7 @@
 @interface TPS_Tools : NSObject
 
 typedef void(^TPS_Action)(void);
+typedef void(^TPS_ActionString)(NSString*);
 
 /**
  往NSUserDefault存入对象（注意：可变类型对象不适用）。
@@ -133,6 +134,8 @@ typedef void(^TPS_Action)(void);
 +(NSString*)writeToTmpFile:(NSData*)data fileName:(NSString*)fileName;
 
 +(NSString*)bundleToDocuments:(NSString *)dir fileName:(NSString *)fileName existsCover:(BOOL)cover;
+
++(void)mp3ToPCMWithMp3File:(NSString*)mp3FilePath outPutPCMPath:(NSString*)outPutPCMPath block:(TPS_Action)block;
 
 @end
 

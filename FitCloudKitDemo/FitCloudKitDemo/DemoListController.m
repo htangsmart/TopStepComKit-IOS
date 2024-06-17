@@ -30,6 +30,14 @@
     {
         [self manualSyncData];
     }
+    else if(indexPath.row == 3)
+    {
+        [self findWatch];
+    }
+    else if(indexPath.row == 4)
+    {
+        [self getAllMiscSetting];
+    }
     else if(indexPath.row == 19)
     {
         [self otaTest];
@@ -54,7 +62,6 @@
 
 - (void)documentPicker:(UIDocumentPickerViewController *)controller didPickDocumentsAtURLs:(NSArray<NSURL *> *)urls {
     if (controller.documentPickerMode == UIDocumentPickerModeImport) {
-        
         if ([urls isKindOfClass:NSArray.class] && urls.count > 0) {
             [self beginOtaWithFilePath:urls.firstObject.absoluteString];
         }
@@ -148,6 +155,17 @@
         }
     }];
     ConsoleResultToastTip(self.view);
+}
+
+-(void)findWatch{
+    [TPSSdk.share.finderAbility findWatch];
+}
+
+//This is an example for get all misc setting
+-(void)getAllMiscSetting{
+    [TPSSdk.share.miscSettingAbility getAllMiscSetting:^(TPSMiscSettingModel *miscSettingModel) {
+        ConsoleResultToastTip(self.view);
+    }];
 }
 
 - (IBAction)OnGoBack:(id)sender {
