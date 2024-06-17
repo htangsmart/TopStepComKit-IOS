@@ -409,8 +409,42 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="BL5-WI-WSv">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="feX-07-xKO">
                                         <rect key="frame" x="0.0" y="285" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="feX-07-xKO" id="ogH-yq-4nM">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find Watch (completed)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUK-Sy-s1D" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="186" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="bMR-C9-HKv">
+                                        <rect key="frame" x="0.0" y="339" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bMR-C9-HKv" id="mjY-J0-tdS">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get Misc Setting (completed)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyK-Pf-vSy" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="237" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="BL5-WI-WSv">
+                                        <rect key="frame" x="0.0" y="393" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BL5-WI-WSv" id="Bln-tH-vac">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -430,7 +464,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="8ru-XR-ngr">
-                                        <rect key="frame" x="0.0" y="339" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="447" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8ru-XR-ngr" id="Sxd-oa-hJm">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -450,7 +484,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="vIh-KX-AXl">
-                                        <rect key="frame" x="0.0" y="393" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="501" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vIh-KX-AXl" id="DBG-J0-SVO">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -470,7 +504,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="BJu-Ns-SLe">
-                                        <rect key="frame" x="0.0" y="447" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="555" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BJu-Ns-SLe" id="FBh-CH-a09">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -490,7 +524,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="DHl-UI-6Vd">
-                                        <rect key="frame" x="0.0" y="501" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="609" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DHl-UI-6Vd" id="ZH8-52-cNV">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -510,7 +544,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="XWO-lT-gpS">
-                                        <rect key="frame" x="0.0" y="555" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="663" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XWO-lT-gpS" id="7Kx-Wo-P55">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -530,7 +564,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="EdI-U3-iHu">
-                                        <rect key="frame" x="0.0" y="609" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="717" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EdI-U3-iHu" id="iKu-We-RoI">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -550,7 +584,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="LEE-tO-GrC">
-                                        <rect key="frame" x="0.0" y="663" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="771" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LEE-tO-GrC" id="k2Y-No-VMX">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -570,7 +604,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="8Yg-R8-kRo">
-                                        <rect key="frame" x="0.0" y="717" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="825" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Yg-R8-kRo" id="bKr-tg-qCb">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -590,7 +624,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="VWe-eJ-CWD">
-                                        <rect key="frame" x="0.0" y="771" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="879" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VWe-eJ-CWD" id="t5S-s2-ieG">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
@@ -610,14 +644,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="h4Q-s6-CZc">
-                                        <rect key="frame" x="0.0" y="825" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="933" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h4Q-s6-CZc" id="59e-l3-l3I">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Profile Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEj-bS-9r4" customClass="LocalizedLabel">
-                                                    <rect key="frame" x="24" y="18" width="178" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contacts Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEj-bS-9r4" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="144" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -630,14 +664,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="HmA-Hf-wzi">
-                                        <rect key="frame" x="0.0" y="879" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="987" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HmA-Hf-wzi" id="vHD-TK-DnH">
-                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sync Weather (completed)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFS-9S-H4P" customClass="LocalizedLabel">
-                                                    <rect key="frame" x="24" y="18" width="203" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weather (completed)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFS-9S-H4P" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="161" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -650,10 +684,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="IYr-un-vmX">
-                                        <rect key="frame" x="0.0" y="933" width="414" height="54"/>
+                                        <rect key="frame" x="0.0" y="1041" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IYr-un-vmX" id="w2S-Vc-ggN">
-                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Women Health" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQI-6w-6xd" customClass="LocalizedLabel">
@@ -669,15 +703,15 @@
                                             <segue destination="2xr-RH-ARo" kind="show" id="09K-ra-Dgc"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="FL3-ki-bSX">
-                                        <rect key="frame" x="0.0" y="987" width="414" height="44.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="fr9-Xc-GN7">
+                                        <rect key="frame" x="0.0" y="1095" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FL3-ki-bSX" id="UCS-wq-Q4s">
-                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="44.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fr9-Xc-GN7" id="w7s-Xh-2Hz">
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music Manage(completed)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4n-QU-5Yu" customClass="LocalizedLabel">
-                                                    <rect key="frame" x="24" y="18" width="194" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qH4-US-MLw" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="68" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -686,7 +720,107 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="K1Q-S5-tkL" kind="show" id="V7V-ra-Ko4"/>
+                                            <segue destination="2n6-El-Zcf" kind="show" id="d1N-AB-Shg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="dA6-TN-hIQ">
+                                        <rect key="frame" x="0.0" y="1149" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dA6-TN-hIQ" id="FzE-XO-LVW">
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basic Device Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUv-3h-WKJ" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="144" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="kSo-V1-6Ll" kind="show" id="Cl0-Fc-Sts"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="gmz-RR-aOK">
+                                        <rect key="frame" x="0.0" y="1203" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gmz-RR-aOK" id="wOC-cU-N8l">
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remote Photography" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfl-SU-QJe" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="152" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="1xA-Lj-tQJ" kind="show" id="cuz-TM-xph"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="0Nq-Sb-Ced">
+                                        <rect key="frame" x="0.0" y="1257" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Nq-Sb-Ced" id="pF4-lj-LX5">
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTO-xv-gDz" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="34" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="NJm-C2-KGn" kind="show" id="tL6-DI-sW0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="MNt-C1-ZFr">
+                                        <rect key="frame" x="0.0" y="1311" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MNt-C1-ZFr" id="Isj-M5-pzX">
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music Manage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5e-Ud-ix8" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="102" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ZBe-0O-atq" kind="show" id="hhr-M5-Dzd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="h1E-hP-rgY">
+                                        <rect key="frame" x="0.0" y="1365" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h1E-hP-rgY" id="C6r-Ui-iFv">
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notification Manage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sx5-tb-e8W" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="161" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="esH-fM-IH3" kind="show" id="bK1-j5-TD6"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -1943,10 +2077,10 @@
             </objects>
             <point key="canvasLocation" x="-1096" y="1535"/>
         </scene>
-        <!--User Profile Controller-->
+        <!--Contacts Controller-->
         <scene sceneID="erP-h5-CkA">
             <objects>
-                <tableViewController id="POE-KX-4Ll" customClass="UserProfileController" sceneMemberID="viewController">
+                <tableViewController id="POE-KX-4Ll" customClass="ContactsController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NyG-Vv-bqA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1956,8 +2090,8 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Prefer Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzF-Sf-FGa" customClass="LocalizedLabel">
-                                    <rect key="frame" x="98.5" y="10" width="217" height="21"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzF-Sf-FGa" customClass="LocalizedLabel">
+                                    <rect key="frame" x="120.5" y="10" width="173.5" height="21"/>
                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -1999,8 +2133,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do User Profile Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYD-rb-O78" customClass="LocalizedLabel">
-                                                    <rect key="frame" x="20" y="19" width="203" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get Normal Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYD-rb-O78" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="161" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -2016,8 +2150,42 @@
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do BloodPressure Rreference Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVx-cx-hFE" customClass="LocalizedLabel">
-                                                    <rect key="frame" x="21" y="18" width="304" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Normal Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVx-cx-hFE" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="161" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="awh-Pi-phl">
+                                        <rect key="frame" x="0.0" y="231" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="awh-Pi-phl" id="HI6-te-QZI">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get Emergency Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRd-nE-geJ" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="178" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="0MF-ex-pwv">
+                                        <rect key="frame" x="0.0" y="285" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0MF-ex-pwv" id="jaj-1T-Jsr">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set Emergency Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dp-kD-lE4" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="178" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -2097,6 +2265,40 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sync Weather" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAL-XU-t2x" customClass="LocalizedLabel">
                                                     <rect key="frame" x="20" y="19" width="102" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="ywR-iS-VyK">
+                                        <rect key="frame" x="0.0" y="177" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ywR-iS-VyK" id="LMb-BD-zA8">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weather Switch (Open)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeO-gU-hj0" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="178" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="TlM-Th-DXZ">
+                                        <rect key="frame" x="0.0" y="231" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TlM-Th-DXZ" id="3XK-8Y-RbB">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weather Switch (Close)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-N9-T4g" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="186" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -2352,6 +2554,57 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="th5-Y0-USQ">
+                                        <rect key="frame" x="0.0" y="447" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="th5-Y0-USQ" id="vne-OA-4oW">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History Activity Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3c-zg-olp" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="178" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="xWe-8m-l81">
+                                        <rect key="frame" x="0.0" y="501" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xWe-8m-l81" id="8fY-3k-4gS">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History Sport Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eA-61-eeR" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="152" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="i9I-5T-UGA">
+                                        <rect key="frame" x="0.0" y="555" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i9I-5T-UGA" id="UGk-Gm-X7I">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History Sleep Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ej-LI-qM3" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="152" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -2366,66 +2619,67 @@
             </objects>
             <point key="canvasLocation" x="3118.840579710145" y="1534.8214285714284"/>
         </scene>
-        <!--Music Manage Controller-->
-        <scene sceneID="ozC-2g-nDb">
+        <!--Settings Controller-->
+        <scene sceneID="5C4-VP-krF">
             <objects>
-                <tableViewController id="K1Q-S5-tkL" customClass="MusicManageController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="oYj-6E-IS2">
+                <tableViewController id="2n6-El-Zcf" customClass="SettingsController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NwD-l0-wcZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="tHc-yo-jgM">
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" white="0.66666666669999997" alpha="0.26621361300000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="hqg-dy-G8u">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Manage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIg-Od-oVP" customClass="LocalizedLabel">
-                                    <rect key="frame" x="142" y="10" width="130.5" height="21"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUw-nU-tLi" customClass="LocalizedLabel">
+                                    <rect key="frame" x="163.5" y="10" width="87" height="21"/>
                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to run the demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D67-FY-MAN" customClass="LocalizedLabel">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to run the demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfx-lh-QTZ" customClass="LocalizedLabel">
                                     <rect key="frame" x="131" y="35.5" width="152" height="14"/>
                                     <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
                                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xae-K6-0w3" customClass="LocalizedButton">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zfx-CY-vFE" customClass="LocalizedButton">
                                     <rect key="frame" x="16" y="9.5" width="52" height="22"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="52" id="yms-iq-xHb"/>
+                                        <constraint firstAttribute="width" constant="52" id="9lm-9D-vcX"/>
                                     </constraints>
                                     <state key="normal" title="Back" image="back">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <connections>
-                                        <action selector="OnGoBack:" destination="K1Q-S5-tkL" eventType="touchUpInside" id="Bsx-fX-bAq"/>
+                                        <action selector="OnGoBack:" destination="2n6-El-Zcf" eventType="touchUpInside" id="pHU-wx-ESe"/>
                                     </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstItem="uIg-Od-oVP" firstAttribute="centerX" secondItem="tHc-yo-jgM" secondAttribute="centerX" id="4Cr-Pa-IHe"/>
-                                <constraint firstItem="uIg-Od-oVP" firstAttribute="centerY" secondItem="xae-K6-0w3" secondAttribute="centerY" id="6M0-pM-3HJ"/>
-                                <constraint firstAttribute="height" constant="73" id="Pzh-Xj-NHC"/>
-                                <constraint firstItem="D67-FY-MAN" firstAttribute="top" secondItem="xae-K6-0w3" secondAttribute="bottom" constant="4" id="Sbr-yS-hKF"/>
-                                <constraint firstItem="uIg-Od-oVP" firstAttribute="top" secondItem="tHc-yo-jgM" secondAttribute="top" constant="10" id="eKX-Lc-UGz"/>
-                                <constraint firstItem="D67-FY-MAN" firstAttribute="centerX" secondItem="tHc-yo-jgM" secondAttribute="centerX" id="j9J-ty-ZUR"/>
-                                <constraint firstItem="xae-K6-0w3" firstAttribute="leading" secondItem="tHc-yo-jgM" secondAttribute="leading" constant="16" id="z7O-JV-5FQ"/>
+                                <constraint firstAttribute="height" constant="73" id="7Bz-cz-TUx"/>
+                                <constraint firstItem="zUw-nU-tLi" firstAttribute="top" secondItem="hqg-dy-G8u" secondAttribute="top" constant="10" id="9hs-m3-7Hp"/>
+                                <constraint firstItem="zUw-nU-tLi" firstAttribute="centerX" secondItem="hqg-dy-G8u" secondAttribute="centerX" id="9qN-Ry-1sk"/>
+                                <constraint firstItem="Kfx-lh-QTZ" firstAttribute="centerX" secondItem="hqg-dy-G8u" secondAttribute="centerX" id="F1d-jd-k95"/>
+                                <constraint firstItem="Kfx-lh-QTZ" firstAttribute="top" secondItem="Zfx-CY-vFE" secondAttribute="bottom" constant="4" id="FMo-ka-ho3"/>
+                                <constraint firstItem="Zfx-CY-vFE" firstAttribute="leading" secondItem="hqg-dy-G8u" secondAttribute="leading" constant="16" id="Hge-xi-blU"/>
+                                <constraint firstItem="zUw-nU-tLi" firstAttribute="centerY" secondItem="Zfx-CY-vFE" secondAttribute="centerY" id="NOx-tq-nMe"/>
                             </constraints>
                         </view>
                         <sections>
-                            <tableViewSection id="Ptn-la-Da0">
+                            <tableViewSection id="UaQ-sw-hrx">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="P42-ST-opq">
-                                        <rect key="frame" x="0.0" y="123" width="414" height="44.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="fXv-zF-7iv">
+                                        <rect key="frame" x="0.0" y="123" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P42-ST-opq" id="qdf-SG-3id">
-                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="44.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fXv-zF-7iv" id="FEq-ih-cH9">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select and upload music to watch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsV-8V-DuG" customClass="LocalizedLabel">
-                                                    <rect key="frame" x="21" y="18" width="270" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNT-dX-SBW" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="68" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -2434,31 +2688,83 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="69n-mq-mzN">
-                                        <rect key="frame" x="0.0" y="167.5" width="414" height="44.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="1hN-Ke-2hi">
+                                        <rect key="frame" x="0.0" y="177" width="414" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="69n-mq-mzN" id="yO6-Ew-v5W">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="NhQ-jd-eFL">
-                                        <rect key="frame" x="0.0" y="212" width="414" height="44.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NhQ-jd-eFL" id="EeE-hJ-PG8">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="YmC-fg-K7H">
-                                        <rect key="frame" x="0.0" y="256.5" width="414" height="44.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YmC-fg-K7H" id="EHD-EI-pKb">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1hN-Ke-2hi" id="svf-fu-991">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Mo-gW-7T4" customClass="LocalizedLabel">
-                                                    <rect key="frame" x="126" y="13.5" width="60" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wear Hand (left)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UyW-kb-zN5" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="135" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="NJq-zG-nhG">
+                                        <rect key="frame" x="0.0" y="231" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NJq-zG-nhG" id="Ddp-di-Y43">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wear Hand (right)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sj-9f-7AG" userLabel="History RealTime Heart Rate Data" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="144" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="Zt3-SP-DAZ">
+                                        <rect key="frame" x="0.0" y="285" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zt3-SP-DAZ" id="1do-Ie-Ifx">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Health Enhanced monitoring (open)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUo-Qe-SZf" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="279" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="JOZ-v3-TM4">
+                                        <rect key="frame" x="0.0" y="339" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JOZ-v3-TM4" id="2MO-I3-Jd1">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Health Enhanced monitoring (close)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmQ-XA-u2B" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="287" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="IYc-wL-dHC">
+                                        <rect key="frame" x="0.0" y="393" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IYc-wL-dHC" id="5IX-yS-itS">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SOS  open (close)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDH-IT-Kgj" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="21" y="18" width="144" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -2471,16 +2777,485 @@
                             </tableViewSection>
                         </sections>
                         <connections>
-                            <outlet property="dataSource" destination="K1Q-S5-tkL" id="rWE-Ni-eK1"/>
-                            <outlet property="delegate" destination="K1Q-S5-tkL" id="Gzm-1s-O7Y"/>
+                            <outlet property="dataSource" destination="2n6-El-Zcf" id="Isk-ID-44v"/>
+                            <outlet property="delegate" destination="2n6-El-Zcf" id="DJi-bU-byw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="B3Q-qh-JDq"/>
+                    <navigationItem key="navigationItem" id="mKU-jQ-JNu"/>
                 </tableViewController>
-                <navigationItem id="urc-rR-7U7"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="67X-xO-v0z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blf-Le-bBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4130" y="1535"/>
+            <point key="canvasLocation" x="3861" y="1535"/>
+        </scene>
+        <!--Basic Device Info Controller-->
+        <scene sceneID="3rv-FK-hv4">
+            <objects>
+                <tableViewController id="kSo-V1-6Ll" customClass="BasicDeviceInfoController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="apI-i3-baI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" white="0.66666666669999997" alpha="0.26621361300000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="en4-qJ-wCM">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Device Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLD-F5-Hus" customClass="LocalizedLabel">
+                                    <rect key="frame" x="115" y="10" width="184.5" height="21"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to run the demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chV-Kv-bqE" customClass="LocalizedLabel">
+                                    <rect key="frame" x="131" y="35.5" width="152" height="14"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w77-dm-l3G" customClass="LocalizedButton">
+                                    <rect key="frame" x="16" y="9.5" width="52" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="52" id="kH5-yQ-amb"/>
+                                    </constraints>
+                                    <state key="normal" title="Back" image="back">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="OnGoBack:" destination="kSo-V1-6Ll" eventType="touchUpInside" id="J3f-Mr-d5v"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="chV-Kv-bqE" firstAttribute="centerX" secondItem="en4-qJ-wCM" secondAttribute="centerX" id="5q0-hf-hK1"/>
+                                <constraint firstItem="xLD-F5-Hus" firstAttribute="centerY" secondItem="w77-dm-l3G" secondAttribute="centerY" id="CC2-gf-LNJ"/>
+                                <constraint firstAttribute="height" constant="73" id="GoX-as-tIG"/>
+                                <constraint firstItem="xLD-F5-Hus" firstAttribute="top" secondItem="en4-qJ-wCM" secondAttribute="top" constant="10" id="OQ7-5j-0mp"/>
+                                <constraint firstItem="w77-dm-l3G" firstAttribute="leading" secondItem="en4-qJ-wCM" secondAttribute="leading" constant="16" id="e7X-gJ-ysV"/>
+                                <constraint firstItem="xLD-F5-Hus" firstAttribute="centerX" secondItem="en4-qJ-wCM" secondAttribute="centerX" id="s2K-3z-uZY"/>
+                                <constraint firstItem="chV-Kv-bqE" firstAttribute="top" secondItem="w77-dm-l3G" secondAttribute="bottom" constant="4" id="zv0-KX-dd8"/>
+                            </constraints>
+                        </view>
+                        <sections>
+                            <tableViewSection id="Hea-qp-fcP">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="FDk-m2-joc">
+                                        <rect key="frame" x="0.0" y="123" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FDk-m2-joc" id="KKc-Ne-9dS">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get Basic Device Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfe-pN-dZT" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="178" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="kSo-V1-6Ll" id="AZ0-YU-7NK"/>
+                            <outlet property="delegate" destination="kSo-V1-6Ll" id="fmn-d5-O5Z"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="mdi-V6-zDy"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FG2-en-EQ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4594" y="1535"/>
+        </scene>
+        <!--Remote Photography Controller-->
+        <scene sceneID="4c9-3i-nt1">
+            <objects>
+                <tableViewController id="1xA-Lj-tQJ" customClass="RemotePhotographyController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="b7p-yX-Hrm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" white="0.66666666669999997" alpha="0.26621361300000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="6HT-lv-5nq">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remote Photography" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Po2-Dk-Ykf" customClass="LocalizedLabel">
+                                    <rect key="frame" x="109.5" y="10" width="195.5" height="21"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to run the demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJO-Oy-vF8" customClass="LocalizedLabel">
+                                    <rect key="frame" x="131" y="35.5" width="152" height="14"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlV-qp-Tsp" customClass="LocalizedButton">
+                                    <rect key="frame" x="16" y="9.5" width="52" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="52" id="dVF-Uu-0BS"/>
+                                    </constraints>
+                                    <state key="normal" title="Back" image="back">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="OnGoBack:" destination="1xA-Lj-tQJ" eventType="touchUpInside" id="9D2-aV-DRc"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="LlV-qp-Tsp" firstAttribute="leading" secondItem="6HT-lv-5nq" secondAttribute="leading" constant="16" id="2ww-b2-OOq"/>
+                                <constraint firstItem="Po2-Dk-Ykf" firstAttribute="centerY" secondItem="LlV-qp-Tsp" secondAttribute="centerY" id="3R3-Td-NVg"/>
+                                <constraint firstItem="Po2-Dk-Ykf" firstAttribute="centerX" secondItem="6HT-lv-5nq" secondAttribute="centerX" id="8Ua-lp-YRZ"/>
+                                <constraint firstAttribute="height" constant="73" id="B2Y-xD-Ggm"/>
+                                <constraint firstItem="kJO-Oy-vF8" firstAttribute="top" secondItem="LlV-qp-Tsp" secondAttribute="bottom" constant="4" id="fqH-Wo-LGU"/>
+                                <constraint firstItem="Po2-Dk-Ykf" firstAttribute="top" secondItem="6HT-lv-5nq" secondAttribute="top" constant="10" id="nV2-QA-faH"/>
+                                <constraint firstItem="kJO-Oy-vF8" firstAttribute="centerX" secondItem="6HT-lv-5nq" secondAttribute="centerX" id="pfi-pH-DiH"/>
+                            </constraints>
+                        </view>
+                        <sections>
+                            <tableViewSection id="ey1-um-2Rv">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="N84-eM-BzI">
+                                        <rect key="frame" x="0.0" y="123" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N84-eM-BzI" id="hZn-e5-YfH">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remote Photography" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLP-lM-RNm" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="152" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="1xA-Lj-tQJ" id="jxJ-CM-jMV"/>
+                            <outlet property="delegate" destination="1xA-Lj-tQJ" id="5LO-7O-5ty"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="vs4-l7-qMG"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OVe-l5-tYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5304" y="1535"/>
+        </scene>
+        <!--Dial Controller-->
+        <scene sceneID="arO-sd-rfJ">
+            <objects>
+                <tableViewController id="NJm-C2-KGn" customClass="DialController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QvE-od-gUe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" white="0.66666666669999997" alpha="0.26621361300000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="bNu-QJ-Ac9">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AvR-g0-kGo" customClass="LocalizedLabel">
+                                    <rect key="frame" x="185.5" y="10" width="43.5" height="21"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to run the demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnM-D5-EaC" customClass="LocalizedLabel">
+                                    <rect key="frame" x="131" y="35.5" width="152" height="14"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2u-B7-oua" customClass="LocalizedButton">
+                                    <rect key="frame" x="16" y="9.5" width="52" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="52" id="UfI-kX-X26"/>
+                                    </constraints>
+                                    <state key="normal" title="Back" image="back">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="OnGoBack:" destination="NJm-C2-KGn" eventType="touchUpInside" id="w7l-nV-bKx"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="AvR-g0-kGo" firstAttribute="centerX" secondItem="bNu-QJ-Ac9" secondAttribute="centerX" id="EHl-9J-ruE"/>
+                                <constraint firstItem="AvR-g0-kGo" firstAttribute="top" secondItem="bNu-QJ-Ac9" secondAttribute="top" constant="10" id="Lu9-5T-fjS"/>
+                                <constraint firstItem="AvR-g0-kGo" firstAttribute="centerY" secondItem="t2u-B7-oua" secondAttribute="centerY" id="MZh-nu-R0b"/>
+                                <constraint firstItem="SnM-D5-EaC" firstAttribute="centerX" secondItem="bNu-QJ-Ac9" secondAttribute="centerX" id="T1a-qU-paJ"/>
+                                <constraint firstItem="SnM-D5-EaC" firstAttribute="top" secondItem="t2u-B7-oua" secondAttribute="bottom" constant="4" id="ZtU-uJ-Y6h"/>
+                                <constraint firstAttribute="height" constant="73" id="ncx-Eu-UPA"/>
+                                <constraint firstItem="t2u-B7-oua" firstAttribute="leading" secondItem="bNu-QJ-Ac9" secondAttribute="leading" constant="16" id="xf0-Xc-Cj0"/>
+                            </constraints>
+                        </view>
+                        <sections>
+                            <tableViewSection id="hWD-NP-Dgt">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="pBa-hL-fKc">
+                                        <rect key="frame" x="0.0" y="123" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pBa-hL-fKc" id="5M8-5t-Nsx">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get Current Dial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzD-PD-WQ9" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="135" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="Q4J-mQ-orx">
+                                        <rect key="frame" x="0.0" y="177" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Q4J-mQ-orx" id="KXB-U0-nlq">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get All Dial Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCj-DF-Dcl" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="144" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="lnv-bb-hMM">
+                                        <rect key="frame" x="0.0" y="231" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lnv-bb-hMM" id="R7p-4q-5Fk">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change Dial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfQ-Hw-z8j" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="93" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="Cwn-jV-Mzw">
+                                        <rect key="frame" x="0.0" y="285" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cwn-jV-Mzw" id="ScK-vt-hEd">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Delete Dial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73Q-Y2-Y7B" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="19" width="93" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="NJm-C2-KGn" id="hjE-Kz-d5s"/>
+                            <outlet property="delegate" destination="NJm-C2-KGn" id="l6p-OX-xoe"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="3VG-bM-Ur8"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Obz-9G-wlB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5996" y="1535"/>
+        </scene>
+        <!--Music Manage Controller-->
+        <scene sceneID="1qa-4o-gVD">
+            <objects>
+                <tableViewController id="ZBe-0O-atq" customClass="MusicManageController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="zTI-DW-bkg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="Oc2-kY-1Om">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Manage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gb-OK-KVJ" customClass="LocalizedLabel">
+                                    <rect key="frame" x="142" y="10" width="130.5" height="21"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to run the demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2n-rz-7rI" customClass="LocalizedLabel">
+                                    <rect key="frame" x="131" y="35.5" width="152" height="14"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54p-91-tY6" customClass="LocalizedButton">
+                                    <rect key="frame" x="16" y="9.5" width="52" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="52" id="mzn-iR-hBw"/>
+                                    </constraints>
+                                    <state key="normal" title="Back" image="back">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="OnGoBack:" destination="ZBe-0O-atq" eventType="touchUpInside" id="X7Y-LD-zRv"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="5gb-OK-KVJ" firstAttribute="centerX" secondItem="Oc2-kY-1Om" secondAttribute="centerX" id="5CE-me-JLF"/>
+                                <constraint firstAttribute="height" constant="73" id="Hlx-es-gqP"/>
+                                <constraint firstItem="5gb-OK-KVJ" firstAttribute="top" secondItem="Oc2-kY-1Om" secondAttribute="top" constant="10" id="UTY-fk-Mul"/>
+                                <constraint firstItem="W2n-rz-7rI" firstAttribute="centerX" secondItem="Oc2-kY-1Om" secondAttribute="centerX" id="ZaE-4x-LWs"/>
+                                <constraint firstItem="W2n-rz-7rI" firstAttribute="top" secondItem="54p-91-tY6" secondAttribute="bottom" constant="4" id="uyo-bm-rei"/>
+                                <constraint firstItem="5gb-OK-KVJ" firstAttribute="centerY" secondItem="54p-91-tY6" secondAttribute="centerY" id="vct-ul-4Bz"/>
+                                <constraint firstItem="54p-91-tY6" firstAttribute="leading" secondItem="Oc2-kY-1Om" secondAttribute="leading" constant="16" id="xU7-KQ-pz9"/>
+                            </constraints>
+                        </view>
+                        <sections>
+                            <tableViewSection id="Cfm-08-vmV">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="xTg-WL-eoH">
+                                        <rect key="frame" x="0.0" y="123" width="414" height="44.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xTg-WL-eoH" id="X9J-lb-Loa">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="44.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Push music to watch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIh-cg-CbO" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="20" y="13" width="161" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="QKS-jQ-n1F">
+                                        <rect key="frame" x="0.0" y="167.5" width="414" height="44.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QKS-jQ-n1F" id="jzU-bf-Z8q">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="LZv-gx-hVB">
+                                        <rect key="frame" x="0.0" y="212" width="414" height="44.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LZv-gx-hVB" id="TJc-cc-Poo">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="ZBe-0O-atq" id="SVX-Si-2dk"/>
+                            <outlet property="delegate" destination="ZBe-0O-atq" id="B76-xK-qRZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="dfn-DK-gYc"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4a7-e1-eqR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6714" y="1535"/>
+        </scene>
+        <!--Notification Manage Controller-->
+        <scene sceneID="CWt-b4-MZP">
+            <objects>
+                <tableViewController id="esH-fM-IH3" customClass="NotificationManageController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="TZM-BV-av4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="I3q-tC-J1E">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notaification Manange" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHs-0Z-70g" customClass="LocalizedLabel">
+                                    <rect key="frame" x="93" y="10" width="228" height="21"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to run the demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zzj-Al-qSh" customClass="LocalizedLabel">
+                                    <rect key="frame" x="131" y="35.5" width="152" height="14"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dP-JP-AHn" customClass="LocalizedButton">
+                                    <rect key="frame" x="16" y="9.5" width="52" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="52" id="qmI-Yp-kyF"/>
+                                    </constraints>
+                                    <state key="normal" title="Back" image="back">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="OnGoBack:" destination="esH-fM-IH3" eventType="touchUpInside" id="hg9-dr-oyZ"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Zzj-Al-qSh" firstAttribute="top" secondItem="9dP-JP-AHn" secondAttribute="bottom" constant="4" id="0BT-er-ahq"/>
+                                <constraint firstItem="Zzj-Al-qSh" firstAttribute="centerX" secondItem="I3q-tC-J1E" secondAttribute="centerX" id="Yxu-kq-O8Z"/>
+                                <constraint firstItem="9dP-JP-AHn" firstAttribute="leading" secondItem="I3q-tC-J1E" secondAttribute="leading" constant="16" id="ZBv-DF-gSq"/>
+                                <constraint firstItem="WHs-0Z-70g" firstAttribute="top" secondItem="I3q-tC-J1E" secondAttribute="top" constant="10" id="aAA-AJ-W9f"/>
+                                <constraint firstAttribute="height" constant="73" id="g4Z-Ys-Hcc"/>
+                                <constraint firstItem="WHs-0Z-70g" firstAttribute="centerY" secondItem="9dP-JP-AHn" secondAttribute="centerY" id="uRk-e3-hNb"/>
+                                <constraint firstItem="WHs-0Z-70g" firstAttribute="centerX" secondItem="I3q-tC-J1E" secondAttribute="centerX" id="ws3-h1-noO"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="m2Q-jU-W1n">
+                                <rect key="frame" x="0.0" y="123" width="414" height="44.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m2Q-jU-W1n" id="ZrI-yM-seW">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="esH-fM-IH3" id="Fld-dG-vbU"/>
+                            <outlet property="delegate" destination="esH-fM-IH3" id="bYS-sO-Fye"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="a1U-kf-Cn6"/>
+                    <connections>
+                        <outlet property="mTableView" destination="TZM-BV-av4" id="QMa-NL-1dq"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jrL-9f-ask" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7490" y="1535"/>
         </scene>
     </scenes>
     <resources>

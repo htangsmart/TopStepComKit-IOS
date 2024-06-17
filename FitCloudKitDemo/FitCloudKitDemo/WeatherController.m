@@ -4,7 +4,7 @@
 //
 //  Created by pcjbird on 2019/9/3.
 //  Copyright © 2019 HetangSmart. All rights reserved.
-//  同步天气 --- Sync Weather
+//  天气 --- Weather
 
 #import "WeatherController.h"
 #define ConsoleResultToastTip(v) [v makeToast:NSLocalizedString(@"View the results in the console.", nil) duration:3.0f position:CSToastPositionTop]
@@ -22,8 +22,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 0)
-    {
+    if(indexPath.row == 0) {
+        // 同步天气 --- Sync Weather
         TPSFutureHourWeatherModel *futureHourModel1 = [[TPSFutureHourWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 3600 describe:TPSWeatherDescribeType_ENUM_CLEAR_DAY temperature:30];
         TPSFutureHourWeatherModel *futureHourModel2 = [[TPSFutureHourWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 7200 describe:TPSWeatherDescribeType_ENUM_CLOUDY temperature:25];
         
@@ -49,6 +49,14 @@
                 }
             });
         }];
+    } else if (indexPath.row == 1) {
+        // 天气开关(开) --- Weather Switch (Open)
+        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Open];
+        OpResultToastTip(self.view, YES);
+    } else if (indexPath.row == 2) {
+        // 天气开关(关) --- Weather Switch (Close)
+        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Close];
+        OpResultToastTip(self.view, YES);
     }
 }
 

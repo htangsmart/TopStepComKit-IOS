@@ -30,6 +30,14 @@
     {
         [self manualSyncData];
     }
+    else if(indexPath.row == 3)
+    {
+        [self findWatch];
+    }
+    else if(indexPath.row == 4)
+    {
+        [self getAllMiscSetting];
+    }
 }
 
 // Get the day's sports health data
@@ -119,6 +127,17 @@
         }
     }];
     ConsoleResultToastTip(self.view);
+}
+
+-(void)findWatch{
+    [TPSSdk.share.finderAbility findWatch];
+}
+
+//This is an example for get all misc setting
+-(void)getAllMiscSetting{
+    [TPSSdk.share.miscSettingAbility getAllMiscSetting:^(TPSMiscSettingModel *miscSettingModel) {
+        ConsoleResultToastTip(self.view);
+    }];
 }
 
 - (IBAction)OnGoBack:(id)sender {

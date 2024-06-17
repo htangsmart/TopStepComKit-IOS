@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DD0BC702C1C22E200BB46BE /* OnlyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0BC6F2C1C22E200BB46BE /* OnlyTest.swift */; };
-		1DD0BC762C1D6AF100BB46BE /* MusicManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0BC752C1D6AF100BB46BE /* MusicManageController.m */; };
+		1D0C75512C20160F0009027E /* MusicManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754D2C20160E0009027E /* MusicManageController.m */; };
+		1D0C75522C20160F0009027E /* NotificationManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754E2C20160E0009027E /* NotificationManageController.m */; };
 		4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */; };
+		4BF7394B2C1AD2F300FF0FD8 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */; };
+		4BF7394E2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */; };
+		4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */; };
+		4BF739542C1D81A200FF0FD8 /* DialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739532C1D81A200FF0FD8 /* DialController.m */; };
 		7217CE3FFC6FFDF025355DC3 /* libPods-FitCloudKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1577722496F42A93B414DFF /* libPods-FitCloudKitDemo.a */; };
 		8902EA55230C2B97003FF418 /* DemoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902EA54230C2B97003FF418 /* DemoListController.m */; };
 		891FA8D6231A98AD0097E996 /* SedentaryRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D5231A98AD0097E996 /* SedentaryRemindController.m */; };
@@ -21,7 +25,7 @@
 		893B449C231D5C260057EC21 /* DailyGoalSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893B449B231D5C260057EC21 /* DailyGoalSettingController.m */; };
 		8975895F231169FE0005C1A2 /* AlarmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8975895E231169FE0005C1A2 /* AlarmController.m */; };
 		898ADEB0231E941200342172 /* UnitPreferController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898ADEAF231E941200342172 /* UnitPreferController.m */; };
-		898ADEB3231EB43C00342172 /* UserProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898ADEB2231EB43C00342172 /* UserProfileController.m */; };
+		898ADEB3231EB43C00342172 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898ADEB2231EB43C00342172 /* ContactsController.m */; };
 		898ADEB6231EB6DA00342172 /* WeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898ADEB5231EB6DA00342172 /* WeatherController.m */; };
 		89A438B222B0D19700555B98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A438B122B0D19700555B98 /* AppDelegate.m */; };
 		89A438B522B0D19700555B98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A438B422B0D19700555B98 /* ViewController.m */; };
@@ -46,13 +50,21 @@
 
 /* Begin PBXFileReference section */
 		1511A057B1CD59EA0B4E8EED /* Pods-FitCloudKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCloudKitDemo.release.xcconfig"; path = "Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo.release.xcconfig"; sourceTree = "<group>"; };
-		1DD0BC6E2C1C22E200BB46BE /* FitCloudKitDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitCloudKitDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		1DD0BC6F2C1C22E200BB46BE /* OnlyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyTest.swift; sourceTree = "<group>"; };
-		1DD0BC742C1D6AD000BB46BE /* MusicManageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicManageController.h; sourceTree = "<group>"; };
-		1DD0BC752C1D6AF100BB46BE /* MusicManageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicManageController.m; sourceTree = "<group>"; };
+		1D0C754D2C20160E0009027E /* MusicManageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicManageController.m; sourceTree = "<group>"; };
+		1D0C754E2C20160E0009027E /* NotificationManageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManageController.m; sourceTree = "<group>"; };
+		1D0C754F2C20160F0009027E /* MusicManageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicManageController.h; sourceTree = "<group>"; };
+		1D0C75502C20160F0009027E /* NotificationManageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManageController.h; sourceTree = "<group>"; };
 		4674C6148BD9C164A509FD6C /* Pods-FitCloudKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCloudKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4B17E0232C11B7F8002A7E94 /* HistoryDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDataController.h; sourceTree = "<group>"; };
 		4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDataController.m; sourceTree = "<group>"; };
+		4BF739492C1AD2F300FF0FD8 /* SettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		4BF7394C2C1AEA7500FF0FD8 /* BasicDeviceInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicDeviceInfoController.h; sourceTree = "<group>"; };
+		4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicDeviceInfoController.m; sourceTree = "<group>"; };
+		4BF7394F2C1AEAB700FF0FD8 /* RemotePhotographyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemotePhotographyController.h; sourceTree = "<group>"; };
+		4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemotePhotographyController.m; sourceTree = "<group>"; };
+		4BF739522C1D81A200FF0FD8 /* DialController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialController.h; sourceTree = "<group>"; };
+		4BF739532C1D81A200FF0FD8 /* DialController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialController.m; sourceTree = "<group>"; };
 		8902EA53230C2B97003FF418 /* DemoListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoListController.h; sourceTree = "<group>"; };
 		8902EA54230C2B97003FF418 /* DemoListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoListController.m; sourceTree = "<group>"; };
 		891FA8D4231A98AD0097E996 /* SedentaryRemindController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SedentaryRemindController.h; sourceTree = "<group>"; };
@@ -73,8 +85,8 @@
 		8975895E231169FE0005C1A2 /* AlarmController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmController.m; sourceTree = "<group>"; };
 		898ADEAE231E941200342172 /* UnitPreferController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitPreferController.h; sourceTree = "<group>"; };
 		898ADEAF231E941200342172 /* UnitPreferController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitPreferController.m; sourceTree = "<group>"; };
-		898ADEB1231EB43C00342172 /* UserProfileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserProfileController.h; sourceTree = "<group>"; };
-		898ADEB2231EB43C00342172 /* UserProfileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfileController.m; sourceTree = "<group>"; };
+		898ADEB1231EB43C00342172 /* ContactsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsController.h; sourceTree = "<group>"; };
+		898ADEB2231EB43C00342172 /* ContactsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsController.m; sourceTree = "<group>"; };
 		898ADEB4231EB6DA00342172 /* WeatherController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherController.h; sourceTree = "<group>"; };
 		898ADEB5231EB6DA00342172 /* WeatherController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherController.m; sourceTree = "<group>"; };
 		89A438AD22B0D19700555B98 /* FitCloudKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitCloudKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,14 +207,24 @@
 				893B449B231D5C260057EC21 /* DailyGoalSettingController.m */,
 				898ADEAE231E941200342172 /* UnitPreferController.h */,
 				898ADEAF231E941200342172 /* UnitPreferController.m */,
-				898ADEB1231EB43C00342172 /* UserProfileController.h */,
-				898ADEB2231EB43C00342172 /* UserProfileController.m */,
+				898ADEB1231EB43C00342172 /* ContactsController.h */,
+				898ADEB2231EB43C00342172 /* ContactsController.m */,
 				898ADEB4231EB6DA00342172 /* WeatherController.h */,
 				898ADEB5231EB6DA00342172 /* WeatherController.m */,
 				89A891AA2A56B08F0073CEBA /* WomenHealthController.h */,
 				89A891AB2A56B08F0073CEBA /* WomenHealthController.m */,
-				1DD0BC742C1D6AD000BB46BE /* MusicManageController.h */,
-				1DD0BC752C1D6AF100BB46BE /* MusicManageController.m */,
+				4BF739492C1AD2F300FF0FD8 /* SettingsController.h */,
+				4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */,
+				4BF7394C2C1AEA7500FF0FD8 /* BasicDeviceInfoController.h */,
+				4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */,
+				1D0C754F2C20160F0009027E /* MusicManageController.h */,
+				1D0C754D2C20160E0009027E /* MusicManageController.m */,
+				1D0C75502C20160F0009027E /* NotificationManageController.h */,
+				1D0C754E2C20160E0009027E /* NotificationManageController.m */,
+				4BF7394F2C1AEAB700FF0FD8 /* RemotePhotographyController.h */,
+				4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */,
+				4BF739522C1D81A200FF0FD8 /* DialController.h */,
+				4BF739532C1D81A200FF0FD8 /* DialController.m */,
 				89C515552308499D000BD54C /* DeviceCell.h */,
 				89C515562308499D000BD54C /* DeviceCell.m */,
 				89A438B622B0D19700555B98 /* Main.storyboard */,
@@ -213,8 +235,6 @@
 				89C515462308370B000BD54C /* InfoPlist.strings */,
 				89C5154323083707000BD54C /* Localizable.strings */,
 				89A438C922B0DB6000555B98 /* FitCloudKitDemo-Prefix.pch */,
-				1DD0BC6F2C1C22E200BB46BE /* OnlyTest.swift */,
-				1DD0BC6E2C1C22E200BB46BE /* FitCloudKitDemo-Bridging-Header.h */,
 			);
 			path = FitCloudKitDemo;
 			sourceTree = "<group>";
@@ -309,7 +329,6 @@
 				TargetAttributes = {
 					89A438AC22B0D19700555B98 = {
 						CreatedOnToolsVersion = 10.2.1;
-						LastSwiftMigration = 1530;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -416,34 +435,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0C75512C20160F0009027E /* MusicManageController.m in Sources */,
 				89A438B522B0D19700555B98 /* ViewController.m in Sources */,
 				89A438C822B0DA9500555B98 /* AppDelegate+FitCloudKit.m in Sources */,
 				89A891AC2A56B08F0073CEBA /* WomenHealthController.m in Sources */,
-				1DD0BC702C1C22E200BB46BE /* OnlyTest.swift in Sources */,
 				891FA8D6231A98AD0097E996 /* SedentaryRemindController.m in Sources */,
 				89C5155023083B22000BD54C /* LocalizedLabel.m in Sources */,
 				893B4499231D54870057EC21 /* RealtimeMeasureController.m in Sources */,
 				89A438C022B0D19900555B98 /* main.m in Sources */,
 				89A438CC22B0ED3800555B98 /* AppDelegate+LoggerService.m in Sources */,
+				1D0C75522C20160F0009027E /* NotificationManageController.m in Sources */,
 				898ADEB0231E941200342172 /* UnitPreferController.m in Sources */,
 				898ADEB6231EB6DA00342172 /* WeatherController.m in Sources */,
+				4BF7394E2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m in Sources */,
 				89EA5159230ED2A200EDC1F0 /* MessageReminderController.m in Sources */,
 				891FA8D9231AAAA20097E996 /* DrinkRemindController.m in Sources */,
 				893B449C231D5C260057EC21 /* DailyGoalSettingController.m in Sources */,
 				8975895F231169FE0005C1A2 /* AlarmController.m in Sources */,
 				89C5155A2308579F000BD54C /* DeviceBindingController.m in Sources */,
 				89C51554230840B2000BD54C /* DeviceSearchListController.m in Sources */,
-				898ADEB3231EB43C00342172 /* UserProfileController.m in Sources */,
+				4BF7394B2C1AD2F300FF0FD8 /* SettingsController.m in Sources */,
+				898ADEB3231EB43C00342172 /* ContactsController.m in Sources */,
 				89C515572308499D000BD54C /* DeviceCell.m in Sources */,
 				4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */,
 				89A438B222B0D19700555B98 /* AppDelegate.m in Sources */,
-				1DD0BC762C1D6AF100BB46BE /* MusicManageController.m in Sources */,
 				89C5156023085958000BD54C /* MoView.m in Sources */,
 				892ADC8D2313FB6B00934A08 /* WristWakeUpController.m in Sources */,
 				891FA8DC231AAE030097E996 /* HealthMonitorController.m in Sources */,
+				4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */,
 				89C5155123083B22000BD54C /* LocalizedButton.m in Sources */,
 				891FA8DF231AB3D20097E996 /* ScreenDispayController.m in Sources */,
 				8902EA55230C2B97003FF418 /* DemoListController.m in Sources */,
+				4BF739542C1D81A200FF0FD8 /* DialController.m in Sources */,
 				89C5156123085958000BD54C /* MoCurveLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -552,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -607,7 +632,7 @@
 			baseConfigurationReference = 4674C6148BD9C164A509FD6C /* Pods-FitCloudKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DY5A9J889;
@@ -622,9 +647,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.topstep.FitCloudKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "FitCloudKitDemo/FitCloudKitDemo-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -634,7 +656,7 @@
 			baseConfigurationReference = 1511A057B1CD59EA0B4E8EED /* Pods-FitCloudKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DY5A9J889;
@@ -649,8 +671,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.topstep.FitCloudKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "FitCloudKitDemo/FitCloudKitDemo-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
