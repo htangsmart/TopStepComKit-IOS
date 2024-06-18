@@ -90,7 +90,7 @@
             [TPSSdk.share.activityDataAbility getHistoryActivity:0 endTime:[[NSDate date] timeIntervalSince1970] block:^(NSArray<TPSHistoryActivityModel *> * _Nullable historyActivityModelList) {
                 ConsoleResultToastTip(weakSelf.view);
                 [historyActivityModelList enumerateObjectsUsingBlock:^(TPSHistoryActivityModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                    XLOG_INFO(@"Activity --- start_time: %ld  stand: %d  sport: %d", obj.start_time, obj.stand, obj.sport);
+                    XLOG_INFO(@"Activity --- start_time: %ld  stand: %d  sport: %f", obj.start_time, obj.stand, obj.sport);
                 }];
             }];
         }];
