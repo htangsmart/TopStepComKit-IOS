@@ -18,9 +18,12 @@
 @property(nonatomic, assign) double app_installation_space;
 @property(nonatomic, assign) float screen_border_radius;
 
-@property(nonatomic, strong) NSString* jsVersion;
+@property(nonatomic, strong) NSString* uiVersion;
+@property(nonatomic, assign) int uiVersionCode;
 @property(nonatomic, strong) NSString* firmVersion;
 @property(nonatomic, assign) int firmVersionCode;
+@property(nonatomic, strong) NSString* virtualVersion;
+@property(nonatomic, assign) int virtualVersionCode;
 @property(nonatomic, strong) NSString* mobo;
 @property(nonatomic, strong) NSString* projectId;
 @property(nonatomic, strong) NSString* mac;

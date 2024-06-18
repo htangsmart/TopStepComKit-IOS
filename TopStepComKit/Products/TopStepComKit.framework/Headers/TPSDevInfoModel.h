@@ -21,12 +21,12 @@
 @property(nonatomic, assign) double app_installation_space;
 /// 表盘预览图圆角大小
 @property(nonatomic, assign) float screen_border_radius;
-/// js版本号
-@property(nonatomic, strong) NSString* jsVersion;
-/// 固件版本号
+@property(nonatomic, strong) NSString* uiVersion;
+@property(nonatomic, assign) int uiVersionCode;
 @property(nonatomic, strong) NSString* firmVersion;
-/// 固件版本号
 @property(nonatomic, assign) int firmVersionCode;
+@property(nonatomic, strong) NSString* virtualVersion;
+@property(nonatomic, assign) int virtualVersionCode;
 @property(nonatomic, strong) NSString* mobo;
 @property(nonatomic, strong) NSString* projectId;
 /// mac地址 不带冒号

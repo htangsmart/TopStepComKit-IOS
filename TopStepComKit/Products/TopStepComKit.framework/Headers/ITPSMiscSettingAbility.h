@@ -34,7 +34,7 @@ typedef void(^TPSMiscSettingCallback)(TPSMiscSettingModel* miscSettingModel);
  */
 -(void)sendHt_health_enhanced:(TPSMiscSettingModel_State)ht_health_enhanced;
 /*
- * @brief
+ * @brief(此功能手表端不受控，应该去掉，此功能由手表端根据项目决定，不留给手机进行设置，fitcloud也无)
  */
 -(void)sendHt_sleep_allDay:(TPSMiscSettingModel_State)ht_sleep_allDay;
 /*
