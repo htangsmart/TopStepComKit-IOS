@@ -135,7 +135,7 @@ typedef void(^TPS_ActionString)(NSString*);
 
 +(NSString*)bundleToDocuments:(NSString *)dir fileName:(NSString *)fileName existsCover:(BOOL)cover;
 
-+(void)mp3ToPCMWithMp3File:(NSString*)mp3FilePath outPutPCMPath:(NSString*)outPutPCMPath block:(TPS_Action)block;
++(void)mp3ToPCMWithMp3File:(NSString*)mp3FilePath outPutPCMPath:(NSString*)outPutPCMPath sampleRate:(int)sampleRate bitDepth:(int)bitDepth block:(TPS_Action)block;
 
 @end
 
