@@ -47,11 +47,18 @@ typedef void(^TPSDialGetCurDialCallback)(TPSDialModel* model);
 -(void)pushCustomerDialWithDial:(TPSDialModel *)dialModel block:(TPSDialProgressCallback)block;
 
 /*
- * @brief  删除手表表盘
+ * @brief  删除云端表盘
+ *
+ * @param  dialId 表盘名称
+ */
+-(void)deleteRemoteWatchWithDiaId:(NSString *)dialId block:(TPSResultBlock)block;
+
+/*
+ * @brief  删除自定义表盘
  *
  * @param  dialName 表盘名称
  */
--(RACSubject *)deleteRemoteWatchDialWithName:(NSString *)dialName block:(TPSSendMsgResult)block;
+-(void)deleteCustomerWatchWithDiaName:(NSString *)dialName block:(TPSResultBlock)block;
 
 /*
  * @brief 获取手表支持的挂件信息

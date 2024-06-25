@@ -161,3 +161,7 @@ CREATE TABLE IF NOT EXISTS tb_activity_record (
     start_time          INT,                                /* ??? */
     data                BLOB                                /* ??? */
 );
+
+/* 跑步运动信息 添加运动心率 次/min */
+ALTER TABLE [tb_sport_running] ADD [heartRate] INT NOT NULL DEFAULT 0;
+                    

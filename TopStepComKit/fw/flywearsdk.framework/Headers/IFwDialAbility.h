@@ -50,11 +50,19 @@ typedef void(^FwDialGetCurDialCallback)(FwDialModel* model);
 -(void)pushCustomerDialWithLocalPath:(NSString*)localPath dialId:(NSString*)dialId block:(FwDialProgressCallback)block;
 
 /*
- * @brief  删除手表表盘
+ * @brief  删除云端表盘
+ *
+ * @param  dialId 表盘名称
+ */
+-(void)deleteRemoteWatchWithDiaId:(NSString *)dialId block:(FwResultBlock)block;
+
+/*
+ * @brief  删除自定义表盘
  *
  * @param  dialName 表盘名称
  */
--(RACSubject *)deleteRemoteWatchDialWithName:(NSString *)dialName block:(FwSendMsgResult)block;
+-(void)deleteCustomerWatchWithDiaName:(NSString *)dialName block:(FwResultBlock)block;
+
 
 /*
  * @brief 获取手表支持的挂件信息

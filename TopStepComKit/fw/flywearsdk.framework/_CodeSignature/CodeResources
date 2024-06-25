@@ -254,7 +254,7 @@
 		</data>
 		<key>Headers/IFwDialAbility.h</key>
 		<data>
-		4WOWmrn2iG5La0OaoYRsExJjU3Y=
+		HU9GMa9BkxKERY6CjTQqQxdoFJQ=
 		</data>
 		<key>Headers/IFwEleBookAbility.h</key>
 		<data>
@@ -350,7 +350,7 @@
 		</data>
 		<key>Headers/WearBlockTypeDef.h</key>
 		<data>
-		IsNTUEOfbIS1ex+6/uwAI+qug8I=
+		JjeIdNwZKYk2pKoWkTHxM35KYQQ=
 		</data>
 		<key>Headers/flywearsdk-Swift.h</key>
 		<data>
@@ -362,7 +362,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZdoRvYdrg1+zltixIT68OlXR+dw=
+		1eOh2TVdxw/8f6EH/j/4ztopYd0=
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
@@ -386,7 +386,7 @@
 		</data>
 		<key>Modules/flywearsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0FtV9jEJXjaQLeb/FktrkI3ii4A=
+		/SKuR+TMbUrl54whfUEMx3/AO34=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1545,11 +1545,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4WOWmrn2iG5La0OaoYRsExJjU3Y=
+			HU9GMa9BkxKERY6CjTQqQxdoFJQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			KKaXKpV/uVyJ0Ra/TVkp/gCbojrX0lSEMxbeZ6qvNPo=
+			AUZy5NvNZAuW8/vJ48KjXEm3M6FfdDkd5Me3PZUlMAE=
 			</data>
 		</dict>
 		<key>Headers/IFwEleBookAbility.h</key>
@@ -1809,11 +1809,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IsNTUEOfbIS1ex+6/uwAI+qug8I=
+			JjeIdNwZKYk2pKoWkTHxM35KYQQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			KlPt/m/V9owzu6RP6h5y3ZD3nXCqtX7u15SeZ0Q8JBs=
+			cyGjM4wm+yj8ZfFgRRe8Gi5Xq9ezNa8e4Sg/4wHtpaU=
 			</data>
 		</dict>
 		<key>Headers/flywearsdk-Swift.h</key>
@@ -1897,11 +1897,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0FtV9jEJXjaQLeb/FktrkI3ii4A=
+			/SKuR+TMbUrl54whfUEMx3/AO34=
 			</data>
 			<key>hash2</key>
 			<data>
-			kgRAjJ09soJksqA8xVKfPHIhatNcK//XeP7TAw3h5E8=
+			vpMnY/Eo0IscpK+SA9k2PXyHaSfi0YgfPnWAbw1Rw+E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

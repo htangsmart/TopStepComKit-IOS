@@ -52,6 +52,10 @@
 #import <TopStepComKit/TPSDevice.h>
 #import <TopStepComKit/ITPSSynchronousDataAbility.h>
 
+#import <TopStepComKit/ITPSUserInfoAbility.h>
+
+
+
 @interface TPSSdk : NSObject
 
 +(instancetype)share;
@@ -220,6 +224,9 @@
  http协议透传功能
  */
 @property(nonatomic, strong) id<ITPSHttpAbility> httpAbility;
+
+
+@property(nonatomic, strong) id<ITPSUserInfoAbility> userInfoAbility;
 
 
 

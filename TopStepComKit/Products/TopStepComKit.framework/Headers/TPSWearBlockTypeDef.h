@@ -9,6 +9,9 @@
 #define TPSWearBlockTypeDef_h
 
 typedef void(^TPSSendMsgResult)(BOOL isSendOK);
+
+typedef void(^TPSResultBlock)(BOOL isSendOK, NSDictionary * _Nullable errorInfo);
+
 typedef void(^TPSRttDicResult)(NSDictionary<NSString *, id> * _Nonnull jsonMsg);
 
 

@@ -8,7 +8,12 @@
 #ifndef WearBlockTypeDef_h
 #define WearBlockTypeDef_h
 
+
+
 typedef void(^FwSendMsgResult)(BOOL isSendOK);
+
+typedef void(^FwResultBlock)(BOOL isSendOK, NSDictionary * _Nullable errorInfo);
+
 typedef void(^FwRttDicResult)(NSDictionary<NSString *, id> * _Nonnull jsonMsg);
 
 

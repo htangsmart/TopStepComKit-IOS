@@ -125,6 +125,10 @@ FOUNDATION_EXPORT const unsigned char TopStepComKitVersionString[];
 #import <TopStepComKit/OrmAdapter.h>
 
 
+#import <TopStepComKit/ITPSUserInfoAbility.h>
+#import <TopStepComKit/TPSUserInfoModel.h>
+
+
 
 
 

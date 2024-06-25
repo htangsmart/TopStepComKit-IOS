@@ -325,7 +325,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		w1ya18sdJ4kkNGEHMBNXrGuxo00=
+		QAWdLVxeq3Ti+2CFxek+vHfoRAc=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -1030,7 +1030,7 @@
 		</dict>
 		<key>Frameworks/flywearsdk.framework/Info.plist</key>
 		<data>
-		ZdoRvYdrg1+zltixIT68OlXR+dw=
+		1eOh2TVdxw/8f6EH/j/4ztopYd0=
 		</data>
 		<key>Frameworks/flywearsdk.framework/WearApi.bundle/README.md</key>
 		<data>
@@ -1498,11 +1498,11 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/_CodeSignature/CodeResources</key>
 		<data>
-		n/Ef5jos4IxhfmNYr3UxbPVEbBQ=
+		wrTohaLPI8/FM/QhFeb8+dJXS0M=
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-		do0A2upUM9Gew1gGmtmWShgtuBM=
+		dTEmDYMh7xeSMCkLYxUHjoXBTvc=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1514,7 +1514,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-		x0L6B+zArRhLkQWhqZa37X3FHuk=
+		TU7Zh4zf5Fu8HIggExR2v2noc9A=
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1554,7 +1554,7 @@
 		</data>
 		<key>Headers/ITPSDialAbility.h</key>
 		<data>
-		NXf3zYtQoDyFMSmqt4k0jP7YtHQ=
+		qdGWv8F3shshhl7gAe1W+wK/bCo=
 		</data>
 		<key>Headers/ITPSEleBookAbility.h</key>
 		<data>
@@ -1636,6 +1636,10 @@
 		<data>
 		EXF71W4BCmwkZNk1BdkUXvksbFE=
 		</data>
+		<key>Headers/ITPSUserInfoAbility.h</key>
+		<data>
+		xhXQOTvjD96etYT3YRJBTzfryQc=
+		</data>
 		<key>Headers/ITPSWearBaseAbility.h</key>
 		<data>
 		U7+lcX6TI7zFaM54R8eqW6Djx7U=
@@ -1698,7 +1702,7 @@
 		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
-		5FfEg1nASBK7G1Q1lFvtC+ZYIG4=
+		5mOvm3F3YskQDfrB6ibGYE8TVKM=
 		</data>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<data>
@@ -1810,7 +1814,7 @@
 		</data>
 		<key>Headers/TPSSdk.h</key>
 		<data>
-		6lYhlVKWm1Qt3zc4pWEIm/p8mCQ=
+		o/MG7iUZxKp5uywfMHaV1LqHz2c=
 		</data>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
 		<data>
@@ -1826,7 +1830,7 @@
 		</data>
 		<key>Headers/TPSSportItemModel.h</key>
 		<data>
-		HkDLg9t6RvJ3N6UzGye3Hy9d9lg=
+		t6ll0TKLf9HjI9Awl7+WmGTIRTI=
 		</data>
 		<key>Headers/TPSSportTargetModel.h</key>
 		<data>
@@ -1840,13 +1844,17 @@
 		<data>
 		2kMcJectTCv07+HEJHpPPLNl2Yw=
 		</data>
+		<key>Headers/TPSUserInfoModel.h</key>
+		<data>
+		zgxzg6nmi3yPw2rZ96FpRzAjCbE=
+		</data>
 		<key>Headers/TPSWalletModel.h</key>
 		<data>
 		gg8pUHVENZFK889WrKMJKgrQWcY=
 		</data>
 		<key>Headers/TPSWearBlockTypeDef.h</key>
 		<data>
-		XOQDcNWJZG1+tUp5ZL6VCIgk98k=
+		cyk43O4B74Tzw3rGtNBUc1dAiz4=
 		</data>
 		<key>Headers/TPSWearFactory.h</key>
 		<data>
@@ -1882,11 +1890,11 @@
 		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
-		PKf/PgEn5PDhkfLSM8AeyGvcKmA=
+		XA//xx6am652TauhoNQ4YnCVbI8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pYh+SfX7VWpOFBWYQBJNRYr/k3M=
+		Tde8yHwp8x0GcsLLhnaijyF49p8=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
@@ -1910,7 +1918,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		T44Z4OEQEKFNb2ZHt84Hrha6YR4=
+		ry1nGVkgHrMczClWwEhEODcGEUw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1918,7 +1926,7 @@
 		</data>
 		<key>TSBundle.bundle/TSSql.sql</key>
 		<data>
-		NDjeRCl3yjfHYGxXSRqFOffzE1g=
+		aezFcn8YlEVeU284f0CVlg7NScE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2393,11 +2401,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w1ya18sdJ4kkNGEHMBNXrGuxo00=
+			QAWdLVxeq3Ti+2CFxek+vHfoRAc=
 			</data>
 			<key>hash2</key>
 			<data>
-			v3KLogFkO1hNuQgZruDw43ijw2IJPOzFOoEiOCd81wg=
+			FeO+de4xMa912deb8oqpoixAZ8rlnrA3mENwc/iVkw4=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
@@ -3427,11 +3435,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZdoRvYdrg1+zltixIT68OlXR+dw=
+			1eOh2TVdxw/8f6EH/j/4ztopYd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			2bxPILwCLflyOjg8LHnMMwwPSo4Bnp5V+rOhVPJzEn8=
+			j4m2IK8VMHmpYMWTywKf/AtXrfYM1cvZ6X5wORdKdEE=
 			</data>
 		</dict>
 		<key>Frameworks/flywearsdk.framework/WearApi.bundle/README.md</key>
@@ -4714,22 +4722,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n/Ef5jos4IxhfmNYr3UxbPVEbBQ=
+			wrTohaLPI8/FM/QhFeb8+dJXS0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			QA+ZIZ+CYKmWtDDY9t02dWlpd7OqKm/mI0e+zPzibHA=
+			utI7rSXR/7p2DPoMVY6KzZ3rE3uJLc883Jm9Y+ThHcc=
 			</data>
 		</dict>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			do0A2upUM9Gew1gGmtmWShgtuBM=
+			dTEmDYMh7xeSMCkLYxUHjoXBTvc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9cXHmm0NGVxTYNjwghd34YrpnQKbvl8J3ayCWC0LiGc=
+			TJ6gZe5Az2cXLmTyvA9tGmK6TH5E2/GH5UPsRWNHgKA=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4758,11 +4766,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x0L6B+zArRhLkQWhqZa37X3FHuk=
+			TU7Zh4zf5Fu8HIggExR2v2noc9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			NrKprn4/R7EUllttdObeCMXh5E3ggDRY+b7j2HFWQe0=
+			7aevd9mHHmUdiQe329lBYSL6uXkiYoY+DoqghO9yks4=
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -4868,11 +4876,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NXf3zYtQoDyFMSmqt4k0jP7YtHQ=
+			qdGWv8F3shshhl7gAe1W+wK/bCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			SIykc/F8EOv5vJsZP5+sGQ38rv87pNA9arBYxdgBd1U=
+			kZgUvwM7lSQewdTAV95HJyoHh944I2BI5CABanyWJ2o=
 			</data>
 		</dict>
 		<key>Headers/ITPSEleBookAbility.h</key>
@@ -5095,6 +5103,17 @@
 			WyAE4ZzWPQHLlgX8T5/dMdfO2XnJ8fgtogwi9WpMsAg=
 			</data>
 		</dict>
+		<key>Headers/ITPSUserInfoAbility.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xhXQOTvjD96etYT3YRJBTzfryQc=
+			</data>
+			<key>hash2</key>
+			<data>
+			TPHH5QL40YLnLQAiHFolb3eRxkZ36iNkbh2fGWTV4Bs=
+			</data>
+		</dict>
 		<key>Headers/ITPSWearBaseAbility.h</key>
 		<dict>
 			<key>hash</key>
@@ -5264,11 +5283,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5FfEg1nASBK7G1Q1lFvtC+ZYIG4=
+			5mOvm3F3YskQDfrB6ibGYE8TVKM=
 			</data>
 			<key>hash2</key>
 			<data>
-			7JBhqlw7BpY3I9drxGAXDI2EYWD22V9rwXmmR+Txlkk=
+			ygtI6y/AQYELmmBTT1b4SXokLalJQ3qGcK6IQtkXQaI=
 			</data>
 		</dict>
 		<key>Headers/TPSDialProgressModel.h</key>
@@ -5572,11 +5591,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6lYhlVKWm1Qt3zc4pWEIm/p8mCQ=
+			o/MG7iUZxKp5uywfMHaV1LqHz2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			wOe1Az5yR0JA1GfR3mFdXGNMVG71BO2klDv4cNpXEWk=
+			yh8+YO2SMBBNMRUtzzfqFqHAnE0cpxDtNz96Gr/x1+k=
 			</data>
 		</dict>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
@@ -5616,11 +5635,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HkDLg9t6RvJ3N6UzGye3Hy9d9lg=
+			t6ll0TKLf9HjI9Awl7+WmGTIRTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			zToTrMM4luWJ6lYKFx+SFO43Z7vYSFW4ozN2KYGu79U=
+			tE525CcC69qCettED/Fz1NT79AfdnHnDVGFpPmnlXFY=
 			</data>
 		</dict>
 		<key>Headers/TPSSportTargetModel.h</key>
@@ -5656,6 +5675,17 @@
 			wqNay3iPGX8hbrJag+fLJTWE+0fTDAqSqrK/xZJBlm8=
 			</data>
 		</dict>
+		<key>Headers/TPSUserInfoModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zgxzg6nmi3yPw2rZ96FpRzAjCbE=
+			</data>
+			<key>hash2</key>
+			<data>
+			cVl2NtfzuWSuOI80UBCMV7yOUznKD3Ly/pHvlBVzEu8=
+			</data>
+		</dict>
 		<key>Headers/TPSWalletModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -5671,11 +5701,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XOQDcNWJZG1+tUp5ZL6VCIgk98k=
+			cyk43O4B74Tzw3rGtNBUc1dAiz4=
 			</data>
 			<key>hash2</key>
 			<data>
-			m9P0x8HMYQbIwcY9dOF87b3Zpbh1hGfz+enZBqhmTww=
+			YX20go3pJlCyq/cVKZQy9TDHf63uzcuUowJWNRUhugA=
 			</data>
 		</dict>
 		<key>Headers/TPSWearFactory.h</key>
@@ -5770,11 +5800,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PKf/PgEn5PDhkfLSM8AeyGvcKmA=
+			XA//xx6am652TauhoNQ4YnCVbI8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xEBghQO+GGyoxr2lJweqacM1djlSCJ0RxkjuR1nW7EM=
+			G92TY/bynkPh4t0pgKonnGkaYmthruP5sUBTjsb1JQQ=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
@@ -5836,11 +5866,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T44Z4OEQEKFNb2ZHt84Hrha6YR4=
+			ry1nGVkgHrMczClWwEhEODcGEUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			9m2Da3Oit4c/LMi3rUMMvp/MZUZ5w2UrUAEgepfVQGc=
+			rmLlZXj2Il8c6IQ+zScl8P6HjMTrfqNMKEjP/nNnBSI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -5858,11 +5888,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NDjeRCl3yjfHYGxXSRqFOffzE1g=
+			aezFcn8YlEVeU284f0CVlg7NScE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tl1As4r+qlbI2ssEs8v/XyIAE5cnJ4nfVJon71JoJpk=
+			irXdtEosbNNpPveX7nEW4VnIYQL4Sg/9p8vF4V6Gb1Q=
 			</data>
 		</dict>
 	</dict>

@@ -16,12 +16,17 @@ typedef NS_ENUM(NSUInteger, TSDialTimePosition) {
     eDialTimePositionBottom = 3,      //下方
 };
 
-@class FwDialModel;
+typedef NS_ENUM(NSUInteger, TSDialType) {
+    
+    eDialTypeLocal = 0,
+    eDialTypeCustomer = 1,
+    eDialTypeCloud = 2,
+};
 
+@class FwDialModel;
+@class FitCloudWatchfaceSlot;
 
 @interface TPSDialModel : NSObject
-
-
 
 /// 表盘ID
 @property(nonatomic, strong) NSString* dialId;
@@ -45,10 +50,13 @@ typedef NS_ENUM(NSUInteger, TSDialTimePosition) {
 
 @property (nonatomic,assign) TSDialTimePosition dialTimePosition;
 
+@property (nonatomic,assign) TSDialType dialType;
+
 -(instancetype)initWithFwModel:(FwDialModel*)fwDialModel;
 
 +(NSArray<TPSDialModel*>*)toTPSArrWithFwArr:(NSArray<FwDialModel*>*)fwArr;
 
+- (instancetype)initWithFitModel:(FitCloudWatchfaceSlot *)fitDialModel;
 
 @end
 
