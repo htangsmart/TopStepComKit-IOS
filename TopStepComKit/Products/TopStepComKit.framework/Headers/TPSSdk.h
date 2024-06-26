@@ -58,8 +58,6 @@
 
 @interface TPSSdk : NSObject
 
-
-
 +(instancetype)share;
 
 - (void)initDeviceType:(NSString *)deviceType;

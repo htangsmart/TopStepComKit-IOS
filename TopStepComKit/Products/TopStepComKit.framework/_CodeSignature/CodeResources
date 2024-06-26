@@ -1502,11 +1502,7 @@
 		</data>
 		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
 		<data>
-<<<<<<< Updated upstream
-		dTEmDYMh7xeSMCkLYxUHjoXBTvc=
-=======
-		ZNOTzhDPow7dAM6Ov3Nemj1Wqqs=
->>>>>>> Stashed changes
+		38OmXLlV+0omcMKNbfAMyfkxl9k=
 		</data>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
 		<data>
@@ -1518,11 +1514,7 @@
 		</data>
 		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
 		<data>
-<<<<<<< Updated upstream
 		TU7Zh4zf5Fu8HIggExR2v2noc9A=
-=======
-		XjGafCglIpabq/n3TKupqarqr1E=
->>>>>>> Stashed changes
 		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
@@ -1902,15 +1894,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-<<<<<<< Updated upstream
 		Tde8yHwp8x0GcsLLhnaijyF49p8=
-=======
-		8LM9K2b1/qA54cCjr5xy49Zphb8=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		uIaxKf9TDf9AuMB81jtNKg/dNWc=
+		nwE+dloaneRBa2CptepGdTEP7LM=
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -1930,11 +1918,7 @@
 		</data>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-<<<<<<< Updated upstream
 		ry1nGVkgHrMczClWwEhEODcGEUw=
-=======
-		SxSw071Jt+MfBQHA0qs8hyJ8a5Y=
->>>>>>> Stashed changes
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4749,19 +4733,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-<<<<<<< Updated upstream
-			dTEmDYMh7xeSMCkLYxUHjoXBTvc=
+			38OmXLlV+0omcMKNbfAMyfkxl9k=
 			</data>
 			<key>hash2</key>
 			<data>
-			TJ6gZe5Az2cXLmTyvA9tGmK6TH5E2/GH5UPsRWNHgKA=
-=======
-			ZNOTzhDPow7dAM6Ov3Nemj1Wqqs=
-			</data>
-			<key>hash2</key>
-			<data>
-			vNfhXwivFoHaNaFnSjjzKR3gDizel1uGuc+9Y5JjOQo=
->>>>>>> Stashed changes
+			/Uw/mFDgK8bSRsOX3AJG1yEhvlNx32tRIm56rbH/bXI=
 			</data>
 		</dict>
 		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
@@ -4790,19 +4766,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-<<<<<<< Updated upstream
 			TU7Zh4zf5Fu8HIggExR2v2noc9A=
 			</data>
 			<key>hash2</key>
 			<data>
 			7aevd9mHHmUdiQe329lBYSL6uXkiYoY+DoqghO9yks4=
-=======
-			XjGafCglIpabq/n3TKupqarqr1E=
-			</data>
-			<key>hash2</key>
-			<data>
-			4jCFo98fj9ICytDlLX5aFErW6h9Y5T8ofhDL5s+2g+s=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
@@ -5843,11 +5811,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uIaxKf9TDf9AuMB81jtNKg/dNWc=
+			nwE+dloaneRBa2CptepGdTEP7LM=
 			</data>
 			<key>hash2</key>
 			<data>
-			gvWqe+MvQ1dIqfsmqjsFXCjkzguWfLK5tnJmwTtZvqA=
+			x7nvcs2l8MkwPW1FeKtvFEJ9D+nnM0YwoRSW2VOkt2c=
 			</data>
 		</dict>
 		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -5898,19 +5866,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-<<<<<<< Updated upstream
 			ry1nGVkgHrMczClWwEhEODcGEUw=
 			</data>
 			<key>hash2</key>
 			<data>
 			rmLlZXj2Il8c6IQ+zScl8P6HjMTrfqNMKEjP/nNnBSI=
-=======
-			SxSw071Jt+MfBQHA0qs8hyJ8a5Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			9ZluOscZYcv6QjQgMb3PPy4yiv9q/1fnqKPo7Y/8MY4=
->>>>>>> Stashed changes
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
