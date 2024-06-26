@@ -14,12 +14,12 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FitCloudDFUKit (1.3.1-beta.21):
+  - FitCloudDFUKit (1.3.1-beta.22):
     - iOSDFULibrary (~> 4.11.0)
-  - FitCloudKit (1.2.9-beta.117)
+  - FitCloudKit (1.2.9-beta.136)
   - FitCloudNWFKit (1.0.2-beta.1):
     - zipzap (~> 8.1.1)
-  - FitCloudWFKit (1.1.7-beta.7)
+  - FitCloudWFKit (1.1.7-beta.8)
   - iOSDFULibrary (4.11.1):
     - ZIPFoundation (= 0.9.11)
   - JPImageresizerView (1.11.1)
@@ -31,7 +31,7 @@ PODS:
     - SDWebImage/Core (= 5.19.2)
   - SDWebImage/Core (5.19.2)
   - Toast (4.1.1)
-  - TopStepComKit (1.1.1):
+  - TopStepComKit (1.1.2):
     - FitCloudDFUKit
     - FitCloudKit
     - FitCloudNWFKit
@@ -116,16 +116,16 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FitCloudDFUKit:
-    :commit: 230571093c9f6fa0df44239ca5cd0823de0ee596
+    :commit: eee3b839d0d90af7bca0698dcbd8f4bdc3e97b21
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
-    :commit: 230571093c9f6fa0df44239ca5cd0823de0ee596
+    :commit: eee3b839d0d90af7bca0698dcbd8f4bdc3e97b21
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudNWFKit:
-    :commit: 230571093c9f6fa0df44239ca5cd0823de0ee596
+    :commit: eee3b839d0d90af7bca0698dcbd8f4bdc3e97b21
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudWFKit:
-    :commit: 230571093c9f6fa0df44239ca5cd0823de0ee596
+    :commit: eee3b839d0d90af7bca0698dcbd8f4bdc3e97b21
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   TSDialWidget:
     :commit: 4d4a16a1bdd4bb6641a7590403c8ca8b9fb7a952
@@ -133,17 +133,17 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  FitCloudDFUKit: cc3b1599f0e891a407f76e8f53e8b2efbdb8d1e3
-  FitCloudKit: 5b9020d0d29d77353c6d1d1346e3d10a8233978b
+  FitCloudDFUKit: e3f71eaf3fb9b0f76643db4c5c189b0a5af0cfb3
+  FitCloudKit: a8f977b6aa71c5f6b83b2882ba63fb8619aecdd2
   FitCloudNWFKit: 10f5a3637bf6c192e901a2ed1c2921698c065288
-  FitCloudWFKit: 14ee73929b0c274e94a278c3428aac665ff0cd8f
+  FitCloudWFKit: 479df9517f4738280cba44a53a1cbd4a113d943b
   iOSDFULibrary: 3500ac00451aa7d8ec48a752e91099669a2c1d27
   JPImageresizerView: 1048308d226d8d61bdfdd25eb8d41035d6bdffa1
   QuickTraceiOSLogger: 43f2dd860bd7cbaf3e126f09eb0ad25aca26bda3
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
-  TopStepComKit: 742900cef3fb89fb7485e6ba007efe6a0c3675eb
+  TopStepComKit: 40e88155f248a289f3ca7813a360ba84fab67dc0
   TSDialWidget: b4142b9522ae99ed3e325d0b037c29921291fd5c
   XLFacility.optimize: 7d3bac61863a29c11868191b3b3db038f1e5f998
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952

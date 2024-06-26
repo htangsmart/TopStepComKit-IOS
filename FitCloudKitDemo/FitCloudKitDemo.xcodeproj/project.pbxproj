@@ -10,6 +10,12 @@
 		1D0C75512C20160F0009027E /* MusicManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754D2C20160E0009027E /* MusicManageController.m */; };
 		1D0C75522C20160F0009027E /* NotificationManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754E2C20160E0009027E /* NotificationManageController.m */; };
 		4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */; };
+		4B84FE062C2BCA8100E6043E /* flywearsdkDial.zip in Resources */ = {isa = PBXBuildFile; fileRef = 4B84FE052C2BCA8100E6043E /* flywearsdkDial.zip */; };
+		4B84FE092C2BCD8800E6043E /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B84FE082C2BCD8800E6043E /* bg1.png */; };
+		4B84FE0B2C2BCD9100E6043E /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B84FE0A2C2BCD9100E6043E /* preview.png */; };
+		4B9AAEC92C2ABAF500F475E9 /* backgroundImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4B9AAEC52C2ABAF500F475E9 /* backgroundImage.jpeg */; };
+		4B9AAECA2C2ABAF500F475E9 /* ic_custom_all_OSW805.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4B9AAEC62C2ABAF500F475E9 /* ic_custom_all_OSW805.bin */; };
+		4B9AAECB2C2ABAF500F475E9 /* previewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B9AAEC72C2ABAF500F475E9 /* previewImage.png */; };
 		4BF7394B2C1AD2F300FF0FD8 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */; };
 		4BF7394E2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */; };
 		4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */; };
@@ -57,6 +63,12 @@
 		4674C6148BD9C164A509FD6C /* Pods-FitCloudKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCloudKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4B17E0232C11B7F8002A7E94 /* HistoryDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDataController.h; sourceTree = "<group>"; };
 		4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDataController.m; sourceTree = "<group>"; };
+		4B84FE052C2BCA8100E6043E /* flywearsdkDial.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = flywearsdkDial.zip; sourceTree = "<group>"; };
+		4B84FE082C2BCD8800E6043E /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		4B84FE0A2C2BCD9100E6043E /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
+		4B9AAEC52C2ABAF500F475E9 /* backgroundImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage.jpeg; sourceTree = "<group>"; };
+		4B9AAEC62C2ABAF500F475E9 /* ic_custom_all_OSW805.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ic_custom_all_OSW805.bin; sourceTree = "<group>"; };
+		4B9AAEC72C2ABAF500F475E9 /* previewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previewImage.png; sourceTree = "<group>"; };
 		4BF739492C1AD2F300FF0FD8 /* SettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
 		4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
 		4BF7394C2C1AEA7500FF0FD8 /* BasicDeviceInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicDeviceInfoController.h; sourceTree = "<group>"; };
@@ -148,6 +160,26 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		4B84FE072C2BCD3D00E6043E /* watchface850H */ = {
+			isa = PBXGroup;
+			children = (
+				4B84FE0A2C2BCD9100E6043E /* preview.png */,
+				4B84FE082C2BCD8800E6043E /* bg1.png */,
+				4B84FE052C2BCA8100E6043E /* flywearsdkDial.zip */,
+			);
+			path = watchface850H;
+			sourceTree = "<group>";
+		};
+		4B9AAEC82C2ABAF500F475E9 /* watchface805 */ = {
+			isa = PBXGroup;
+			children = (
+				4B9AAEC52C2ABAF500F475E9 /* backgroundImage.jpeg */,
+				4B9AAEC62C2ABAF500F475E9 /* ic_custom_all_OSW805.bin */,
+				4B9AAEC72C2ABAF500F475E9 /* previewImage.png */,
+			);
+			path = watchface805;
+			sourceTree = "<group>";
+		};
 		89A438A422B0D19700555B98 = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +259,8 @@
 				4BF739532C1D81A200FF0FD8 /* DialController.m */,
 				89C515552308499D000BD54C /* DeviceCell.h */,
 				89C515562308499D000BD54C /* DeviceCell.m */,
+				4B84FE072C2BCD3D00E6043E /* watchface850H */,
+				4B9AAEC82C2ABAF500F475E9 /* watchface805 */,
 				89A438B622B0D19700555B98 /* Main.storyboard */,
 				89A438B922B0D19900555B98 /* Assets.xcassets */,
 				89A438BB22B0D19900555B98 /* LaunchScreen.storyboard */,
@@ -307,7 +341,7 @@
 				89A438AA22B0D19700555B98 /* Frameworks */,
 				89A438AB22B0D19700555B98 /* Resources */,
 				9C8224D039CDEBB40E1AEF86 /* [CP] Copy Pods Resources */,
-				E615B22E5F84D41863426F21 /* [CP] Embed Pods Frameworks */,
+				790D1CA24A2102734BC05049 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -361,8 +395,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9AAECB2C2ABAF500F475E9 /* previewImage.png in Resources */,
 				89A438BD22B0D19900555B98 /* LaunchScreen.storyboard in Resources */,
+				4B84FE0B2C2BCD9100E6043E /* preview.png in Resources */,
+				4B9AAEC92C2ABAF500F475E9 /* backgroundImage.jpeg in Resources */,
 				89C5154123083707000BD54C /* Localizable.strings in Resources */,
+				4B84FE092C2BCD8800E6043E /* bg1.png in Resources */,
+				4B84FE062C2BCA8100E6043E /* flywearsdkDial.zip in Resources */,
+				4B9AAECA2C2ABAF500F475E9 /* ic_custom_all_OSW805.bin in Resources */,
 				89A438BA22B0D19900555B98 /* Assets.xcassets in Resources */,
 				89A438B822B0D19700555B98 /* Main.storyboard in Resources */,
 				89C515442308370B000BD54C /* InfoPlist.strings in Resources */,
@@ -372,6 +412,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		790D1CA24A2102734BC05049 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		89D2579D62CC5EF4DD70C0BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,23 +466,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E615B22E5F84D41863426F21 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -644,7 +684,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.topstep.FitCloudKitDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sztopstep.sdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -668,7 +708,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.topstep.FitCloudKitDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sztopstep.sdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
