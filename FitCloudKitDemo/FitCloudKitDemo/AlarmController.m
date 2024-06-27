@@ -61,7 +61,7 @@
             // 2. Add an alarm to the alarm list to generate a new alarm list
             
             NSMutableArray *newAlarmList = [[NSMutableArray alloc] initWithArray:[alarmList isKindOfClass:NSArray.class] ? alarmList : @[]];
-            [newAlarmList addObject:[self generateModelsQuicklyWithID:(int)newAlarmList.count Hour:10 minute:20 enable:true repeat:(TPSAlarmRepeatFriday | TPSAlarmRepeatSaturday)]];
+            [newAlarmList addObject:[self generateModelsQuicklyWithID:(int)newAlarmList.count Hour:10 minute:49 enable:true repeat:(TPSAlarmRepeatFriday | TPSAlarmRepeatSaturday)]];
             
             // 3.重新设置闹钟列表，覆盖旧的闹钟列表
             // 3. Reset the alarm list and overwrite the old alarm list

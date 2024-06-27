@@ -43,7 +43,7 @@
         OpResultToastTip(self.view, YES);
     } else if (indexPath.row == 2) {
         // 获取紧急联系人 --- Get Emergency Contact
-        [TPSSdk.share.contactAbility getEmergencyContact:^(NSMutableArray<TPSContactModel *> *list) {
+        [TPSSdk.share.contactAbility getEmergencyContact:^(NSArray<TPSContactModel *> *list) {
             [list enumerateObjectsUsingBlock:^(TPSContactModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
                 XLOG_INFO(@"Emergency Contact --- name: %@ phone: %@", obj.name, obj.phone);
             }];
@@ -51,6 +51,14 @@
                 ConsoleResultToastTip(weakSelf.view);
             });
         }];
+//        [TPSSdk.share.contactAbility getEmergencyContact:^(NSMutableArray<TPSContactModel *> *list) {
+//            [list enumerateObjectsUsingBlock:^(TPSContactModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//                XLOG_INFO(@"Emergency Contact --- name: %@ phone: %@", obj.name, obj.phone);
+//            }];
+//            dispatch_async(dispatch_get_main_queue(), ^{
+//                ConsoleResultToastTip(weakSelf.view);
+//            });
+//        }];
     } else if (indexPath.row == 3) {
         // 设置紧急联系人 --- Set Emergency Contact
         TPSContactModel *model = [[TPSContactModel alloc] initWithName:@"Lucy" phone:@"18730325788" initial:@""];

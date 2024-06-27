@@ -120,7 +120,7 @@ CREATE TABLE IF NOT EXISTS tb_sport_running (
     sport_id            INT,                                /* ??? */
     type                INT,                                /* ??? */
     start_time          double,                             /* 运动开始时间戳 */
-    duration            INT,                                /* 运动持续时间 */
+    duration            INT,                                /* 运动持续时间(秒) */
     step                INT,                                /* 步数 */
     data                BLOB                                /* 跑步运动信息图表数据 */
 );

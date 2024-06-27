@@ -39,7 +39,7 @@
     {
         [self getAllMiscSetting];
     }
-    else if(indexPath.row == [tableView numberOfRowsInSection:indexPath.section] - 1)
+    else if(indexPath.row == 19)
     {
         [self otaTest];
     }
@@ -55,12 +55,12 @@
 
 - (void)beginOtaWithFilePath:(NSString *)path {
     
-    NSString *ss = [[NSBundle mainBundle] pathForResource:@"79926479b38a4d31938c07f7270bba5d" ofType:@"zip"];
-    [TPSSdk.share.otaAbility otaUpdateWithLocalPath:ss block:^(TPSProgressModel *model) {
+    [TPSSdk.share.otaAbility otaUpdateWithLocalPath:path block:^(TPSProgressModel *model) {
        
         XLOG_INFO(@"ota progress: %f, state: %d", model.percent, model.eventType);
     }];
 }
+
 
 - (void)documentPicker:(UIDocumentPickerViewController *)controller didPickDocumentsAtURLs:(NSArray<NSURL *> *)urls {
     if (controller.documentPickerMode == UIDocumentPickerModeImport) {

@@ -17,7 +17,7 @@
 @class RACSubject<ValueType>;
 @protocol ITPSContactAbility <NSObject, ITPSWearBaseAbility>
 
-typedef void(^TPSContactListCallback)(NSMutableArray<TPSContactModel*>* list);
+typedef void(^TPSContactListCallback)(NSArray<TPSContactModel*>* list);
 
 //1表情符号换*号；2传首字母排序；3长度都32
 +(instancetype)share;

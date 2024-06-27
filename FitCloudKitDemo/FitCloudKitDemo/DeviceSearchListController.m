@@ -69,7 +69,7 @@
         [self.tableView reloadData];
         RACSubject<TPSScanResult*>* scanRacSubject = [[TPSSdk share].connectorAbility startScan];
         scanRacDisposable = [scanRacSubject subscribeNext:^(TPSScanResult * _Nullable x) {
-            if (x.peripheral.name.length >0) {
+            if (x.name.length >0) {
                 NSString *mac = x.mac ? x.mac : @"";
                 int foundIndex = [self getSamePeeripehralIndex:x.peripheral.identifier.UUIDString];
                 //if has existed(you will scan many repetitious peripheral,you need to merge them into one peripheral)
@@ -145,7 +145,7 @@
         {
             
             TPSScanResult* item = [self.peripherals objectAtIndex:indexPath.row];
-            if([item isKindOfClass:[TPSScanResult class]] && item.peripheral.state != CBPeripheralStateConnecting && (item.peripheral.state != CBPeripheralStateConnected))
+            if([item isKindOfClass:[TPSScanResult class]] && item.state != CBPeripheralStateConnecting && (item.peripheral.state != CBPeripheralStateConnected))
             {
                 //Record the last MAC address, and next time you can automatically connect based on this MAC address
                 [TPS_Tools setUser:item.mac forKey:@"lastMac"];

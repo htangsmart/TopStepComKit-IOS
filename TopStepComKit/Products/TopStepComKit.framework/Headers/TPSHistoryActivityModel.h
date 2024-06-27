@@ -19,7 +19,7 @@
 @property (nonatomic, assign) int stand;
 
 @property (nonatomic, assign) int steps;
-@property (nonatomic, assign) int sport;//单位分钟，运动时长
+@property (nonatomic, assign) double sport;//单位分钟，运动时长
 @property (nonatomic, assign) int number;//表示这个时间段内的活动次数
 @property (nonatomic, assign) double calorie;//表示这个时间段内活动消耗的卡路里，单位千卡
 @property (nonatomic, assign) double distance;//表示这个时间段内活动的距离，单位米

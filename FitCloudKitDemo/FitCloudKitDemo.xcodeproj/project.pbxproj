@@ -20,7 +20,6 @@
 		4BF7394E2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */; };
 		4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */; };
 		4BF739542C1D81A200FF0FD8 /* DialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739532C1D81A200FF0FD8 /* DialController.m */; };
-		7217CE3FFC6FFDF025355DC3 /* libPods-FitCloudKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1577722496F42A93B414DFF /* libPods-FitCloudKitDemo.a */; };
 		8902EA55230C2B97003FF418 /* DemoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902EA54230C2B97003FF418 /* DemoListController.m */; };
 		891FA8D6231A98AD0097E996 /* SedentaryRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D5231A98AD0097E996 /* SedentaryRemindController.m */; };
 		891FA8D9231AAAA20097E996 /* DrinkRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D8231AAAA20097E996 /* DrinkRemindController.m */; };
@@ -52,6 +51,7 @@
 		89C5156023085958000BD54C /* MoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C5155D23085958000BD54C /* MoView.m */; };
 		89C5156123085958000BD54C /* MoCurveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C5155E23085958000BD54C /* MoCurveLayer.m */; };
 		89EA5159230ED2A200EDC1F0 /* MessageReminderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EA5158230ED2A200EDC1F0 /* MessageReminderController.m */; };
+		A5885A9DCCF1699BB2325B44 /* Pods_FitCloudKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD583F0D1DC79CFA659ACFB4 /* Pods_FitCloudKitDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,7 +138,7 @@
 		89C5155F23085958000BD54C /* MoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoView.h; sourceTree = "<group>"; };
 		89EA5157230ED2A200EDC1F0 /* MessageReminderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageReminderController.h; sourceTree = "<group>"; };
 		89EA5158230ED2A200EDC1F0 /* MessageReminderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageReminderController.m; sourceTree = "<group>"; };
-		A1577722496F42A93B414DFF /* libPods-FitCloudKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitCloudKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD583F0D1DC79CFA659ACFB4 /* Pods_FitCloudKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCloudKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7217CE3FFC6FFDF025355DC3 /* libPods-FitCloudKitDemo.a in Frameworks */,
+				A5885A9DCCF1699BB2325B44 /* Pods_FitCloudKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +315,17 @@
 		C0A1B400DE21B28CD8FDE60B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1577722496F42A93B414DFF /* libPods-FitCloudKitDemo.a */,
+				4B7B5D872C1162DD00B7D12F /* flywearsdk.framework */,
+				4B7B5D882C1162DD00B7D12F /* h264encoder.framework */,
+				4B7B5D892C1162DD00B7D12F /* persimwearSDK.framework */,
+				4B7B5D8A2C1162DD00B7D12F /* SJWatchLib.framework */,
+				4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */,
+				4B7B5D862C1162DD00B7D12F /* UNIWatchMate.framework */,
+				4B7B5D962C1165D100B7D12F /* flywearsdk.framework */,
+				4B7B5D972C1165D100B7D12F /* h264encoder.framework */,
+				4B7B5D982C1165D100B7D12F /* persimwearSDK.framework */,
+				4B7B5D992C1165D100B7D12F /* UNIWatchMate.framework */,
+				AD583F0D1DC79CFA659ACFB4 /* Pods_FitCloudKitDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -677,6 +687,43 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DY5A9J889;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BitByteData\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JPImageresizerView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/QuickTraceiOSLogger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxRelay\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SWCompression\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TSDialWidget\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Toast\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/XLFacility.optimize\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYCache\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYCategories\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYModel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSDFULibrary\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/zipzap\"",
+					"\"${PODS_ROOT}/../../TopStepComKit/Products\"",
+					"\"${PODS_ROOT}/FitCloudDFUKit/FitCloudDFUKit\"",
+					"\"${PODS_ROOT}/FitCloudKit/FitCloudKit\"",
+					"\"${PODS_ROOT}/FitCloudNWFKit/FitCloudNWFKit\"",
+					"\"${PODS_ROOT}/FitCloudWFKit/FitCloudWFKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudDFUKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudNWFKit\"",
+					"\"${PODS_ROOT}/../../TopStepComKit/OtherSDK\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudWFKit\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitCloudKitDemo/FitCloudKitDemo-Prefix.pch";
 				INFOPLIST_FILE = FitCloudKitDemo/Info.plist;
@@ -701,6 +748,43 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DY5A9J889;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BitByteData\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/HandyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JPImageresizerView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/QuickTraceiOSLogger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxRelay\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SWCompression\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TSDialWidget\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Toast\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/XLFacility.optimize\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYCache\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYCategories\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYModel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSDFULibrary\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/zipzap\"",
+					"\"${PODS_ROOT}/../../TopStepComKit/Products\"",
+					"\"${PODS_ROOT}/FitCloudDFUKit/FitCloudDFUKit\"",
+					"\"${PODS_ROOT}/FitCloudKit/FitCloudKit\"",
+					"\"${PODS_ROOT}/FitCloudNWFKit/FitCloudNWFKit\"",
+					"\"${PODS_ROOT}/FitCloudWFKit/FitCloudWFKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudDFUKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudKit\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudNWFKit\"",
+					"\"${PODS_ROOT}/../../TopStepComKit/OtherSDK\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FitCloudWFKit\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitCloudKitDemo/FitCloudKitDemo-Prefix.pch";
 				INFOPLIST_FILE = FitCloudKitDemo/Info.plist;

@@ -34,6 +34,14 @@
         } error:^(NSError * _Nullable error) {
             OpResultToastTip(weakSelf.view, NO);
         }];
+    }else if(indexPath.row == 1){
+        [[TPSSdk.share.devInfoAbility observeBattery] subscribeNext:^(NSNumber * _Nullable x) {
+           
+            NSLog(@" battery is %f ",x.floatValue);
+        }];
+    }else if(indexPath.row == 2){
+        [TPSSdk.share.devInfoAbility sendPhoneSystemTime];
+
     }
 }
 

@@ -26,11 +26,11 @@
     {        
         TPSSportTargetModel *model = [TPSSportTargetModel new];
         model.steps = 10000;
-        model.stand_time = 60;
+        model.stand_time = 50;
         model.sport_time = 30;
         model.sport_num = 3;
-        model.calorie = 30;
-        model.distance = 5000;
+        model.calorie = 350;
+        model.distance = 3000;
         __weak typeof(self) weakSelf = self;
         [TPSSdk.share.sportTargetAbility sendSportTargets:model block:^(BOOL isSendOK) {
             dispatch_async(dispatch_get_main_queue(), ^{

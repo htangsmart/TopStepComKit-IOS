@@ -35,7 +35,7 @@
         TPSFutureDayWeatherModel *futureModel2 = [[TPSFutureDayWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 172800 describe:TPSWeatherDescribeType_ENUM_CLEAR_DAY minTemperature:25 maxTemperature:35];
         TPSFutureDayWeatherModel *futureModel3 = [[TPSFutureDayWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 259200 describe:TPSWeatherDescribeType_ENUM_CLEAR_DAY minTemperature:24 maxTemperature:34];
         
-        NSArray<TPSFutureDayWeatherModel *> *futureModelArr = [NSArray arrayWithObjects:futureModel1, futureModel2, futureModel3, nil];
+        NSArray<TPSFutureDayWeatherModel *> *futureModelArr = [NSArray arrayWithObjects:futureModel1, futureModel2, futureModel3,futureModel3,futureModel3,futureModel3,futureModel3, nil];
         
         TPSWeatherModel *model = [[TPSWeatherModel alloc] initWithCity:@"深圳" temperatureUnit:0 updateTime:[[NSDate date] timeIntervalSince1970] todayWeather:todayModel futureDayWeather:futureModelArr];
         

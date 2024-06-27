@@ -29,13 +29,27 @@
     }
     else if(indexPath.row == 1)
     {
-        [TPSSdk.share.miscSettingAbility sendWeather_temp_unit:TPSMiscSettingModel_Temperature_Unit_C];
+        [TPSSdk.share.miscSettingAbility sendSport_sportUnit:MiscSettingModel_TSTPS_Sport_Unit_Metric_System];
         OpResultToastTip(self.view, YES);
     }
     else if(indexPath.row == 2)
     {
-        [TPSSdk.share.miscSettingAbility sendSystem_timing_method:TPSMiscSettingModel_Time_Format_24];
+        [TPSSdk.share.miscSettingAbility sendSystem_timing_method:TPSMiscSettingModel_Time_Format_12];
         OpResultToastTip(self.view, YES);
+    }
+    else if(indexPath.row == 3)
+    {
+        [TPSSdk.share.miscSettingAbility sendSystem_timing_method:TPSMiscSettingModel_Time_Format_24];
+    }
+    else if(indexPath.row == 4)
+    {
+        [TPSSdk.share.miscSettingAbility sendWeather_temp_unit:TPSMiscSettingModel_Temperature_Unit_C];
+
+    }
+    else if(indexPath.row == 5)
+    {
+        [TPSSdk.share.miscSettingAbility sendWeather_temp_unit:TPSMiscSettingModel_Temperature_Unit_F];
+
     }
 }
 

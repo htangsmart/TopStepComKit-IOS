@@ -5,10 +5,12 @@
 //  Created by Topstep on 2024/1/26.
 //
 
+
+
 #ifndef TPSNotificationEnableModel_h
 #define TPSNotificationEnableModel_h
 
-
+@class WMMessageModel;
 
 //NSArray* allNameArray =  @[
 //    @{@"icon":@"device_msg_all",@"msg_title":kJL_TXT("消息一键开启"),@"tool_id":@"all",@"visible":@(1)},
@@ -78,6 +80,12 @@ typedef NS_ENUM(UInt8, TPSNotification_Type){
 +(NSArray<TPSNotificationEnableModel*>*)toTPSArrWithFwArr:(NSArray<FwNotificationEnableModel*>*)fwArr;
 +(NSArray<FwNotificationEnableModel*>*)toFwArrWithTPSArr:(NSArray<TPSNotificationEnableModel*>*)tpsArr;
 -(FwNotificationEnableModel*)toFwModel;
+
+
++(WMMessageModel *)toWMMessageModelWithArray:(NSArray *)array;
+
++(NSArray<TPSNotificationEnableModel *> *)notificationArrayWithWMModel:(WMMessageModel *)wmMessageModel;
+
 
 
 @end

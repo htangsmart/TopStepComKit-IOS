@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <TopStepComKit/TSJConnectorAbility.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @class FwLanguageModel;
@@ -20,6 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (TPSLanguageModel *)toTPSLanguageModelWithFWModel:(FwLanguageModel *)fwModel;
 
 + (NSArray<TPSLanguageModel *> *)toTPSLanguageModeArraylWithFWModelArray:(NSArray<FwLanguageModel *> *)fwModelArray;
+
++ (NSArray<TPSLanguageModel *> *)toTPSLanguageModeArraylWithWMModelArray:(NSArray< NSString*> *)wmModelArray;
+
+
+
 
 @end
 
