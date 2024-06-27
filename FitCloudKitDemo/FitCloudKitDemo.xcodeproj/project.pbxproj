@@ -10,21 +10,10 @@
 		1D0C75512C20160F0009027E /* MusicManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754D2C20160E0009027E /* MusicManageController.m */; };
 		1D0C75522C20160F0009027E /* NotificationManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754E2C20160E0009027E /* NotificationManageController.m */; };
 		4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */; };
-		4B7B5D9B2C1165D100B7D12F /* flywearsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D962C1165D100B7D12F /* flywearsdk.framework */; };
-		4B7B5D9C2C1165D100B7D12F /* flywearsdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D962C1165D100B7D12F /* flywearsdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B7B5D9D2C1165D100B7D12F /* h264encoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D972C1165D100B7D12F /* h264encoder.framework */; };
-		4B7B5D9E2C1165D100B7D12F /* h264encoder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D972C1165D100B7D12F /* h264encoder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B7B5D9F2C1165D100B7D12F /* persimwearSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D982C1165D100B7D12F /* persimwearSDK.framework */; };
-		4B7B5DA02C1165D100B7D12F /* persimwearSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D982C1165D100B7D12F /* persimwearSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B7B5DA12C1165D100B7D12F /* UNIWatchMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D992C1165D100B7D12F /* UNIWatchMate.framework */; };
-		4B7B5DA22C1165D100B7D12F /* UNIWatchMate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D992C1165D100B7D12F /* UNIWatchMate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4B7B5DA32C1165D100B7D12F /* SJWatchLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */; };
-		4B7B5DA42C1165D100B7D12F /* SJWatchLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4BF7394B2C1AD2F300FF0FD8 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394A2C1AD2F300FF0FD8 /* SettingsController.m */; };
 		4BF7394E2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */; };
 		4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */; };
 		4BF739542C1D81A200FF0FD8 /* DialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739532C1D81A200FF0FD8 /* DialController.m */; };
-		7217CE3FFC6FFDF025355DC3 /* libPods-FitCloudKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1577722496F42A93B414DFF /* libPods-FitCloudKitDemo.a */; };
 		8902EA55230C2B97003FF418 /* DemoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902EA54230C2B97003FF418 /* DemoListController.m */; };
 		891FA8D6231A98AD0097E996 /* SedentaryRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D5231A98AD0097E996 /* SedentaryRemindController.m */; };
 		891FA8D9231AAAA20097E996 /* DrinkRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D8231AAAA20097E996 /* DrinkRemindController.m */; };
@@ -58,24 +47,6 @@
 		89EA5159230ED2A200EDC1F0 /* MessageReminderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EA5158230ED2A200EDC1F0 /* MessageReminderController.m */; };
 		A5885A9DCCF1699BB2325B44 /* Pods_FitCloudKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD583F0D1DC79CFA659ACFB4 /* Pods_FitCloudKitDemo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		4B7B5DA52C1165D100B7D12F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4B7B5DA42C1165D100B7D12F /* SJWatchLib.framework in Embed Frameworks */,
-				4B7B5DA22C1165D100B7D12F /* UNIWatchMate.framework in Embed Frameworks */,
-				4B7B5D9C2C1165D100B7D12F /* flywearsdk.framework in Embed Frameworks */,
-				4B7B5D9E2C1165D100B7D12F /* h264encoder.framework in Embed Frameworks */,
-				4B7B5DA02C1165D100B7D12F /* persimwearSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1511A057B1CD59EA0B4E8EED /* Pods-FitCloudKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCloudKitDemo.release.xcconfig"; path = "Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,11 +144,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7B5DA12C1165D100B7D12F /* UNIWatchMate.framework in Frameworks */,
-				4B7B5D9F2C1165D100B7D12F /* persimwearSDK.framework in Frameworks */,
-				4B7B5D9D2C1165D100B7D12F /* h264encoder.framework in Frameworks */,
-				4B7B5DA32C1165D100B7D12F /* SJWatchLib.framework in Frameworks */,
-				4B7B5D9B2C1165D100B7D12F /* flywearsdk.framework in Frameworks */,
 				A5885A9DCCF1699BB2325B44 /* Pods_FitCloudKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +328,6 @@
 				89A438AB22B0D19700555B98 /* Resources */,
 				9C8224D039CDEBB40E1AEF86 /* [CP] Copy Pods Resources */,
 				E615B22E5F84D41863426F21 /* [CP] Embed Pods Frameworks */,
-				4B7B5DA52C1165D100B7D12F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -509,7 +474,6 @@
 				8975895F231169FE0005C1A2 /* AlarmController.m in Sources */,
 				89C5155A2308579F000BD54C /* DeviceBindingController.m in Sources */,
 				89C51554230840B2000BD54C /* DeviceSearchListController.m in Sources */,
-				52CD39602C1D6A6300085BFC /* ContractListController.m in Sources */,
 				4BF7394B2C1AD2F300FF0FD8 /* SettingsController.m in Sources */,
 				898ADEB3231EB43C00342172 /* ContactsController.m in Sources */,
 				89C515572308499D000BD54C /* DeviceCell.m in Sources */,
@@ -519,14 +483,11 @@
 				892ADC8D2313FB6B00934A08 /* WristWakeUpController.m in Sources */,
 				891FA8DC231AAE030097E996 /* HealthMonitorController.m in Sources */,
 				4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */,
-				52CD395D2C1D6A4900085BFC /* FindDeviceController.m in Sources */,
 				89C5155123083B22000BD54C /* LocalizedButton.m in Sources */,
 				891FA8DF231AB3D20097E996 /* ScreenDispayController.m in Sources */,
 				8902EA55230C2B97003FF418 /* DemoListController.m in Sources */,
 				4BF739542C1D81A200FF0FD8 /* DialController.m in Sources */,
 				89C5156123085958000BD54C /* MoCurveLayer.m in Sources */,
-				52CD39642C1D6A7C00085BFC /* MusicPusherListController.m in Sources */,
-				52CD39672C1D6AC900085BFC /* DialController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

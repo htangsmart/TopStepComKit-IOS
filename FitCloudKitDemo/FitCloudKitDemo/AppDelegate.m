@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [[TPSSdk share] initSdk];
-    [[TPSSdk share] initDeviceTypeWith:TPSDeviceType_OSW805];
+    [[TPSSdk share] initDeviceTypeWith:TPSDeviceType_OSW802N];
     return YES;
 }
 
