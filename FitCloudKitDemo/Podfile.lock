@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - FitCloudDFUKit (1.3.1-beta.22):
     - iOSDFULibrary (~> 4.11.0)
-  - FitCloudKit (1.2.9-beta.136)
+  - FitCloudKit (1.2.9-beta.137)
   - FitCloudNWFKit (1.0.2-beta.1):
     - zipzap (~> 8.1.1)
   - FitCloudWFKit (1.1.7-beta.8)
@@ -116,16 +116,16 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FitCloudDFUKit:
-    :commit: eee3b839d0d90af7bca0698dcbd8f4bdc3e97b21
+    :commit: 09bc525f9356bde619dd67ed83bacd877318c433
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
-    :commit: eee3b839d0d90af7bca0698dcbd8f4bdc3e97b21
+    :commit: 09bc525f9356bde619dd67ed83bacd877318c433
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudNWFKit:
-    :commit: eee3b839d0d90af7bca0698dcbd8f4bdc3e97b21
+    :commit: 09bc525f9356bde619dd67ed83bacd877318c433
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudWFKit:
-    :commit: eee3b839d0d90af7bca0698dcbd8f4bdc3e97b21
+    :commit: 09bc525f9356bde619dd67ed83bacd877318c433
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   TSDialWidget:
     :commit: 4d4a16a1bdd4bb6641a7590403c8ca8b9fb7a952
@@ -134,7 +134,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   FitCloudDFUKit: e3f71eaf3fb9b0f76643db4c5c189b0a5af0cfb3
-  FitCloudKit: a8f977b6aa71c5f6b83b2882ba63fb8619aecdd2
+  FitCloudKit: 57e6b4140998daf0ed7a844b2eed425a4fbaa9b2
   FitCloudNWFKit: 10f5a3637bf6c192e901a2ed1c2921698c065288
   FitCloudWFKit: 479df9517f4738280cba44a53a1cbd4a113d943b
   iOSDFULibrary: 3500ac00451aa7d8ec48a752e91099669a2c1d27
