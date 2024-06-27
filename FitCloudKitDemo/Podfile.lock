@@ -31,7 +31,7 @@ PODS:
     - SDWebImage/Core (= 5.19.2)
   - SDWebImage/Core (5.19.2)
   - Toast (4.1.1)
-  - TopStepComKit (1.1.2):
+  - TopStepComKit (1.1.4):
     - FitCloudDFUKit
     - FitCloudKit
     - FitCloudNWFKit
@@ -143,7 +143,7 @@ SPEC CHECKSUMS:
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
-  TopStepComKit: 40e88155f248a289f3ca7813a360ba84fab67dc0
+  TopStepComKit: 9df370473b06de631f91ce79922d0aaccd418ad7
   TSDialWidget: b4142b9522ae99ed3e325d0b037c29921291fd5c
   XLFacility.optimize: 7d3bac61863a29c11868191b3b3db038f1e5f998
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
@@ -156,4 +156,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: b3a5910ff9da0174d44eea19a649c1d0a4f0dae1
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.14.3
