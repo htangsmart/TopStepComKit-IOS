@@ -43,7 +43,8 @@
         OpResultToastTip(self.view, YES);
     } else if (indexPath.row == 2) {
         // 获取紧急联系人 --- Get Emergency Contact
-        [TPSSdk.share.contactAbility getEmergencyContact:^(NSMutableArray<TPSContactModel *> *list) {
+        
+        [TPSSdk.share.contactAbility getEmergencyContact:^(NSArray<TPSContactModel *> *list) {
             [list enumerateObjectsUsingBlock:^(TPSContactModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
                 XLOG_INFO(@"Emergency Contact --- name: %@ phone: %@", obj.name, obj.phone);
             }];

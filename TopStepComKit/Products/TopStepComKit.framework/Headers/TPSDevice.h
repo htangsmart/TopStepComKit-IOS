@@ -20,6 +20,7 @@ typedef NS_ENUM(NSUInteger, TPSDeviceType) {
     TPSDeviceType_OSW850H,
     TPSDeviceType_OSW851H,
     TPSDeviceType_OSW805,
+    TPSDeviceType_OSW802N,
 };
 
 @class FitCloudOption;

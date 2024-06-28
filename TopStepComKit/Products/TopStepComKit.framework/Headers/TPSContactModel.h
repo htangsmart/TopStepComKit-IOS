@@ -9,10 +9,13 @@
 //#define TPSContactModel_h
 
 #import <Foundation/Foundation.h>
+#import <TopStepComKit/TSJConnectorAbility.h>
 
 @class FitCloudContactObject;
 @class FitCloudEmergencyContactObject;
 @class FwContactModel;
+@class WMContactModel;
+@class WMEmergencyContactModel;
 @interface TPSContactModel : NSObject
 
 +(instancetype)new NS_UNAVAILABLE;
@@ -38,6 +41,20 @@
 // 拼装紧急联系人
 + (NSArray<FitCloudEmergencyContactObject *>*)emergencyToTFCPEmergencyArr:(TPSContactModel *)model;
 + (NSMutableArray <TPSContactModel *> *)emergencyToArrWithFCPArr:(NSArray <FitCloudEmergencyContactObject *>*)fwArr;
+
+
+
+
+-(instancetype)initWithWMModel:(WMContactModel*)wmContactModel;
+-(instancetype)initWithWMEmergencyModel:(WMEmergencyContactModel*)wmEmergencyModel;
+-(WMContactModel*)toWMModel;
+- (WMEmergencyContactModel *)toWMEmergencyModel;
++(NSArray<WMContactModel*>*)toWMModelArrayWithTPSArray:(NSArray *)tpsArray;
+
++(NSArray<TPSContactModel*>*)tpsModelArrayWithEmergencyArray:(NSArray *)emergencyArray;
++(NSArray<TPSContactModel*>*)tpsModelArrayWithWMArray:(NSArray *)wmArray;
+
+
 @end
 
 

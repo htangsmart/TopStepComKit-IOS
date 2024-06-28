@@ -4,8 +4,3 @@ framework module TopStepComKit {
 
   module * { export * }
 }
-
-module TopStepComKit.Swift {
-  header "TopStepComKit-Swift.h"
-  requires objc
-}

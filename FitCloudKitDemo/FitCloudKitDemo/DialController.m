@@ -83,13 +83,14 @@
             model.dialId = @"com.realthread.superDial";
             // 准备发送给手表的表盘文件路径
             // Prepare the watch face file path for sending to the watch
-            model.filePath = [[NSBundle mainBundle] pathForResource:@"flywearsdkDial" ofType:@"zip"];
+            model.filePath = [[NSBundle mainBundle] pathForResource:@"superFile" ofType:@"zip"];
             // 设置表盘预览图
             // Set up the watch face preview image
             model.previewImage = [UIImage imageNamed:@"preview.png"];
             // 设置表盘背景图
             // Set the Watch Face Preview Image
             model.backgroundImage = [UIImage imageNamed:@"bg1.png"];
+            model.dialName = @"1719438583";
         } else if (sdkType == eTPSSDKFitCloudPro) {
             
             // 表盘ID
@@ -104,24 +105,40 @@
             // 设置表盘背景图
             // Set the Watch Face Preview Image
             model.backgroundImage = [UIImage imageNamed:@"backgroundImage.jpeg"];
+            
+            // 设置时间显示位置
+            // Set the Time Display Position
+            model.dialTimePosition = eDialTimePositionRight;
+
+        }else if(sdkType == eTPSSDKFWM){
+            
+            model.dialId = @"";
+            model.dialName = @"";
+            model.backgroundImage = [UIImage imageNamed:@"802N_background"];
+            model.previewImage = [UIImage imageNamed:@"802N_preview"];
+            model.dialType = eDialTypeCustomer;
+            model.filePath = @"";
+            
+            // 设置时间显示位置
+            // Set the Time Display Position
+            model.dialTimePosition = eDialTimePositionRight;
+
         }
         // 设置表盘类型
         // Set the Watch Face Type
         model.dialType = eDialTypeCustomer;
-        // 设置时间显示位置
-        // Set the Time Display Position
-        model.dialTimePosition = eDialTimePositionRight;
         // 设置表盘时间文字颜色 805芯片的手表支持五种颜色
         // Set the Color of the Time Text on the Watch Face. The watch with the 805 chip supports five colors.
         model.textColor = [DialController allColors][4];
         // 向手表推送自定义表盘
         // Push Custom Watch Face to the Watch
         [TPSSdk.share.dialAbility pushCustomerDialWithDial:model block:^(TPSDialProgressModel *model) {
-            
             if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
                 OpResultToastTip(weakSelf.view, YES);
             } else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
                 OpResultToastTip(weakSelf.view, NO);
+            }else if (model.eventType == TPSProgressModel_Event_Type_OnProcess){
+                NSLog(@"progress is %f",model.percent);
             }
         }];
     }

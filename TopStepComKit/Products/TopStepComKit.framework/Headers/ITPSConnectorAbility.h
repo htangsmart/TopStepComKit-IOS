@@ -37,6 +37,11 @@
 
 -(RACSubject<TPSConnectResult*>*)connectWithCBPeripheral:(CBPeripheral*)peripheral mac:(NSString*)mac extraParam:(TPSExtraConnectParam*)extraParam;
 
+/**
+ * 回连设备
+ */
+-(RACSubject<TPSConnectResult*>*)reconnectWithMac:(NSString*)mac extraParam:(TPSExtraConnectParam*)extraParam;
+
 -(RACSubject<TPSConnectResult*>*)autoConnectLastPeripheralWithUserInfo:(TPSExtraConnectParam*)extraParam;
 -(void)cancelAutoConnectLastPeripheral;
 -(RACSubject<TPSConnectResult*>*)observeConnectResult;

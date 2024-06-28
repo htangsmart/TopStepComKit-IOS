@@ -6,13 +6,22 @@
 	<dict>
 		<key>FitCloudDFUKit.bundle/Info.plist</key>
 		<data>
-		1CA8xxRhakobuSRkdw08rRFVo4g=
+		a4DCfaQjNwP4osjiTq54MeibjuY=
 		</data>
 		<key>FitCloudDFUKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I7Q9J+2Wbj5PpRHFCnxvrAR7YnM=
+			TMQMD5PvSgp40ZJNCA8g62LXM8Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/bg.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y5CAjSWavr3Qc0lu9iLMF2801J4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -21,7 +30,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D66KgiG+L7dNPgMKcB/Xbo/NAoI=
+			zbdVzow0weKK8RRqt+9tWJIMNtc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -30,7 +39,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Qk874oA1+uyNycTJUymzYjSyKs=
+			sERtpZOFfxdDEZ3UyYjXJ4TI1oY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -39,7 +48,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mFt8wzpNNVBUzSfNViPsJr88Ets=
+			54PIuWTGiS+ijsgQTLsC3ruo5LQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -48,7 +57,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LV5sDHCleqG80ehxOABVp5W0Bqw=
+			+RF/phk80ca10vyvU4n6Qla2qxQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -66,7 +75,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ftU/nybVd3UKt9/CUdBYXGV7q7U=
+			ESBlsSPjZ+iULLFWSE8j883bLS8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -75,7 +84,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			wIBUiqrXnuFja3JDUgaKK8s3b/A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -84,7 +93,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jrigce/7br7RhbtW0K9lamz0nho=
+			vOffAvwrM96XTccnH/CDZ9G0ClI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -93,7 +102,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nRnpRuyljtEkMTw2QzyN1erIpE4=
+			Z7VIfi9V6gW0STDnYiECIFX+aIA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -102,7 +111,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			asUBNtR1noE7M7Y8XrpNaBH5Oow=
+			bminZ0UPFtu7d9hL9gx65GUyUBs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -111,7 +120,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			60meYigiTm95ZuZgLfVCne+mIl8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -120,7 +129,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pwnfPDgbo4jZhD6XR2xJw70bYRs=
+			FWS9/HJye/KGf9k3Kbzzcxx5vdA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -129,7 +138,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VYecOwpEhL2gaK1Ov38qnF5HFIU=
+			qLbRvQisuvD3k5+sWq8z+4wxJsI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -138,7 +147,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UqjwPvm+Fz5MUPHa8erx8oc1OZU=
+			JHnR1YtCP2W0CKUubZ3kIxxWphU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -147,7 +156,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			JjdyzYJOdEyzREtUDpNMzRR+84k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -156,7 +165,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bUzqqixF9LGV67sfr1diKxAP0e8=
+			WDpUhR4h9GG7dwUbrAVdpqqiKbc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -174,7 +183,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vI6xrGYqBTvWJ7ro0cV2OPXCeUA=
+			U0iAeIEzWhFrGmCQwaT0yuqomnk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -183,7 +192,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			aDeZIgbgAiEgvRYXBJ9Mm3upc4U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/lv.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IEKLLnu0QX4r7Xadp4rRsVVqD4Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -192,7 +210,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			fA/9CXU5OPL1BQHWU4KBTUg2kRg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -201,7 +219,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			MH2vymxfC6dzSXjMuNVNHvLOx+k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -210,7 +228,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OuqyEcNKZXmHSHjPK30DiiQMT1o=
+			7lMEjRrht0P57IwmaGydeSaU9Q0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -219,7 +237,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MxbMIdjQHFUVLqpl7bFsHZeGy0Y=
+			t72R/g8MBra+ify7UjBCY+tJn+8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -228,7 +246,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d0JBocv0B0z15dxgWi3vPEYpC4w=
+			ARQ9SuFbuWjubUgxLba+qnG4IIE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/ro.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Dieq7BrIU1iMb5A1MeNWtVO3oEU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -237,7 +264,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			agyKjcECYNnBnyUKR/b0jMTxs5Y=
+			0M4RzDmXY4n6ABbnezZCXuG5450=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -246,7 +273,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i1TPsORYMf5yn2/acR1kwSyVjwk=
+			PUwm2bi0IO4bRsHcX9R5B+o+Eg0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/sl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RgUCYYyrMtGat0xJ6qS9L+fBt9c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -255,7 +291,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GlJ4E7J1N2NcduNtmV6nMel+4IM=
+			SnBiFnuGCAhKWC0kuvrS6do9ab0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -264,7 +300,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			toorSOsWocA900ZPkGXi9ljN+BQ=
+			+UYGCKnUOlRXBXtFgFHqXQ+iUWs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -273,7 +309,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kqCkoMtEWo539Kss9AYOo5eH1C4=
+			e8kdqL6njQGJP0XyJhZG48oDTec=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -282,7 +318,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YipUy2agey+5KLsdCtQ2VEap8gU=
+			DCjF2imnsUU/mFhHRo93E72STes=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -291,7 +327,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vCCgxJYLyYPWQTzVIRxNv4IJCn8=
+			hZtnM+uyPF720Zfy2pcOIXhAip4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/ur.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gemaK+j0DFshrWJGAxGuhC8lnog=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -300,7 +345,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NPD7rFnF2mTk24AgHX/RBQhmqYw=
+			Lwa2X+YRkXffx068/zJ0XZ/Wh8s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -309,7 +354,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			daWsZzxywLekbDelD11erhEhd3c=
+			6azKkREX8B9YmPZDBXqCha80jFU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -325,7 +370,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		QAWdLVxeq3Ti+2CFxek+vHfoRAc=
+		1o39vIPxRc/MhVwQJPbOzyEV4bQ=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -711,13 +756,22 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/Info.plist</key>
 		<data>
-		k+snEw0JU1VKfj8VeXJ2IYUEnZg=
+		an0Z0nr+M7kAl6L4PyPisszLuho=
 		</data>
 		<key>FitCloudWFKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ENN+53RSCDXyBnnzgFOOzR08k3c=
+			5CpwrqywIVQeRd/x6BzvRZWe7Z4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/bg.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6WCmsYgDLmb224sBXr2/mwFBaeI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -726,7 +780,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iK22rfWqxFgstCUJVEnwHbZPXeE=
+			a6dkJo0sIupN3iHHsSVIqvRm3bU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -735,7 +789,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OOhW3VzbTjvfYJRI0sG2tE9mZx4=
+			RAhAJUXpghgus8x2/JrJWayZ2qs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -744,7 +798,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QnoQwgiClRD++uEwnJk1jcDiHe8=
+			gBupiw1rgOPKg3/xKzDBHtEBSOQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -753,7 +807,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JLIYvWcZY1jTo834q9k6Gc1fEN4=
+			B61mmeCKrVbb5DZd2rSlZ7XnyiQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -762,7 +816,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			64LkRRhOrx6swsuUCXdoI8+LYxM=
+			BHQpARN6vvMNJ+3L/QTFc9BWvMU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -771,7 +825,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sTx56Zx5Oi+xX74d7UgmaFk0Ydo=
+			fiWRFxBfHR6zmB66/3FEGbBijL8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -780,7 +834,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			64LkRRhOrx6swsuUCXdoI8+LYxM=
+			X+ltT2ipD2wQjM54TAYDb3/aIdo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -789,7 +843,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SwpCq/hrf2j278Cgj4c3dqQEj+w=
+			rUFnmafVlmtjgbscKe6Q+BL5ZNA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -798,7 +852,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3K+Bbjbvg/z19geDBLuhYusFej8=
+			trFy1Q0NLow2vI7OXAtqKN+ZRyc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -807,7 +861,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ncjYQKYV7p1h2PiXbHUYqof8ktc=
+			svlO4baueMtmsn/VW4jyFP9kyuo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -816,7 +870,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SsFddzrAeHmVcA/E9Lfh0c/ML+Q=
+			0zixoMrqcpsFilWuRi8/gQ5I0ZY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -825,7 +879,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0nXNgFB3DdNS4Y7XOLRTvabaL0c=
+			fSPsqm8y8dY8rpjuEJsQsSCEAKQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -834,7 +888,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XGAR4tbBFukbySuOHOC+n59iXJA=
+			CzYoU97R3xw6TNuA7GTbJ5nzXV0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -843,7 +897,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TOslOvt1JCNzZZ0PnnyPS286VwU=
+			9GAVp9PBF8pG0RvZbhQD602CzrI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -852,7 +906,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SsFddzrAeHmVcA/E9Lfh0c/ML+Q=
+			GV2CEtKGkwWHPJJoyRwleYoxnNg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -861,7 +915,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rGWNcLdrzxCPvoCnmTbeZGLNJeQ=
+			gtnxIwcRgLcBogJaB9gC8C+XSys=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -870,7 +924,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zL9kI/UISUA7HsEz40H6wO6F6+A=
+			vE/IPZEgwFJGeQmsSkXFzpOGMLU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -879,7 +933,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4SnFz6R5zEAcv3pQxtx84Ayq5kc=
+			wPyKARvDFiIJlr2wk81QBXMB3lc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -888,7 +942,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			64LkRRhOrx6swsuUCXdoI8+LYxM=
+			phOEXLMWDdffC76Ai6HRPGTNHlM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/lv.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4MzL9NURWLoayYTBfBCU0tgRMUg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -897,7 +960,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SsFddzrAeHmVcA/E9Lfh0c/ML+Q=
+			V5MpHPPrDBwF5hSsrjOjfCasDFk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -906,7 +969,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SsFddzrAeHmVcA/E9Lfh0c/ML+Q=
+			XCXS+N9duaJl0LtzhasFTfLSTPM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -915,7 +978,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qk+2AJhOy72oO3TQ1USlMiFU/zM=
+			NTzYg79l5vdI4YrlBHxyssuo5YQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -924,7 +987,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cf3pOAjLbvZj3UjqAKPKGAP23ek=
+			yeKg+dVLMo9+/nJb1MaBPFwatBo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -933,7 +996,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KTjWiRz5rvpX0iGoPrUbl/i06ks=
+			b6l1nJapivCmrAoQHupYGBt3UcA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/ro.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rpqrdXAK+vYPHFFj6+g8k5lB6Ls=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -942,7 +1014,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CyqpXM/zDV00xg3xoBUplGzehxw=
+			P7c8KKhpUt+mXhI2e+e1edNsU5w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -951,7 +1023,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+rMMvaDeTBBvMdiaSX15HHnMJ/w=
+			0vTHDh0C+ErI5jonxwZo5qVIKXA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/sl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bS8PePOJfzgKZpXBlthy5b14tsk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -960,7 +1041,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2yv37sxF049CCJJba5GA8i/xdbQ=
+			LCGfbt9vhJufdxTfma5gI1ZF4DQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -969,7 +1050,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s5nxyQwsk3W5ymwXC9xhgcTR0A4=
+			dI95yFa7HMmb8J7sox+G/xJyfuY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -978,7 +1059,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sUxfh5JFlTZRc+OE5f/pHnrjKQE=
+			05WXKUSeXdwqxJp2i1tbgoEMdwY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -987,7 +1068,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k6Roiy/9bRpPHfAX7nPDR8aIVpQ=
+			GlVGdzHjZcAiTYnVj9ZCaVV3ewc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -996,7 +1077,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VgPH3fy8e0eqAyf9j1RqoIQj0NY=
+			Mg4I7Luxg9mDCkXN3Y/jloeSQgU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/ur.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YraQPNUtLuBGnz4URsGondlnYX0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1005,7 +1095,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WmzcUAKxKOkaM5BO83guUZzes/o=
+			aYBetXzabjYL0mkKJhosuE32EFc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1014,7 +1104,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zn2kqkEHV65hpBPzELjTXw2RrQQ=
+			Zy9fAOrqtQ79i9XQEraK1tV6PAY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1023,502 +1113,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iHyu+dDPUArOUpPAmL/DPHAFmk8=
+			rxe618esI/GTjwyk7WS9a/tNF+8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Frameworks/flywearsdk.framework/Info.plist</key>
-		<data>
-		1eOh2TVdxw/8f6EH/j/4ztopYd0=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/README.md</key>
-		<data>
-		YOK1j9l+egIjq0jb7MRFRdWEm4s=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/Version.json</key>
-		<data>
-		Q+gp/Zi8yqRVVcOOoxcWL+WShpM=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/__init__.pyc</key>
-		<data>
-		MtKyn7vlngN30tw5w7aFvprfWi4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/bootstrap.pyc</key>
-		<data>
-		PPOhCWjhhaLJ3rznG51f+bCEpPk=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/__init__.pyc</key>
-		<data>
-		rt5qfsIPqmBDBGjpAjL6IKRkYwo=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/__main__.pyc</key>
-		<data>
-		FbCUjhvcnA6JV8/Ym5gzgv5BAHw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/cacert.pem</key>
-		<data>
-		fylep0/H7Qrw6SvggHH7C3bIUJ4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/core.pyc</key>
-		<data>
-		92kIxAfu+03yG9MJJTAyaPvX01E=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/py.typed</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/global_var.pyc</key>
-		<data>
-		lEVHxFSyTelsllBJBdZiph/ZHbo=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/lib/python310.zip</key>
-		<data>
-		Mb9Ae78QaGFoRTP4UQHVNXIt06o=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/__init__.pyc</key>
-		<data>
-		mW9I1PG9SUNKMeeNef/jOOFVTYg=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/aslog/__init__.pyc</key>
-		<data>
-		ST8/Joj/daTCelkfKa93cExE+vw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/aslog/aslog.pyc</key>
-		<data>
-		R42/C9NJKBPRsK/O3elEtZMSb4w=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/__init__.pyc</key>
-		<data>
-		ek8ECFR7ZutFIG09S4qlJiUrj/Y=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/char_dev.pyc</key>
-		<data>
-		ehRzPSipmICHDfpKJBd4xaAAzTw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/frame_check.drawio</key>
-		<data>
-		BDKCwMp+iYPGGpzwe334kw0IHvE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/link.pyc</key>
-		<data>
-		gdKOkKGpYztQpmjVREiyX5DQCyM=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/socket_tcp.pyc</key>
-		<data>
-		7mC9hbEI/AA3/caBPLfOUr7vocs=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/uart.pyc</key>
-		<data>
-		OelBl9kG8IQjD7b9imQGJ4EWWWQ=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/usb.pyc</key>
-		<data>
-		m20Djoaahio8jdXHewaJEsSGalA=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/mcf.pyc</key>
-		<data>
-		oZlyKofXXfpSiz4KXcLf8boy+lA=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/mcf_utils.pyc</key>
-		<data>
-		94cKxr9B7ljEeb+gVVynqFzzmU4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/__init__.pyc</key>
-		<data>
-		jLgKbNWatZh4ACjtrcH5LHNFPAE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/d2d.pyc</key>
-		<data>
-		sqpnUCvrLCyqaAUhre8KuCa4XMM=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/event.pyc</key>
-		<data>
-		vVwhWPuyN5ikFo0g06fxmy4VvlY=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/packet.pyc</key>
-		<data>
-		DniYxg0Y+TmbTxY5paz+oKMJ9B8=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/trans.pyc</key>
-		<data>
-		hA0A6ZaTkA3ekjIUw29Fl1IEq/I=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/sample.pyc</key>
-		<data>
-		V3bHH+lAJKk+Aw9C+FjXeKWlmvQ=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/stdlib.zip</key>
-		<data>
-		sthQiTGlaWTZ2eSGd0P9/R9ZpPo=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/__init__.pyc</key>
-		<data>
-		g/U2NkMHklSLEGU/mFm5o5a0iFE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/__main__.pyc</key>
-		<data>
-		gSmATIj7y9B1wL/lLUmZRD3YUNg=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/compat.pyc</key>
-		<data>
-		FLYkyBsK3r+jW/+JofZPfjUnlnc=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/decoder.pyc</key>
-		<data>
-		Utr+UlPSWsWwaZ2qPy4YfwsojCk=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/encoder.pyc</key>
-		<data>
-		qo4WU/nSFkLcFChj2nfAbBV5sXw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/markers.pyc</key>
-		<data>
-		+rl+glg52+RjzGIRVZ9/MOqnL1g=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/__init__.pyc</key>
-		<data>
-		bltVAUMY4Xv45F7BgMBuO5e2DGw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/server/__init__.pyc</key>
-		<data>
-		sml8TNxsHhfJC1K9a03M8/AyZIU=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/server/daemon.pyc</key>
-		<data>
-		NzUvX7qgc2xES8/xuIMrH/IpuA0=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/server/server.pyc</key>
-		<data>
-		Wv2zGhIdmNPWhH7bycx7Be3D3IE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/server/service_status_manage.pyc</key>
-		<data>
-		adFmTpFfBvEn5Mt4UlmkbyJCzfA=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/__init__.pyc</key>
-		<data>
-		WxWKfGzRoM52VIKQjv6az4Wkq1Q=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/app.pyc</key>
-		<data>
-		ApX6kec7DBwtRFs6A1py3f5C+u4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/device.pyc</key>
-		<data>
-		HGjQimjQQP84GkIFOonpTazq1pI=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/fal.pyc</key>
-		<data>
-		nUjZvQVhdfBmshW6zy+See2SK0A=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/file.pyc</key>
-		<data>
-		O8MHIKsW5e9eOlZxXA9WLmCfrEU=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/httpclient.pyc</key>
-		<data>
-		ebDmSEbuUpgupB48T57jzDqs8Yw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/log.pyc</key>
-		<data>
-		WHTXcj/Awb4LXUSgkPwC0Yr1MA4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/sal.pyc</key>
-		<data>
-		k505MJ8EV92GqP7I9/D6e2zdg5I=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/sfud.pyc</key>
-		<data>
-		yHhNze1fUZmEelH5MyZUCbt6HX8=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/shell.pyc</key>
-		<data>
-		wTF3CxB9W3Ub4gd74J4TAkkk4io=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/svc_utils.pyc</key>
-		<data>
-		1HxDVLsTpzp7avn1qJxIwKymYnc=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/__init__.pyc</key>
-		<data>
-		CNRRA4QHXZKtAvuNW6rTQS1tGbE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/ffi.pyc</key>
-		<data>
-		Wj/fCQ75EMV1xYow1tWkdA1FS44=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/sample.pyc</key>
-		<data>
-		e1ALHSIlePXh9QoWC/GWxgyi+AU=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/urpc.pyc</key>
-		<data>
-		miTaw7H7dVy8tdgCxotruguj9fs=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/urpc_utils.pyc</key>
-		<data>
-		X+VPtvNYUecAHKqvwQ0DO9W8tAc=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/utils/code.pyc</key>
-		<data>
-		prZtePrVXqvnsB46MOg1kaGBkOM=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/utils/observable.pyc</key>
-		<data>
-		TPIUVfrHiCA14dkfZyg1G7eEG3E=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/utils/singleton.pyc</key>
-		<data>
-		hRYXIe/LrjMMwVz09Dio4UkmT28=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/__init__.pyc</key>
-		<data>
-		N/3Y/H+/T6KmVY2y+Ea3jZqjhsA=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/__init__.pyc</key>
-		<data>
-		DK1QLq38kjrNxGalnPNLK7xPSnw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/boot.pyc</key>
-		<data>
-		FAd8ZB8c6Gpv89P8zskfPaWRrkI=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/clients.pyc</key>
-		<data>
-		PJ61cEIfbZWcTgQbMaHtN6jAUyI=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/common.pyc</key>
-		<data>
-		oGEB65DIK4jWLBKSqyiNsO3WLxE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/service.pyc</key>
-		<data>
-		3GxedSt2g+M7rttddiCssN8g/dw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/contacts.pyc</key>
-		<data>
-		n42bzG0FvEzI+Yqh+4Sq1/SStpw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/dcm.pyc</key>
-		<data>
-		H7k7ehQbW/gUz8TfARSUnqk2glQ=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/dial.pyc</key>
-		<data>
-		UotR8fNS1Vnar/2gq817qgEsIB0=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/env.pyc</key>
-		<data>
-		cYncWNDdoSaZ20yKiYL9lDh+3b4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/files/delete.pyc</key>
-		<data>
-		d6duwjwmaGITrwT1quQ4w1jZgHY=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/files/pull.pyc</key>
-		<data>
-		avJv5TG2FXFgF0qnGy51nb+DwNQ=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/files/push.pyc</key>
-		<data>
-		tCPtOuROUkoVFhXZuOhSRkdKSAw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/files/utils.pyc</key>
-		<data>
-		4FIsw9YpLyVuthOCP1BZqDJovf4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/json_lpc.pyc</key>
-		<data>
-		re1AmshgLFQaCtVJqPWv5JvZDpU=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/log.pyc</key>
-		<data>
-		2Dyt8zi3aXZ143uNRBwF4/OiGIg=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/notification.pyc</key>
-		<data>
-		sRpR93glifcN5CDg7mkeW0WPPK4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/context.pyc</key>
-		<data>
-		QhuYWRo7CtGImCRr2/z5Ked69+Q=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/excall.pyc</key>
-		<data>
-		HUQZKWvOWTgPptGXvXsBlZnNiII=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/load.pyc</key>
-		<data>
-		L+YJ99pr7juOijeTTTFVTq+JGzw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/load/V1Load.pyc</key>
-		<data>
-		PKt0EWYaamE1O86dfE0ApTJ3T7A=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/load/V2Load.pyc</key>
-		<data>
-		VBcvPi/ohfpHsKxvw7gRwg4heyw=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/looptimer.pyc</key>
-		<data>
-		ouSImCcTqdB8+ARWCWvqvpgVjfc=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/main.pyc</key>
-		<data>
-		8KU+vnYG3MfBHUtcBMA0vDTS3aE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/progress.pyc</key>
-		<data>
-		hXp2dC9IQR5milnDXOX4bAjFEOQ=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/quit.pyc</key>
-		<data>
-		owL0dk4jHgyGv3E13A/2wxvy+jk=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/runner.pyc</key>
-		<data>
-		1fd0wKZEp27cPiDnwKezhW3nIuo=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/service.pyc</key>
-		<data>
-		X7qhbF8yKGseBZIwrWSiDMLpwJM=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/service/service_port.pyc</key>
-		<data>
-		sY1GdHgN+myLC+x9c2tNSVCh+IU=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/snowflake.pyc</key>
-		<data>
-		i0+73pZg2yJSki8sjMdUnVb7yKk=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade.pyc</key>
-		<data>
-		sTyiUpnVaty742Lem/Lqx6O5S8Y=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/CheckUpgrade.pyc</key>
-		<data>
-		JI2+mL9ubA5OG82C28xYHgyfW0Y=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/CheckUpgradeAble.pyc</key>
-		<data>
-		Ke8l2t3Tc+eiXvui2UNIx+aRhqE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/DirUpgrade.pyc</key>
-		<data>
-		ECOc96ZQ2h4p0xjnUH8n7YZCOiA=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/EnterUpgrade.pyc</key>
-		<data>
-		eJrsU1BoIHH5SKpj4TsbFG5jtjU=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/FALUpgrade.pyc</key>
-		<data>
-		9ha4klXl43gXmfWmX6a9fTWFmLo=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/FileUpgrade.pyc</key>
-		<data>
-		3+LCEgm4nKbG/3gyeBfuPhgP7mQ=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/QuitUpgrade.pyc</key>
-		<data>
-		B4zMM/12z9SOZz8xijn7GB39a5w=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/RemoveUpgrade.pyc</key>
-		<data>
-		qsXSjEKegCiQkqoOGN27RurxYA4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/SetupUpgradeInfo.pyc</key>
-		<data>
-		ksrSLsbL8W8r1qIMF1fKo+xG2WA=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/utils.pyc</key>
-		<data>
-		1Dd7aI9R2Sr/4F8wAuJJkRWtOx4=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/path.pyc</key>
-		<data>
-		lLS89eKjW44eaWCiK6AM0kNQrso=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/py_patch/py_pacth_context.pyc</key>
-		<data>
-		SLbMOFsMSLDwX0tA+tvzY27L5k8=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/py_patch/py_patch.pyc</key>
-		<data>
-		7NKv3W1EwUFZiqzzFSeSF5/tP8w=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/settings.pyc</key>
-		<data>
-		hFa4b7ToGMsSXJ7gBNWKNaUMVtE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/speed.pyc</key>
-		<data>
-		6uxByruECaHIiLmcgoxIjbLIXdM=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/system_data.pyc</key>
-		<data>
-		Ds6iasZ3zRS0llfo6YEs7df+lSQ=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/system_storage.pyc</key>
-		<data>
-		zy+uGLni1BSPZddgwgzP1DDc4og=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/testcase.pyc</key>
-		<data>
-		7TwUujceXBuDNMXo1/e3XpSEDMU=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/time.pyc</key>
-		<data>
-		h/bhwl7bI2DCpMaiPizt+8mANRc=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/tsdb.pyc</key>
-		<data>
-		c9pMgxjRAjYtnq2mXtCoWcikAYg=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/tsdb_to_sqlite3/test_tsdb_to_sqlite3.pyc</key>
-		<data>
-		gKQ5zOQVjdngd9RGhJWwmYma1ZQ=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/tsdb_to_sqlite3/tsdb_to_sqlite3.pyc</key>
-		<data>
-		j/i3/yM/djUjJW18gm4MzldurAU=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/user_app.pyc</key>
-		<data>
-		g0HU8UowLHV9eYYxQ49qzFxl2o0=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/wearservice/README.md</key>
-		<data>
-		2bfrlkw8YMaRlqGS5J8iK5VrA2Y=
-		</data>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/wearservice/files.pyc</key>
-		<data>
-		DYH04NZXRmI3CA/OwqJqGx/nrUE=
-		</data>
-		<key>Frameworks/flywearsdk.framework/_CodeSignature/CodeResources</key>
-		<data>
-		wrTohaLPI8/FM/QhFeb8+dJXS0M=
-		</data>
-		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
-		<data>
-		38OmXLlV+0omcMKNbfAMyfkxl9k=
-		</data>
-		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
-		<data>
-		YBWWQgs/1VdRCKfnaQl6MhRWHjo=
-		</data>
-		<key>Frameworks/persimwearSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		lxVL3iI/+8x4iJjxzC2KvRLKPbM=
-		</data>
-		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
-		<data>
-		TU7Zh4zf5Fu8HIggExR2v2noc9A=
-		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
-		FYY51/BkQt+jbBQBnbqo4Cw1CcU=
+		YWtwBn9ctBkQqb0VcjmAkEPSfNI=
 		</data>
 		<key>Headers/ITPSAlarmAbility.h</key>
 		<data>
@@ -1538,11 +1140,11 @@
 		</data>
 		<key>Headers/ITPSConnectorAbility.h</key>
 		<data>
-		Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
+		vrtzJUSEvJtcAc65PwEX+2DDmzE=
 		</data>
 		<key>Headers/ITPSContactAbility.h</key>
 		<data>
-		d7mjaGLf2pfKemILaHUfb2VF33w=
+		2hEhuecLWY4uVDcHo4Md/CGTWTA=
 		</data>
 		<key>Headers/ITPSCurDayActivityAbility.h</key>
 		<data>
@@ -1570,7 +1172,7 @@
 		</data>
 		<key>Headers/ITPSHeartRateDataAbility.h</key>
 		<data>
-		EXbq43piJyDoOdxyEG1RBRhnKOY=
+		eXqRYWJnwsIcNe5tQEIhond5fyk=
 		</data>
 		<key>Headers/ITPSHttpAbility.h</key>
 		<data>
@@ -1614,7 +1216,7 @@
 		</data>
 		<key>Headers/ITPSSPO2Ability.h</key>
 		<data>
-		o6bNh9pkyrPfwj69r4ei6Z/2vW4=
+		J+u+ZPX5du9uOqLb80T9B7/uXo4=
 		</data>
 		<key>Headers/ITPSSleepDataAbility.h</key>
 		<data>
@@ -1622,7 +1224,7 @@
 		</data>
 		<key>Headers/ITPSSportDataAbility.h</key>
 		<data>
-		RN7ok6N9V35uDVwJKBEWRyLCazQ=
+		i4ROQb6xzVh+OcGqyCktagkw03M=
 		</data>
 		<key>Headers/ITPSSportTargetAbility.h</key>
 		<data>
@@ -1658,7 +1260,7 @@
 		</data>
 		<key>Headers/TPSAlarmModel.h</key>
 		<data>
-		HORMaVbCvMXnMXAgnLbxTB4UiMk=
+		DRhofjmLB8BNTE7lZ2hbuKsA7yw=
 		</data>
 		<key>Headers/TPSAlbumUpdateModel.h</key>
 		<data>
@@ -1670,7 +1272,7 @@
 		</data>
 		<key>Headers/TPSContactModel.h</key>
 		<data>
-		KhUtNKsAnblwJjKUHnHulGLhpqQ=
+		6fo96uYKdGANJgPP7XBi9a2O3Ro=
 		</data>
 		<key>Headers/TPSCurDayActivityModel.h</key>
 		<data>
@@ -1690,7 +1292,7 @@
 		</data>
 		<key>Headers/TPSDevInfoModel.h</key>
 		<data>
-		3L4ZNM0PD/yia2bkMr5n6n9RaX4=
+		SM+MqViJ+nYpnPXJNYFwew/UOyI=
 		</data>
 		<key>Headers/TPSDevLimitModel.h</key>
 		<data>
@@ -1698,11 +1300,11 @@
 		</data>
 		<key>Headers/TPSDevice.h</key>
 		<data>
-		+hPtcLr8poCYeglU2UMEQ5gZhyI=
+		CdzNcjbiWheGa6ITjNZ2hVQf8fQ=
 		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
-		5mOvm3F3YskQDfrB6ibGYE8TVKM=
+		k/NFwfL5rDC7FgdIJprVmBy6F0I=
 		</data>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<data>
@@ -1738,7 +1340,7 @@
 		</data>
 		<key>Headers/TPSHistoryActivityModel.h</key>
 		<data>
-		PWeQx1eK9eeUMzjD2UsDCs2gHWM=
+		ygoxtv7EKIvxOvkdVfvuueXb/gk=
 		</data>
 		<key>Headers/TPSHistoryBloodPressureModel.h</key>
 		<data>
@@ -1766,11 +1368,11 @@
 		</data>
 		<key>Headers/TPSHrConfigModel.h</key>
 		<data>
-		XBOT+4ICFqp+zsiPxvfcb8vPGOM=
+		UbO7QE1yUlJnE919Omrw4ge1HwY=
 		</data>
 		<key>Headers/TPSLanguageModel.h</key>
 		<data>
-		8tf6wZzgSjeqGZVg6ez1yc4y4D4=
+		qzUSEHcxHJOIGef02wv63rxQGBs=
 		</data>
 		<key>Headers/TPSMiscSettingModel.h</key>
 		<data>
@@ -1790,7 +1392,7 @@
 		</data>
 		<key>Headers/TPSNotificationEnableModel.h</key>
 		<data>
-		pkFNrxdtPItuqRWRy6yEPgjT96Y=
+		+oZxoonxT0G951R/cct6WRZEcpo=
 		</data>
 		<key>Headers/TPSPrayModel.h</key>
 		<data>
@@ -1802,15 +1404,15 @@
 		</data>
 		<key>Headers/TPSRemindDistrubModel.h</key>
 		<data>
-		wNG4dCxC/UqfwlfAl3docef8Naw=
+		jHuutOSZOYt53un/kIRMGoGkuZE=
 		</data>
 		<key>Headers/TPSRemindSettingModel.h</key>
 		<data>
-		chuV37fyqBWZd3YMPXBCBXMUbdM=
+		XxXNn6QlLf0qELcLzc03Xn40v6w=
 		</data>
 		<key>Headers/TPSScanResult.h</key>
 		<data>
-		ZA00KsEobOUbmL1hlwII0BJ/gdY=
+		WwMtvFdo/pMr6rpCPbwU6ZDNjS4=
 		</data>
 		<key>Headers/TPSSdk.h</key>
 		<data>
@@ -1834,7 +1436,7 @@
 		</data>
 		<key>Headers/TPSSportTargetModel.h</key>
 		<data>
-		aoMnivB+ywI6C26LCAxEUC5AT1g=
+		NleYFus0eYzq2rEWXevwmVGq0qk=
 		</data>
 		<key>Headers/TPSStressConfigModel.h</key>
 		<data>
@@ -1862,11 +1464,11 @@
 		</data>
 		<key>Headers/TPSWeatherDescribeType.h</key>
 		<data>
-		/G34b1B45Rmj6oPf5xCnnL2j9ho=
+		GMImXHzZhOK+8bfnrk/kyde3UTY=
 		</data>
 		<key>Headers/TPSWeatherModel.h</key>
 		<data>
-		m1gPTIJ0CVs310uAGhyv/PcQoQk=
+		wfLScAjJ+T0lo4BBR1BUyNRCJQ8=
 		</data>
 		<key>Headers/TPSWebRequestModel.h</key>
 		<data>
@@ -1884,9 +1486,9 @@
 		<data>
 		U1RViFfsGS4OTqLZSehSI0O3UBo=
 		</data>
-		<key>Headers/TopStepComKit-Swift.h</key>
+		<key>Headers/TSJConnectorAbility.h</key>
 		<data>
-		IFhu2I0qRc3UkWuH5rkJXbIj/VI=
+		UF1N7NK2Tkfd7va3wgUDIoqPqI4=
 		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
@@ -1896,37 +1498,13 @@
 		<data>
 		Tde8yHwp8x0GcsLLhnaijyF49p8=
 		</data>
-		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		nwE+dloaneRBa2CptepGdTEP7LM=
-		</data>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
-		<data>
-		fYqSYKODZxzwStWXYD0+l3vhOxQ=
-		</data>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
-		<data>
-		XW9irFLWvr+l7WpCKXPMXTibJVg=
-		</data>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		GjpdHH5jsCZWuNTVeLLJvXQhSxg=
-		</data>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		XW9irFLWvr+l7WpCKXPMXTibJVg=
-		</data>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		ry1nGVkgHrMczClWwEhEODcGEUw=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		f8+XxgUmCsXjxDXUjD7hZgybzSo=
+		ebLAzk2BlupC09j1Mh6ABrnytkI=
 		</data>
 		<key>TSBundle.bundle/TSSql.sql</key>
 		<data>
-		aezFcn8YlEVeU284f0CVlg7NScE=
+		CKRdtsAb54A/afnWanp3EH1CP4w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1935,22 +1513,35 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1CA8xxRhakobuSRkdw08rRFVo4g=
+			a4DCfaQjNwP4osjiTq54MeibjuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2vZ+H6+jNEkFUuJmGcuf3LzzG0qU+jTHP7OPXPURyfE=
+			ot+DM3BYd1VMgo+FWMWfYB/eJQxV0aO6jwrzrozugEg=
 			</data>
 		</dict>
 		<key>FitCloudDFUKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I7Q9J+2Wbj5PpRHFCnxvrAR7YnM=
+			TMQMD5PvSgp40ZJNCA8g62LXM8Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			aF6kLZ6H/PgFlRmP/mBT/CG87Gxg56TmqjQMugOz+hA=
+			L7Y5QTrjFPWBlstq04xI0nhVdrtFYrnfMfD19G1j6eM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/bg.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y5CAjSWavr3Qc0lu9iLMF2801J4=
+			</data>
+			<key>hash2</key>
+			<data>
+			r8eKPyArtaKRmSASi2PN7hTmiRHg4fh1Kr7ZB+QYTmU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1959,11 +1550,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D66KgiG+L7dNPgMKcB/Xbo/NAoI=
+			zbdVzow0weKK8RRqt+9tWJIMNtc=
 			</data>
 			<key>hash2</key>
 			<data>
-			98zEJO0tYWbxP42zcYDod5PDhB2MTjGhYm9de6HisYw=
+			0wcM+B4nVDUQUwo69Y22/iMHRRmHVN4WL8N5Bt1ZZWA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1972,11 +1563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Qk874oA1+uyNycTJUymzYjSyKs=
+			sERtpZOFfxdDEZ3UyYjXJ4TI1oY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vMcI8AGxPxjh4kWHA4EDH84fOlSP+u+BpgTA/mPd/UA=
+			Vva5exCtbznKwUzxKuRcSLuoelT5yYnwrSDWIvw4CYI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1985,11 +1576,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mFt8wzpNNVBUzSfNViPsJr88Ets=
+			54PIuWTGiS+ijsgQTLsC3ruo5LQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			N1CB9THNQIFcyJus6tfPJNXrgo6ukeiyQmIke/gZ/EI=
+			TTIT/5QOsk+gSthdFahVJde69iIv6C9BF5fetWg1tqI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1998,11 +1589,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LV5sDHCleqG80ehxOABVp5W0Bqw=
+			+RF/phk80ca10vyvU4n6Qla2qxQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			rHm9HViOpSzGa/ebCEHoVIa5VdNKS/imuaRy0vxEZSA=
+			jrM7FA4JjFDwPYoiKD/YU1MghbgGGrG2uodGTdk/2j8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2024,11 +1615,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ftU/nybVd3UKt9/CUdBYXGV7q7U=
+			ESBlsSPjZ+iULLFWSE8j883bLS8=
 			</data>
 			<key>hash2</key>
 			<data>
-			W01aqXPLFpfMVyyt29rfdsiJvbbFI9KVyuPJjO8vonM=
+			lbyRI5yzjE+91i/1P3YEoeXGNeoLrIGdBmcBGFKGJGM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2037,11 +1628,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			wIBUiqrXnuFja3JDUgaKK8s3b/A=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUVdYOmrXBY+BSQPPAWmwJ5a2bX2SiKl+zMDY8OuESw=
+			iWKhCABaiGn69VbStU+lci72vKafavf0GlI0e9W0XHw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2050,11 +1641,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jrigce/7br7RhbtW0K9lamz0nho=
+			vOffAvwrM96XTccnH/CDZ9G0ClI=
 			</data>
 			<key>hash2</key>
 			<data>
-			RCd7FaR6sBOXgBxC3aV5bneKasuTSTimQaa2EPToyno=
+			eDlDmOMEPu1FXvBe3mDR/+zXJeq/MuZwMGIF2gJ3u/M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2063,11 +1654,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nRnpRuyljtEkMTw2QzyN1erIpE4=
+			Z7VIfi9V6gW0STDnYiECIFX+aIA=
 			</data>
 			<key>hash2</key>
 			<data>
-			A1Reg9pxVw+oX1amrnW3wPSTxfM1NkOgtevSPnnzvgo=
+			y3Q8vyEsBe0qGZc7HMfi89RhkSAEvh3YOSSB0dbBVJ0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2076,11 +1667,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			asUBNtR1noE7M7Y8XrpNaBH5Oow=
+			bminZ0UPFtu7d9hL9gx65GUyUBs=
 			</data>
 			<key>hash2</key>
 			<data>
-			fx5756LdsKNCpBnho2yF2DEdsRuFSpM9k7Wq5HD1eX8=
+			9QaewY5DQHAdnsZrFmyarwni14aeVgTpLdBJ7mm59fg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2089,11 +1680,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			60meYigiTm95ZuZgLfVCne+mIl8=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUVdYOmrXBY+BSQPPAWmwJ5a2bX2SiKl+zMDY8OuESw=
+			GIKXwXjaXdKgPG2RxAVzBj2Fq0dCKSB+AnId06EeCv4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2102,11 +1693,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pwnfPDgbo4jZhD6XR2xJw70bYRs=
+			FWS9/HJye/KGf9k3Kbzzcxx5vdA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jtrnugnnftHSwxqxH5Ixd/NgPYRrToXkmXSS7K70Bpc=
+			pnVqQWm7Tu/WZojN7GcISuZvRX+nK8R2GmInGAzCamU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2115,11 +1706,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VYecOwpEhL2gaK1Ov38qnF5HFIU=
+			qLbRvQisuvD3k5+sWq8z+4wxJsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xklb7dwe1ZrrSpQGEhb+hfDpHKFMKMEEAfRduA9PX0Q=
+			pCdQzKMlcjFQEBrJkfUTnswXmEPi05v2gYE7Q4vOjHE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2128,11 +1719,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UqjwPvm+Fz5MUPHa8erx8oc1OZU=
+			JHnR1YtCP2W0CKUubZ3kIxxWphU=
 			</data>
 			<key>hash2</key>
 			<data>
-			z9lFhUyVwirymrJsLUDVMVIcmavRXAFGGae73YH6I98=
+			V3mCwGgAc5+HCjh0SQaqpQXgUaGTsrc5bsxDNI/ouHI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2141,11 +1732,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			JjdyzYJOdEyzREtUDpNMzRR+84k=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUVdYOmrXBY+BSQPPAWmwJ5a2bX2SiKl+zMDY8OuESw=
+			dxKvpGcxgXfgAwL5JmcD6Ryjx9mNmKon4qcln3W0MsI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2154,11 +1745,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bUzqqixF9LGV67sfr1diKxAP0e8=
+			WDpUhR4h9GG7dwUbrAVdpqqiKbc=
 			</data>
 			<key>hash2</key>
 			<data>
-			N8BA1iHTyVt6XsamBkP0fa+UrsiwPujiDAXZu+rEjHE=
+			OjM20XCmp08VNrS2FVFdsOtTxWeUT9CQRfyupHdDRvY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2180,11 +1771,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vI6xrGYqBTvWJ7ro0cV2OPXCeUA=
+			U0iAeIEzWhFrGmCQwaT0yuqomnk=
 			</data>
 			<key>hash2</key>
 			<data>
-			5U3+UkENpsKWy+kxhoRxfOi/EzwnxjLTxSFu4zAcB7Q=
+			nJaoQSLu7XjgfeQNR07wbM6/QnLOV2oDdSsoqyzRmiE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2193,11 +1784,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			aDeZIgbgAiEgvRYXBJ9Mm3upc4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUVdYOmrXBY+BSQPPAWmwJ5a2bX2SiKl+zMDY8OuESw=
+			jkwh1InhEEM+vGC7eeDvbFZyQi4LtgBRA2mfWWjZ3N4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/lv.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IEKLLnu0QX4r7Xadp4rRsVVqD4Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			5fzUYNIFkVivlvSf8ekKr0JR1jpnSxOOICMoAPmpdMY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2206,11 +1810,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			fA/9CXU5OPL1BQHWU4KBTUg2kRg=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUVdYOmrXBY+BSQPPAWmwJ5a2bX2SiKl+zMDY8OuESw=
+			1q4ZBKhG2m1gK3CcQ0AG2vf+r7UrBzis7ylxgzSF758=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2219,11 +1823,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			MH2vymxfC6dzSXjMuNVNHvLOx+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUVdYOmrXBY+BSQPPAWmwJ5a2bX2SiKl+zMDY8OuESw=
+			8EFdJZYVHzl9iqBwbBmTCwJUaFzC6Tnudi0Ij2+xNHs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2232,11 +1836,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OuqyEcNKZXmHSHjPK30DiiQMT1o=
+			7lMEjRrht0P57IwmaGydeSaU9Q0=
 			</data>
 			<key>hash2</key>
 			<data>
-			oCVDu6F/8l9yEAivdxer7JRmepgrEnxWU2BwwOOSRmA=
+			j+sGzBAFRv9cJmL5GS+pfPJ0S2mHsMqO4E9d6GMXYrc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2245,11 +1849,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MxbMIdjQHFUVLqpl7bFsHZeGy0Y=
+			t72R/g8MBra+ify7UjBCY+tJn+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			HFt2H9FrKHCSf9Tft29glTo9fzu2N9M6T+jEUwOYYRM=
+			5H4inliWjHLitg5MyQ2rJ2gHW7V3xbpth6wdSPUZFuQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2258,11 +1862,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d0JBocv0B0z15dxgWi3vPEYpC4w=
+			ARQ9SuFbuWjubUgxLba+qnG4IIE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gEISxUZa53kcPyQ+3rC+dHxPVmeyQ6vuqnne6UQgbpQ=
+			3ia4lGWtQDSx93YYXy9Tit+rOTWd2g/AKEsDZx0nibA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/ro.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Dieq7BrIU1iMb5A1MeNWtVO3oEU=
+			</data>
+			<key>hash2</key>
+			<data>
+			1yN/qvDtqRw3iBbMexIAs+TyTzukqEk0mE7t5F3J+8A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2271,11 +1888,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			agyKjcECYNnBnyUKR/b0jMTxs5Y=
+			0M4RzDmXY4n6ABbnezZCXuG5450=
 			</data>
 			<key>hash2</key>
 			<data>
-			at14pST0f69RuujIdfwq1+4DQ0O9d5CHQtjXn9nLx+Q=
+			qEbPlDCbNs1njLNE3pBDrjMvNMmzeM6eWcSM+R2y3Ag=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2284,11 +1901,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i1TPsORYMf5yn2/acR1kwSyVjwk=
+			PUwm2bi0IO4bRsHcX9R5B+o+Eg0=
 			</data>
 			<key>hash2</key>
 			<data>
-			dSTkDJAFGJGeS/63Kj65QTw4xZTQtJzcuGO3BcFe4Gw=
+			9yFU2xwRTte0N345uPGUw2NFXTBUQ0ptuT13pcbYfKM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/sl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RgUCYYyrMtGat0xJ6qS9L+fBt9c=
+			</data>
+			<key>hash2</key>
+			<data>
+			w4O9jVNlS8A6IgqHjuS03z+6yIUwlIqBST/UoAUeZWo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2297,11 +1927,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GlJ4E7J1N2NcduNtmV6nMel+4IM=
+			SnBiFnuGCAhKWC0kuvrS6do9ab0=
 			</data>
 			<key>hash2</key>
 			<data>
-			tkr4m21jVfPjeu7NdH9wn69kdGUlYleBODl/9+TES5s=
+			xGaJr3qHCc1+OHuIOjIFQ8YJSxHXA/FiiE+e+HBBdx8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2310,11 +1940,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			toorSOsWocA900ZPkGXi9ljN+BQ=
+			+UYGCKnUOlRXBXtFgFHqXQ+iUWs=
 			</data>
 			<key>hash2</key>
 			<data>
-			L/0NZJuuS94jKkXEnK/ujuaRclnZ9hteZgzxeyWtwms=
+			UoD1OZz0654TSCLJ9ouBc0Gixt6Oq9pXoJsfy7ikm+o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2323,11 +1953,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kqCkoMtEWo539Kss9AYOo5eH1C4=
+			e8kdqL6njQGJP0XyJhZG48oDTec=
 			</data>
 			<key>hash2</key>
 			<data>
-			tE5hweqEDbyjq/IqPFetvXRtzPfu3YIFKkGsaSRKgys=
+			qzYrhwoM+48geTnysenhSMGD5K0CnvtH4PlyoOQL0dg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2336,11 +1966,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YipUy2agey+5KLsdCtQ2VEap8gU=
+			DCjF2imnsUU/mFhHRo93E72STes=
 			</data>
 			<key>hash2</key>
 			<data>
-			ic58FoR5Cif8ZzwJIhRmeEAvyL1Gua+CJz9tIyN39PA=
+			4yKksM7p8khpiVNud2rH2QaEHfW4cr5ZcJiwCCyjtFY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2349,11 +1979,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vCCgxJYLyYPWQTzVIRxNv4IJCn8=
+			hZtnM+uyPF720Zfy2pcOIXhAip4=
 			</data>
 			<key>hash2</key>
 			<data>
-			96gh5BHfT33907PV1Ag0a26twX8o9ND4gApKg8uF20o=
+			qpsBmYNJhMKCgEfPowOt8YwDnh/7gU0GPc1418msewo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudDFUKit.bundle/ur.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gemaK+j0DFshrWJGAxGuhC8lnog=
+			</data>
+			<key>hash2</key>
+			<data>
+			bf35ycBXnAzsU4XjhAKkapVU7HWCqFODiLt6WCUASKo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2362,11 +2005,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NPD7rFnF2mTk24AgHX/RBQhmqYw=
+			Lwa2X+YRkXffx068/zJ0XZ/Wh8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			JSGimd6pcX2CV4ytkLmlsq63NV+P3YC77hlNGdv3y64=
+			gwsDpQZOjRxzvivsEohOgA5VB51HbUV9Uxo0sVoy1z4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2375,11 +2018,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			daWsZzxywLekbDelD11erhEhd3c=
+			6azKkREX8B9YmPZDBXqCha80jFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			P9xpsdb3ckk3o40A1nDywcaLw43deEYow3gYkQda9ZM=
+			mhf1yURYeRZHkm4Homvo94nivQmVSSVTQMbT7SO4qG4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2401,11 +2044,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QAWdLVxeq3Ti+2CFxek+vHfoRAc=
+			1o39vIPxRc/MhVwQJPbOzyEV4bQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			FeO+de4xMa912deb8oqpoixAZ8rlnrA3mENwc/iVkw4=
+			n1MUETp3YlAw9Dgcm9yE1GnK/hDQ9WMx3N0+uGLMgqk=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
@@ -2969,22 +2612,35 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k+snEw0JU1VKfj8VeXJ2IYUEnZg=
+			an0Z0nr+M7kAl6L4PyPisszLuho=
 			</data>
 			<key>hash2</key>
 			<data>
-			lxyt6s+dcfDPBEkH+bBlEJXJ6IopOOf/o4GQU9FxL6A=
+			uEDcWzya9xFw2gC5VAR2Y6Njs4xXieuCxTVVTkFqz40=
 			</data>
 		</dict>
 		<key>FitCloudWFKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ENN+53RSCDXyBnnzgFOOzR08k3c=
+			5CpwrqywIVQeRd/x6BzvRZWe7Z4=
 			</data>
 			<key>hash2</key>
 			<data>
-			sqFbS+xM8ZDD+nzz09UBkAMpu/1v4tIFHnQicevWN7M=
+			WlzlOnYJ1GAij8QSBOzo/WNvO/XxBs7M68ZnPHCt3f4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/bg.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6WCmsYgDLmb224sBXr2/mwFBaeI=
+			</data>
+			<key>hash2</key>
+			<data>
+			0s2Qy5saIZtLwEC3+wq2tTntfPxp3vIz8iZsxLNJ7is=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2993,11 +2649,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iK22rfWqxFgstCUJVEnwHbZPXeE=
+			a6dkJo0sIupN3iHHsSVIqvRm3bU=
 			</data>
 			<key>hash2</key>
 			<data>
-			z6yI6L2S6g8ZVNTFjy9cTcE1HSUE8aYY9OBm5MNxvNM=
+			fbgCNQKRVGpSK7nz6HdIaCP2ffwETirWdvbamwvH11M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3006,11 +2662,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OOhW3VzbTjvfYJRI0sG2tE9mZx4=
+			RAhAJUXpghgus8x2/JrJWayZ2qs=
 			</data>
 			<key>hash2</key>
 			<data>
-			cy5T0N6nHWOHrvLhiBoFP+9fOQQjO71mVmm4tFbea+c=
+			jGyfOwfHDLhB7wdLRINHNLdTR0cWzs0CTWlOf0NCv6s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3019,11 +2675,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QnoQwgiClRD++uEwnJk1jcDiHe8=
+			gBupiw1rgOPKg3/xKzDBHtEBSOQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			/oiG6yFvlGjz653wlZXzbFAQuyq0QgwmFwVTujzq+R4=
+			zv95tVVLrK6De/KmXcO0KPAZxVbEbyQ2PAeXGzQ6aIU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3032,11 +2688,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JLIYvWcZY1jTo834q9k6Gc1fEN4=
+			B61mmeCKrVbb5DZd2rSlZ7XnyiQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			GcwxYMFD7cdp8Gkx0lGy7YMcfuj0l23Gjop6kEbj0hw=
+			JHxXCurdpfNAzJ9f48N+/w7TVuReT0jFBspMhfvaIiI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3045,11 +2701,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			64LkRRhOrx6swsuUCXdoI8+LYxM=
+			BHQpARN6vvMNJ+3L/QTFc9BWvMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			o4y4SrFUwv4k5bkdzMA1CgMPmhjvh5ETdc3XLpqRPDs=
+			PifZ27YNzx+Cvpi3+Sy1HugLl06777EVZc65R4qGhsE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3058,11 +2714,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sTx56Zx5Oi+xX74d7UgmaFk0Ydo=
+			fiWRFxBfHR6zmB66/3FEGbBijL8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SyJQ5Tev6EC6bxJOy5HE9JnjWXwsC9ZMLN/8/a2Xq6E=
+			Jq2nuo88so1XTGwTcEWEj7AMF/LpsfmJbM6/BffWNNM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3071,11 +2727,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			64LkRRhOrx6swsuUCXdoI8+LYxM=
+			X+ltT2ipD2wQjM54TAYDb3/aIdo=
 			</data>
 			<key>hash2</key>
 			<data>
-			o4y4SrFUwv4k5bkdzMA1CgMPmhjvh5ETdc3XLpqRPDs=
+			U0qVTyVNldQqqkAwWKtJh1grBaN80ewSLgESrhpF50Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3084,11 +2740,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SwpCq/hrf2j278Cgj4c3dqQEj+w=
+			rUFnmafVlmtjgbscKe6Q+BL5ZNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			R1NMWxeXKh1704wLFO6JvaCYx0tbuGgXdiJuE9DAsxc=
+			N4UFxluHQqzbNXR2RIGxsS6GgZKXSXeG1mhdIvqbJm4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3097,11 +2753,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3K+Bbjbvg/z19geDBLuhYusFej8=
+			trFy1Q0NLow2vI7OXAtqKN+ZRyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7aaLmEfPDoyZ5qXjwOH4BoYFMqg73E21yCtocqXdhQQ=
+			ZmNYZmoCjljYZLIMw1EpCDzLciRn7z1d4qSnnF+AvgM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3110,11 +2766,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ncjYQKYV7p1h2PiXbHUYqof8ktc=
+			svlO4baueMtmsn/VW4jyFP9kyuo=
 			</data>
 			<key>hash2</key>
 			<data>
-			yBFfL4cWLSge7pvkU+w/TbX5s/3nRM6pAZcLwlyLD6E=
+			0P7l6bj/Xs80Hq1U3ovydIP6tlGvhciymxwqeWUeTxk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3123,11 +2779,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SsFddzrAeHmVcA/E9Lfh0c/ML+Q=
+			0zixoMrqcpsFilWuRi8/gQ5I0ZY=
 			</data>
 			<key>hash2</key>
 			<data>
-			3StEO5nhOHdzq3NX6OMCEZdijVOz++/BKRJrcVz905A=
+			b+ar3Ra3jwVH9RcoEdTszFQ0Tsf9udJrB1Z1I+sg9nM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3136,11 +2792,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0nXNgFB3DdNS4Y7XOLRTvabaL0c=
+			fSPsqm8y8dY8rpjuEJsQsSCEAKQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			BeM5Z4QoPl7eMcdOIklvR/xzVYDVQUZth3nHKSAmvH0=
+			CSEqDJrO1XULFOjdrGdPqaildsbaAE/haLJndaX9ryM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3149,11 +2805,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XGAR4tbBFukbySuOHOC+n59iXJA=
+			CzYoU97R3xw6TNuA7GTbJ5nzXV0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9judhRaNQRB24G5T0LJ9Db/aFmBGNyOacm/+3wQfKCU=
+			40wSAkWse3u7FFp/pw+KPkoFtyrPe7seCN8bhWCO0Ww=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3162,11 +2818,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TOslOvt1JCNzZZ0PnnyPS286VwU=
+			9GAVp9PBF8pG0RvZbhQD602CzrI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AFxM7G3Cu9cZAZ864HDakX9fEh/wx3EegRyIn5qzuiE=
+			krmGGq8yzT4dkDiHMknQYmxQ8jwu0T9mSdcjwRNVgoM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3175,11 +2831,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SsFddzrAeHmVcA/E9Lfh0c/ML+Q=
+			GV2CEtKGkwWHPJJoyRwleYoxnNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			3StEO5nhOHdzq3NX6OMCEZdijVOz++/BKRJrcVz905A=
+			Gusjha98xxW7ghqLUQyH61lc1hRIp78TTyBDcAMuqRw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3188,11 +2844,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rGWNcLdrzxCPvoCnmTbeZGLNJeQ=
+			gtnxIwcRgLcBogJaB9gC8C+XSys=
 			</data>
 			<key>hash2</key>
 			<data>
-			mvMZYdbeiXspYEkz/NmynhIWnpodJNVEVU76pGui1Nc=
+			/yiA2whQmuLloWCUBo+NW33zEl2UjRoikWaTOie0cL8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3201,11 +2857,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zL9kI/UISUA7HsEz40H6wO6F6+A=
+			vE/IPZEgwFJGeQmsSkXFzpOGMLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			R+sjJ+FUzj2CD7aVKW/mg9WZjBYlvJJxODGxZTRa7Qc=
+			yL59aLqODJx1Osi5U/uJCTyar6h3Oy0X1pavUOv3QRY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3214,11 +2870,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4SnFz6R5zEAcv3pQxtx84Ayq5kc=
+			wPyKARvDFiIJlr2wk81QBXMB3lc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yIO+rGsglvqqWMBLa0xJ2GAr7NRgvu69glKv9drmf3M=
+			3PEVyMSVICg08fi5J1wCXAQ4f8Mmlt9pCsGURZLx+ZU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3227,11 +2883,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			64LkRRhOrx6swsuUCXdoI8+LYxM=
+			phOEXLMWDdffC76Ai6HRPGTNHlM=
 			</data>
 			<key>hash2</key>
 			<data>
-			o4y4SrFUwv4k5bkdzMA1CgMPmhjvh5ETdc3XLpqRPDs=
+			oCpvU/utTmZ7E6mmsHvUsVyz8GdN9xrgTpfMcVCTmEw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/lv.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4MzL9NURWLoayYTBfBCU0tgRMUg=
+			</data>
+			<key>hash2</key>
+			<data>
+			j37y6RN3ommGbyzcCpVVF7IrExq988joIjgC8skU+QQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3240,11 +2909,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SsFddzrAeHmVcA/E9Lfh0c/ML+Q=
+			V5MpHPPrDBwF5hSsrjOjfCasDFk=
 			</data>
 			<key>hash2</key>
 			<data>
-			3StEO5nhOHdzq3NX6OMCEZdijVOz++/BKRJrcVz905A=
+			nyP93yxL97wUWKTQEfqpf891PfGmLaJlntvvCuDEhIk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3253,11 +2922,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SsFddzrAeHmVcA/E9Lfh0c/ML+Q=
+			XCXS+N9duaJl0LtzhasFTfLSTPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			3StEO5nhOHdzq3NX6OMCEZdijVOz++/BKRJrcVz905A=
+			/p4tbarK1M7RBTUZcE/EKPnvnpTlZ9zTEfCfCh9+Ris=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3266,11 +2935,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qk+2AJhOy72oO3TQ1USlMiFU/zM=
+			NTzYg79l5vdI4YrlBHxyssuo5YQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			EXviMhSiejbwsEt7ajE7YQpPwUYfi85+fJId3afcC/4=
+			oYjMMnxvvAW6psdbbRLJNdC1ieRBhWHOn+EKtne0mK4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3279,11 +2948,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cf3pOAjLbvZj3UjqAKPKGAP23ek=
+			yeKg+dVLMo9+/nJb1MaBPFwatBo=
 			</data>
 			<key>hash2</key>
 			<data>
-			DC2ysKAxyWWDdDxuS/jsz6o+I4eCfdL8dbtK4T+mGRA=
+			fRcL4iEn0yRbwP32lxD9TBDMZdQ4yCIOFcdnQy6AkKU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3292,11 +2961,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KTjWiRz5rvpX0iGoPrUbl/i06ks=
+			b6l1nJapivCmrAoQHupYGBt3UcA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7bBxU05yulBbdHMbYZ09J13gDFVXkD158A0HtsnXloA=
+			7catgKQXwxKHnQkj6Mu3QbThDMFU4LU33c9eujHNQ8Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/ro.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rpqrdXAK+vYPHFFj6+g8k5lB6Ls=
+			</data>
+			<key>hash2</key>
+			<data>
+			8XhdH9rj2cMz2EeC4PuWGU3j1nZF14AkWnXowktER+E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3305,11 +2987,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CyqpXM/zDV00xg3xoBUplGzehxw=
+			P7c8KKhpUt+mXhI2e+e1edNsU5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			sYCtBSRc7jfgk/1+obA4f5KvEdWUC7aQYy8x6VOx+54=
+			8IZy/mzlmeTO6LwM5kCf5CB0r4ogMMPdNYiqFpy7Y1Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3318,11 +3000,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+rMMvaDeTBBvMdiaSX15HHnMJ/w=
+			0vTHDh0C+ErI5jonxwZo5qVIKXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vnvb8OJC9/mDoefUdvMnhyqBZ3fMgM4DcX/Fw/nCXfw=
+			uz6f1uvThUCQWwg4z+0PQFcEgcMYw8rRw64G7QDPbiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/sl.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bS8PePOJfzgKZpXBlthy5b14tsk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ESQ0ZrIMT72qGEaWffz2VYjuu+VBII1/plNH6v5Qrjg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3331,11 +3026,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2yv37sxF049CCJJba5GA8i/xdbQ=
+			LCGfbt9vhJufdxTfma5gI1ZF4DQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ADwg/qAm6iApt3seY4J37oT+6GX0MK9YEfaRd8vsSc0=
+			/ibEJ89Ct5ebwtiOOLERd3KXwGhvslej92jeEw/aln8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3344,11 +3039,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s5nxyQwsk3W5ymwXC9xhgcTR0A4=
+			dI95yFa7HMmb8J7sox+G/xJyfuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			BV2d6VCVkaGjkaMJW5V+KkJhcQEzO1xrTGjbCF9+dwc=
+			PDmJhUUHMb+bJeat+oWfW4mSds9Jr6JomccoI0VtFn0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3357,11 +3052,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sUxfh5JFlTZRc+OE5f/pHnrjKQE=
+			05WXKUSeXdwqxJp2i1tbgoEMdwY=
 			</data>
 			<key>hash2</key>
 			<data>
-			hWEQvARkv6PwqoSPJQ5VF3+/wJ94Uxd4DNP4oeAIx1g=
+			bAHwlqMOkEMMqQTleV3oAUWnZl8CY7VXTfZfmz6r3DE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3370,11 +3065,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k6Roiy/9bRpPHfAX7nPDR8aIVpQ=
+			GlVGdzHjZcAiTYnVj9ZCaVV3ewc=
 			</data>
 			<key>hash2</key>
 			<data>
-			B1vP3ZGCA8Zy8W+X0qle2S2s8LmZFL3AwhZ5bYEbtio=
+			DRK03hDRBqzCfldqyX4ogJ9+cZZlkieeNFQlIzQpy9Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3383,11 +3078,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VgPH3fy8e0eqAyf9j1RqoIQj0NY=
+			Mg4I7Luxg9mDCkXN3Y/jloeSQgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			5LgSZK05NeudIY0nmDbdC5o6/9nts/fOnYV9EIyuaV8=
+			6/WIHS4goxAWbE39IjnqVG8emmzrJf+RxxoDD3oMlMY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudWFKit.bundle/ur.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YraQPNUtLuBGnz4URsGondlnYX0=
+			</data>
+			<key>hash2</key>
+			<data>
+			UxGCF/3OM/4o39RW0WiI009b2W8g6sdKt+mu7FfIqYs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3396,11 +3104,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WmzcUAKxKOkaM5BO83guUZzes/o=
+			aYBetXzabjYL0mkKJhosuE32EFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			q8nMgLW85/BvnivCWDof7Awxzw6s+XLNdh7S7YVdvPM=
+			DCTHSLLwGY7kscNmFP2ZlCpUQ1f3idMZF4zmdubrafM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3409,11 +3117,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zn2kqkEHV65hpBPzELjTXw2RrQQ=
+			Zy9fAOrqtQ79i9XQEraK1tV6PAY=
 			</data>
 			<key>hash2</key>
 			<data>
-			WluyMOQPoQADA6sec/cUdkWmSE3pLIEt0WkEt3l799Q=
+			pMQfRT8SaIzGJ3LzsLUVui6jMatEmqQ3HHU+GVSYSq4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3422,1366 +3130,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iHyu+dDPUArOUpPAmL/DPHAFmk8=
+			rxe618esI/GTjwyk7WS9a/tNF+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			KylReccMVJJNTyKHZOAdP9nNNYKgnRM26EITi8QPiN4=
+			/X/tw0gL06sPsIzHFY/KdHaWgR4wwgdq181Tq/pzEwU=
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1eOh2TVdxw/8f6EH/j/4ztopYd0=
-			</data>
-			<key>hash2</key>
-			<data>
-			j4m2IK8VMHmpYMWTywKf/AtXrfYM1cvZ6X5wORdKdEE=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YOK1j9l+egIjq0jb7MRFRdWEm4s=
-			</data>
-			<key>hash2</key>
-			<data>
-			SI7kw1/J2cBCjpJ5tZgVHlm19Angdrm5bhJIU47zWrc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/Version.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q+gp/Zi8yqRVVcOOoxcWL+WShpM=
-			</data>
-			<key>hash2</key>
-			<data>
-			n/IvKNzSxQG0Hop1pHzKq054X0MF8xag/E9STU2LBWo=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MtKyn7vlngN30tw5w7aFvprfWi4=
-			</data>
-			<key>hash2</key>
-			<data>
-			EaXz10X9+DHnYbN11Vd3zELfR9zvSBzDRhXcUYPKZpM=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/bootstrap.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PPOhCWjhhaLJ3rznG51f+bCEpPk=
-			</data>
-			<key>hash2</key>
-			<data>
-			ihp7CuyeeHgR/Uqnpd0GKCd1rFvsnlzmhOUU4ON+F5w=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rt5qfsIPqmBDBGjpAjL6IKRkYwo=
-			</data>
-			<key>hash2</key>
-			<data>
-			psc6Fk/bQY3Qq7NW6mO7B0DyaU8NOMW+/sjB/gPu9g8=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/__main__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FbCUjhvcnA6JV8/Ym5gzgv5BAHw=
-			</data>
-			<key>hash2</key>
-			<data>
-			6zWDlLyoCidrPLWgGeiW354ae0geYIQKqPg1G8kq+5c=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/cacert.pem</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fylep0/H7Qrw6SvggHH7C3bIUJ4=
-			</data>
-			<key>hash2</key>
-			<data>
-			LBHDzgj/xA05AxnHK8ENT5COnGNElNZe0svFUHMf1SQ=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/core.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			92kIxAfu+03yG9MJJTAyaPvX01E=
-			</data>
-			<key>hash2</key>
-			<data>
-			PrI8UkTj6ygQVbCpkPy+CTYDCZsOPfu8u1xL6oeujqM=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/certifi/py.typed</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/global_var.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lEVHxFSyTelsllBJBdZiph/ZHbo=
-			</data>
-			<key>hash2</key>
-			<data>
-			9lFgGX5mouIBkGbBJfqgLpJPqzEaing+wsf5xBlzEuw=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/lib/python310.zip</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Mb9Ae78QaGFoRTP4UQHVNXIt06o=
-			</data>
-			<key>hash2</key>
-			<data>
-			RPBPo1EqBBltzAk61TdYnuSgoJJsGCGgvQ9GlblKFnY=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mW9I1PG9SUNKMeeNef/jOOFVTYg=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ri/7X8WEPZwrHudw/d6BpJNNGtgg0XIxcxsLyODXa/c=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/aslog/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ST8/Joj/daTCelkfKa93cExE+vw=
-			</data>
-			<key>hash2</key>
-			<data>
-			LMQwhfVVl/0hfXBg4USUHAFChIN7ixNwwojcda8RnsQ=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/aslog/aslog.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R42/C9NJKBPRsK/O3elEtZMSb4w=
-			</data>
-			<key>hash2</key>
-			<data>
-			uYeSj3s8VzP3sxCi5xDXhdVUie8+krEJCvafH/Wss2A=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ek8ECFR7ZutFIG09S4qlJiUrj/Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			SoZlE5E/i8uiYg0ElTiZBsmhXPMMPQfFFfTIUbUk0pA=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/char_dev.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ehRzPSipmICHDfpKJBd4xaAAzTw=
-			</data>
-			<key>hash2</key>
-			<data>
-			quaUW2rqrw8sK0CTtXs+m8Wsq6s6ZOAbXj/9/OcHgj0=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/frame_check.drawio</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BDKCwMp+iYPGGpzwe334kw0IHvE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Y9OEeDyav6tCB2icRpWTDlArg9YDIYufQAIl0r6i6YY=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/link.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gdKOkKGpYztQpmjVREiyX5DQCyM=
-			</data>
-			<key>hash2</key>
-			<data>
-			S1KT+C1lqQoMe9fiC+b2I6pZ0cvDcTH/g37KkBfsdkQ=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/socket_tcp.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7mC9hbEI/AA3/caBPLfOUr7vocs=
-			</data>
-			<key>hash2</key>
-			<data>
-			IrTEDvEX3a2uMVVvXbidylfeopIiAgR2mfRBZJ3dmCw=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/uart.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OelBl9kG8IQjD7b9imQGJ4EWWWQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			UWmSFt+nXwaZ3WRwBWYPp9UG52h1ErejmcFD3moEJiY=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/link/usb.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m20Djoaahio8jdXHewaJEsSGalA=
-			</data>
-			<key>hash2</key>
-			<data>
-			viCy+YNJLfzpo6cIBqL2OdPGmneB6vBBjZqg72NljlM=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/mcf.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oZlyKofXXfpSiz4KXcLf8boy+lA=
-			</data>
-			<key>hash2</key>
-			<data>
-			RP3Z82b/MOpHMty5chLHw2NSuCKQTWx83jV6ZDzPM3M=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/mcf_utils.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			94cKxr9B7ljEeb+gVVynqFzzmU4=
-			</data>
-			<key>hash2</key>
-			<data>
-			3nOmRkR8KRd1oIGSLbIg1Cbw5d3V93pBp/hA1tyfE8s=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jLgKbNWatZh4ACjtrcH5LHNFPAE=
-			</data>
-			<key>hash2</key>
-			<data>
-			0CXIe4McINEm8GsGk3KX6pV3qEF7xFdwxJAOoxnCSLY=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/d2d.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sqpnUCvrLCyqaAUhre8KuCa4XMM=
-			</data>
-			<key>hash2</key>
-			<data>
-			phSO45csbhvyOGO3BuSg3pI9xtGLm8q+hQ5+NQVT4vg=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/event.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vVwhWPuyN5ikFo0g06fxmy4VvlY=
-			</data>
-			<key>hash2</key>
-			<data>
-			qf//k0EcGy3X4I9iCdemzP8wHv55Fx2MhzqxsK6knqY=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/packet.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DniYxg0Y+TmbTxY5paz+oKMJ9B8=
-			</data>
-			<key>hash2</key>
-			<data>
-			hbh9S6TaJTicyrHKF1Z4OzJK8ytmtD8PF/Tfv9I3fHE=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/mcf/trans/trans.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hA0A6ZaTkA3ekjIUw29Fl1IEq/I=
-			</data>
-			<key>hash2</key>
-			<data>
-			8wTlHwkEDNxTjaFBj5H+NaLvnP+C0c/khY/vZFKNUqQ=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/sample.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			V3bHH+lAJKk+Aw9C+FjXeKWlmvQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			WcC6j1RXtXccBc7R6dfSbWkrZlOBuS4J9JiEoY64Jag=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/stdlib.zip</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sthQiTGlaWTZ2eSGd0P9/R9ZpPo=
-			</data>
-			<key>hash2</key>
-			<data>
-			2ZA7ZaY65c3loer2HP77p0d7MuBcj3F/WCRomxYJt3s=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g/U2NkMHklSLEGU/mFm5o5a0iFE=
-			</data>
-			<key>hash2</key>
-			<data>
-			44Fzld8KGXbb/PlF5Fb+3/vlSjMCg8FhvVHQtcN2jnU=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/__main__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gSmATIj7y9B1wL/lLUmZRD3YUNg=
-			</data>
-			<key>hash2</key>
-			<data>
-			46OvaMpuRqugirpLE4DIvsEYnbxFQasC+J9INa4C2vE=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/compat.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FLYkyBsK3r+jW/+JofZPfjUnlnc=
-			</data>
-			<key>hash2</key>
-			<data>
-			lveB94DDUiQRSZ9wU9zoYRzRNHob1GToVAqbSBTMmEg=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/decoder.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Utr+UlPSWsWwaZ2qPy4YfwsojCk=
-			</data>
-			<key>hash2</key>
-			<data>
-			yqgaAIgPasaymuCzYbOiwjHu2In6XQ+pTUtNO8y76qk=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/encoder.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qo4WU/nSFkLcFChj2nfAbBV5sXw=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZujR6twgxwBAsjFer2nxbM24I88oF17k8tuDoafI0Cc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/ubjson/markers.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+rl+glg52+RjzGIRVZ9/MOqnL1g=
-			</data>
-			<key>hash2</key>
-			<data>
-			s9nXi2sj58ipnCjQVk/ZlN/xAOrjsoSLWw96zQwIPes=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bltVAUMY4Xv45F7BgMBuO5e2DGw=
-			</data>
-			<key>hash2</key>
-			<data>
-			DgL8dcGs4+dtLhDGNG2ASZA7DHM34zHauLEdbblBZDc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/server/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sml8TNxsHhfJC1K9a03M8/AyZIU=
-			</data>
-			<key>hash2</key>
-			<data>
-			3xMDmNotURLOvp5VMFcBHwgbse0oB+zLk0eJUSyxj9Y=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/server/daemon.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NzUvX7qgc2xES8/xuIMrH/IpuA0=
-			</data>
-			<key>hash2</key>
-			<data>
-			E5bCqWlvo255dgWgEbVDNMhGgY7b0eY71WXcDOEsu5g=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/server/server.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Wv2zGhIdmNPWhH7bycx7Be3D3IE=
-			</data>
-			<key>hash2</key>
-			<data>
-			rOeoKbbbZ3GGXEWB4Pegs2OnKP8Oj8H4yEsDKuoQto4=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/server/service_status_manage.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			adFmTpFfBvEn5Mt4UlmkbyJCzfA=
-			</data>
-			<key>hash2</key>
-			<data>
-			sIUPvWuLlOD0X+23JznsJoEtYhaMaafiQXkoLqNGy1I=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WxWKfGzRoM52VIKQjv6az4Wkq1Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			O4VinjUaUVjPoxBbzSBWYtx1sjUIiTdMpe7soudBPiA=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/app.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ApX6kec7DBwtRFs6A1py3f5C+u4=
-			</data>
-			<key>hash2</key>
-			<data>
-			9onkPS4ZMb+VHjikPU0YiooYA2ORGnkcXNpRAqpRq4k=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/device.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HGjQimjQQP84GkIFOonpTazq1pI=
-			</data>
-			<key>hash2</key>
-			<data>
-			bI0dFrD9wS4DnK/PoiJThstDvX1AOjNVL8EEjZun9/0=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/fal.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nUjZvQVhdfBmshW6zy+See2SK0A=
-			</data>
-			<key>hash2</key>
-			<data>
-			CT62BpJGPbieOHTsRoDw5yP7fKWP83kor2kEap61g+A=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/file.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			O8MHIKsW5e9eOlZxXA9WLmCfrEU=
-			</data>
-			<key>hash2</key>
-			<data>
-			jvEWTsEjfC73ylf700JO5zmMPB/rMW1cSPyxTfYEvvM=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/httpclient.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ebDmSEbuUpgupB48T57jzDqs8Yw=
-			</data>
-			<key>hash2</key>
-			<data>
-			Rac0wGEyYhyk6Um/gLyH0aBq//6YJ1USTTUsShj+q0c=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/log.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WHTXcj/Awb4LXUSgkPwC0Yr1MA4=
-			</data>
-			<key>hash2</key>
-			<data>
-			BJ7WRVTlnOb8vS/fQfYwtiNOQFxmlTMlH8SQmrYHbFI=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/sal.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k505MJ8EV92GqP7I9/D6e2zdg5I=
-			</data>
-			<key>hash2</key>
-			<data>
-			TNdmlkT6RjdkL1ej21AOZERTTzveq1Qi/i1YgzdYOhE=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/sfud.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yHhNze1fUZmEelH5MyZUCbt6HX8=
-			</data>
-			<key>hash2</key>
-			<data>
-			8cvDwz9qsPCafDuWRHhqXg2oVwVHLOMbjO47FNYK//Y=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/shell.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wTF3CxB9W3Ub4gd74J4TAkkk4io=
-			</data>
-			<key>hash2</key>
-			<data>
-			SS1+eAqjX1JiEl82p0BSYHQPGeSjpidOgCoQA41ik2w=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/services/svc_utils.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1HxDVLsTpzp7avn1qJxIwKymYnc=
-			</data>
-			<key>hash2</key>
-			<data>
-			9vCCiqMotFdAGiIQP9kr1etPkIGCdBKiwikIeCxowcI=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CNRRA4QHXZKtAvuNW6rTQS1tGbE=
-			</data>
-			<key>hash2</key>
-			<data>
-			CeF650mhWO+mp+/Guj2Gy775wL+zRbetS6pagRwn+Fw=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/ffi.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Wj/fCQ75EMV1xYow1tWkdA1FS44=
-			</data>
-			<key>hash2</key>
-			<data>
-			GZt3plM35t70V8SUB0Q/nNk/QNuv6rNdwEwV0wLuE4M=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/sample.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			e1ALHSIlePXh9QoWC/GWxgyi+AU=
-			</data>
-			<key>hash2</key>
-			<data>
-			DyjWUdYi4supUnaZ2ecJlW1x6MCgnkgcfZFdPeNYVjI=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/urpc.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			miTaw7H7dVy8tdgCxotruguj9fs=
-			</data>
-			<key>hash2</key>
-			<data>
-			eo7z8KwP0/JuEY1ZtBeDSExlDwgNdtnBW8RUJSpPui8=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/urpc/src/urpc_utils.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X+VPtvNYUecAHKqvwQ0DO9W8tAc=
-			</data>
-			<key>hash2</key>
-			<data>
-			PEQuBx+VPvQ8NQ2l1f4ZaziB5NbkirHFcKXuahDlF5s=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/utils/code.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			prZtePrVXqvnsB46MOg1kaGBkOM=
-			</data>
-			<key>hash2</key>
-			<data>
-			6GIWNsZHbFoe38qA375eTh3W70Bdl3ms/Gpw9uVLv80=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/utils/observable.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TPIUVfrHiCA14dkfZyg1G7eEG3E=
-			</data>
-			<key>hash2</key>
-			<data>
-			CBte6pInM8oSm9dt9KS6ljrKNXsjDlME0L3bGtnWSyQ=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/utils/singleton.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hRYXIe/LrjMMwVz09Dio4UkmT28=
-			</data>
-			<key>hash2</key>
-			<data>
-			fuOShRP5VJ9YntaTW6/q/dJ5M8dvKEOUoaoEqt5Kz8g=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			N/3Y/H+/T6KmVY2y+Ea3jZqjhsA=
-			</data>
-			<key>hash2</key>
-			<data>
-			2otl+V2ERVlkPIHOqFN0wDb9buRNRWYYtrfx5TqcmOQ=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/__init__.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DK1QLq38kjrNxGalnPNLK7xPSnw=
-			</data>
-			<key>hash2</key>
-			<data>
-			BOJu1D/0huGdYGznsqutVO+NNqVansRjyHamHR+5Ws4=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/boot.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FAd8ZB8c6Gpv89P8zskfPaWRrkI=
-			</data>
-			<key>hash2</key>
-			<data>
-			mDWyXaplrjj94JcsmG1wNg1WQChymBc30F01zDrfxLk=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/clients.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PJ61cEIfbZWcTgQbMaHtN6jAUyI=
-			</data>
-			<key>hash2</key>
-			<data>
-			x21ZALO5ad+eWfLWcYEwpU+pk5+Z76X+yMlsG0ShyYw=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/common.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oGEB65DIK4jWLBKSqyiNsO3WLxE=
-			</data>
-			<key>hash2</key>
-			<data>
-			CU30Zjnq9tR+kqgAIyaBWL2x4LAYtg3qb2nlVHLN6+s=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/boot/service.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3GxedSt2g+M7rttddiCssN8g/dw=
-			</data>
-			<key>hash2</key>
-			<data>
-			HBOZyR9d4eckCagExbakZB8YF7x5yic6/G+/7VBhPkM=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/contacts.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n42bzG0FvEzI+Yqh+4Sq1/SStpw=
-			</data>
-			<key>hash2</key>
-			<data>
-			CzGWyCEg+l1//FHYq5WkUB+AP+AEIjb2azJHlqhN/P0=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/dcm.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			H7k7ehQbW/gUz8TfARSUnqk2glQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			duphgF+YVE2izvNEoJz8vAWiOcm0ErkoGVhwCPzFsOc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/dial.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UotR8fNS1Vnar/2gq817qgEsIB0=
-			</data>
-			<key>hash2</key>
-			<data>
-			gUZdmbrqKJcCo03kbZJkUxDaFiSvK41IrSrnkqCglic=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/env.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cYncWNDdoSaZ20yKiYL9lDh+3b4=
-			</data>
-			<key>hash2</key>
-			<data>
-			+V9StzE76yFVdi1Q+nthiOnW8sY5kTbNu4qpbcJHXtY=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/files/delete.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			d6duwjwmaGITrwT1quQ4w1jZgHY=
-			</data>
-			<key>hash2</key>
-			<data>
-			/bdjxHwyaLp/wlfukXFkoZpN3tB7+Jz7e274U9ybVzA=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/files/pull.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			avJv5TG2FXFgF0qnGy51nb+DwNQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			aCEcKLMSjwVQ5SGMdnMxZmux375jsalC6477TGY900Q=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/files/push.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tCPtOuROUkoVFhXZuOhSRkdKSAw=
-			</data>
-			<key>hash2</key>
-			<data>
-			/NWcZrRBX0rsubczPos9gtPVRpVeXTxgMobXLI0qIuQ=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/files/utils.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4FIsw9YpLyVuthOCP1BZqDJovf4=
-			</data>
-			<key>hash2</key>
-			<data>
-			S14BIvG5Y5Bup6T9Nqwxaqj/UW2E4pSGChEmjm/s5PU=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/json_lpc.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			re1AmshgLFQaCtVJqPWv5JvZDpU=
-			</data>
-			<key>hash2</key>
-			<data>
-			BD5Hqxp9D1KFcs1QlEUNE/hn1H2mA8KhqQXYs4tneQk=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/log.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2Dyt8zi3aXZ143uNRBwF4/OiGIg=
-			</data>
-			<key>hash2</key>
-			<data>
-			q8QJU6ob1b2VKrYal0jdfelXyqvDExFWz6mpaS+DZRc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/notification.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sRpR93glifcN5CDg7mkeW0WPPK4=
-			</data>
-			<key>hash2</key>
-			<data>
-			bPszX5w+SXVL2tjaWDUFXfWWsrEM25RL8nlzJ4zM3d0=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/context.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QhuYWRo7CtGImCRr2/z5Ked69+Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			/oNXvxcdWsjchNKr77YD4H3pfKh6PyQ1Os0IYxvZ9d8=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/excall.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HUQZKWvOWTgPptGXvXsBlZnNiII=
-			</data>
-			<key>hash2</key>
-			<data>
-			I41yvyosoCyf6Ulf/k+P3SQ6jvIzZf/ujMb8NtEfg5g=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/load.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			L+YJ99pr7juOijeTTTFVTq+JGzw=
-			</data>
-			<key>hash2</key>
-			<data>
-			qCYh927H0Jl+/IVI0awEOEBTa+frKLTTUbFO+0Rh27A=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/load/V1Load.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PKt0EWYaamE1O86dfE0ApTJ3T7A=
-			</data>
-			<key>hash2</key>
-			<data>
-			EKCa1kUDCb4duUk4Gfu3RIbVqFsUDvG0GRiy26Wl9sc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/load/V2Load.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VBcvPi/ohfpHsKxvw7gRwg4heyw=
-			</data>
-			<key>hash2</key>
-			<data>
-			KQsUaZWsN3JCwO4vhfTOKsUAvFrxMLrK2VY0nf8huqE=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/looptimer.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ouSImCcTqdB8+ARWCWvqvpgVjfc=
-			</data>
-			<key>hash2</key>
-			<data>
-			fBYDdmqthvzAlH9UKJLMN8RCZiEX0mFy/07OiDz0BPM=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/main.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8KU+vnYG3MfBHUtcBMA0vDTS3aE=
-			</data>
-			<key>hash2</key>
-			<data>
-			ncB7KoSLc2smIY/4zt0KAwtSp0Qf4exxM4cSJy4Na7Y=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/progress.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hXp2dC9IQR5milnDXOX4bAjFEOQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			87VdBxsQcfty/8l7HKBTJjUrJpV/yZP0MwPlczsk2Rk=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/quit.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			owL0dk4jHgyGv3E13A/2wxvy+jk=
-			</data>
-			<key>hash2</key>
-			<data>
-			AQ5bKfxRLpTcim2qWefBbJXcoOUFiPAqOHRDmLoFS9s=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/runner.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1fd0wKZEp27cPiDnwKezhW3nIuo=
-			</data>
-			<key>hash2</key>
-			<data>
-			Amv5vpePG0m98Xk9ROhCuRn7aJl1prGHEVpgvuR71e8=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/service.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X7qhbF8yKGseBZIwrWSiDMLpwJM=
-			</data>
-			<key>hash2</key>
-			<data>
-			RvAEhrjG+xM4j2/kBJYKkeecbuQlJ413M1gr//KVhfw=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/service/service_port.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sY1GdHgN+myLC+x9c2tNSVCh+IU=
-			</data>
-			<key>hash2</key>
-			<data>
-			qZDtus9qByp2Gp3QwIE7VgtxBqpqXlswp4wVLkJZocw=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/snowflake.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			i0+73pZg2yJSki8sjMdUnVb7yKk=
-			</data>
-			<key>hash2</key>
-			<data>
-			sSqB5xJ8aDjW0WgkImF36y93JF947Wiyq7SZit1k7k4=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sTyiUpnVaty742Lem/Lqx6O5S8Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			nZRPaGidrHkWiZqBYmxIQI+wZSmn1BN6AprDN4w4j98=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/CheckUpgrade.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JI2+mL9ubA5OG82C28xYHgyfW0Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			NzEc/IyTGlCOOYHW7Ayl6fyEHNOO0LZDUvlKYJF86lU=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/CheckUpgradeAble.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ke8l2t3Tc+eiXvui2UNIx+aRhqE=
-			</data>
-			<key>hash2</key>
-			<data>
-			qyhf7ebVuLVb/og9yE2Rluy0Uaq+1Pd6F2Pa2qtoT/s=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/DirUpgrade.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ECOc96ZQ2h4p0xjnUH8n7YZCOiA=
-			</data>
-			<key>hash2</key>
-			<data>
-			m8J8bI1TOU6vdQmEguRdxRAlA9a4m7smxM1BJL3slQI=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/EnterUpgrade.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			eJrsU1BoIHH5SKpj4TsbFG5jtjU=
-			</data>
-			<key>hash2</key>
-			<data>
-			JffwdsfXcwAvbzz011Z27FQ2Mn4HLON5vcvTZx0hF6A=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/FALUpgrade.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9ha4klXl43gXmfWmX6a9fTWFmLo=
-			</data>
-			<key>hash2</key>
-			<data>
-			WGPlwI2IyoLj6DBwFdlYHj2pKf5u+c136FqZVhtQJDc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/FileUpgrade.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3+LCEgm4nKbG/3gyeBfuPhgP7mQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			GtVnR6ZUKr5xgH44mzgclgqBbsgc/acDHrCYMtWryi0=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/QuitUpgrade.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			B4zMM/12z9SOZz8xijn7GB39a5w=
-			</data>
-			<key>hash2</key>
-			<data>
-			RuUy/FjBFuQ+Qh9O5oXw/HGok2HPbquZ5XsERGmAwzQ=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/RemoveUpgrade.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qsXSjEKegCiQkqoOGN27RurxYA4=
-			</data>
-			<key>hash2</key>
-			<data>
-			XunOJEWLfAsLs+BLwnp9nIyakPVMMDhS7MGbf1iEItY=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/upgrade/SetupUpgradeInfo.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ksrSLsbL8W8r1qIMF1fKo+xG2WA=
-			</data>
-			<key>hash2</key>
-			<data>
-			/9XSxRA1B93lHsJHxfcigDUsm6HSK7YfPLddc6MKDV8=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/ota/utils.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1Dd7aI9R2Sr/4F8wAuJJkRWtOx4=
-			</data>
-			<key>hash2</key>
-			<data>
-			rkLlgusiZJ5wLw1x2DCYjeViIGJR5Cg2icAse2tjuk4=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/path.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lLS89eKjW44eaWCiK6AM0kNQrso=
-			</data>
-			<key>hash2</key>
-			<data>
-			Udmu2oRBkucqvQdAJEM2yM0cfXSofvH+pNlJ/HqwIrk=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/py_patch/py_pacth_context.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SLbMOFsMSLDwX0tA+tvzY27L5k8=
-			</data>
-			<key>hash2</key>
-			<data>
-			q0CzR+4isQLMR6+TWOgWX9h74CTNqo7N0DX9+2Eu2L4=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/py_patch/py_patch.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7NKv3W1EwUFZiqzzFSeSF5/tP8w=
-			</data>
-			<key>hash2</key>
-			<data>
-			QhfXKZpmTXFpAOqkIJIJRv3B4KkDzKoSHSK1jY/Ht18=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/settings.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hFa4b7ToGMsSXJ7gBNWKNaUMVtE=
-			</data>
-			<key>hash2</key>
-			<data>
-			UFxMBIe76KV0b2gaqoG51f4e5KVWBzxxavP9N1yCRBc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/speed.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6uxByruECaHIiLmcgoxIjbLIXdM=
-			</data>
-			<key>hash2</key>
-			<data>
-			wu+46VUCQ6OqQWAk1bmcmug9Xmm0Zx/SiMHq4X+PHfk=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/system_data.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ds6iasZ3zRS0llfo6YEs7df+lSQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			pN74WtJNEzC6y/0j91kEtNdSRK0uv7yv9pqRlVaT4Ww=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/system_storage.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zy+uGLni1BSPZddgwgzP1DDc4og=
-			</data>
-			<key>hash2</key>
-			<data>
-			8hOuANFi5It3Sf1lWFD9jMKb3kYNZEQrnz275ksJiDU=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/testcase.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7TwUujceXBuDNMXo1/e3XpSEDMU=
-			</data>
-			<key>hash2</key>
-			<data>
-			4mcR+YMhwQRuHBrPs6xi9VXcYvafGLUjACBG5+RRmqU=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/time.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			h/bhwl7bI2DCpMaiPizt+8mANRc=
-			</data>
-			<key>hash2</key>
-			<data>
-			MyeJZuDrFz/fz8Cnmenhxvlq/fMWUHsWzZIYfzKET78=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/tsdb.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c9pMgxjRAjYtnq2mXtCoWcikAYg=
-			</data>
-			<key>hash2</key>
-			<data>
-			BthGSaOKFnFRty40BVz4XURMKCc+WPIqHCIFj2MJ9Yg=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/tsdb_to_sqlite3/test_tsdb_to_sqlite3.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gKQ5zOQVjdngd9RGhJWwmYma1ZQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			FtwX9DvxCLLlLEr1XAZFt3Y2Bwth2/rv2s9AeG63+30=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/tsdb_to_sqlite3/tsdb_to_sqlite3.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			j/i3/yM/djUjJW18gm4MzldurAU=
-			</data>
-			<key>hash2</key>
-			<data>
-			lVQjcoouCIUQH0Doaxitf+Cyxr/DLam73YfrPIAkS3g=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/user_app.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g0HU8UowLHV9eYYxQ49qzFxl2o0=
-			</data>
-			<key>hash2</key>
-			<data>
-			8YDXE0A8ffg1VXI/PY9UlSVfhLgf2B8j1Sq0frKY+8c=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/wearservice/README.md</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2bfrlkw8YMaRlqGS5J8iK5VrA2Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			5PfpCnNlBVZ1OARUzH/j50teLanVNWuaOcUYIzROtrU=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/WearApi.bundle/wearable/wearservice/files.pyc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DYH04NZXRmI3CA/OwqJqGx/nrUE=
-			</data>
-			<key>hash2</key>
-			<data>
-			hlwmNUunlfdbF3FGj1aT43z8BNe/LKJ8Dky6MO0CeSc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wrTohaLPI8/FM/QhFeb8+dJXS0M=
-			</data>
-			<key>hash2</key>
-			<data>
-			utI7rSXR/7p2DPoMVY6KzZ3rE3uJLc883Jm9Y+ThHcc=
-			</data>
-		</dict>
-		<key>Frameworks/flywearsdk.framework/flywearsdk</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			38OmXLlV+0omcMKNbfAMyfkxl9k=
-			</data>
-			<key>hash2</key>
-			<data>
-			/Uw/mFDgK8bSRsOX3AJG1yEhvlNx32tRIm56rbH/bXI=
-			</data>
-		</dict>
-		<key>Frameworks/persimwearSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YBWWQgs/1VdRCKfnaQl6MhRWHjo=
-			</data>
-			<key>hash2</key>
-			<data>
-			AqklSBiS8ywXSRL+HgpmHq76YVTE4NvHyCNo2H6SVSI=
-			</data>
-		</dict>
-		<key>Frameworks/persimwearSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lxVL3iI/+8x4iJjxzC2KvRLKPbM=
-			</data>
-			<key>hash2</key>
-			<data>
-			ivdpR1xxJ/VL5edvJFbv2FUX45CbLM9YFRtTr9KvvRM=
-			</data>
-		</dict>
-		<key>Frameworks/persimwearSDK.framework/persimwearSDK</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TU7Zh4zf5Fu8HIggExR2v2noc9A=
-			</data>
-			<key>hash2</key>
-			<data>
-			7aevd9mHHmUdiQe329lBYSL6uXkiYoY+DoqghO9yks4=
-			</data>
 		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FYY51/BkQt+jbBQBnbqo4Cw1CcU=
+			YWtwBn9ctBkQqb0VcjmAkEPSfNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			a+HMoye7aXArl0uTXcYduvqjTGSU1xV8EoWO3AHx128=
+			coAAV0oZzAdi1QXS6WbyIevXOIJR4TqrBJr9uxEPq+I=
 			</data>
 		</dict>
 		<key>Headers/ITPSAlarmAbility.h</key>
@@ -4832,22 +3198,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ttj9+mKrx8qYzxqAfMbwdTZnLpk=
+			vrtzJUSEvJtcAc65PwEX+2DDmzE=
 			</data>
 			<key>hash2</key>
 			<data>
-			DnvEoX7J8vtUNAEy54DY4NsgjXoCYwhUWeIK1y4a0eg=
+			YjwPGcWAtNKsqanCGUPkd7JW0X3pP3KbijoqTIpBBoI=
 			</data>
 		</dict>
 		<key>Headers/ITPSContactAbility.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d7mjaGLf2pfKemILaHUfb2VF33w=
+			2hEhuecLWY4uVDcHo4Md/CGTWTA=
 			</data>
 			<key>hash2</key>
 			<data>
-			90VsBszRl1ZLyLTtKKXmzqt4eDnJEO/XjsrGDwjy8Wg=
+			EiGkrwJf54VL2XbZpNGikHHCpeknmt0oCdoh6DXmvCE=
 			</data>
 		</dict>
 		<key>Headers/ITPSCurDayActivityAbility.h</key>
@@ -4920,11 +3286,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EXbq43piJyDoOdxyEG1RBRhnKOY=
+			eXqRYWJnwsIcNe5tQEIhond5fyk=
 			</data>
 			<key>hash2</key>
 			<data>
-			tuS+T3/1q7Ydzxfsd/AgjEnX1ueJXx4MBhp37gE7qPA=
+			SawIAceqvV3jVkT6cADY73jVHz1VBkC0p3suSUmY/MY=
 			</data>
 		</dict>
 		<key>Headers/ITPSHttpAbility.h</key>
@@ -5041,11 +3407,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o6bNh9pkyrPfwj69r4ei6Z/2vW4=
+			J+u+ZPX5du9uOqLb80T9B7/uXo4=
 			</data>
 			<key>hash2</key>
 			<data>
-			A6u+haJ4TWwV791x+4CNr6veY63oWeS9UzM+ykyDT48=
+			oQXwNafejpSK0IB2bkKxY6s3cQMxsxPmUSK/BPB9Bhk=
 			</data>
 		</dict>
 		<key>Headers/ITPSSleepDataAbility.h</key>
@@ -5063,11 +3429,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RN7ok6N9V35uDVwJKBEWRyLCazQ=
+			i4ROQb6xzVh+OcGqyCktagkw03M=
 			</data>
 			<key>hash2</key>
 			<data>
-			74gA8oRybdzazkB3tP48fxder2lFo4rLlU4a4I+Caxk=
+			5p6gtX8z42nCLHEY3B9QPqgkYX2uJpTVQ8+knwWepKc=
 			</data>
 		</dict>
 		<key>Headers/ITPSSportTargetAbility.h</key>
@@ -5162,11 +3528,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HORMaVbCvMXnMXAgnLbxTB4UiMk=
+			DRhofjmLB8BNTE7lZ2hbuKsA7yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tp87M2LZ8KzOID2TD3IncTM6NQjPIfO5r3iJo4CdzP8=
+			bytsJCjFQfETBOMJwyuToT174f7AnLTOS46v4BUxMOY=
 			</data>
 		</dict>
 		<key>Headers/TPSAlbumUpdateModel.h</key>
@@ -5195,11 +3561,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KhUtNKsAnblwJjKUHnHulGLhpqQ=
+			6fo96uYKdGANJgPP7XBi9a2O3Ro=
 			</data>
 			<key>hash2</key>
 			<data>
-			7C8PSlJPIHGc3gKhQv+qTKncmod1ldQhrsqywrK+DRE=
+			IUQeZg9jwLCFONkur7pvu7rAqzVgeYxnrSP1dbfom+w=
 			</data>
 		</dict>
 		<key>Headers/TPSCurDayActivityModel.h</key>
@@ -5250,11 +3616,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3L4ZNM0PD/yia2bkMr5n6n9RaX4=
+			SM+MqViJ+nYpnPXJNYFwew/UOyI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gxx/Zkg5Wy6yw+e7ACiIb1nhGyOPqiC5nf/5qpKlwsQ=
+			S2I+EfrKNz8+rgzI23WSa6XT3ngSrpveBqk9jT9cU5Y=
 			</data>
 		</dict>
 		<key>Headers/TPSDevLimitModel.h</key>
@@ -5272,22 +3638,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+hPtcLr8poCYeglU2UMEQ5gZhyI=
+			CdzNcjbiWheGa6ITjNZ2hVQf8fQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			J4qSBVz3CkPeqKuudl9YQ7JTjKfN8z8aqM0a+3qa+dc=
+			l52kC7wX9QKgtlBOZPOh/Of6/k3tOdGlgzhgPAomrfA=
 			</data>
 		</dict>
 		<key>Headers/TPSDialModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5mOvm3F3YskQDfrB6ibGYE8TVKM=
+			k/NFwfL5rDC7FgdIJprVmBy6F0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			ygtI6y/AQYELmmBTT1b4SXokLalJQ3qGcK6IQtkXQaI=
+			OOhsaAA7AgEyGKurZXjJMZmAaR5Rfbx8ynTzAN/WkUs=
 			</data>
 		</dict>
 		<key>Headers/TPSDialProgressModel.h</key>
@@ -5382,11 +3748,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PWeQx1eK9eeUMzjD2UsDCs2gHWM=
+			ygoxtv7EKIvxOvkdVfvuueXb/gk=
 			</data>
 			<key>hash2</key>
 			<data>
-			y+OqQ3DisdobqvC90Lkkf/nxqxsuX0/ETkGJ1yrC0l4=
+			P1knWTe6vuEBTWiEHfSHm+9an7NWraS0izXPf6mmyB8=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryBloodPressureModel.h</key>
@@ -5459,22 +3825,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XBOT+4ICFqp+zsiPxvfcb8vPGOM=
+			UbO7QE1yUlJnE919Omrw4ge1HwY=
 			</data>
 			<key>hash2</key>
 			<data>
-			pqKZnbM/9zQTTz3lxQK+S4Ip+illnJjSjiZeebbJXS8=
+			wpNyBhIrzO4Pv/7FRn+2oUbnHUVchVdEdgaziwWFshs=
 			</data>
 		</dict>
 		<key>Headers/TPSLanguageModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8tf6wZzgSjeqGZVg6ez1yc4y4D4=
+			qzUSEHcxHJOIGef02wv63rxQGBs=
 			</data>
 			<key>hash2</key>
 			<data>
-			7hYuycrsZpxNov9IdafPkkGl+RKzneiLTOAWs3Ma1Dg=
+			KTAtlEJlnUDOUtWR1g8Zmub9GTLrERHsoFVfjcjm8PY=
 			</data>
 		</dict>
 		<key>Headers/TPSMiscSettingModel.h</key>
@@ -5525,11 +3891,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pkFNrxdtPItuqRWRy6yEPgjT96Y=
+			+oZxoonxT0G951R/cct6WRZEcpo=
 			</data>
 			<key>hash2</key>
 			<data>
-			PAQFoxAwdfJtp15Exg8dJrUX4X+Van8896GG3XK+zWg=
+			xon0X4TcesE+ZI8YFPqQcGAo1n+bDcqY8a5AvQ6QbvE=
 			</data>
 		</dict>
 		<key>Headers/TPSPrayModel.h</key>
@@ -5558,33 +3924,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wNG4dCxC/UqfwlfAl3docef8Naw=
+			jHuutOSZOYt53un/kIRMGoGkuZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gs5Y+hcu74PDHE32g9NilYyfO1yY042K4fvdKyJO9Pg=
+			4o0bQczXpPfLQcGi1TDstLfMUmxJdzOBwGn0JoPUyYA=
 			</data>
 		</dict>
 		<key>Headers/TPSRemindSettingModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			chuV37fyqBWZd3YMPXBCBXMUbdM=
+			XxXNn6QlLf0qELcLzc03Xn40v6w=
 			</data>
 			<key>hash2</key>
 			<data>
-			TZq2dymgyOTMT2UmoXq7zmg5O0gBDSc15Q/Tp2yHiSg=
+			saLhEwwz7ubZM/Wdaurv12WzdrbhGEqPMvbfphCmqGY=
 			</data>
 		</dict>
 		<key>Headers/TPSScanResult.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZA00KsEobOUbmL1hlwII0BJ/gdY=
+			WwMtvFdo/pMr6rpCPbwU6ZDNjS4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fx0P1pQQQjvKFN63xuTeb3LWx1ACAMRu82pnfYXeGb4=
+			kllxwgsEhz85MqJnDR3BwMQ8Ri59tKCZJXc0/D7wcOg=
 			</data>
 		</dict>
 		<key>Headers/TPSSdk.h</key>
@@ -5646,11 +4012,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aoMnivB+ywI6C26LCAxEUC5AT1g=
+			NleYFus0eYzq2rEWXevwmVGq0qk=
 			</data>
 			<key>hash2</key>
 			<data>
-			fvOAPVDkQGPVHcbMfo7DB9KBiHo69aRibGbPU4ODjs0=
+			deC47GihuhrGpOJUjbTdS8StkkIIDq5L4Qkunyr7Pjc=
 			</data>
 		</dict>
 		<key>Headers/TPSStressConfigModel.h</key>
@@ -5723,22 +4089,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/G34b1B45Rmj6oPf5xCnnL2j9ho=
+			GMImXHzZhOK+8bfnrk/kyde3UTY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ALzgqW+GmxWWO/aS3nqje9LWt9WIDSHKTmOkLck6YyY=
+			fizeiWum44Bsbw6Apf/MhL+fgFTUkqQrjrArctfnNYA=
 			</data>
 		</dict>
 		<key>Headers/TPSWeatherModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m1gPTIJ0CVs310uAGhyv/PcQoQk=
+			wfLScAjJ+T0lo4BBR1BUyNRCJQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			fMrbY6wnhIiKhV4als7YwM6TkBJc3KSHFzJJvqi8EuI=
+			PTZwyilwAr5FgVtU4/xVE7DpEg3uit7wkSz8xqJLZSo=
 			</data>
 		</dict>
 		<key>Headers/TPSWebRequestModel.h</key>
@@ -5785,15 +4151,15 @@
 			saGamsi/DdRTisXE224SKksPmcypCZVOy5nRzdrT+fc=
 			</data>
 		</dict>
-		<key>Headers/TopStepComKit-Swift.h</key>
+		<key>Headers/TSJConnectorAbility.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IFhu2I0qRc3UkWuH5rkJXbIj/VI=
+			UF1N7NK2Tkfd7va3wgUDIoqPqI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			MlKzXsky6D5Etb9bvTvIMmE0iXTfyvNJFSo4x8lbd+Y=
+			8bO+vF130YWbZyAK1biXoNRF5/tu5JY9fZMEWnE/vcY=
 			</data>
 		</dict>
 		<key>Headers/TopStepComKit.h</key>
@@ -5807,92 +4173,26 @@
 			G92TY/bynkPh4t0pgKonnGkaYmthruP5sUBTjsb1JQQ=
 			</data>
 		</dict>
-		<key>Modules/TopStepComKit.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nwE+dloaneRBa2CptepGdTEP7LM=
-			</data>
-			<key>hash2</key>
-			<data>
-			x7nvcs2l8MkwPW1FeKtvFEJ9D+nnM0YwoRSW2VOkt2c=
-			</data>
-		</dict>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.abi.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fYqSYKODZxzwStWXYD0+l3vhOxQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			7xQWu5Mb1T19Yqs2YgPTwMzS2ZFkA01iIfSEWRj42zw=
-			</data>
-		</dict>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XW9irFLWvr+l7WpCKXPMXTibJVg=
-			</data>
-			<key>hash2</key>
-			<data>
-			OsRpCfQ6chCOYH0RFAz7vyZP4rmKpQk35wF3DZJBNVM=
-			</data>
-		</dict>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GjpdHH5jsCZWuNTVeLLJvXQhSxg=
-			</data>
-			<key>hash2</key>
-			<data>
-			HbqGqBMQnvpsYTyyxvej5pp8KbuvjfoffNbZdXa2D9o=
-			</data>
-		</dict>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XW9irFLWvr+l7WpCKXPMXTibJVg=
-			</data>
-			<key>hash2</key>
-			<data>
-			OsRpCfQ6chCOYH0RFAz7vyZP4rmKpQk35wF3DZJBNVM=
-			</data>
-		</dict>
-		<key>Modules/TopStepComKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ry1nGVkgHrMczClWwEhEODcGEUw=
-			</data>
-			<key>hash2</key>
-			<data>
-			rmLlZXj2Il8c6IQ+zScl8P6HjMTrfqNMKEjP/nNnBSI=
-			</data>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f8+XxgUmCsXjxDXUjD7hZgybzSo=
+			ebLAzk2BlupC09j1Mh6ABrnytkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			TsSXoAwXrug7+rmLc9tiV8TTf5oWnGsqO/ONm/AYkws=
+			zt0B8wDkFhPBfJBUEKMZLTXzsFYGibOKN6Q7B5A8BDg=
 			</data>
 		</dict>
 		<key>TSBundle.bundle/TSSql.sql</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aezFcn8YlEVeU284f0CVlg7NScE=
+			CKRdtsAb54A/afnWanp3EH1CP4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			irXdtEosbNNpPveX7nEW4VnIYQL4Sg/9p8vF4V6Gb1Q=
+			eOCH4zkpfTKhb7Bep9yiR3ZgdW9Aa8rU/bx4EhWvzxg=
 			</data>
 		</dict>
 	</dict>

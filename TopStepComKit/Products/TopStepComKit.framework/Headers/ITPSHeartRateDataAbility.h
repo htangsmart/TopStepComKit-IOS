@@ -19,10 +19,19 @@ typedef void(^TPSHistoryHeartRateCallback)(NSArray<TPSHistoryHeartRateModel*>* _
 typedef void(^TPSHeartRateConfigCallback)(TPSHrConfigModel* _Nullable configModel);
 
 +(instancetype _Nonnull )share;
+/// 获取历史静息心率
 -(void)getHistoryRestQuietHeartRate:(NSTimeInterval)startTime endTime:(NSTimeInterval)endTime block:(TPSHistoryHeartRateCallback _Nullable)block;
+
+/// 获取历史心率
 -(void)getHistoryHeartRate:(NSTimeInterval)startTime endTime:(NSTimeInterval)endTime block:(TPSHistoryHeartRateCallback _Nullable)block;
+
+/// 获取历史实时心率
 -(void)getHistoryRealTimeHeartRate:(NSTimeInterval)startTime endTime:(NSTimeInterval)endTime block:(TPSHistoryHeartRateCallback _Nullable)block;
+
+/// 获取心率配置
 -(void)getHrConfig:(TPSHeartRateConfigCallback _Nonnull )block;
+
+/// 设置心率配置
 -(void)setHrConfig:(TPSHrConfigModel*)model block:(TPSSendMsgResult)block;
 
 @end
