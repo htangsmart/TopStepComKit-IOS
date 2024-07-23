@@ -34,6 +34,8 @@
 
 - (void)updateBattery:(CGFloat)batteryValue;
 
+- (void)getCurrentBatteryInfo:(void (^)(NSNumber * _Nonnull))success;
+
 
 @end
 

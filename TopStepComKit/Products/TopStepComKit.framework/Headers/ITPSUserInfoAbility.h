@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <TopStepComKit/ITPSWearBaseAbility.h>
 #import <TopStepComKit/TPSWearBlockTypeDef.h>
+#import <TopStepComKit/TPSUserInfoModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol ITPSUserInfoAbility <NSObject,ITPSWearBaseAbility>
 
 + (instancetype)share;
+
+- (TPSUserInfoModel *)userInfoModel;
+
 
 /*
  * @brief   获取用户年龄

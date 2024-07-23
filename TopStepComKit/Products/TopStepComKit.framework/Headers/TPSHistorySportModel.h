@@ -178,21 +178,21 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
  */
 @property (nonatomic, assign) double warm_time;
 /**
- 燃脂级别的运动时长，单位分钟
+ 燃脂级别的运动时长，单位s
  */
-@property (nonatomic, assign) double light_time;//单位分钟
+@property (nonatomic, assign) double light_time;//单位 s
 /**
- 有氧级别的运动时长，单位分钟
+ 有氧级别的运动时长，单位 s
  */
-@property (nonatomic, assign) double high_time;//单位分钟
+@property (nonatomic, assign) double high_time;//单位 s
 /**
- 无氧级别的运动时长，单位分钟
+ 无氧级别的运动时长，单位 s
  */
-@property (nonatomic, assign) double critical_time;//单位分钟
+@property (nonatomic, assign) double critical_time;//单位 s
 /**
- 极限级别的运动时长，单位分钟
+ 极限级别的运动时长，单位 s
  */
-@property (nonatomic, assign) double limit_time;//单位分钟
+@property (nonatomic, assign) double limit_time;//单位 s
 
 @property (nonatomic, strong) NSArray<TPSSportItemModel*>* detailItemList;
 

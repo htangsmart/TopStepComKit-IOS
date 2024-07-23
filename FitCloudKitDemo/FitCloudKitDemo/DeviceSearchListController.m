@@ -69,7 +69,7 @@
         [self.tableView reloadData];
         RACSubject<TPSScanResult*>* scanRacSubject = [[TPSSdk share].connectorAbility startScan];
         scanRacDisposable = [scanRacSubject subscribeNext:^(TPSScanResult * _Nullable x) {
-            if (x.name.length >0) {
+            if (x.name.length > 0) {
                 NSString *mac = x.mac ? x.mac : @"";
                 int foundIndex = [self getSamePeeripehralIndex:x.peripheral.identifier.UUIDString];
                 //if has existed(you will scan many repetitious peripheral,you need to merge them into one peripheral)
@@ -89,7 +89,7 @@
 
 -(int)getSamePeeripehralIndex:(NSString*)uuid{
     for(int i=0;i<self.peripherals.count;i++){
-        if([self.peripherals[i].peripheral.identifier.UUIDString isEqual:uuid]){
+        if([self.peripherals[i].peripheral.identifier.UUIDString isEqualToString:uuid]){
             return i;
         }
     }

@@ -15,16 +15,16 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - BitByteData (2.0.4)
-  - FitCloudDFUKit (1.3.1-beta.22):
+  - FitCloudDFUKit (1.3.1-beta.23):
     - iOSDFULibrary (~> 4.11.0)
-  - FitCloudKit (1.2.9-beta.137)
+  - FitCloudKit (1.2.9-beta.157)
   - FitCloudNWFKit (1.0.2-beta.1):
     - zipzap (~> 8.1.1)
   - FitCloudWFKit (1.1.7-beta.8)
   - HandyJSON (5.0.2)
   - iOSDFULibrary (4.11.1):
     - ZIPFoundation (= 0.9.11)
-  - JPImageresizerView (1.11.1)
+  - JPImageresizerView (1.11.2)
   - PromiseKit (8.1.1):
     - PromiseKit/CorePromise (= 8.1.1)
     - PromiseKit/Foundation (= 8.1.1)
@@ -44,14 +44,14 @@ PODS:
   - RxRelay (6.7.1):
     - RxSwift (= 6.7.1)
   - RxSwift (6.7.1)
-  - SDWebImage (5.19.2):
-    - SDWebImage/Core (= 5.19.2)
-  - SDWebImage/Core (5.19.2)
+  - SDWebImage (5.19.4):
+    - SDWebImage/Core (= 5.19.4)
+  - SDWebImage/Core (5.19.4)
   - SWCompression/TAR (4.8.6):
     - BitByteData (~> 2.0)
   - SwiftyJSON (5.0.2)
   - Toast (4.1.1)
-  - TopStepComKit (1.1.4):
+  - TopStepComKit (1.1.5):
     - FitCloudDFUKit
     - FitCloudKit
     - FitCloudNWFKit
@@ -150,16 +150,16 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FitCloudDFUKit:
-    :commit: 09bc525f9356bde619dd67ed83bacd877318c433
+    :commit: 7e980de2f23618e68559fff48b6f34afc6aefd61
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
-    :commit: 09bc525f9356bde619dd67ed83bacd877318c433
+    :commit: 7e980de2f23618e68559fff48b6f34afc6aefd61
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudNWFKit:
-    :commit: 09bc525f9356bde619dd67ed83bacd877318c433
+    :commit: 7e980de2f23618e68559fff48b6f34afc6aefd61
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudWFKit:
-    :commit: 09bc525f9356bde619dd67ed83bacd877318c433
+    :commit: 7e980de2f23618e68559fff48b6f34afc6aefd61
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   TSDialWidget:
     :commit: 4d4a16a1bdd4bb6641a7590403c8ca8b9fb7a952
@@ -168,24 +168,24 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   BitByteData: 2422ed269fcddc44976d97f171a183d25ef535ce
-  FitCloudDFUKit: e3f71eaf3fb9b0f76643db4c5c189b0a5af0cfb3
-  FitCloudKit: 57e6b4140998daf0ed7a844b2eed425a4fbaa9b2
+  FitCloudDFUKit: 504eeba64fbcb0ee1568d09c2f9a033eaec0edc1
+  FitCloudKit: 4baf248ceb44e582af686ec8030ede08bcce77a1
   FitCloudNWFKit: 10f5a3637bf6c192e901a2ed1c2921698c065288
   FitCloudWFKit: 479df9517f4738280cba44a53a1cbd4a113d943b
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   iOSDFULibrary: 3500ac00451aa7d8ec48a752e91099669a2c1d27
-  JPImageresizerView: 1048308d226d8d61bdfdd25eb8d41035d6bdffa1
+  JPImageresizerView: 55df6aeaf218ffec7d57c0a0d02ca898d227b808
   PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
   QuickTraceiOSLogger: 43f2dd860bd7cbaf3e126f09eb0ad25aca26bda3
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   RxCocoa: f5609cb4637587a7faa99c5d5787e3ad582b75a4
   RxRelay: 4151ba01152436b08271e08410135e099880eae5
   RxSwift: b9a93a26031785159e11abd40d1a55bcb8057e52
-  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
+  SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
   SWCompression: 9379873ad5e9f25b31db88c441649b59a4c2bab7
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
-  TopStepComKit: a827f92cbd9397f0d52d6de8d88b7432ab8f71b0
+  TopStepComKit: 1e846c7f23b8c4b53c8d5d1d30f1e07eb0ad62a0
   TSDialWidget: b4142b9522ae99ed3e325d0b037c29921291fd5c
   XLFacility.optimize: 7d3bac61863a29c11868191b3b3db038f1e5f998
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952

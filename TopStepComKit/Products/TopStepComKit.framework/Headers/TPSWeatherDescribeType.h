@@ -31,6 +31,12 @@ typedef NS_ENUM(UInt8,TPSWeatherDescribeType_ENUM){
     TPSWeatherDescribeType_ENUM_WIND,
 };
 
+
+
+
+
+
+
 +(NSString*)getDesWithType:(TPSWeatherDescribeType_ENUM)type;
 
 

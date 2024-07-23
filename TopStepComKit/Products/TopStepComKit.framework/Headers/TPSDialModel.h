@@ -14,6 +14,13 @@ typedef NS_ENUM(NSUInteger, TSDialTimePosition) {
     eDialTimePositionTop = 1,         //上方
     eDialTimePositionRight = 2,       //右方
     eDialTimePositionBottom = 3,      //下方
+    
+    eDialTimePositionTopLeft = 4,
+    eDialTimePositionBottomLeft = 5,
+    eDialTimePositionTopRight = 6,
+    eDialTimePositionBottomRight = 7,      
+
+    
 };
 
 typedef NS_ENUM(NSUInteger, TSDialType) {
@@ -33,11 +40,14 @@ typedef NS_ENUM(NSUInteger, TSDialType) {
 /// 背景图
 @property(nonatomic, strong) NSString* alias;
 
+@property(nonatomic, strong) NSString* dialName;
+
 @property(nonatomic, strong) NSString* group;
 @property(nonatomic, strong) NSString* icon;
 @property(nonatomic, strong) NSString* version;
 
 @property (nonatomic,strong) UIColor * textColor;
+@property (nonatomic,strong) UIImage * textImage;
 
 @property(nonatomic, assign) BOOL isEditable;
 @property(nonatomic, assign) BOOL isHide;
@@ -51,6 +61,8 @@ typedef NS_ENUM(NSUInteger, TSDialType) {
 @property (nonatomic,assign) TSDialTimePosition dialTimePosition;
 
 @property (nonatomic,assign) TSDialType dialType;
+
+
 
 -(instancetype)initWithFwModel:(FwDialModel*)fwDialModel;
 

@@ -64,6 +64,7 @@
 - (void)initDeviceTypeWith:(TPSDeviceType)deviceType;
 
 -(void)initSdk;
+-(void)setTPSLogEnable:(BOOL)isEnable;
 
 /**
  设备连接相关

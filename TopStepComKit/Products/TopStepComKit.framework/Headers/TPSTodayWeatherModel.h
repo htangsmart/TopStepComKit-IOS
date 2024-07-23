@@ -31,7 +31,7 @@
 @property(nonatomic, assign) NSInteger uvIndex;
 
 /// 能见度，最大30000米，单位：米
-@property(nonatomic, assign) NSInteger visibility;
+@property(nonatomic, assign) CGFloat visibility;
 
 @property (nonatomic, strong) NSArray<TPSFutureHourWeatherModel*>* futureHourWeather;
 
@@ -44,8 +44,11 @@
                             windSpeed:(int)windSpeed
                              humidity:(int)humidity
                               uvIndex:(NSInteger)uvIndex
-                           visibility:(NSInteger)visibility
+                           visibility:(CGFloat)visibility
                        futureHourList:(NSArray<TPSFutureHourWeatherModel*>*)futureHourWeather;
+
+
+
 
 -(instancetype)initWithFwModel:(FwTodayWeatherModel*)fwTodayWeatherModel;
 +(NSArray<TPSTodayWeatherModel*>*)toTPSArrWithFwArr:(NSArray<FwTodayWeatherModel*>*)fwArr;

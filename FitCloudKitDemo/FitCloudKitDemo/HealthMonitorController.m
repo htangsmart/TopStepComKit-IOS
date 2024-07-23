@@ -28,7 +28,7 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 ConsoleResultToastTip(weakSelf.view);
             });
-            XLOG_INFO(@"Heart Rate --- sportAlarmEnable: %d maxSportAlarmHr: %d restAlarmEnable：%d maxRestAlarmHr: %d", configModel.sportAlarmEnable, configModel.maxSportAlarmHr, configModel.restAlarmEnable, configModel.maxRestAlarmHr);
+            XLOG_INFO(@"Heart Rate --- autoMonitorEnable:%d autoMonitorInterval:%d autoMonitorStartTime:%d, autoMonitorEndTime:%d sportAlarmEnable:%d maxSportAlarmHr:%d restAlarmEnable:%d maxRestAlarmHr:%d", configModel.autoMonitorEnable, configModel.autoMonitorInterval, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.sportAlarmEnable, configModel.maxSportAlarmHr, configModel.restAlarmEnable, configModel.maxRestAlarmHr);
         }];
     } else if (indexPath.row == 1) {
         // 设置心率监测配置 --- Do Heart Rate Monitor Settings
@@ -37,7 +37,7 @@
         model.restAlarmEnable = YES;
         model.maxSportAlarmHr = 180;
         model.maxRestAlarmHr = 120;
-//        model.autoMonitorEnable = YES;
+        model.autoMonitorEnable = YES;
 //        model.autoMonitorStartTime = 600;
 //        model.autoMonitorEndTime = 1200;
 //        model.autoMonitorInterval = 1;

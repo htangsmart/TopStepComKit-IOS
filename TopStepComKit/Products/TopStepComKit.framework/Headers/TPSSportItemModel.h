@@ -13,6 +13,7 @@
 
 @property (nonatomic, assign) long sport_id;
 @property (nonatomic, assign) int type;
+@property (nonatomic, assign) long timestamp;// 采样时间 单位秒
 @property (nonatomic, assign) long start_time;//单位秒
 @property (nonatomic, assign) long duration;//单位秒
 @property (nonatomic, assign) double distance;//距离米

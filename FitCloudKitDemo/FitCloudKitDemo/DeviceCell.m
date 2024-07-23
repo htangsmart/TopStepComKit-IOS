@@ -38,10 +38,6 @@
     self.peripheral = peripheral;
     _showStatus = showStatus;
     self.name.text = peripheral.name == nil || peripheral.name.length == 0 ? @"UNKNOWN" : peripheral.name;
-    if([self.name.text hasPrefix:@"H"])
-    {
-        self.name.text = [self.name.text substringFromIndex:1];
-    }
     self.rssi.text = [NSString stringWithFormat:@"RSSI:%d", peripheral.RSSI.intValue+100];
     self.macAddr.text = peripheral.mac;
     if(!showStatus)

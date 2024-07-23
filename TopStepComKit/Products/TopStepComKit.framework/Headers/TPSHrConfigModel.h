@@ -13,15 +13,9 @@
 @class FwHrConfigModel;
 @class FitCloudHRAlarmObject;
 @class WMHeartRateConfigModel;
-
+@class  FitCloudHTMSingleObject;
 @interface TPSHrConfigModel : NSObject
 
--(instancetype)initWithFwModel:(FwHrConfigModel*)fwModel;
-
--(instancetype)initWithFCPModel:(FitCloudHRAlarmObject*)fcpModel;
-
-
--(FwHrConfigModel*)toFwModel;
 
 /// 自动心率监测是否开启
 @property (nonatomic, assign) BOOL autoMonitorEnable;
@@ -57,6 +51,18 @@
 /// 静息最高心率
 @property (nonatomic, assign) int maxRestAlarmHr;
 
+
+-(instancetype)initWithFwModel:(FwHrConfigModel*)fwModel;
+
+-(instancetype)initWithFCPModel:(FitCloudHRAlarmObject*)fcpModel;
+- (FitCloudHRAlarmObject *)toFitHRAlarmModel;
+
+- (FitCloudHTMSingleObject *)toFitSingleModel;
+
+
+-(instancetype)initWithFCPModel:(FitCloudHRAlarmObject*)fcpModel htmSingleModel:(FitCloudHTMSingleObject *)htmModel;
+
+-(FwHrConfigModel*)toFwModel;
 
 
 - (instancetype)initWithWMModel:(WMHeartRateConfigModel *)wmModel;
