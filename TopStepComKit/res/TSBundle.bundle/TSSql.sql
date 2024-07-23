@@ -40,7 +40,9 @@ CREATE TABLE IF NOT EXISTS tb_step (
     data                BLOB,                               /* 步数图表数据 */
     allStep             INT,                                /* 总步数 */
     totalMileage        DOUBLE,                             /* 距离(cm) */
-    totalConsumption    INT                                 /* ??? */
+    totalConsumption    INT,                                /* ??? */
+    duration            DOUBLE,                             /* 运动时长(分钟) */
+    calory              INT                                 /* 卡路里(小卡) */
 );
 
 /* 压力图表数据表 */
@@ -118,9 +120,10 @@ CREATE TABLE IF NOT EXISTS tb_sport_running (
     sport_id            INT,                                /* ??? */
     type                INT,                                /* ??? */
     start_time          double,                             /* 运动开始时间戳 */
-    duration            INT,                                /* 运动持续时间 */
+    duration            INT,                                /* 运动持续时间(秒) */
     step                INT,                                /* 步数 */
     data                BLOB                                /* 跑步运动信息图表数据 */
+
 );
 
 /* 轨迹表 */
@@ -159,3 +162,9 @@ CREATE TABLE IF NOT EXISTS tb_activity_record (
     start_time          INT,                                /* ??? */
     data                BLOB                                /* ??? */
 );
+
+/* 跑步运动信息 添加运动心率 次/min */
+ALTER TABLE [tb_sport_running] ADD [heartRate] INT NOT NULL DEFAULT 0;
+/* 跑步运动信息 热量 小卡 */
+ALTER TABLE [tb_sport_running] ADD [calorie] INT NOT NULL DEFAULT 0;
+
