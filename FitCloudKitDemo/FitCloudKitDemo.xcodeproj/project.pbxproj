@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		1D0C75512C20160F0009027E /* MusicManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754D2C20160E0009027E /* MusicManageController.m */; };
 		1D0C75522C20160F0009027E /* NotificationManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754E2C20160E0009027E /* NotificationManageController.m */; };
+		1DBBB3B02C52550A001EA544 /* device.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBB3AC2C52550A001EA544 /* device.png */; };
+		1DBBB3B12C52550A001EA544 /* gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBB3AD2C52550A001EA544 /* gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78.bin */; };
+		1DBBB3BA2C525525001EA544 /* 500114_TB_preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBB3B22C525525001EA544 /* 500114_TB_preview.png */; };
+		1DBBB3BB2C525525001EA544 /* 500114_TB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBB3B32C525525001EA544 /* 500114_TB.png */; };
+		1DBBB3BC2C525525001EA544 /* 500197_TB_preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBB3B42C525525001EA544 /* 500197_TB_preview.png */; };
+		1DBBB3BD2C525525001EA544 /* 500197_TB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBB3B52C525525001EA544 /* 500197_TB.png */; };
+		1DBBB3BE2C525525001EA544 /* 500198_TB_preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBB3B62C525525001EA544 /* 500198_TB_preview.png */; };
+		1DBBB3BF2C525525001EA544 /* 500198_TB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBB3B72C525525001EA544 /* 500198_TB.png */; };
+		1DBBB3C02C525525001EA544 /* template9845.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1DBBB3B82C525525001EA544 /* template9845.bin */; };
 		4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */; };
 		4B84FE062C2BCA8100E6043E /* flywearsdkDial.zip in Resources */ = {isa = PBXBuildFile; fileRef = 4B84FE052C2BCA8100E6043E /* flywearsdkDial.zip */; };
 		4B84FE092C2BCD8800E6043E /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B84FE082C2BCD8800E6043E /* bg1.png */; };
@@ -60,6 +69,15 @@
 		1D0C754E2C20160E0009027E /* NotificationManageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManageController.m; sourceTree = "<group>"; };
 		1D0C754F2C20160F0009027E /* MusicManageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicManageController.h; sourceTree = "<group>"; };
 		1D0C75502C20160F0009027E /* NotificationManageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManageController.h; sourceTree = "<group>"; };
+		1DBBB3AC2C52550A001EA544 /* device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = device.png; sourceTree = "<group>"; };
+		1DBBB3AD2C52550A001EA544 /* gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78.bin"; sourceTree = "<group>"; };
+		1DBBB3B22C525525001EA544 /* 500114_TB_preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500114_TB_preview.png; sourceTree = "<group>"; };
+		1DBBB3B32C525525001EA544 /* 500114_TB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500114_TB.png; sourceTree = "<group>"; };
+		1DBBB3B42C525525001EA544 /* 500197_TB_preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500197_TB_preview.png; sourceTree = "<group>"; };
+		1DBBB3B52C525525001EA544 /* 500197_TB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500197_TB.png; sourceTree = "<group>"; };
+		1DBBB3B62C525525001EA544 /* 500198_TB_preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500198_TB_preview.png; sourceTree = "<group>"; };
+		1DBBB3B72C525525001EA544 /* 500198_TB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500198_TB.png; sourceTree = "<group>"; };
+		1DBBB3B82C525525001EA544 /* template9845.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = template9845.bin; sourceTree = "<group>"; };
 		4674C6148BD9C164A509FD6C /* Pods-FitCloudKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitCloudKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4B17E0232C11B7F8002A7E94 /* HistoryDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDataController.h; sourceTree = "<group>"; };
 		4B17E0242C11B7F8002A7E94 /* HistoryDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDataController.m; sourceTree = "<group>"; };
@@ -153,6 +171,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DBBB39C2C51F9E7001EA544 /* watchface9845 */ = {
+			isa = PBXGroup;
+			children = (
+				1DBBB3B92C525525001EA544 /* custom_dial_demo */,
+				1DBBB3AF2C52550A001EA544 /* cloud_dial_demo */,
+			);
+			path = watchface9845;
+			sourceTree = "<group>";
+		};
+		1DBBB3AE2C52550A001EA544 /* GUI_PUSH_DIAL_TB_155(466Z_500155)_500155 */ = {
+			isa = PBXGroup;
+			children = (
+				1DBBB3AC2C52550A001EA544 /* device.png */,
+				1DBBB3AD2C52550A001EA544 /* gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78.bin */,
+			);
+			path = "GUI_PUSH_DIAL_TB_155(466Z_500155)_500155";
+			sourceTree = "<group>";
+		};
+		1DBBB3AF2C52550A001EA544 /* cloud_dial_demo */ = {
+			isa = PBXGroup;
+			children = (
+				1DBBB3AE2C52550A001EA544 /* GUI_PUSH_DIAL_TB_155(466Z_500155)_500155 */,
+			);
+			path = cloud_dial_demo;
+			sourceTree = "<group>";
+		};
+		1DBBB3B92C525525001EA544 /* custom_dial_demo */ = {
+			isa = PBXGroup;
+			children = (
+				1DBBB3B22C525525001EA544 /* 500114_TB_preview.png */,
+				1DBBB3B32C525525001EA544 /* 500114_TB.png */,
+				1DBBB3B42C525525001EA544 /* 500197_TB_preview.png */,
+				1DBBB3B52C525525001EA544 /* 500197_TB.png */,
+				1DBBB3B62C525525001EA544 /* 500198_TB_preview.png */,
+				1DBBB3B72C525525001EA544 /* 500198_TB.png */,
+				1DBBB3B82C525525001EA544 /* template9845.bin */,
+			);
+			path = custom_dial_demo;
+			sourceTree = "<group>";
+		};
 		1DF517862BFC6F1D00ECFBDA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +259,7 @@
 		89A438AF22B0D19700555B98 /* FitCloudKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1DBBB39C2C51F9E7001EA544 /* watchface9845 */,
 				1DF517862BFC6F1D00ECFBDA /* Tools */,
 				89C5154923083B22000BD54C /* Vendors */,
 				89A438B022B0D19700555B98 /* AppDelegate.h */,
@@ -315,16 +374,6 @@
 		C0A1B400DE21B28CD8FDE60B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B7B5D872C1162DD00B7D12F /* flywearsdk.framework */,
-				4B7B5D882C1162DD00B7D12F /* h264encoder.framework */,
-				4B7B5D892C1162DD00B7D12F /* persimwearSDK.framework */,
-				4B7B5D8A2C1162DD00B7D12F /* SJWatchLib.framework */,
-				4B7B5D9A2C1165D100B7D12F /* SJWatchLib.framework */,
-				4B7B5D862C1162DD00B7D12F /* UNIWatchMate.framework */,
-				4B7B5D962C1165D100B7D12F /* flywearsdk.framework */,
-				4B7B5D972C1165D100B7D12F /* h264encoder.framework */,
-				4B7B5D982C1165D100B7D12F /* persimwearSDK.framework */,
-				4B7B5D992C1165D100B7D12F /* UNIWatchMate.framework */,
 				AD583F0D1DC79CFA659ACFB4 /* Pods_FitCloudKitDemo.framework */,
 			);
 			name = Frameworks;
@@ -406,16 +455,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9AAECB2C2ABAF500F475E9 /* previewImage.png in Resources */,
+				1DBBB3C02C525525001EA544 /* template9845.bin in Resources */,
+				1DBBB3BF2C525525001EA544 /* 500198_TB.png in Resources */,
+				1DBBB3BA2C525525001EA544 /* 500114_TB_preview.png in Resources */,
 				89A438BD22B0D19900555B98 /* LaunchScreen.storyboard in Resources */,
 				4B84FE0B2C2BCD9100E6043E /* preview.png in Resources */,
+				1DBBB3BC2C525525001EA544 /* 500197_TB_preview.png in Resources */,
+				1DBBB3BD2C525525001EA544 /* 500197_TB.png in Resources */,
 				4B9AAEC92C2ABAF500F475E9 /* backgroundImage.jpeg in Resources */,
 				89C5154123083707000BD54C /* Localizable.strings in Resources */,
 				4B84FE092C2BCD8800E6043E /* bg1.png in Resources */,
 				4B84FE062C2BCA8100E6043E /* flywearsdkDial.zip in Resources */,
 				4B9AAECA2C2ABAF500F475E9 /* ic_custom_all_OSW805.bin in Resources */,
 				89A438BA22B0D19900555B98 /* Assets.xcassets in Resources */,
+				1DBBB3B12C52550A001EA544 /* gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78.bin in Resources */,
+				1DBBB3B02C52550A001EA544 /* device.png in Resources */,
+				1DBBB3BB2C525525001EA544 /* 500114_TB.png in Resources */,
 				89A438B822B0D19700555B98 /* Main.storyboard in Resources */,
 				89C515442308370B000BD54C /* InfoPlist.strings in Resources */,
+				1DBBB3BE2C525525001EA544 /* 500198_TB_preview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

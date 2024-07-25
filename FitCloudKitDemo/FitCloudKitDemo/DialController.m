@@ -71,7 +71,7 @@
                 OpResultToastTip(weakSelf.view, NO);
             }
         }];
-    } else if (indexPath.row == 4) {
+    } else if (indexPath.row == 4) {//for custom watch face
         
         TPSDialModel *model = [[TPSDialModel alloc] init];
         TPSSDKType sdkType = [TPSDevice.share fitSDK];
@@ -92,17 +92,17 @@
         } else if (sdkType == eTPSSDKFitCloudPro) {
             
             // 表盘ID
-            // Watch Face ID
-            model.dialId = @"5";
+            // Watch Face ID, no use for eTPSSDKFitCloudPro type
+//            model.dialId = @"5";
             // 准备发送给手表的表盘文件路径
             // Prepare the watch face file path for sending to the watch
-            model.filePath = [[NSBundle mainBundle] pathForResource:@"ic_custom_all_OSW805" ofType:@"bin"];
+            model.filePath = [[NSBundle mainBundle] pathForResource:@"template9845" ofType:@"bin"];
             // 设置表盘预览图
             // Set up the watch face preview image
-            model.previewImage = [UIImage imageNamed:@"previewImage.png"];
+            model.previewImage = [UIImage imageNamed:@"500198_TB_preview.png"];
             // 设置表盘背景图
             // Set the Watch Face Preview Image
-            model.backgroundImage = [UIImage imageNamed:@"backgroundImage.jpeg"];
+            model.backgroundImage = [UIImage imageNamed:@"500198_TB.png"];
         }
         // 设置表盘类型
         // Set the Watch Face Type
@@ -118,11 +118,33 @@
         [TPSSdk.share.dialAbility pushCustomerDialWithDial:model block:^(TPSDialProgressModel *model) {
             
             if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
+                NSLog(@"push watch face ok");
                 OpResultToastTip(weakSelf.view, YES);
-            } else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
+            } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
+                NSLog(@"progress number:%.1f", model.percent);
+            }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
+                NSLog(@"push watch face fail");
                 OpResultToastTip(weakSelf.view, NO);
             }
         }];
+    }else if (indexPath.row == 5){// for cloud watch face
+        TPSDialModel *model = [[TPSDialModel alloc] init];
+        TPSSDKType sdkType = [TPSDevice.share fitSDK];
+        if (sdkType == eTPSSDKFlyWear) {
+        }else if (sdkType == eTPSSDKFitCloudPro) {
+            model.filePath = [[NSBundle mainBundle] pathForResource:@"gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78" ofType:@"bin"];
+            [TPSSdk.share.dialAbility pushLocalDialWithDial:model block:^(TPSDialProgressModel *model) {
+                if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
+                    NSLog(@"push cloud face ok");
+                    OpResultToastTip(weakSelf.view, YES);
+                } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
+                    NSLog(@"progress number:%.1f", model.percent);
+                }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
+                    NSLog(@"push cloud face fail");
+                    OpResultToastTip(weakSelf.view, NO);
+                }
+            }];
+        }
     }
 }
 
