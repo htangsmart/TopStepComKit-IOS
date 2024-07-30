@@ -17,6 +17,9 @@
 
 @interface SportAddController (){
     NSMutableArray<SportAddModel*>* sportToAddList;
+    //list the types of sports supported in this watch
+    NSArray<NSNumber *> *sportSupportedList;
+    NSArray<FitCloudWatchSportModeObject *> *currentWatchSportList;
     BOOL isBusy;
     UIActivityIndicatorView* activityIndicator;
 }
@@ -30,7 +33,7 @@
     [super viewDidLoad];
     isBusy = NO;
     self->sportToAddList = [NSMutableArray new];
-    [self getSportTypeInformationFromServer];
+    [self getSupportSportTypeFromWatch];
     // Do any additional setup after loading the view.
 }
 
@@ -82,7 +85,12 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [[UITableViewCell alloc] init];
-    cell.textLabel.text = sportToAddList[indexPath.row].sportName;
+    if([self isInCurrentWatchSportList:sportToAddList[indexPath.row].sportType]){
+        cell.textLabel.text = [NSString stringWithFormat:@"%@,%@",sportToAddList[indexPath.row].sportName, @" -current in watch"];
+    }else{
+        cell.textLabel.text = sportToAddList[indexPath.row].sportName;
+    }
+    
     [cell.imageView sd_setImageWithURL:[NSURL URLWithString:sportToAddList[indexPath.row].iconUrl] placeholderImage:[UIImage imageNamed:@"icon_health_act_progress.png"]];
     return cell;
 }
@@ -91,6 +99,24 @@
 
 - (IBAction)OnGoBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+-(void)getSupportSportTypeFromWatch{
+    [FitCloudKit getSupportedWatchSportsWithBlock:^(BOOL succeed, NSArray<NSNumber *> *sports, NSError *error) {
+        self->sportSupportedList = sports;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self getCurrentSportTypeFromWatch];
+        });
+    }];
+}
+
+-(void)getCurrentSportTypeFromWatch{
+    [FitCloudKit getCurrentWatchSportsWithBlock:^(BOOL succeed, NSArray<FitCloudWatchSportModeObject *> *sports, NSError *error) {
+        self->currentWatchSportList = sports;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self getSportTypeInformationFromServer];
+        });
+    }];
 }
 
 -(void) getSportTypeInformationFromServer{
@@ -142,7 +168,9 @@
                         sportAddModel.iconUrl = dataList[i][@"iconUrl"];
                         sportAddModel.sportName = dataList[i][@"sportUiName"];
                         sportAddModel.sportType = [dataList[i][@"sportUiType"] intValue];
-                        [self->sportToAddList addObject:sportAddModel];
+                        if([self isInSupportedList:sportAddModel.sportType]){
+                            [self->sportToAddList addObject:sportAddModel];
+                        }
                     }
                     dispatch_async(dispatch_get_main_queue(), ^{
                         [self.mTableView reloadData];
@@ -151,6 +179,27 @@
             }
         }
     }] resume];
+}
+
+-(BOOL)isInSupportedList:(int)sportType{
+    if(sportSupportedList == nil){
+        return YES;
+    }
+    for(int i=0;i<sportSupportedList.count;i++){
+        if([sportSupportedList[i] intValue] == sportType){
+            return YES;
+        }
+    }
+    return NO;
+}
+
+-(BOOL)isInCurrentWatchSportList:(int)sportType{
+    for(int i=0;i<currentWatchSportList.count;i++){
+        if(currentWatchSportList[i].workoutType == sportType){
+            return YES;
+        }
+    }
+    return NO;
 }
 
 -(void)showProgress{
