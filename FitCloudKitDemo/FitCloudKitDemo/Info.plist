@@ -20,6 +20,8 @@
 	<string>201908260001</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict/>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>FitCloudKitDemo将使用您的蓝牙外设权限用于与手环设备配对</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>

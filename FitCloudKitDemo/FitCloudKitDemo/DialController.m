@@ -6,6 +6,9 @@
 //  表盘 --- Dial
 
 #import "DialController.h"
+#import "SdkUtil.h"
+#import "FitCloudKitDemo-Swift.h"
+
 #define ConsoleResultToastTip(v) [v makeToast:NSLocalizedString(@"View the results in the console.", nil) duration:3.0f position:CSToastPositionTop]
 #define OpResultToastTip(v, success) [v makeToast:success ? NSLocalizedString(@"Op success.", nil) : NSLocalizedString(@"Op failure.", nil) duration:3.0f position:CSToastPositionTop]
 
@@ -48,6 +51,7 @@
             }];
            
             if (![modelList isKindOfClass:NSArray.class] || modelList.count == 0) { return; }
+            //@"500000"是9845的自定义表盘位
             [TPSSdk.share.dialAbility changeDialWithDialId:modelList.firstObject.dialId block:^(BOOL isSendOK) {
                 dispatch_async(dispatch_get_main_queue(), ^{
                     if (isSendOK) {
@@ -113,6 +117,7 @@
         // 设置表盘时间文字颜色 805芯片的手表支持五种颜色
         // Set the Color of the Time Text on the Watch Face. The watch with the 805 chip supports five colors.
         model.textColor = [DialController allColors][4];
+        model.dialName = [NSString stringWithFormat:@"%.f",[NSDate new].timeIntervalSince1970];
         // 向手表推送自定义表盘
         // Push Custom Watch Face to the Watch
         [TPSSdk.share.dialAbility pushCustomerDialWithDial:model block:^(TPSDialProgressModel *model) {
@@ -128,23 +133,40 @@
             }
         }];
     }else if (indexPath.row == 5){// for cloud watch face
-        TPSDialModel *model = [[TPSDialModel alloc] init];
-        TPSSDKType sdkType = [TPSDevice.share fitSDK];
-        if (sdkType == eTPSSDKFlyWear) {
-        }else if (sdkType == eTPSSDKFitCloudPro) {
-            model.filePath = [[NSBundle mainBundle] pathForResource:@"gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78" ofType:@"bin"];
-            [TPSSdk.share.dialAbility pushLocalDialWithDial:model block:^(TPSDialProgressModel *model) {
-                if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
-                    NSLog(@"push cloud face ok");
-                    OpResultToastTip(weakSelf.view, YES);
-                } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
-                    NSLog(@"progress number:%.1f", model.percent);
-                }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
-                    NSLog(@"push cloud face fail");
-                    OpResultToastTip(weakSelf.view, NO);
-                }
-            }];
-        }
+//        [SdkUtil sendPostRequestWithFormParameters];
+        
+        NSString* filePath = [[NSBundle mainBundle] pathForResource:@"4cd9d022b6a245bb89fbd1f5c609badf" ofType:@"bin"];
+        [TPSSdk.share.otaAbility otaUpdateWithLocalPath:filePath block:^(TPSProgressModel *model) {
+            if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
+                NSLog(@"push sportui bin ok");
+                OpResultToastTip(weakSelf.view, YES);
+            } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
+                NSLog(@"sportui bin progress number:%.1f", model.percent);
+            }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
+                NSLog(@"push sportui bin fail");
+                OpResultToastTip(weakSelf.view, NO);
+            }
+        }];
+        
+//        TPSDialModel *model = [[TPSDialModel alloc] init];
+//        TPSSDKType sdkType = [TPSDevice.share fitSDK];
+//        if (sdkType == eTPSSDKFlyWear) {
+//        }else if (sdkType == eTPSSDKFitCloudPro) {
+//            model.filePath = [[NSBundle mainBundle] pathForResource:@"gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78" ofType:@"bin"];
+//            [TPSSdk.share.dialAbility pushLocalDialWithDial:model block:^(TPSDialProgressModel *model) {
+//                if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
+//                    NSLog(@"push cloud face ok");
+//                    OpResultToastTip(weakSelf.view, YES);
+//                } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
+//                    NSLog(@"progress number:%.1f", model.percent);
+//                }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
+//                    NSLog(@"push cloud face fail");
+//                    OpResultToastTip(weakSelf.view, NO);
+//                }
+//            }];
+//        }
+        
+        
     }
 }
 

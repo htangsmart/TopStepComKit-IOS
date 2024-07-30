@@ -840,6 +840,26 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="YM6-AG-afs">
+                                        <rect key="frame" x="0.0" y="1473" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YM6-AG-afs" id="4CV-Ql-tCA">
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="add sport type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kS6-Mu-ojc" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="119" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ZAD-kj-PPY" kind="show" id="SzK-T2-uQP"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -3322,6 +3342,150 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jrL-9f-ask" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7490" y="1535"/>
+        </scene>
+        <!--Sport Add Controller-->
+        <scene sceneID="CCd-3g-u68">
+            <objects>
+                <tableViewController id="ZAD-kj-PPY" customClass="SportAddController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="0bJ-VL-Zly">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="sxz-zT-avh">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Sport Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUJ-D4-AFm" customClass="LocalizedLabel">
+                                    <rect key="frame" x="131" y="10" width="152" height="21"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to run the demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMW-Ha-P0R" customClass="LocalizedLabel">
+                                    <rect key="frame" x="131" y="35.5" width="152" height="14"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31w-OU-AVt" customClass="LocalizedButton">
+                                    <rect key="frame" x="16" y="9.5" width="52" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="52" id="aUd-ru-XOm"/>
+                                    </constraints>
+                                    <state key="normal" title="Back" image="back">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="OnGoBack:" destination="ZAD-kj-PPY" eventType="touchUpInside" id="PyZ-O3-fpx"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="CUJ-D4-AFm" firstAttribute="centerX" secondItem="sxz-zT-avh" secondAttribute="centerX" id="1fO-bD-vv4"/>
+                                <constraint firstItem="dMW-Ha-P0R" firstAttribute="centerX" secondItem="sxz-zT-avh" secondAttribute="centerX" id="AAu-sI-UPq"/>
+                                <constraint firstAttribute="height" constant="73" id="AYj-cH-vGv"/>
+                                <constraint firstItem="CUJ-D4-AFm" firstAttribute="centerY" secondItem="31w-OU-AVt" secondAttribute="centerY" id="BTB-Zn-9Td"/>
+                                <constraint firstItem="dMW-Ha-P0R" firstAttribute="top" secondItem="31w-OU-AVt" secondAttribute="bottom" constant="4" id="VWU-hC-19y"/>
+                                <constraint firstItem="31w-OU-AVt" firstAttribute="leading" secondItem="sxz-zT-avh" secondAttribute="leading" constant="16" id="Y7g-2F-XXQ"/>
+                                <constraint firstItem="CUJ-D4-AFm" firstAttribute="top" secondItem="sxz-zT-avh" secondAttribute="top" constant="10" id="hOX-dH-SRa"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="6n9-cN-498">
+                                <rect key="frame" x="0.0" y="123" width="414" height="44.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6n9-cN-498" id="CCe-Vz-fwK">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZAD-kj-PPY" id="2pb-X8-eUY"/>
+                            <outlet property="delegate" destination="ZAD-kj-PPY" id="lQH-vD-ETi"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="4i3-Ck-wk3"/>
+                    <connections>
+                        <outlet property="mTableView" destination="0bJ-VL-Zly" id="PNv-fe-vyF"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p4A-nk-wJ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8468" y="1527"/>
+        </scene>
+        <!--Notification Manage Controller-->
+        <scene sceneID="k3Q-L6-6Y2">
+            <objects>
+                <tableViewController id="2Ww-ry-aTa" customClass="NotificationManageController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="gy6-OI-DJH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="Hln-cM-wWm">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notaification Manange" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNE-g1-AnD" customClass="LocalizedLabel">
+                                    <rect key="frame" x="93" y="10" width="228" height="21"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to run the demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0jR-Yn-3lG" customClass="LocalizedLabel">
+                                    <rect key="frame" x="131" y="35.5" width="152" height="14"/>
+                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUY-Nc-GOq" customClass="LocalizedButton">
+                                    <rect key="frame" x="16" y="9.5" width="52" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="52" id="BCg-dE-M7a"/>
+                                    </constraints>
+                                    <state key="normal" title="Back" image="back">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="OnGoBack:" destination="2Ww-ry-aTa" eventType="touchUpInside" id="FTE-Q7-owg"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="0jR-Yn-3lG" firstAttribute="centerX" secondItem="Hln-cM-wWm" secondAttribute="centerX" id="2YZ-NI-g9j"/>
+                                <constraint firstItem="mNE-g1-AnD" firstAttribute="top" secondItem="Hln-cM-wWm" secondAttribute="top" constant="10" id="7kD-dw-C0W"/>
+                                <constraint firstAttribute="height" constant="73" id="Hww-9i-4L3"/>
+                                <constraint firstItem="MUY-Nc-GOq" firstAttribute="leading" secondItem="Hln-cM-wWm" secondAttribute="leading" constant="16" id="VBR-P5-DqT"/>
+                                <constraint firstItem="mNE-g1-AnD" firstAttribute="centerX" secondItem="Hln-cM-wWm" secondAttribute="centerX" id="dsE-5V-gyX"/>
+                                <constraint firstItem="0jR-Yn-3lG" firstAttribute="top" secondItem="MUY-Nc-GOq" secondAttribute="bottom" constant="4" id="qaa-lT-ahk"/>
+                                <constraint firstItem="mNE-g1-AnD" firstAttribute="centerY" secondItem="MUY-Nc-GOq" secondAttribute="centerY" id="tDc-lI-xUB"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Zin-md-zT5">
+                                <rect key="frame" x="0.0" y="123" width="414" height="44.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zin-md-zT5" id="xK4-ID-WlN">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2Ww-ry-aTa" id="ODc-Gk-54k"/>
+                            <outlet property="delegate" destination="2Ww-ry-aTa" id="LrS-Op-UIT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Lpi-bU-De3"/>
+                    <connections>
+                        <outlet property="mTableView" destination="gy6-OI-DJH" id="6h8-DA-xqV"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eha-zP-GXT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7490" y="1535"/>
         </scene>
