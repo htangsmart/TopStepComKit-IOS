@@ -1,6 +1,8 @@
 # Uncomment this line to define a global platform for your project
 
 #source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/idoosmart/IDOSmartSpec.git'
 
 # 忽略引入库的所有警告
 inhibit_all_warnings!
@@ -20,6 +22,8 @@ target 'FitCloudKitDemo' do
   pod 'Toast'
   pod 'YYModel'
   
+
+  
   #############################---拓步Pod---######################################
   # 拓步智能手表 SDK
   pod 'FitCloudKit', git: 'https://github.com/htangsmart/FitCloudPro-SDK-iOS.git'
@@ -38,6 +42,11 @@ target 'FitCloudKitDemo' do
   pod 'TopStepComKit', :path => '../'
   
   #################################################################################
+  
+#  pod 'IDOBlueUpdate'
+#  pod 'IQKeyboardManager'
+#  pod 'IDOBluetooth'
+#  pod 'IDOBlueProtocol'
   
   end
 

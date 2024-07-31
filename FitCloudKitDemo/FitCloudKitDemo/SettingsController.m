@@ -58,6 +58,21 @@
     } else if (indexPath.row == 6) {
         [TPSSdk.share.miscSettingAbility sendHt_sos:TPSMiscSettingModel_State_Open];
         OpResultToastTip(self.view, YES);
+    } else if(indexPath.row == 7){
+        //勿扰设置。 --Do not distrub setting
+        TPSRemindDistrubModel* notDisturbModel = [[TPSRemindDistrubModel alloc] init];
+        notDisturbModel.isEnabled = YES;
+        notDisturbModel.start = 8*60+30;//8:30 in morning
+        notDisturbModel.end = 18*60+30;//18:30 at afternoon
+        [TPSSdk.share.remindSettingAbility setNotDistrubConfig:notDisturbModel success:^(BOOL isSendOK) {
+            OpResultToastTip(self.view, YES);
+        }];
+    }else if(indexPath.row == 8){
+        //获取勿扰设置。 --get "Do not distrub" setting
+        [TPSSdk.share.remindSettingAbility getNotDistrubConfig:^(TPSRemindDistrubModel * _Nullable remindSetting) {
+            NSLog(@"getNotDistrubConfig: %d, %d, %d", remindSetting.isEnabled, remindSetting.start, remindSetting.end);
+            OpResultToastTip(weakSelf.view, YES);
+        }];
     }
 }
 

@@ -16,10 +16,17 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TPSRemindDistrubModel : NSObject
 
 @property (nonatomic,assign) BOOL isEnabled;
+/**
+ 从当日0点算起的总分钟值，比如早上8:30，该值就为8*60+30=510
+ The total minute value calculated from 0:00 on the same day, for example, at 8:30 in the morning, is 8 * 60+30=510
+ */
+@property (nonatomic,assign) int start;
 
-@property (nonatomic,assign) double start;
-
-@property (nonatomic,assign) double end;
+/**
+ 从当日0点算起的总分钟值，比如早上8:30，该值就为8*60+30=510
+ The total minute value calculated from 0:00 on the same day, for example, at 8:30 in the morning, is 8 * 60+30=510
+ */
+@property (nonatomic,assign) int end;
 
 + (TPSRemindDistrubModel *)distrubModelWithFWDistrub:(FwRemindDistrubModel *)distrubModel;
 
