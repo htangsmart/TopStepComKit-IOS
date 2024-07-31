@@ -66,7 +66,7 @@
 		89C5156023085958000BD54C /* MoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C5155D23085958000BD54C /* MoView.m */; };
 		89C5156123085958000BD54C /* MoCurveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C5155E23085958000BD54C /* MoCurveLayer.m */; };
 		89EA5159230ED2A200EDC1F0 /* MessageReminderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EA5158230ED2A200EDC1F0 /* MessageReminderController.m */; };
-		A5885A9DCCF1699BB2325B44 /* Pods_FitCloudKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD583F0D1DC79CFA659ACFB4 /* Pods_FitCloudKitDemo.framework */; };
+		AE0CA95BEBF38D271D6F6C9D /* Pods_FitCloudKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4468F52E6CD4F606DB58DD /* Pods_FitCloudKitDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,7 +172,7 @@
 		89C5155F23085958000BD54C /* MoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoView.h; sourceTree = "<group>"; };
 		89EA5157230ED2A200EDC1F0 /* MessageReminderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageReminderController.h; sourceTree = "<group>"; };
 		89EA5158230ED2A200EDC1F0 /* MessageReminderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageReminderController.m; sourceTree = "<group>"; };
-		AD583F0D1DC79CFA659ACFB4 /* Pods_FitCloudKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCloudKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4468F52E6CD4F606DB58DD /* Pods_FitCloudKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCloudKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,13 +180,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5885A9DCCF1699BB2325B44 /* Pods_FitCloudKitDemo.framework in Frameworks */,
+				AE0CA95BEBF38D271D6F6C9D /* Pods_FitCloudKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B27BF9609E91518334492B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F4468F52E6CD4F606DB58DD /* Pods_FitCloudKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1DBBB39C2C51F9E7001EA544 /* watchface9845 */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,7 +272,7 @@
 				89A438AF22B0D19700555B98 /* FitCloudKitDemo */,
 				89A438AE22B0D19700555B98 /* Products */,
 				C7BF5B98C5B523186DAD65CF /* Pods */,
-				C0A1B400DE21B28CD8FDE60B /* Frameworks */,
+				0B27BF9609E91518334492B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -395,14 +403,6 @@
 				89C5155D23085958000BD54C /* MoView.m */,
 			);
 			path = MoLoading;
-			sourceTree = "<group>";
-		};
-		C0A1B400DE21B28CD8FDE60B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AD583F0D1DC79CFA659ACFB4 /* Pods_FitCloudKitDemo.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C7BF5B98C5B523186DAD65CF /* Pods */ = {

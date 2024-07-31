@@ -23,6 +23,10 @@ target 'FitCloudKitDemo' do
   pod 'YYModel'
   
 
+#  pod 'IDOBlueUpdate'
+#  pod 'IQKeyboardManager'
+#  pod 'IDOBluetooth'
+#  pod 'IDOBlueProtocol'
   
   #############################---拓步Pod---######################################
   # 拓步智能手表 SDK
@@ -43,10 +47,7 @@ target 'FitCloudKitDemo' do
   
   #################################################################################
   
-#  pod 'IDOBlueUpdate'
-#  pod 'IQKeyboardManager'
-#  pod 'IDOBluetooth'
-#  pod 'IDOBlueProtocol'
+  
   
   end
 
