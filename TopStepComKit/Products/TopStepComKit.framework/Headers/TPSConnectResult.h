@@ -29,6 +29,7 @@ typedef NS_ENUM(UInt8, TPSConnnectResult_Error_Code){
     TPSConnnectResult_Error_Code_Wait_Reboot,
     TPSConnnectResult_Error_Code_Other_Fail,
     TPSConnnectResult_Error_Code_Disconnect_By_User_InSystemSetting,
+    TPSConnnectResult_Error_Code_Ota_DFU_Mode,
 };
 
 +(instancetype)new NS_UNAVAILABLE;

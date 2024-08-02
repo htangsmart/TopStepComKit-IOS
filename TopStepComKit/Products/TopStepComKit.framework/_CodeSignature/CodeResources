@@ -1268,7 +1268,7 @@
 		</data>
 		<key>Headers/TPSConnectResult.h</key>
 		<data>
-		Jo4PiVCtF9B7klP7DjAeFse+hrQ=
+		RybrMMqq6JHjwGJ2mPWSMcaCJbw=
 		</data>
 		<key>Headers/TPSContactModel.h</key>
 		<data>
@@ -1302,13 +1302,17 @@
 		<data>
 		CdzNcjbiWheGa6ITjNZ2hVQf8fQ=
 		</data>
+		<key>Headers/TPSDeviceTypeOperation.h</key>
+		<data>
+		yGgN56XIQpfKqUDfNHSBEn/ghyY=
+		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
 		k/NFwfL5rDC7FgdIJprVmBy6F0I=
 		</data>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<data>
-		R9U158ICHo2vKMMrlu/PFpSEkF8=
+		Vk5TDw9InIPWVv2FJVZYyb9mpMA=
 		</data>
 		<key>Headers/TPSEBookModel.h</key>
 		<data>
@@ -1360,7 +1364,7 @@
 		</data>
 		<key>Headers/TPSHistorySportModel.h</key>
 		<data>
-		cFBdIkbkDD24Ao6LDABA9Pqom7s=
+		eA0ZSTd3TiIzEBYHIUO/8k48B4Q=
 		</data>
 		<key>Headers/TPSHistoryStressModel.h</key>
 		<data>
@@ -1492,7 +1496,7 @@
 		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
-		XA//xx6am652TauhoNQ4YnCVbI8=
+		OIexVN2Tter+2SS/vVQxkY1locU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -3550,11 +3554,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jo4PiVCtF9B7klP7DjAeFse+hrQ=
+			RybrMMqq6JHjwGJ2mPWSMcaCJbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			1x0vGHVY4tSOwz25fu0kGUq+J1tY9/sstFhbMLY20IE=
+			X+s5A8ZauGAlL1JXy7m+n6AcKt37psA4aa6Prz//xoA=
 			</data>
 		</dict>
 		<key>Headers/TPSContactModel.h</key>
@@ -3645,6 +3649,17 @@
 			l52kC7wX9QKgtlBOZPOh/Of6/k3tOdGlgzhgPAomrfA=
 			</data>
 		</dict>
+		<key>Headers/TPSDeviceTypeOperation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yGgN56XIQpfKqUDfNHSBEn/ghyY=
+			</data>
+			<key>hash2</key>
+			<data>
+			W6KmAlodzINSBAiRk08HeXamJOmrJqobcefk1wqUhOg=
+			</data>
+		</dict>
 		<key>Headers/TPSDialModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -3660,11 +3675,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R9U158ICHo2vKMMrlu/PFpSEkF8=
+			Vk5TDw9InIPWVv2FJVZYyb9mpMA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bUKig+r8LGEYT0B0eTyef0cChwd1n5RH/WuL4v7dsMI=
+			wjGJPBPE+2+qyBVYHUkkZfLjQ3HQ5fCb77+XB36kg+8=
 			</data>
 		</dict>
 		<key>Headers/TPSEBookModel.h</key>
@@ -3803,11 +3818,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cFBdIkbkDD24Ao6LDABA9Pqom7s=
+			eA0ZSTd3TiIzEBYHIUO/8k48B4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			gq1Z4Dd2y7H0opQVmR5LdICH6IyYaB9LeZXM5mKLWE8=
+			7jsvWV5IdSTAAnLs+A9vGZnnFCyk6dGcGLRD5m2Vna4=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryStressModel.h</key>
@@ -4166,11 +4181,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XA//xx6am652TauhoNQ4YnCVbI8=
+			OIexVN2Tter+2SS/vVQxkY1locU=
 			</data>
 			<key>hash2</key>
 			<data>
-			G92TY/bynkPh4t0pgKonnGkaYmthruP5sUBTjsb1JQQ=
+			Qc4xVRSRkxWyYyKXATJsGwE0kAbsjEdK8Ug8rte39VI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

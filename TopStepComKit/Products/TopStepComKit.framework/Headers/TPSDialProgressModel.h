@@ -12,7 +12,6 @@
 @interface TPSDialProgressModel : NSObject
 
 typedef NS_ENUM(UInt8,TPSDialProgressModel_Event_Type){
-    TPSDialProgressModel_Event_Type_OnSuccess = 0,  //成功不一定完毕
     TPSDialProgressModel_Event_Type_OnFailed = 1,
     TPSDialProgressModel_Event_Type_OnProcess = 2,
     TPSDialProgressModel_Event_Type_OnInstalling = 3,

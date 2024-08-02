@@ -133,38 +133,23 @@
             }
         }];
     }else if (indexPath.row == 5){// for cloud watch face
-//        [SdkUtil sendPostRequestWithFormParameters];
-        
-        NSString* filePath = [[NSBundle mainBundle] pathForResource:@"4cd9d022b6a245bb89fbd1f5c609badf" ofType:@"bin"];
-        [TPSSdk.share.otaAbility otaUpdateWithLocalPath:filePath block:^(TPSProgressModel *model) {
-            if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
-                NSLog(@"push sportui bin ok");
-                OpResultToastTip(weakSelf.view, YES);
-            } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
-                NSLog(@"sportui bin progress number:%.1f", model.percent);
-            }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
-                NSLog(@"push sportui bin fail");
-                OpResultToastTip(weakSelf.view, NO);
-            }
-        }];
-        
-//        TPSDialModel *model = [[TPSDialModel alloc] init];
-//        TPSSDKType sdkType = [TPSDevice.share fitSDK];
-//        if (sdkType == eTPSSDKFlyWear) {
-//        }else if (sdkType == eTPSSDKFitCloudPro) {
-//            model.filePath = [[NSBundle mainBundle] pathForResource:@"gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78" ofType:@"bin"];
-//            [TPSSdk.share.dialAbility pushLocalDialWithDial:model block:^(TPSDialProgressModel *model) {
-//                if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
-//                    NSLog(@"push cloud face ok");
-//                    OpResultToastTip(weakSelf.view, YES);
-//                } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
-//                    NSLog(@"progress number:%.1f", model.percent);
-//                }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
-//                    NSLog(@"push cloud face fail");
-//                    OpResultToastTip(weakSelf.view, NO);
-//                }
-//            }];
-//        }
+        TPSDialModel *model = [[TPSDialModel alloc] init];
+        TPSSDKType sdkType = [TPSDevice.share fitSDK];
+        if (sdkType == eTPSSDKFlyWear) {
+        }else if (sdkType == eTPSSDKFitCloudPro) {
+            model.filePath = [[NSBundle mainBundle] pathForResource:@"gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78" ofType:@"bin"];
+            [TPSSdk.share.dialAbility pushLocalDialWithDial:model block:^(TPSDialProgressModel *model) {
+                if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
+                    NSLog(@"push cloud face ok");
+                    OpResultToastTip(weakSelf.view, YES);
+                } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
+                    NSLog(@"progress number:%.1f", model.percent);
+                }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
+                    NSLog(@"push cloud face fail");
+                    OpResultToastTip(weakSelf.view, NO);
+                }
+            }];
+        }
         
         
     }

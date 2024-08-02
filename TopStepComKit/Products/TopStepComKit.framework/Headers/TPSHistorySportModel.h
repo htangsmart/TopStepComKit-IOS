@@ -194,6 +194,13 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
  */
 @property (nonatomic, assign) double limit_time;//单位 s
 
+// 绊绳次数
+@property (nonatomic, assign) double stop;
+// 最大连跳
+@property (nonatomic, assign) double jump;
+
+
+
 @property (nonatomic, strong) NSArray<TPSSportItemModel*>* detailItemList;
 
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;

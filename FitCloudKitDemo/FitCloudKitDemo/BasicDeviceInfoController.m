@@ -27,7 +27,7 @@
         [[TPSSdk.share.devInfoAbility getDevInfo] subscribeNext:^(TPSDevInfoModel * _Nullable x) {
             if ([x isKindOfClass:[TPSDevInfoModel class]]) {
                 ConsoleResultToastTip(weakSelf.view);
-                XLOG_INFO(@"screenWidth: %f screenHeight: %f jsVersion: %@ firmVersion: %@", x.screenWidth, x.screenHeight, x.uiVersion, x.firmVersion);
+                XLOG_INFO(@"pId:%@ screenWidth: %f screenHeight: %f jsVersion: %@ firmVersion: %@",x.projectId, x.screenWidth, x.screenHeight, x.uiVersion, x.firmVersion);
             } else {
                 OpResultToastTip(weakSelf.view, NO);
             }
