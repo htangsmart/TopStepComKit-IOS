@@ -6,7 +6,7 @@
 	<dict>
 		<key>FitCloudDFUKit.bundle/Info.plist</key>
 		<data>
-		a4DCfaQjNwP4osjiTq54MeibjuY=
+		Qct3Q0UOW88HLYZmyhcUuWGi3cg=
 		</data>
 		<key>FitCloudDFUKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -370,7 +370,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		NnkKW6//ph7TnP8kJrVz/cK1Kdg=
+		LMRpEu0bf68qHHKWnOtTCQqnD50=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -718,7 +718,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			72e9jeuQlXtrTwSSCY7Ot7K5pTs=
+			tbpFgew5jMxZHILovGhZfo4pcFo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1517,11 +1517,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a4DCfaQjNwP4osjiTq54MeibjuY=
+			Qct3Q0UOW88HLYZmyhcUuWGi3cg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ot+DM3BYd1VMgo+FWMWfYB/eJQxV0aO6jwrzrozugEg=
+			RqS24+eaYuODZxeBZTtXoKSwtn8yibruTK1iIGA1ZLQ=
 			</data>
 		</dict>
 		<key>FitCloudDFUKit.bundle/ar.lproj/Localizable.strings</key>
@@ -2048,11 +2048,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NnkKW6//ph7TnP8kJrVz/cK1Kdg=
+			LMRpEu0bf68qHHKWnOtTCQqnD50=
 			</data>
 			<key>hash2</key>
 			<data>
-			JvaUNs9OKsCpOcPmFBG9d2sVm4v7QVdTgaPHCiKxKaI=
+			3I3s85igqxI+kbp3UGy0MwAzWZzON5DSjbo0boiGjxU=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
@@ -2553,11 +2553,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			72e9jeuQlXtrTwSSCY7Ot7K5pTs=
+			tbpFgew5jMxZHILovGhZfo4pcFo=
 			</data>
 			<key>hash2</key>
 			<data>
-			WNryYQzYiwdvqLHU7lDPpE0LOP/xelEqz1IrwuzMXsY=
+			HKwo6uoQCf26b7KEZ5/4YgU7hhrF/ygSlxGENuZj+aY=
 			</data>
 			<key>optional</key>
 			<true/>
