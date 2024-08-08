@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TopStepComKit'
   s.summary      = 'TopStepComKit module, M1 and above support xcode framworks.'
-  s.version      = '1.2.3'
+  s.version      = '1.2.4'
   s.description      = <<-DESC
   Private M1 and above support xcode framworks..
   DESC
