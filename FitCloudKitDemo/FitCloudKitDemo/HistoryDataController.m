@@ -112,6 +112,10 @@
                 [historySleepModelList enumerateObjectsUsingBlock:^(TPSHistorySleepModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
                     XLOG_INFO(@"Sleep --- belongDay: %ld  type: %hhu  duration: %d", obj.belongDay, obj.type, obj.duration);
                 }];
+                
+                [TPSSdk.share.sleepDataAbility getDaySleepEntityList:0 endTime:[[NSDate date] timeIntervalSince1970] block:^(NSArray<TPSDaySleepEntity *> * _Nullable daySleepEntityList) {
+                    NSLog(@"sleep analyse data");
+                }];
             }];
         }];
     }
