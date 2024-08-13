@@ -18,6 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    FITCLOUDPREFER isWeatherEnable = FitCloudKit.allConfig.prefer & FITCLOUDPREFER_WEATHERPUSH;
+    NSLog(@"FITCLOUDPREFER isWeatherEnable1 %d", isWeatherEnable);
+    isWeatherEnable = isWeatherEnable & (FITCLOUDPREFER_WEATHERPUSH ^ FITCLOUDPREFER_WEATHERPUSH);
+    NSLog(@"FITCLOUDPREFER isWeatherEnable2 %d", isWeatherEnable);
+    [FitCloudKit setFitCloudPrefer:isWeatherEnable block:^(BOOL succeed, NSError *error) {
+        [FitCloudKit getFitCloudPreferWithBlock:^(BOOL succeed, FITCLOUDPREFER prefer, NSError *error) {
+            FITCLOUDPREFER isWeatherEnableNext = prefer & FITCLOUDPREFER_WEATHERPUSH;
+            NSLog(@"FITCLOUDPREFER isWeatherEnable3 %d", isWeatherEnableNext);
+        }];
+    }];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

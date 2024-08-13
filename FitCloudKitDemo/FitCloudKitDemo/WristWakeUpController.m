@@ -18,6 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //监听手表抬手腕亮屏设置是否有变化 Monitor whether there is a change in the wrist lifting and screen on setting of the watch
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onFitcloudConfigChange:) name:FITCLOUDEVENT_WATCHCONFIG_REMOTE_MANUAL_CHANGED_NOTIFY object:nil];
+}
+
+-(void)onFitcloudConfigChange:(NSNotification*)notification{
+    NSLog(@"onConfigChange in fitcloud");
+    //重新获取抬手腕亮屏设置 Retrieve the wrist lifting screen brightness setting again
+    [FitCloudKit getWristWakeUpSettingWithBlock:^(BOOL succeed, FitCloudWWUObject *wwuSetting, NSError *error) {
+        //wwuSetting.on;
+    }];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -32,6 +42,8 @@
         OpResultToastTip(self.view, YES);
     }
 }
+
+
 
 - (IBAction)OnGoBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
