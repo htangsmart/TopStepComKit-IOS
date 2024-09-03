@@ -50,6 +50,7 @@
 #import <flywearsdk/IFwRemotePhotographyAbility.h>
 
 #import <flywearsdk/IFwUserInfoAbility.h>
+#import <flywearsdk/IFwHealthMonitorAbility.h>
 
 @interface FwSdk : NSObject
 
@@ -224,6 +225,8 @@
 @property (nonatomic,strong) id<IFwHttpAbility> httpAbility;
 
 @property (nonatomic,strong) id<IFwUserInfoAbility> userInfoAbility;
+
+@property (nonatomic,strong) id<IFwHealthMonitorAbility> healthMonitorAbility;
 
 @end
 

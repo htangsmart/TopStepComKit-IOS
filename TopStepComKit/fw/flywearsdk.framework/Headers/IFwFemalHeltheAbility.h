@@ -12,9 +12,9 @@
 #import <flywearsdk/IFwWearBaseAbility.h>
 #import <flywearsdk/WearBlockTypeDef.h>
 
-@protocol IFwFemalHeltheAbility <NSObject, IFwWearBaseAbility>
-
 typedef void(^FwFemalHeltheCallback)(FwFemalHeltheModel * femalHeltheModel);
+
+@protocol IFwFemalHeltheAbility <NSObject, IFwWearBaseAbility>
 
 + (instancetype)share;
 

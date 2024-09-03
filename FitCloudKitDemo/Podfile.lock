@@ -51,7 +51,7 @@ PODS:
     - BitByteData (~> 2.0)
   - SwiftyJSON (5.0.2)
   - Toast (4.1.1)
-  - TopStepComKit (1.2.0):
+  - TopStepComKit (1.2.5):
     - FitCloudDFUKit
     - FitCloudKit
     - FitCloudNWFKit
@@ -185,7 +185,7 @@ SPEC CHECKSUMS:
   SWCompression: 9379873ad5e9f25b31db88c441649b59a4c2bab7
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
-  TopStepComKit: 9728454743d32060d73a27f1199c84382ceb4c89
+  TopStepComKit: 163169eca16b57c1e59b9a29b3920c3a4c2495fe
   TSDialWidget: b4142b9522ae99ed3e325d0b037c29921291fd5c
   XLFacility.optimize: 7d3bac61863a29c11868191b3b3db038f1e5f998
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952

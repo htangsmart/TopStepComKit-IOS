@@ -18,11 +18,12 @@
 
 
 @property (nonatomic, assign) long timestamp;
-@property (nonatomic, assign) FwWeatherDescribeType_ENUM describe;
+@property (nonatomic, assign) FwWeatherLargeCategory describe;
+@property (nonatomic, assign) FwWeatherSubType subType;
 @property (nonatomic, assign) int minTemperature;
 @property (nonatomic, assign) int maxTemperature;
 
--(instancetype)initWithTimestamp:(long)timestamp describe:(FwWeatherDescribeType_ENUM)describe minTemperature:(int)minTemperature maxTemperature:(int)maxTemperature;
+-(instancetype)initWithTimestamp:(long)timestamp describe:(FwWeatherLargeCategory)describe subType:(FwWeatherSubType)subType minTemperature:(int)minTemperature maxTemperature:(int)maxTemperature;
 
 //@"timestamp":t,
 //@"describe":[self getDesWithCode:[next7DayArr[i][@"code"] intValue]],

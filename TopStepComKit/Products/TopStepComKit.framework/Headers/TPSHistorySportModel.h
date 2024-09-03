@@ -9,6 +9,8 @@
 #define TPSHistorySportModel_h
 
 #import <TopStepComKit/TPSSportItemModel.h>
+#import <TopStepComKit/TPSSportPreciseModel.h>
+#import <TopStepComKit/TPSSportPreciseHeartRateItem.h>
 
 @class FwHistorySportModel;
 @interface TPSHistorySportModel : NSObject
@@ -170,7 +172,7 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
 @property (nonatomic, assign) double distance;//距离米
 @property (nonatomic, assign) double calories;//单位千卡
 @property (nonatomic, assign) int heartrate;
-@property (nonatomic, assign) double pace;//单位秒/百米
+@property (nonatomic, assign) double pace;//秒/千米
 @property (nonatomic, assign) int step;
 @property (nonatomic, assign) double cadence;//单位步/分钟
 /**
@@ -199,9 +201,25 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
 // 最大连跳
 @property (nonatomic, assign) double jump;
 
+//一些总结数据，20240828后添加
+@property (nonatomic, assign) int maxHeartrate;
+@property (nonatomic, assign) int minHeartrate;
+@property (nonatomic, assign) int avgHeartrate;
+@property (nonatomic, assign) int maxCadence;
+@property (nonatomic, assign) int minCadence;
+@property (nonatomic, assign) int avgCadence;
+@property (nonatomic, assign) int maxPace;
+@property (nonatomic, assign) int minPace;
+@property (nonatomic, assign) int avgPace;
+
 
 
 @property (nonatomic, strong) NSArray<TPSSportItemModel*>* detailItemList;
+@property (nonatomic, strong) TPSSportPreciseModel* sportPreciseModel;
+@property (nonatomic, strong) NSMutableDictionary* extraInfo;
+
+// 运动心率数据
+@property (nonatomic,strong) NSArray<TPSSportPreciseHeartRateItem *> * heartRateItems;
 
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;
 -(instancetype)initWithNSData:(NSData*)jsonData;

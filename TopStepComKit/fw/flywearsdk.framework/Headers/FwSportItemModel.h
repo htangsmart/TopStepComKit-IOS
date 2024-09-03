@@ -7,7 +7,7 @@
 
 #ifndef FwSportItemModel_h
 #define FwSportItemModel_h
-
+//目前bes是1分钟一条运动详情
 @interface FwSportItemModel : NSObject
 
 @property (nonatomic, assign) long sport_id;

@@ -12,6 +12,7 @@
 #import <TopStepComKit/TPSSleepBigItemEntity.h>
 
 //日睡眠分析
+//睡眠统计相关文档https://p4t6fj2dw8.feishu.cn/wiki/UKutwUv0ViPIqhkOepXcyUL5nVb
 @interface TPSDaySleepEntity : NSObject
 
 
@@ -52,6 +53,7 @@
 //当天所有的睡眠总和时长，不将零星小睡视为一整段（这种算法不会将零星小睡内部的短暂清醒时间也归为睡眠时间）
 @property(nonatomic,assign) double totalSleepMinuteWithNapButRemoveWakeInNap;
 @property(nonatomic,assign) int totalSleepSecondsWithNapButRemoveWakeInNap;
+//睡眠发生的归属日期（多数时候为早晨睡醒的那个日期的0点0时）
 @property(nonatomic,assign) long belongDay;
 //原始的所有所有的睡眠小片段，不包含清醒时间段
 @property(nonatomic,strong) NSArray<TPSHistorySleepModel*>* allRawSmallItemList;
@@ -63,6 +65,7 @@
 -(TPSSleepBigItemEntity*)getMaxBigItem;
 -(NSArray<TPSSleepBigItemEntity*>*) getNapBigItemList;
 -(NSArray<TPSSleepBigItemEntity*>*) getLongSleepBigItemList;
+-(NSArray<TPSSleepBigItemEntity*>*) getNightSleepBigItemList;
 -(BOOL) getIsAllNap;
 
 @end

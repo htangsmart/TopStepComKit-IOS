@@ -45,7 +45,6 @@
 
 #import <TopStepComKit/TPSSleepDataAbilityProxy.h>
 
-
 #import <TopStepComKit/ITPSRemindSettingAbility.h>
 #import <TopStepComKit/ITPSHttpAbility.h>
 
@@ -53,6 +52,8 @@
 #import <TopStepComKit/ITPSSynchronousDataAbility.h>
 
 #import <TopStepComKit/ITPSUserInfoAbility.h>
+#import <TopStepComKit/ITPSLogAbility.h>
+#import <TopStepComKit/ITPSHealthMonitorAbility.h>
 
 
 
@@ -61,7 +62,9 @@
 +(instancetype)share;
 
 - (void)initDeviceType:(NSString *)deviceType;
+- (void)initDeviceType:(NSString *)deviceType option:(TPSOptions*)option;
 - (void)initDeviceTypeWith:(TPSDeviceType)deviceType;
+- (void)initDeviceTypeWith:(TPSDeviceType)deviceType option:(TPSOptions*)option;
 
 -(void)initSdk;
 -(void)setTPSLogEnable:(BOOL)isEnable;
@@ -226,11 +229,19 @@
  */
 @property(nonatomic, strong) id<ITPSHttpAbility> httpAbility;
 
-
+/**
+ 用户信息
+ */
 @property(nonatomic, strong) id<ITPSUserInfoAbility> userInfoAbility;
 
-
-
+/**
+ 手表log日志
+ */
+@property (nonatomic,strong) id<ITPSLogAbility> logAbility;
+/**
+ 健康
+ */
+@property(nonatomic, strong) id<ITPSHealthMonitorAbility> healthMonitorAbility;
 
 @end
 

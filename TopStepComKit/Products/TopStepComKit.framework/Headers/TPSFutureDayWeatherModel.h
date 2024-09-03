@@ -19,11 +19,12 @@
 
 
 @property (nonatomic, assign) long timestamp;
-@property (nonatomic, assign) TPSWeatherDescribeType_ENUM describe;
+@property (nonatomic, assign) TPSWeatherLargeCategory describe;
+@property (nonatomic, assign) TPSWeatherSubType subType;
 @property (nonatomic, assign) int minTemperature;
 @property (nonatomic, assign) int maxTemperature;
 
--(instancetype)initWithTimestamp:(long)timestamp describe:(TPSWeatherDescribeType_ENUM)describe minTemperature:(int)minTemperature maxTemperature:(int)maxTemperature;
+-(instancetype)initWithTimestamp:(long)timestamp describe:(TPSWeatherLargeCategory)describe minTemperature:(int)minTemperature maxTemperature:(int)maxTemperature;
 -(instancetype)initWithFwModel:(FwFutureDayWeatherModel*)fwFutureDayWeatherModel;
 +(NSArray<TPSFutureDayWeatherModel*>*)toTPSArrWithFwArr:(NSArray<FwFutureDayWeatherModel*>*)fwArr;
 +(NSArray<FwFutureDayWeatherModel*>*)toFwArrWithTPSArr:(NSArray<TPSFutureDayWeatherModel*>*)tpsArr;

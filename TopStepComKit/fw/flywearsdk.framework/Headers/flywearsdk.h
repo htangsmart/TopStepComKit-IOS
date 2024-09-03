@@ -106,6 +106,8 @@ FOUNDATION_EXPORT const unsigned char flywearsdkVersionString[];
 #import <flywearsdk/FwHistorySportModel.h>
 #import <flywearsdk/IFwBloodPressureDataAbility.h>
 #import <flywearsdk/FwHistoryBloodPressureModel.h>
+#import <flywearsdk/FwBloodPressureConfigModel.h>
+
 #import <flywearsdk/FwWearFactory.h>
 
 #import <flywearsdk/FwWorldClockModel.h>
@@ -131,4 +133,13 @@ FOUNDATION_EXPORT const unsigned char flywearsdkVersionString[];
 
 #import <flywearsdk/FwUserInfoModel.h>
 #import <flywearsdk/IFwUserInfoAbility.h>
+
+#import <flywearsdk/IFwHealthMonitorAbility.h>
+
+#import <flywearsdk/FwSportPreciseModel.h>
+#import <flywearsdk/FwSportPreciseHeartRateItem.h>
+#import <flywearsdk/FwSportPreciseCaloriesItem.h>
+#import <flywearsdk/FwSportPreciseDistanceItem.h>
+#import <flywearsdk/FwSportPreciseStepItem.h>
+
 

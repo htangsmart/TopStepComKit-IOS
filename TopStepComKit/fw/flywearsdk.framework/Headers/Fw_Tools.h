@@ -129,6 +129,8 @@ typedef void(^Fw_Action)(void);
 
 + (uint16_t)bytesToUint16BigEndian:(uint8_t)byte1 byte2:(uint8_t) byte2 ;
 
++ (uint32_t)bytesToUint16BigEndian:(uint8_t)byte1 byte2:(uint8_t) byte2 byte3:(uint8_t)byte3 byte4:(uint8_t)byte4;
+
 +(NSDate*)toStartOfDate:(NSDate*)toConvertDate;
 
 +(NSData*)convertWavToPcm:(NSString *)inputFilePath outputFilePath:(NSString *)outputFilePath;

@@ -16,10 +16,11 @@
 -(instancetype)init NS_UNAVAILABLE;
 
 @property (nonatomic, assign) long timestamp;
-@property (nonatomic, assign) FwWeatherDescribeType_ENUM describe;
+@property (nonatomic, assign) FwWeatherLargeCategory describe;
+@property (nonatomic, assign) FwWeatherSubType subType;
 @property (nonatomic, assign) int temperature;
 
--(instancetype)initWithTimestamp:(long)timestamp describe:(FwWeatherDescribeType_ENUM)describe temperature:(int)temperature;
+-(instancetype)initWithTimestamp:(long)timestamp describe:(FwWeatherLargeCategory)describe subType:(FwWeatherSubType)subType temperature:(int)temperature;
 
 @end
 

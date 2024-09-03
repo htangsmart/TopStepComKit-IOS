@@ -17,7 +17,8 @@
 +(instancetype)new NS_UNAVAILABLE;
 -(instancetype)init NS_UNAVAILABLE;
 
-@property (nonatomic, assign) TPSWeatherDescribeType_ENUM describe;
+@property (nonatomic, assign) TPSWeatherLargeCategory describe;
+@property (nonatomic, assign) TPSWeatherSubType subType;
 @property (nonatomic, assign) int curTemperature;
 @property (nonatomic, assign) int minTemperature;
 @property (nonatomic, assign) int maxTemperature;

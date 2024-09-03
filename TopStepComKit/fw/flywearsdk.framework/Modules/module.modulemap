@@ -4,8 +4,3 @@ framework module flywearsdk {
 
   module * { export * }
 }
-
-module flywearsdk.Swift {
-  header "flywearsdk-Swift.h"
-  requires objc
-}

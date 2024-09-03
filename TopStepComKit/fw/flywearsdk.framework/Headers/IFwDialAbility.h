@@ -84,6 +84,11 @@ typedef void(^FwDialGetCurDialCallback)(FwDialModel* model);
  */
 - (void)registerWatchDialBeenChanged:(void(^)(NSString *selectedDialId))changedBlock;
 
+/*
+ * @brief 取消传输
+ */
+- (void)cancelPushDialWithName:(NSString *)dialName;
+
                              
 @end
 

@@ -20,7 +20,8 @@ typedef NS_ENUM(UInt8, TPSHistorySleep_Type){
     TPSHistorySleep_Type_Wake = 5,
 };
 
-//该段睡眠归属于哪一天,该天的零时时间戳秒。之所以有这个字段，是因为有的跨天睡眠归属日期会根据不同的项目有不同。该值不等同于睡眠其实时间戳所表示的当日零时日期。
+//该段睡眠归属于哪一天,该天的零时时间戳秒。之所以有这个字段，是因为有的跨天睡眠归属日期会根据不同的项目有不同。该值不等同于睡眠所在的日期(譬如跨凌晨零点睡眠的情况下不等同于睡眠所在的日期，还有有的项目21:30后的睡眠都归类为属于次日的睡眠)。
+//在BES项目上，这个值已经由手表计算给出。在Fitcloud上，这个值由sdk根据产品规则计算
 @property(nonatomic, assign) long belongDay;
 //TSDB记录该数据的时间戳，不一定等同于睡眠其实时间,秒
 @property(nonatomic, assign) long record_time;

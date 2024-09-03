@@ -27,9 +27,6 @@
 @property(nonatomic, strong) NSString* mobo;
 @property(nonatomic, strong) NSString* projectId;
 @property(nonatomic, strong) NSString* mac;
-@property(nonatomic, strong) NSString* deviceModel;
-@property(nonatomic, strong) NSString* deviceSn;
-
 
 @property(nonatomic, strong) NSString* device_model;
 @property(nonatomic, strong) NSString* device_sn;

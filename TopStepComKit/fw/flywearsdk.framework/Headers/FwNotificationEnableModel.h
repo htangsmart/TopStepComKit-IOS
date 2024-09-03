@@ -71,7 +71,7 @@ typedef NS_ENUM(UInt8, FwNotification_Type){
 };
 
 @property(nonatomic, assign) FwNotification_Type type;
-@property(nonatomic, strong) NSString* name;
+@property(nonatomic, copy, readonly) NSString* name;
 @property(nonatomic, assign) BOOL enable;
 
 

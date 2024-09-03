@@ -67,6 +67,16 @@ typedef NS_OPTIONS(NSInteger, TSDataType) {
 /// @param timeEnd 查询结束时间戳
 /// @param block 查询结果{ TSDataType : array }
 - (void)getHistoryDataWithType:(TSDataType)type userID:(NSString *_Nullable)userID timeStart:(NSTimeInterval)timeStart timeEnd:(NSTimeInterval)timeEnd resultBlock:(void(^_Nullable)(NSDictionary<NSNumber *, NSArray *> * _Nullable result))block;
+
+/// 查询SDK缓存数据
+/// @param type 查询的数据的类型
+/// @param sportStart 查询运动数据开始时间戳
+/// @param sportEnd 查询运动数据结束时间戳
+/// @param otherStart 查询其他数据开始时间戳
+/// @param otherEnd 查询其他数据结束时间戳
+/// @param block 查询结果{ TSDataType : array }
+- (void)getHistoryDataWithType:(TSDataType)type userID:(NSString *_Nullable)userID sportStart:(NSTimeInterval)sportStart sportEnd:(NSTimeInterval)sportEnd otherStart:(NSTimeInterval)otherStart otherEnd:(NSTimeInterval)otherEnd resultBlock:(void(^_Nullable)(NSDictionary<NSNumber *, NSArray *> * _Nullable result))block;
+
 @end
 
 

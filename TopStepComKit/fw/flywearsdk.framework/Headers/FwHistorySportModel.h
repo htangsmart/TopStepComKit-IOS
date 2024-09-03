@@ -9,6 +9,7 @@
 #define HistorySportModel_h
 
 #import <flywearsdk/FwSportItemModel.h>
+#import <flywearsdk/FwSportPreciseModel.h>
 
 @interface FwHistorySportModel : NSObject
 
@@ -169,46 +170,59 @@ typedef NS_ENUM(UInt8, FwSportDes_Type){
 @property (nonatomic, assign) double distance;//距离米
 @property (nonatomic, assign) double calories;//单位千卡
 @property (nonatomic, assign) int heartrate;
+//一些总结数据，20240828后添加
+@property (nonatomic, assign) int maxHeartrate;
+@property (nonatomic, assign) int minHeartrate;
+@property (nonatomic, assign) int avgHeartrate;
+@property (nonatomic, assign) int maxCadence;
+@property (nonatomic, assign) int minCadence;
+@property (nonatomic, assign) int avgCadence;
+@property (nonatomic, assign) int maxPace;
+@property (nonatomic, assign) int minPace;
+@property (nonatomic, assign) int avgPace;
 /**
- 配速 单位秒/百米
+ 配速 单位秒/千米
  */
-@property (nonatomic, assign) double pace;//单位秒/百米
+@property (nonatomic, assign) double pace;//单位秒/千米
+
+//step  跳绳：代表次数，划船：代表划船次数，运动就是 步数
 @property (nonatomic, assign) int step;
 /**
  步频，单位步/分钟
  */
 @property (nonatomic, assign) double cadence;//单位步/分钟
 /**
- 热身级别的运动时长，单位分钟
+ 热身级别的运动时长，单位second
  */
 @property (nonatomic, assign) double warm_time;
 /**
- 燃脂级别的运动时长，单位分钟
+ 燃脂级别的运动时长，单位second
  */
-@property (nonatomic, assign) double light_time;//单位分钟
+@property (nonatomic, assign) double light_time;
 /**
- 有氧级别的运动时长，单位分钟
+ 有氧级别的运动时长，单位second
  */
-@property (nonatomic, assign) double high_time;//单位分钟
+@property (nonatomic, assign) double high_time;
 /**
- 无氧级别的运动时长，单位分钟
+ 无氧级别的运动时长，单位second
  */
-@property (nonatomic, assign) double critical_time;//单位分钟
+@property (nonatomic, assign) double critical_time;
 /**
- 极限级别的运动时长，单位分钟
+ 极限级别的运动时长，单位second
  */
 @property (nonatomic, assign) double limit_time;//单位分钟
 
+// 绊绳次数
+@property (nonatomic, assign) double stop;
+// 最大连跳
+@property (nonatomic, assign) double jump;
 
-@property (nonatomic, assign) int maxHeartrate;
-@property (nonatomic, assign) int minHeartrate;
-@property (nonatomic, assign) double maxCadence;
-@property (nonatomic, assign) double minCadence;
-@property (nonatomic, assign) double maxPace;
-@property (nonatomic, assign) double minPace;
+
 
 
 @property (nonatomic, strong) NSMutableArray<FwSportItemModel*>* detailItemList;
+@property (nonatomic, strong) FwSportPreciseModel* sportPreciseModel;
+@property (nonatomic, strong) NSMutableDictionary* extraInfo;
 
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;
 -(instancetype)initWithNSData:(NSData*)jsonData;

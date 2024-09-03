@@ -137,6 +137,8 @@ typedef void(^TPS_ActionString)(NSString*);
 
 +(void)mp3ToPCMWithMp3File:(NSString*)mp3FilePath outPutPCMPath:(NSString*)outPutPCMPath sampleRate:(int)sampleRate bitDepth:(int)bitDepth block:(TPS_Action)block;
 
++(BOOL)is12HourFormat;
+
 @end
 
 

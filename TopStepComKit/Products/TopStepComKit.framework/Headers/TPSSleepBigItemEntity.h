@@ -18,6 +18,10 @@ typedef NS_ENUM(UInt8, TPSSleepAnalyEntity_Sleep_Type){
     TPSSleepAnalyEntity_Sleep_Type_Nap = 3,
 };
 
+-(instancetype)init NS_UNAVAILABLE;
+
+-(instancetype)initWithSmallItemList:(NSMutableArray<TPSHistorySleepModel *> *)smallItemList isNightSleep:(BOOL)isNightSleep;
+
 @property(nonatomic,assign) long start_time;
 @property(nonatomic,assign) long end_time;
 @property(nonatomic,assign) double deepMinute;
@@ -46,6 +50,7 @@ typedef NS_ENUM(UInt8, TPSSleepAnalyEntity_Sleep_Type){
 @property(nonatomic,assign) int totalSleepSeconds;
 @property(nonatomic,assign) TPSSleepAnalyEntity_Sleep_Type type;
 @property(nonatomic,strong) NSMutableArray<TPSHistorySleepModel*>* smallItemList;
+@property(nonatomic,assign) BOOL isNightSleep;
 
 @end
 

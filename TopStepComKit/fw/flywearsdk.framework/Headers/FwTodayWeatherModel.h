@@ -16,7 +16,8 @@
 +(instancetype)new NS_UNAVAILABLE;
 -(instancetype)init NS_UNAVAILABLE;
 
-@property (nonatomic, assign) FwWeatherDescribeType_ENUM describe;
+@property (nonatomic, assign) FwWeatherLargeCategory describe;
+@property (nonatomic, assign) FwWeatherSubType subType;
 @property (nonatomic, assign) int curTemperature;
 @property (nonatomic, assign) int minTemperature;
 @property (nonatomic, assign) int maxTemperature;
@@ -37,6 +38,7 @@
 -(instancetype)initWithCurTemperature:(int)curTemperature 
                        minTemperature:(int)minTemperature
                        maxTemperature:(int)maxTemperature
+                             describe:(FwWeatherLargeCategory)describe subType:(FwWeatherSubType)subType
                           airpressure:(int)airpressure
                                  wind:(int)wind
                             windAngle:(int)windAngle

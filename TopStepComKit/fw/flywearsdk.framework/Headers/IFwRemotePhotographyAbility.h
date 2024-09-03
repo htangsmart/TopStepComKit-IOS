@@ -5,11 +5,11 @@
 //  Created by 磐石 on 2024/3/22.
 //
 
-#import <Foundation/Foundation.h>
+#import <flywearsdk/IFwWearBaseAbility.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol IFwRemotePhotographyAbility <NSObject>
+@protocol IFwRemotePhotographyAbility <NSObject,IFwWearBaseAbility>
 
 + (instancetype)share;
 

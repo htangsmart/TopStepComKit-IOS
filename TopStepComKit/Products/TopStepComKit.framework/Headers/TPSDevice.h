@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <TopStepComKit/TPSOptions.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -28,6 +29,8 @@ typedef NS_ENUM(NSUInteger, TPSDeviceType) {
 @interface TPSDevice : NSObject
 
 + (instancetype)share;
+
+@property(nonatomic, strong) TPSOptions* tpsOption;
 
 
 /*
