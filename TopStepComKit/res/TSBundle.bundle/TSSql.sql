@@ -163,8 +163,20 @@ CREATE TABLE IF NOT EXISTS tb_activity_record (
     data                BLOB                                /* ??? */
 );
 
+
 /* 跑步运动信息 添加运动心率 次/min */
 ALTER TABLE [tb_sport_running] ADD [heartRate] INT NOT NULL DEFAULT 0;
 /* 跑步运动信息 热量 小卡 */
 ALTER TABLE [tb_sport_running] ADD [calorie] INT NOT NULL DEFAULT 0;
+
+
+/* 运动心率表 */
+CREATE TABLE IF NOT EXISTS tb_sport_heartrate (
+    ID                  INTEGER PRIMARY KEY AUTOINCREMENT,  /* 数据ID */
+    user_id             TEXT,                               /* 用户ID */
+    device_mac          TEXT,                               /* 设备mac地址(设备ID) */
+    sport_id            INT,                                /* 运动记录ID（时间戳） */
+    heartrate           INT,                                /* 心率值 */
+    timestamp           DOUBLE                              /* 心率采样时间（时间戳） */
+);
 

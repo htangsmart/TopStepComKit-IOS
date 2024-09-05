@@ -176,23 +176,23 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
 @property (nonatomic, assign) int step;
 @property (nonatomic, assign) double cadence;//单位步/分钟
 /**
- 热身级别的运动时长，单位分钟
+ 热身级别的运动时长，单位s, warmUp
  */
 @property (nonatomic, assign) double warm_time;
 /**
- 燃脂级别的运动时长，单位s
+ 燃脂级别的运动时长，单位s,  fatBurning
  */
 @property (nonatomic, assign) double light_time;//单位 s
 /**
- 有氧级别的运动时长，单位 s
+ 有氧级别的运动时长，单位 s aerobic
  */
 @property (nonatomic, assign) double high_time;//单位 s
 /**
- 无氧级别的运动时长，单位 s
+ 无氧级别的运动时长，单位 s anaerobic
  */
 @property (nonatomic, assign) double critical_time;//单位 s
 /**
- 极限级别的运动时长，单位 s
+ 极限级别的运动时长，单位 s heartLimit
  */
 @property (nonatomic, assign) double limit_time;//单位 s
 

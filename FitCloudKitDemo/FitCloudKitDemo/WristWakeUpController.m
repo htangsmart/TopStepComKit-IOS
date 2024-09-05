@@ -28,6 +28,9 @@
     [FitCloudKit getWristWakeUpSettingWithBlock:^(BOOL succeed, FitCloudWWUObject *wwuSetting, NSError *error) {
         //wwuSetting.on;
     }];
+    [FitCloudKit getDNDSettingWithBlock:^(BOOL succeed, FitCloudDNDSetting *dndSetting, NSError *error) {
+            //重新获取并设置app上的按钮 Retrieve and reset buttons on the app
+    }];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
