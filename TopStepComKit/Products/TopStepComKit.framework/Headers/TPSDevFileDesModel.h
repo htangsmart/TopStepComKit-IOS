@@ -8,7 +8,7 @@
 #ifndef TPSDevFileDesModel_h
 #define TPSDevFileDesModel_h
 
-@class FwDevFileDesModel;
+
 @interface TPSDevFileDesModel : NSObject
 
 @property(nonatomic, strong) NSString* fileName;
@@ -18,8 +18,6 @@
 @property(nonatomic, assign) BOOL isDirector;
 @property(nonatomic, strong) NSMutableArray<TPSDevFileDesModel*>* subFiles;
 
--(instancetype)initWithFwModel:(FwDevFileDesModel*)fwDevFileDesModel;
-+(NSArray<TPSDevFileDesModel*>*)toArrayWithFwModelArr:(NSArray<FwDevFileDesModel*>*)fwArr;
 
 @end
 

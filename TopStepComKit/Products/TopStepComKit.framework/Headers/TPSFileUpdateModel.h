@@ -8,7 +8,7 @@
 #ifndef TPSFileUpdateModel_h
 #define TPSFileUpdateModel_h
 
-@class FwFileUpdateModel;
+
 @interface TPSFileUpdateModel : NSObject
 
 typedef NS_ENUM(UInt8, TPSFileUpdateModel_Op){
@@ -24,7 +24,6 @@ typedef NS_ENUM(UInt8, TPSFileUpdateModel_Op){
 
 @property(nonatomic, strong) NSDictionary* extraData;
 
--(FwFileUpdateModel*)toFwModel;
 
 @end
 

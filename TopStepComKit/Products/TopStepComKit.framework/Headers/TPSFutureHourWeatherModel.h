@@ -10,7 +10,6 @@
 
 #import <TopStepComKit/TPSWeatherDescribeType.h>
 
-@class FwFutureHourWeatherModel;
 @class FitCloudHourWeatherObject;
 @interface TPSFutureHourWeatherModel : NSObject
 
@@ -30,10 +29,6 @@
 
 
 -(instancetype)initWithTimestamp:(long)timestamp describe:(TPSWeatherLargeCategory)describe temperature:(int)temperature;
--(instancetype)initWithFwModel:(FwFutureHourWeatherModel*)fwFutureHourWeatherModel;
-+(NSArray<TPSFutureHourWeatherModel*>*)toTPSArrWithFwArr:(NSArray<FwFutureHourWeatherModel*>*)fwArr;
-+(NSArray<FwFutureHourWeatherModel*>*)toFwArrWithTPSArr:(NSArray<TPSFutureHourWeatherModel*>*)tpsArr;
--(FwFutureHourWeatherModel*)toFwModel;
 
 -(FitCloudHourWeatherObject*)toFitModel;
 

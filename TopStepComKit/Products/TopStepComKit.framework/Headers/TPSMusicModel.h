@@ -8,13 +8,10 @@
 #ifndef TPSMusicModel_h
 #define TPSMusicModel_h
 
-@class FwMusicModel;
 @interface TPSMusicModel : NSObject
 
 @property(nonatomic, strong) NSString* fileName;
 
--(instancetype)initWithFwModel:(FwMusicModel*)fwEBookModel;
-+(NSArray<TPSMusicModel*>*)toTPSArrayWithFwModelArr:(NSArray<FwMusicModel*>*)fwArr;
 
 + (NSArray *)toTPSArrayWithFCPArray:(NSArray *)fcpArray;
 

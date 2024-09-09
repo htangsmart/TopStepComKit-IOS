@@ -8,7 +8,7 @@
 #ifndef TPSProgressModel_h
 #define TPSProgressModel_h
 
-@class FwProgressModel;
+
 @interface TPSProgressModel : NSObject
 
 typedef NS_ENUM(UInt8,TPSProgressModel_Event_Type){
@@ -24,7 +24,6 @@ typedef void(^onTPSProgressResult)(TPSProgressModel* model);
 @property(nonatomic, assign) float percent;
 @property(nonatomic, assign) TPSProgressModel_Event_Type eventType;
 
--(instancetype)initWithFwModel:(FwProgressModel*)fwProgressModel;
 
 @end
 

@@ -8,7 +8,6 @@
 #ifndef TPSSportItemModel_h
 #define TPSSportItemModel_h
 
-@class FwSportItemModel;
 @interface TPSSportItemModel : NSObject
 
 @property (nonatomic, assign) long sport_id;
@@ -23,8 +22,6 @@
 @property (nonatomic, assign) int step;
 @property (nonatomic, assign) double cadence;//单位步/分钟
 
--(instancetype)initWithFwModel:(FwSportItemModel*)fwModel;
-+(NSArray<TPSSportItemModel*>*)toTPSArrayWithFwModelArr:(NSArray<FwSportItemModel*>*)fwArr;
 
 @end
 

@@ -11,7 +11,7 @@
 #import <TopStepComKit/TPSWeatherDescribeType.h>
 #import <TopStepComKit/TPSFutureHourWeatherModel.h>
 
-@class FwTodayWeatherModel;
+
 @interface TPSTodayWeatherModel : NSObject
 
 +(instancetype)new NS_UNAVAILABLE;
@@ -51,9 +51,6 @@
 
 
 
--(instancetype)initWithFwModel:(FwTodayWeatherModel*)fwTodayWeatherModel;
-+(NSArray<TPSTodayWeatherModel*>*)toTPSArrWithFwArr:(NSArray<FwTodayWeatherModel*>*)fwArr;
--(FwTodayWeatherModel*)toFwModel;
 
 @end
 

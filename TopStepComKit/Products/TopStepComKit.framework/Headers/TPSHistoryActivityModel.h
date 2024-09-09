@@ -8,7 +8,7 @@
 #ifndef TPSHistoryActivityModel_h
 #define TPSHistoryActivityModel_h
 
-@class FwHistoryActivityModel;
+
 @interface TPSHistoryActivityModel : NSObject
 
 
@@ -36,8 +36,6 @@
 + (int)totalDistanceInArray:(NSArray *)activitys;
 + (int)totalActivityDuringInArray:(NSArray *)activitys;
 
--(instancetype)initWithFwModel:(FwHistoryActivityModel*)fwHistoryActivityModel;
-+(NSArray<TPSHistoryActivityModel*>*)toTPSArrWithFwArr:(NSArray<FwHistoryActivityModel*>*)fwArr;
 
 @end
 

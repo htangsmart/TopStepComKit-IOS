@@ -1224,7 +1224,7 @@
 		</data>
 		<key>Headers/ITPSSPO2Ability.h</key>
 		<data>
-		J+u+ZPX5du9uOqLb80T9B7/uXo4=
+		6MwsnWIK0VRj52s1Zu7wP5/IHH4=
 		</data>
 		<key>Headers/ITPSSleepDataAbility.h</key>
 		<data>
@@ -1268,27 +1268,27 @@
 		</data>
 		<key>Headers/TPSAlarmModel.h</key>
 		<data>
-		DRhofjmLB8BNTE7lZ2hbuKsA7yw=
+		deVeWpQjkVZiV2ybzwcxzhVlOXM=
 		</data>
 		<key>Headers/TPSAlbumUpdateModel.h</key>
 		<data>
-		7cchhND7ivdzAmyY9MUTkK5a4hY=
+		JB4p5I7hFt7JAzvr5XyJuZwPvOg=
 		</data>
 		<key>Headers/TPSConnectResult.h</key>
 		<data>
-		RybrMMqq6JHjwGJ2mPWSMcaCJbw=
+		EIe9k5MkkuC0KxHS3KgYkACGepc=
 		</data>
 		<key>Headers/TPSContactModel.h</key>
 		<data>
-		6fo96uYKdGANJgPP7XBi9a2O3Ro=
+		NSTVVY3UUk5c7PsF6MSsG0Q0we8=
 		</data>
 		<key>Headers/TPSCurDayActivityModel.h</key>
 		<data>
-		fWrY1Rk2ITwvd3sstuFd66NDvqM=
+		XYj6h2KlUIlXKYcQFNwrsxOJTKg=
 		</data>
 		<key>Headers/TPSDayPrayModel.h</key>
 		<data>
-		hkDFG3zOz7Zs7UwmZWtdzVFzY5A=
+		jP7n3ECtrpmVVwPLsF2Oz/bF8iE=
 		</data>
 		<key>Headers/TPSDaySleepEntity.h</key>
 		<data>
@@ -1296,15 +1296,15 @@
 		</data>
 		<key>Headers/TPSDevFileDesModel.h</key>
 		<data>
-		RG+3rjXC6A3LK1Qx/iDYkeEefv4=
+		nutU+D7ELsY7R7+nrOReTRzgBl4=
 		</data>
 		<key>Headers/TPSDevInfoModel.h</key>
 		<data>
-		8SuYznGtmIEGeSWzM9ACKIq3jGg=
+		ZVcUDuP2MQZO7f1LP0UzNrXKMcA=
 		</data>
 		<key>Headers/TPSDevLimitModel.h</key>
 		<data>
-		cBqBod2yMaRFHqpqFwtOCjliSzk=
+		rocV7USqSa+ds2EIRuMqBRCvcRA=
 		</data>
 		<key>Headers/TPSDevice.h</key>
 		<data>
@@ -1316,15 +1316,15 @@
 		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
-		k/NFwfL5rDC7FgdIJprVmBy6F0I=
+		age51k8KzKCkU60JzdVJyISeA0c=
 		</data>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<data>
-		Vk5TDw9InIPWVv2FJVZYyb9mpMA=
+		CAydy0Fiwf1btzD74nZMBwDDgGU=
 		</data>
 		<key>Headers/TPSEBookModel.h</key>
 		<data>
-		nF4FnL5e+6cFrUmltaF41MrVQYE=
+		XrJ+IsnpKcLqNLIqw5eAz57RWcs=
 		</data>
 		<key>Headers/TPSEBookUpdateModel.h</key>
 		<data>
@@ -1332,59 +1332,59 @@
 		</data>
 		<key>Headers/TPSExPeripheral.h</key>
 		<data>
-		FqpKe9uNY4XQgDReXVE4T/hiqxw=
+		hzn6Y5zJDx/e24RQAVB+uYaU3Dc=
 		</data>
 		<key>Headers/TPSExtraConnectParam.h</key>
 		<data>
-		KL6Cjx/oU+2gAFnLODoaTh2r2S8=
+		D05dnNOxM60I4XTuTujRH/w3+qk=
 		</data>
 		<key>Headers/TPSFileUpdateModel.h</key>
 		<data>
-		Ngw/iQEvSBEDf4qM26YkLPzeZeQ=
+		b+Tpx3oiC1acH+6g53Gomb6kzzQ=
 		</data>
 		<key>Headers/TPSFutureDayWeatherModel.h</key>
 		<data>
-		FjEbARXs0kr34DNbfFqtjiQrwRc=
+		ZRFvvl7zLftpfmYeR1FmtxAhCSU=
 		</data>
 		<key>Headers/TPSFutureHourWeatherModel.h</key>
 		<data>
-		sYtP5adWSHafMVxFIbqtbyHiwtI=
+		DiyYC4Im6Xn/IAlRx3mb0N4nhT4=
 		</data>
 		<key>Headers/TPSHistoryActivityModel.h</key>
 		<data>
-		ygoxtv7EKIvxOvkdVfvuueXb/gk=
+		ch5G+Vx7GVq8RjpNKEfbr2dT6UQ=
 		</data>
 		<key>Headers/TPSHistoryBloodPressureModel.h</key>
 		<data>
-		W2LxkJ0SpP0Bh1Dmln/IpoSYAqg=
+		X+mgVaaH52/EL94DDlKZq6T/Noc=
 		</data>
 		<key>Headers/TPSHistoryHeartRateModel.h</key>
 		<data>
-		MZNY/KYspliXk3DNfJRDrX5ftDg=
+		63c7WS1FSlpTMEa5gjS/1K4o52w=
 		</data>
 		<key>Headers/TPSHistorySPO2Model.h</key>
 		<data>
-		sFXl8M/Hn9exYQr+Ly2TPiCLouc=
+		YCNy32OH51Vc2HC+0hf2WX8hsKw=
 		</data>
 		<key>Headers/TPSHistorySleepModel.h</key>
 		<data>
-		RIs2kKhRIu+UlKiou+aWn+P43wM=
+		UGIIHj4QlCtFgUdv7Sjt4sdPnfU=
 		</data>
 		<key>Headers/TPSHistorySportModel.h</key>
 		<data>
-		FIGkGQS/C/RtF+XISbeXlZSMlr0=
+		dgdzHmzTIKFTmksRljGXt/23WuE=
 		</data>
 		<key>Headers/TPSHistoryStressModel.h</key>
 		<data>
-		jdVRvkXbJ3YZgFqhwjTq86uLQVI=
+		1FxzwWUD4QYEo+rz3d2+67+kP2M=
 		</data>
 		<key>Headers/TPSHrConfigModel.h</key>
 		<data>
-		zFIcGeZ/1/Q+skyRpf9dVy5R6IU=
+		F4L29VY75xuPbtW3c3GjNTjQtW8=
 		</data>
 		<key>Headers/TPSLanguageModel.h</key>
 		<data>
-		qzUSEHcxHJOIGef02wv63rxQGBs=
+		QNxK4ItKANA2U8paT+Jkt5588NI=
 		</data>
 		<key>Headers/TPSMangerTool.h</key>
 		<data>
@@ -1392,11 +1392,11 @@
 		</data>
 		<key>Headers/TPSMiscSettingModel.h</key>
 		<data>
-		LAK8t47LVXQCKzpACZctg74YUQg=
+		1eDhrPs4P8pd4trEqpeeRp/HlWw=
 		</data>
 		<key>Headers/TPSMusicModel.h</key>
 		<data>
-		WmF1erZZRKGT2ltR47SWejeQIZg=
+		JkLCgtwZPLZnZoy5the/XU95gxE=
 		</data>
 		<key>Headers/TPSMusicUpdateModel.h</key>
 		<data>
@@ -1404,11 +1404,11 @@
 		</data>
 		<key>Headers/TPSNameCardModel.h</key>
 		<data>
-		SHoCDnx9FEG1bcMsj9aScR10fY8=
+		gerZuh+vmLRWy0h7UFy7DqfMOko=
 		</data>
 		<key>Headers/TPSNotificationEnableModel.h</key>
 		<data>
-		+oZxoonxT0G951R/cct6WRZEcpo=
+		CPxF0Ja5SLFRXpc/3Kiih4Nq1Yg=
 		</data>
 		<key>Headers/TPSOptions.h</key>
 		<data>
@@ -1416,15 +1416,15 @@
 		</data>
 		<key>Headers/TPSPrayModel.h</key>
 		<data>
-		Ge6qO22YKJEx59GkZawPTGTH2QI=
+		JnT5VFaWSXixoTetOZW1mMmyvo0=
 		</data>
 		<key>Headers/TPSProgressModel.h</key>
 		<data>
-		K9ZGs/90QEgaVpKJAJTbB4+pdz4=
+		QPpb9OqYkAk0pbo+bxk2Zspwaz8=
 		</data>
 		<key>Headers/TPSRemindDistrubModel.h</key>
 		<data>
-		AaxX4cMc9URdaiyxn+3hSPcNY0A=
+		2Gg3yA40Cyx874kmvKQc06wGTOU=
 		</data>
 		<key>Headers/TPSRemindSettingModel.h</key>
 		<data>
@@ -1448,11 +1448,11 @@
 		</data>
 		<key>Headers/TPSSpo2ConfigModel.h</key>
 		<data>
-		taP/zcZZ4ssIsceXE5LzwHzez7Q=
+		3BRzIN/Tk1/kcFQDA8I825+OHRI=
 		</data>
 		<key>Headers/TPSSportItemModel.h</key>
 		<data>
-		TOs0N8u0Ky5OLtEuURngOBFA5uQ=
+		zZJeQRXYAOPVAwCSMlKFOFkpnnA=
 		</data>
 		<key>Headers/TPSSportPreciseCaloriesItem.h</key>
 		<data>
@@ -1476,23 +1476,23 @@
 		</data>
 		<key>Headers/TPSSportTargetModel.h</key>
 		<data>
-		NleYFus0eYzq2rEWXevwmVGq0qk=
+		XYi/QSILgnkXrP7gM+JpLofutH4=
 		</data>
 		<key>Headers/TPSStressConfigModel.h</key>
 		<data>
-		pOitqCTaoDV3j1b+bsWW1rpu7/Q=
+		kBK5pOQM0pl+kI++Khh4+U7OdRk=
 		</data>
 		<key>Headers/TPSTodayWeatherModel.h</key>
 		<data>
-		qp8McYYIPZ3ZBzwMyVGJcV6M2Cc=
+		MI23dsRYNFX1c56IBiu5Ld/AGcc=
 		</data>
 		<key>Headers/TPSUserInfoModel.h</key>
 		<data>
-		ucJWF+UYLVj6IkoZXnyvU15pYC0=
+		tz6tY+bENlCAjTPVzScfPixOmvM=
 		</data>
 		<key>Headers/TPSWalletModel.h</key>
 		<data>
-		gg8pUHVENZFK889WrKMJKgrQWcY=
+		vGn+hCz2s73ca365aMQ7qexBFE0=
 		</data>
 		<key>Headers/TPSWearBlockTypeDef.h</key>
 		<data>
@@ -1508,19 +1508,19 @@
 		</data>
 		<key>Headers/TPSWeatherModel.h</key>
 		<data>
-		wfLScAjJ+T0lo4BBR1BUyNRCJQ8=
+		Du6DZQHAheKikZC0Li6IpdFp/ZM=
 		</data>
 		<key>Headers/TPSWebRequestModel.h</key>
 		<data>
-		g7qqYaRwgVvTPPFkgwQVbHPhS4I=
+		hyROGilhy1z3THGMil4JoJ0SR80=
 		</data>
 		<key>Headers/TPSWebResponseModel.h</key>
 		<data>
-		yrG4JIxzbql9T0BC8ADC5UAN0+E=
+		VI5RrPVCxjsl1LmzpnT9ctBu6Oc=
 		</data>
 		<key>Headers/TPSWorldClockModel.h</key>
 		<data>
-		+hYi9Zkp0xT1xQWp0oNtKNdtf+E=
+		pki0qzJl7cyzl1Y8J3jL5m7ZB2M=
 		</data>
 		<key>Headers/TPS_Tools.h</key>
 		<data>
@@ -3469,11 +3469,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J+u+ZPX5du9uOqLb80T9B7/uXo4=
+			6MwsnWIK0VRj52s1Zu7wP5/IHH4=
 			</data>
 			<key>hash2</key>
 			<data>
-			oQXwNafejpSK0IB2bkKxY6s3cQMxsxPmUSK/BPB9Bhk=
+			8sFCDeATkYgD30f3v86TeqPpoB3BO9WXdnMI85vwKxg=
 			</data>
 		</dict>
 		<key>Headers/ITPSSleepDataAbility.h</key>
@@ -3590,66 +3590,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DRhofjmLB8BNTE7lZ2hbuKsA7yw=
+			deVeWpQjkVZiV2ybzwcxzhVlOXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			bytsJCjFQfETBOMJwyuToT174f7AnLTOS46v4BUxMOY=
+			hMhdBLmtLA/CAMMGY0J6sCuwKN9s6nLIG+sd6xEcLfw=
 			</data>
 		</dict>
 		<key>Headers/TPSAlbumUpdateModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7cchhND7ivdzAmyY9MUTkK5a4hY=
+			JB4p5I7hFt7JAzvr5XyJuZwPvOg=
 			</data>
 			<key>hash2</key>
 			<data>
-			YOzh4ujifE3JPO45In/Kd7LZeGFneBRC5qNZIt5YJgs=
+			qYk+QZ0BMcKSb8Y9cjvlz5WoroCAs9YPly/OJzclXoQ=
 			</data>
 		</dict>
 		<key>Headers/TPSConnectResult.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RybrMMqq6JHjwGJ2mPWSMcaCJbw=
+			EIe9k5MkkuC0KxHS3KgYkACGepc=
 			</data>
 			<key>hash2</key>
 			<data>
-			X+s5A8ZauGAlL1JXy7m+n6AcKt37psA4aa6Prz//xoA=
+			5ubexdlU/tbqrX9eYH0eR+3kC9N9wzQQevTqN17Ok/w=
 			</data>
 		</dict>
 		<key>Headers/TPSContactModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6fo96uYKdGANJgPP7XBi9a2O3Ro=
+			NSTVVY3UUk5c7PsF6MSsG0Q0we8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IUQeZg9jwLCFONkur7pvu7rAqzVgeYxnrSP1dbfom+w=
+			oj5JL+9jdqJ7lHvxGw691MBch6QBYi+96k+kakqYGms=
 			</data>
 		</dict>
 		<key>Headers/TPSCurDayActivityModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fWrY1Rk2ITwvd3sstuFd66NDvqM=
+			XYj6h2KlUIlXKYcQFNwrsxOJTKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			HXZ/3SpuVLE1HMutRkNckFeH1j82JGUBNWSidz+CJt0=
+			0TuE4dDJ7NBJiiL5j100qY7zAQxwuko9eHfSMkcIc6o=
 			</data>
 		</dict>
 		<key>Headers/TPSDayPrayModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hkDFG3zOz7Zs7UwmZWtdzVFzY5A=
+			jP7n3ECtrpmVVwPLsF2Oz/bF8iE=
 			</data>
 			<key>hash2</key>
 			<data>
-			W40eYZTN2LVBxpDoT9GLZkvzBZp8mh3TsmQhnsbkYTY=
+			4nIyn48JhsHQZHKQQxZbeD8o2x5vt8QNZLol71hnvH4=
 			</data>
 		</dict>
 		<key>Headers/TPSDaySleepEntity.h</key>
@@ -3667,33 +3667,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RG+3rjXC6A3LK1Qx/iDYkeEefv4=
+			nutU+D7ELsY7R7+nrOReTRzgBl4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pA/jhtzwuVDDCWgVCZXNR+y2ahtn7M9Leox8ZKB1sS4=
+			huHSPoHf9Id1dKZ3tmSV79GHgxUJgLp5bPM09Km3zCY=
 			</data>
 		</dict>
 		<key>Headers/TPSDevInfoModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8SuYznGtmIEGeSWzM9ACKIq3jGg=
+			ZVcUDuP2MQZO7f1LP0UzNrXKMcA=
 			</data>
 			<key>hash2</key>
 			<data>
-			VNAgaQubGoL7zGDBBPDkNZTeonmUb4uQvFslnineaCg=
+			UikgrZ5ZmkUSsUOa8kkX8yBRc9sJEyOcrvPLKPuL/+4=
 			</data>
 		</dict>
 		<key>Headers/TPSDevLimitModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cBqBod2yMaRFHqpqFwtOCjliSzk=
+			rocV7USqSa+ds2EIRuMqBRCvcRA=
 			</data>
 			<key>hash2</key>
 			<data>
-			NnMuylykAX7u+ui38OYFqjMV2xVhdPbtrZ3dHdC6qzI=
+			1oulwpK3cEZ8Lbq3D2kxMZw5QNkQMDy3WTdd7BdpObY=
 			</data>
 		</dict>
 		<key>Headers/TPSDevice.h</key>
@@ -3722,33 +3722,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k/NFwfL5rDC7FgdIJprVmBy6F0I=
+			age51k8KzKCkU60JzdVJyISeA0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			OOhsaAA7AgEyGKurZXjJMZmAaR5Rfbx8ynTzAN/WkUs=
+			oEmPx7vZxe4Urfl2JsGCus7Crcak4NJRecTGUZTiWLg=
 			</data>
 		</dict>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Vk5TDw9InIPWVv2FJVZYyb9mpMA=
+			CAydy0Fiwf1btzD74nZMBwDDgGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			wjGJPBPE+2+qyBVYHUkkZfLjQ3HQ5fCb77+XB36kg+8=
+			l6kT/GYHlrmdeXFWQu1UpsnVcQopvF9L//Bf8T4KWjk=
 			</data>
 		</dict>
 		<key>Headers/TPSEBookModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nF4FnL5e+6cFrUmltaF41MrVQYE=
+			XrJ+IsnpKcLqNLIqw5eAz57RWcs=
 			</data>
 			<key>hash2</key>
 			<data>
-			JiNoStpD6UxKS75+rLalKmQ13etnfKw8hqeFnL83msY=
+			YyidXdrUgX4Wd6QmdakmOCgZa+3yRLlPKJAfXYVcoaU=
 			</data>
 		</dict>
 		<key>Headers/TPSEBookUpdateModel.h</key>
@@ -3766,154 +3766,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FqpKe9uNY4XQgDReXVE4T/hiqxw=
+			hzn6Y5zJDx/e24RQAVB+uYaU3Dc=
 			</data>
 			<key>hash2</key>
 			<data>
-			LJgrc1G4DyNl17d4cRyUN9DMYI6RTGeDdFziVSMD8nQ=
+			sZgrlCabAnzmxDPFR7mwxUa0IixH823W0Dkbp9HTv9I=
 			</data>
 		</dict>
 		<key>Headers/TPSExtraConnectParam.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KL6Cjx/oU+2gAFnLODoaTh2r2S8=
+			D05dnNOxM60I4XTuTujRH/w3+qk=
 			</data>
 			<key>hash2</key>
 			<data>
-			KyLVRw7IQzpfes5CNrjqZExkZB5bp9qg9aTrVoLDMtI=
+			Xg8JACWaEDVimivNCbdcIA1cqAg9U7NEwC4+RHsjMLk=
 			</data>
 		</dict>
 		<key>Headers/TPSFileUpdateModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ngw/iQEvSBEDf4qM26YkLPzeZeQ=
+			b+Tpx3oiC1acH+6g53Gomb6kzzQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			r6QRZPnO00xWVapCiU0zyIeFTjfF5JJdq8q5PC/Ne3w=
+			56AXELlxPVchy9LSezLE1jyY+kkJsVo79Tv9ecL98xM=
 			</data>
 		</dict>
 		<key>Headers/TPSFutureDayWeatherModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FjEbARXs0kr34DNbfFqtjiQrwRc=
+			ZRFvvl7zLftpfmYeR1FmtxAhCSU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q6lf/K0aVlI+dRrZZPOIKNHauZ4VGPXSttewsKanmsk=
+			ABDW8qJW+uBAi3kNhY0OsWZJD3leR/Aw2XeTYxNMBx0=
 			</data>
 		</dict>
 		<key>Headers/TPSFutureHourWeatherModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sYtP5adWSHafMVxFIbqtbyHiwtI=
+			DiyYC4Im6Xn/IAlRx3mb0N4nhT4=
 			</data>
 			<key>hash2</key>
 			<data>
-			JXWtOpdUu10qykhLIUrJhukBKsbcjKr5qoShI/R6rl0=
+			LEVNhoNjAGcsHUt8KHbqoniQjbdM/oD+dVpak8ElxU0=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryActivityModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ygoxtv7EKIvxOvkdVfvuueXb/gk=
+			ch5G+Vx7GVq8RjpNKEfbr2dT6UQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			P1knWTe6vuEBTWiEHfSHm+9an7NWraS0izXPf6mmyB8=
+			ESbOLLheOYsj5K4thVpWXvlfvQq0elX3cYn0Kn2348w=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryBloodPressureModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W2LxkJ0SpP0Bh1Dmln/IpoSYAqg=
+			X+mgVaaH52/EL94DDlKZq6T/Noc=
 			</data>
 			<key>hash2</key>
 			<data>
-			KREvLAgl/mmCvu/kfhxOhJPlcE23j/JWtuZE61gRrf8=
+			fV5i0isauboMbJKzbpfH1UGlbBHOH9hp2lisSWgrIy8=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryHeartRateModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MZNY/KYspliXk3DNfJRDrX5ftDg=
+			63c7WS1FSlpTMEa5gjS/1K4o52w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ICosLEete1UMagFr8TvxGB3VvkaS3bjVKa6010e5PXM=
+			npxJt38t6rx0m8wcKacHlHI4K+PeB/uT1NqYvwqHO2Q=
 			</data>
 		</dict>
 		<key>Headers/TPSHistorySPO2Model.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sFXl8M/Hn9exYQr+Ly2TPiCLouc=
+			YCNy32OH51Vc2HC+0hf2WX8hsKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			CLa09XmnSw/WOtdDS8hSs1X8iOMsloS160bQspqgLZ8=
+			ib9h+W9G7eqq5srG/Pa5PZWqB38qyfN5Gi3/roFxYe4=
 			</data>
 		</dict>
 		<key>Headers/TPSHistorySleepModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RIs2kKhRIu+UlKiou+aWn+P43wM=
+			UGIIHj4QlCtFgUdv7Sjt4sdPnfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			c8q66WYWVS3f3Nqz6c+x0urDM0mCn8fOX1j5PKP61Y8=
+			xjBwfl+X8/wENhuOC0EFynE9kSzwk85Bfpk/cBFsM9o=
 			</data>
 		</dict>
 		<key>Headers/TPSHistorySportModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FIGkGQS/C/RtF+XISbeXlZSMlr0=
+			dgdzHmzTIKFTmksRljGXt/23WuE=
 			</data>
 			<key>hash2</key>
 			<data>
-			gI7FQxRj7Wd1gmKr7MHxMwiCJqYoERHWKP33JGuDJmc=
+			jKN3cejGksNLs3Bv9LYaPibomcKoEXJb5OXlTXaEaSc=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryStressModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jdVRvkXbJ3YZgFqhwjTq86uLQVI=
+			1FxzwWUD4QYEo+rz3d2+67+kP2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			j5LVaM1ThkJF+6AiBhz+GqZ8VW4d3PVEW/trr6hUdDA=
+			HH3IPvOS04Dbq1Z7ZdIinX+RvMr9dPeMf+ILp3zw6iM=
 			</data>
 		</dict>
 		<key>Headers/TPSHrConfigModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zFIcGeZ/1/Q+skyRpf9dVy5R6IU=
+			F4L29VY75xuPbtW3c3GjNTjQtW8=
 			</data>
 			<key>hash2</key>
 			<data>
-			WHK4vK0kcBUOJ/deESEbzXFlmgvyLhdaPIK3N/7YUR8=
+			lNB28x8nFhEr4Dcesjo3Z9tT2b6NKizgELu6xZzvuJc=
 			</data>
 		</dict>
 		<key>Headers/TPSLanguageModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qzUSEHcxHJOIGef02wv63rxQGBs=
+			QNxK4ItKANA2U8paT+Jkt5588NI=
 			</data>
 			<key>hash2</key>
 			<data>
-			KTAtlEJlnUDOUtWR1g8Zmub9GTLrERHsoFVfjcjm8PY=
+			J1oJfpEeYgqGIdQpxwN9kLNGUnTzo672Cvnb4TMLbno=
 			</data>
 		</dict>
 		<key>Headers/TPSMangerTool.h</key>
@@ -3931,22 +3931,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LAK8t47LVXQCKzpACZctg74YUQg=
+			1eDhrPs4P8pd4trEqpeeRp/HlWw=
 			</data>
 			<key>hash2</key>
 			<data>
-			dJhg2O+CbJ7G4/nfG3kWVTnVAR3k5Dtgc8AOJEqPxT4=
+			HjBnp3hshmFtmHinfqGhszyANSh85DoBDn5OiKemZ+I=
 			</data>
 		</dict>
 		<key>Headers/TPSMusicModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WmF1erZZRKGT2ltR47SWejeQIZg=
+			JkLCgtwZPLZnZoy5the/XU95gxE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5jJeies2nRiWDB5pzn0OwsDHlL+KwkIjPZWI7TJf9pY=
+			LNDHNhRB3GRy89ZeMdryjYXZoKi+MKyRvWGv3Z5Vksg=
 			</data>
 		</dict>
 		<key>Headers/TPSMusicUpdateModel.h</key>
@@ -3964,22 +3964,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SHoCDnx9FEG1bcMsj9aScR10fY8=
+			gerZuh+vmLRWy0h7UFy7DqfMOko=
 			</data>
 			<key>hash2</key>
 			<data>
-			n8ScqJ681qqCIA0WdPHg5jAK171zWN/2gHB0VDQ2Jk8=
+			1bcnWzvyLDju4jJ29S+H2rrKeFCx9ZTG6OddPpB6ZtA=
 			</data>
 		</dict>
 		<key>Headers/TPSNotificationEnableModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+oZxoonxT0G951R/cct6WRZEcpo=
+			CPxF0Ja5SLFRXpc/3Kiih4Nq1Yg=
 			</data>
 			<key>hash2</key>
 			<data>
-			xon0X4TcesE+ZI8YFPqQcGAo1n+bDcqY8a5AvQ6QbvE=
+			2czx+lW9DSz83nczr8iRVZAKssnUsdsCpoW8pboWhnE=
 			</data>
 		</dict>
 		<key>Headers/TPSOptions.h</key>
@@ -3997,33 +3997,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ge6qO22YKJEx59GkZawPTGTH2QI=
+			JnT5VFaWSXixoTetOZW1mMmyvo0=
 			</data>
 			<key>hash2</key>
 			<data>
-			rSWF3QXl+34toC0sH0FBe+SDr6SxtdwMDWbNbpHrVSM=
+			wEcbPRj8qnjfGw2T2QzdxWQLEEhq2k9Ik62rGIQKFdk=
 			</data>
 		</dict>
 		<key>Headers/TPSProgressModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K9ZGs/90QEgaVpKJAJTbB4+pdz4=
+			QPpb9OqYkAk0pbo+bxk2Zspwaz8=
 			</data>
 			<key>hash2</key>
 			<data>
-			KkKSY07A9G8Ia+6Squ0oqOG89UgOho5vo1J1aHQqRxE=
+			OwoDeQPT1Ai/O/xDBCTxIeY8nBNeEat3iV08HkiWlXI=
 			</data>
 		</dict>
 		<key>Headers/TPSRemindDistrubModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AaxX4cMc9URdaiyxn+3hSPcNY0A=
+			2Gg3yA40Cyx874kmvKQc06wGTOU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y/0kU/QoA6bdMo2DU1IAPO6vkUWpES9cU+2nZ2XewnA=
+			iSKyesNj4K+CiiNgfVlxEufj1wstrBCQ+SOgFd4ZQ0o=
 			</data>
 		</dict>
 		<key>Headers/TPSRemindSettingModel.h</key>
@@ -4085,22 +4085,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			taP/zcZZ4ssIsceXE5LzwHzez7Q=
+			3BRzIN/Tk1/kcFQDA8I825+OHRI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XkJIu4P35HrK/Z3cuTTotLs2qM8i7f8Jnnod06ulq5s=
+			Ibjd/QWZggA6yTe1dYC6XHVO9WjnUyDhYx2PUl2VADI=
 			</data>
 		</dict>
 		<key>Headers/TPSSportItemModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TOs0N8u0Ky5OLtEuURngOBFA5uQ=
+			zZJeQRXYAOPVAwCSMlKFOFkpnnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			dmMP5VpTeUMiLMnajxHDclqwG/r82Yr109tj+e+ATzU=
+			rB9Ciy7SwRabJ9ldCeKmTtZI1LwASVOW5mf69LhawtY=
 			</data>
 		</dict>
 		<key>Headers/TPSSportPreciseCaloriesItem.h</key>
@@ -4162,55 +4162,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NleYFus0eYzq2rEWXevwmVGq0qk=
+			XYi/QSILgnkXrP7gM+JpLofutH4=
 			</data>
 			<key>hash2</key>
 			<data>
-			deC47GihuhrGpOJUjbTdS8StkkIIDq5L4Qkunyr7Pjc=
+			5QWmnF7yw1bVHuz2Eyss3p+YfxXOiom5d1NNXjuje88=
 			</data>
 		</dict>
 		<key>Headers/TPSStressConfigModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pOitqCTaoDV3j1b+bsWW1rpu7/Q=
+			kBK5pOQM0pl+kI++Khh4+U7OdRk=
 			</data>
 			<key>hash2</key>
 			<data>
-			kSl0YEONlEyiy5wbZPehBcpQdtl+Lotyr6wfCi0LBPA=
+			NG3opx3TPi6Gk/1+8wdGNaV2ZHxXRCYdOYiqPfbBI6M=
 			</data>
 		</dict>
 		<key>Headers/TPSTodayWeatherModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qp8McYYIPZ3ZBzwMyVGJcV6M2Cc=
+			MI23dsRYNFX1c56IBiu5Ld/AGcc=
 			</data>
 			<key>hash2</key>
 			<data>
-			BT/KXPflINIvby/iG8PogfCd1iPsTliKQC8yzWzlF8k=
+			lbPDIWYLJ1TXWSywyDiPfWgvwhiqe0lRV+arBwK/XRQ=
 			</data>
 		</dict>
 		<key>Headers/TPSUserInfoModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ucJWF+UYLVj6IkoZXnyvU15pYC0=
+			tz6tY+bENlCAjTPVzScfPixOmvM=
 			</data>
 			<key>hash2</key>
 			<data>
-			9JDtUH+TwsmRK2lbg/xlubdUTCuVkkjQRAOToYLiDRI=
+			Kl0FpxDxKotASnoQby7Xf8cna6LtsLUe3Ps7qwUhuUM=
 			</data>
 		</dict>
 		<key>Headers/TPSWalletModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gg8pUHVENZFK889WrKMJKgrQWcY=
+			vGn+hCz2s73ca365aMQ7qexBFE0=
 			</data>
 			<key>hash2</key>
 			<data>
-			BaFfmDPlFpkOk2mwC6R9Cd1RutVLEsD8av3Ov0XsiZg=
+			2RMqn0ctfkgdiH1OghLxSCU8JxHvh1FS9JzEitLCz1k=
 			</data>
 		</dict>
 		<key>Headers/TPSWearBlockTypeDef.h</key>
@@ -4250,44 +4250,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wfLScAjJ+T0lo4BBR1BUyNRCJQ8=
+			Du6DZQHAheKikZC0Li6IpdFp/ZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			PTZwyilwAr5FgVtU4/xVE7DpEg3uit7wkSz8xqJLZSo=
+			AzVNmIW1PCvdqjwkPsimGoKtETjfaXyln/TsDGlDHFg=
 			</data>
 		</dict>
 		<key>Headers/TPSWebRequestModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g7qqYaRwgVvTPPFkgwQVbHPhS4I=
+			hyROGilhy1z3THGMil4JoJ0SR80=
 			</data>
 			<key>hash2</key>
 			<data>
-			THFTNu4dmV8CMQggCIDOR5ZvWs+W7ogVtW9Q+PjgxLo=
+			MbcFwfUGol/VdL/NdzEc4E/6BWGkW+a3mVG6wB0o5mc=
 			</data>
 		</dict>
 		<key>Headers/TPSWebResponseModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yrG4JIxzbql9T0BC8ADC5UAN0+E=
+			VI5RrPVCxjsl1LmzpnT9ctBu6Oc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZX1eexIxpftNZMQ9WMOLUNg/9+UI2I+NpcChDc70PSc=
+			EDF8A6Cg+cw12CWpc74i9soT0/ZJDUE6yAvECBmUz1Q=
 			</data>
 		</dict>
 		<key>Headers/TPSWorldClockModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+hYi9Zkp0xT1xQWp0oNtKNdtf+E=
+			pki0qzJl7cyzl1Y8J3jL5m7ZB2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			ANXrM17V+iPz1iGmEXe8Qgr9T23bsoDYvZixXzhpvgA=
+			ZUxAlWeyi1PDKzlDCUF+Ra7qQiYVqHYQ1SintTXIF84=
 			</data>
 		</dict>
 		<key>Headers/TPS_Tools.h</key>

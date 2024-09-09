@@ -10,7 +10,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class  FitCloudUserProfileObject;
-@class  FwUserInfoModel;
 
 typedef NS_ENUM(NSInteger, TPSUserGenderType) {
     eTPSUserGenderTypeUnknow = -1,   // 未知
@@ -30,9 +29,6 @@ typedef NS_ENUM(NSInteger, TPSUserGenderType) {
 
 - (FitCloudUserProfileObject *)toFitModel;
 
-- (FwUserInfoModel *)toFwModel;
-
-+ (instancetype)initWithFwModel:(FwUserInfoModel *)fwModel;
 
 @end
 

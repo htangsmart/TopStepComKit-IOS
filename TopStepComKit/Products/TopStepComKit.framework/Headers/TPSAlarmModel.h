@@ -23,7 +23,7 @@ typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
 };
 
 @class FitCloudAlarmObject;
-@class FwAlarmModel;
+
 @interface TPSAlarmModel : NSObject
 
 @property(nonatomic,assign)int alarmId;
@@ -36,16 +36,14 @@ typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
 @property (nonatomic, copy) NSString * remark;
 @property (nonatomic, assign) TPSAlarmRepeat repeatOptions;
 
--(instancetype)initWithFwModel:(FwAlarmModel*)fwAlarmModel;
--(FwAlarmModel*)toFwModel;
+
 
 
 -(instancetype)initWithFCPModel:(FitCloudAlarmObject*)fcpAlarmModel;
 -(FitCloudAlarmObject*)toFCPModel;
 
 
-+(NSArray<FwAlarmModel*>*)toFwArrayWithTPSModelArr:(NSArray<TPSAlarmModel*>*)tpsArr;
-+(NSArray<TPSAlarmModel*>*)toTPSArrayWithFwModelArr:(NSArray<FwAlarmModel*>*)fwArr;
+
 +(NSArray<TPSAlarmModel*>*)toTPSArrayWithFCPModelArr:(NSArray<FitCloudAlarmObject*>*)fcpArr;
 
 

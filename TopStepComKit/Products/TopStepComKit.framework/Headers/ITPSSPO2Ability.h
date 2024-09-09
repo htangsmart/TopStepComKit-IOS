@@ -13,7 +13,7 @@
 #import <TopStepComKit/TPSWearBlockTypeDef.h>
 #import <TopStepComKit/TPSSpo2ConfigModel.h>
 
-@class FwSpo2ConfigModel;
+
 @protocol ITPSSPO2Ability <NSObject,ITPSWearBaseAbility>
 
 typedef void(^TPSHistorySPO2Callback)(NSArray<TPSHistorySPO2Model*>* _Nullable historySPO2ModelList);

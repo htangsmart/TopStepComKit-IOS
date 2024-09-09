@@ -12,7 +12,7 @@
 #import <TopStepComKit/TPSSportPreciseModel.h>
 #import <TopStepComKit/TPSSportPreciseHeartRateItem.h>
 
-@class FwHistorySportModel;
+
 @interface TPSHistorySportModel : NSObject
 
 typedef NS_ENUM(UInt8, TPSSportDes_Type){
@@ -227,7 +227,6 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
 -(void)caculateOtherWithStep:(int)step distance:(double)distance duration:(double)duration weight:(double)weight;
 -(double)getSpeedInMeterPerSecond;
 
--(instancetype)initWithFwModel:(FwHistorySportModel*)fwHistorySportModel;
 
 @end
 

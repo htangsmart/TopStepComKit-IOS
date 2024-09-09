@@ -9,7 +9,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class FwDevLimitModel;
 
 @interface TPSDevLimitModel : NSObject
 
@@ -23,7 +22,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,assign) NSInteger remind;//个性化提醒中自定义提醒的最大个数
 
--(instancetype)initWithFwLimit:(FwDevLimitModel *)limitModel;
 
 @end
 

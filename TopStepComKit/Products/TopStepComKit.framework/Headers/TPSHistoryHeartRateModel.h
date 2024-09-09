@@ -8,7 +8,6 @@
 #ifndef TPSHistoryHeartRateModel_h
 #define TPSHistoryHeartRateModel_h
 
-@class FwHistoryHeartRateModel;
 @interface TPSHistoryHeartRateModel : NSObject
 
 @property (nonatomic, assign) long timestamp;
@@ -21,10 +20,6 @@
 
 -(NSData*)toJsonNSData;
 
--(instancetype)initWithFwModel:(FwHistoryHeartRateModel*)fwHistoryHeartRateModel;
-
-
-+(NSArray<TPSHistoryHeartRateModel*>*)toTPSArrWithFwArr:(NSArray<FwHistoryHeartRateModel*>*)fwArr;
 
 
 +(NSArray<TPSHistoryHeartRateModel*>*)heartRateModelFormArray:(NSArray<NSDictionary*>*)fitcloudModelArray;

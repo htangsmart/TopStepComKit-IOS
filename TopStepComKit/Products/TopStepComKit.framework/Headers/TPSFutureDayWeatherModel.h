@@ -10,7 +10,7 @@
 
 #import <TopStepComKit/TPSWeatherDescribeType.h>
 
-@class FwFutureDayWeatherModel;
+
 @interface TPSFutureDayWeatherModel : NSObject
 
 +(instancetype)new NS_UNAVAILABLE;
@@ -25,10 +25,7 @@
 @property (nonatomic, assign) int maxTemperature;
 
 -(instancetype)initWithTimestamp:(long)timestamp describe:(TPSWeatherLargeCategory)describe minTemperature:(int)minTemperature maxTemperature:(int)maxTemperature;
--(instancetype)initWithFwModel:(FwFutureDayWeatherModel*)fwFutureDayWeatherModel;
-+(NSArray<TPSFutureDayWeatherModel*>*)toTPSArrWithFwArr:(NSArray<FwFutureDayWeatherModel*>*)fwArr;
-+(NSArray<FwFutureDayWeatherModel*>*)toFwArrWithTPSArr:(NSArray<TPSFutureDayWeatherModel*>*)tpsArr;
--(FwFutureDayWeatherModel*)toFwModel;
+
 
 //@"timestamp":t,
 //@"describe":[self getDesWithCode:[next7DayArr[i][@"code"] intValue]],

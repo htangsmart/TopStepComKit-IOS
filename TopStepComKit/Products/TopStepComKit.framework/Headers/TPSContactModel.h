@@ -13,7 +13,6 @@
 
 @class FitCloudContactObject;
 @class FitCloudEmergencyContactObject;
-@class FwContactModel;
 @class WMContactModel;
 @class WMEmergencyContactModel;
 @interface TPSContactModel : NSObject
@@ -28,10 +27,6 @@
 @property(nonatomic, strong) NSString* phone;
 @property(nonatomic, strong) NSString* initial;
 
--(instancetype)initWithFwModel:(FwContactModel*)fwContactModel;
-+(NSArray<TPSContactModel*>*)toTPSArrWithFwArr:(NSArray<FwContactModel*>*)fwArr;
-+(NSArray<FwContactModel*>*)toFwArrWithTPSArr:(NSArray<TPSContactModel*>*)tpsArr;
--(FwContactModel*)toFwModel;
 
 
 +(NSArray<TPSContactModel*>*)toTPSArrWithFCPArr:(NSArray<FitCloudContactObject*>*)fwArr;

@@ -8,7 +8,7 @@
 #ifndef TPSWebResponseModel_h
 #define TPSWebResponseModel_h
 
-@class FwWebResponseModel;
+
 @interface TPSWebResponseModel : NSObject
 
 @property(nonatomic, assign) int requestId;
@@ -26,7 +26,7 @@
 @property(nonatomic, strong) NSDictionary* content;
 @property(nonatomic, strong) NSArray* localPathArr;
 
--(FwWebResponseModel*)toFwModel;
+
 
 @end
 

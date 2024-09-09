@@ -8,7 +8,6 @@
 #ifndef TPSExtraConnectParam_h
 #define TPSExtraConnectParam_h
 
-@class FwExtraConnectParam;
 @interface TPSExtraConnectParam : NSObject
 
 typedef NS_ENUM(UInt8, TPSExtraConnectParam_Gender){
@@ -34,7 +33,6 @@ typedef NS_ENUM(UInt8, TPSExtraConnectParam_Gender){
  */
 @property(nonatomic, strong) NSString* authCode;
 
--(FwExtraConnectParam*)toFwModel;
 
 
 @end

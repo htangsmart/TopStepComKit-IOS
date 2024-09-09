@@ -8,7 +8,7 @@
 #ifndef TPSPrayModel_h
 #define TPSPrayModel_h
 
-@class FwPrayModel;
+
 @interface TPSPrayModel : NSObject
 
 typedef NS_ENUM(UInt8, TPSPrayModel_Type){
@@ -28,10 +28,6 @@ typedef NS_ENUM(UInt8, TPSPrayModel_Type){
 @property(nonatomic, assign) int prayTime;
 @property(nonatomic, assign) BOOL enable;
 
--(instancetype)initWithFwModel:(FwPrayModel*)fwModel;
-+(NSArray<TPSPrayModel*>*)toTPSArrWithFwArr:(NSArray<FwPrayModel*>*)fwArr;
--(FwPrayModel*)toFwModel;
-+(NSArray<FwPrayModel*>*)toFwArrWithTPSArr:(NSArray<TPSPrayModel*>*)tpsArr;
 
 @end
 

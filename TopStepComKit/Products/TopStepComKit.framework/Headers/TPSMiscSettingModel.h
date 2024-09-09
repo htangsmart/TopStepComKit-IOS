@@ -8,7 +8,7 @@
 #ifndef TPSMiscSettingModel_h
 #define TPSMiscSettingModel_h
 
-@class FwMiscSettingModel;
+
 @interface TPSMiscSettingModel : NSObject
 
 typedef NS_ENUM(UInt8, TPSMiscSettingModel_State){
@@ -50,7 +50,6 @@ typedef NS_ENUM(UInt8, TPSMiscSettingModel_Wear_Hand){
 @property(nonatomic,assign) TPSMiscSettingModel_State heartrate_auto_mode;
 @property(nonatomic,assign) NSDictionary * heartrate_config;
 
--(instancetype)initWithFwModel:(FwMiscSettingModel*)fwMiscSettingModel;
 
 
 @end

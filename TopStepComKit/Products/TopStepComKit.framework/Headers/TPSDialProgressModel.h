@@ -8,7 +8,6 @@
 #ifndef TPSDialProgressModel_h
 #define TPSDialProgressModel_h
 
-@class FwDialProgressModel;
 @interface TPSDialProgressModel : NSObject
 
 typedef NS_ENUM(UInt8,TPSDialProgressModel_Event_Type){
@@ -22,7 +21,6 @@ typedef NS_ENUM(UInt8,TPSDialProgressModel_Event_Type){
 @property(nonatomic, assign) float percent;
 @property(nonatomic, assign) TPSDialProgressModel_Event_Type eventType;
 
--(instancetype)initWithFwModel:(FwDialProgressModel*)fwDialProgressModel;
 
 + (instancetype)progresslWithPercent:(CGFloat)percent eventType:(TPSDialProgressModel_Event_Type)eventType;
 

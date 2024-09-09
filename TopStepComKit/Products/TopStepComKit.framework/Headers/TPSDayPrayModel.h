@@ -10,16 +10,12 @@
 
 #import <TopStepComKit/TPSPrayModel.h>
 
-@class FwDayPrayModel;
+
 @interface TPSDayPrayModel : NSObject
 
 @property(nonatomic, assign) long prayDayTimeStamp;
 @property(nonatomic, strong) NSArray<TPSPrayModel*>* eachDayPrayModel;
 
--(instancetype)initWithFwModel:(FwDayPrayModel*)fwModel;
-+(NSArray<TPSDayPrayModel*>*)toTPSArrWithFwArr:(NSArray<FwDayPrayModel*>*)fwArr;
--(FwDayPrayModel*)toFwModel;
-+(NSArray<FwDayPrayModel*>*)toFwArrWithTPSArr:(NSArray<TPSDayPrayModel*>*)tpsArr;
 
 @end
 

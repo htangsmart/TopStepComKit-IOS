@@ -8,7 +8,7 @@
 #ifndef TPSHistorySPO2Model_h
 #define TPSHistorySPO2Model_h
 
-@class FwHistorySPO2Model;
+
 @interface TPSHistorySPO2Model : NSObject
 
 @property (nonatomic, assign) long record_time;
@@ -16,8 +16,6 @@
 
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;
 -(instancetype)initWithNSData:(NSData*)jsonData;
--(instancetype)initWithFwModel:(FwHistorySPO2Model*)fwHistorySPO2Model;
-+(NSArray<TPSHistorySPO2Model*>*)toTPSArrWithFwArr:(NSArray<FwHistorySPO2Model*>*)fwArr;
 -(NSData*)toJsonNSData;
 
 

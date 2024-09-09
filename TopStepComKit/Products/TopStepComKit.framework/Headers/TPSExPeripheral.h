@@ -10,7 +10,7 @@
 
 #import <CoreBluetooth/CoreBluetooth.h>
 
-@class FwExPeripheral;
+
 @interface TPSExPeripheral : NSObject
 
 @property(nonatomic, strong) CBPeripheral *peripheral;
@@ -22,7 +22,7 @@
 @property(nonatomic, strong) CBCentralManager* central;
 
 -(instancetype)initWithPeripheral:(CBPeripheral*)peripheral mac:(NSString*)mac name:(NSString*)name RSSI:(NSNumber*)RSSI advertisementData:(NSDictionary<NSString *,id>*) advertisementData central:(CBCentralManager*)central;
--(instancetype)initWithFwModel:(FwExPeripheral*)fwExPeripheral;
+
 
 @end
 

@@ -8,7 +8,6 @@
 #ifndef TPSAlbumUpdateModel_h
 #define TPSAlbumUpdateModel_h
 
-@class FwAlbumUpdateModel;
 @interface TPSAlbumUpdateModel : NSObject
 
 typedef NS_ENUM(UInt8, TPSAlbumUpdateModel_Op){
@@ -22,8 +21,6 @@ typedef NS_ENUM(UInt8, TPSAlbumUpdateModel_Op){
 ///要操作的文件全路径，以internal://share#开头
 @property(nonatomic, strong) NSString* path;
 
--(instancetype)initWithFwModel:(FwAlbumUpdateModel*)fwAlbumUpdateModel;
--(FwAlbumUpdateModel*)toFwModel;
 
 @end
 

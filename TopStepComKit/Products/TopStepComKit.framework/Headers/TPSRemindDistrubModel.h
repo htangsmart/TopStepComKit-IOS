@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 
 
-@class FwRemindDistrubModel;
 @class FitCloudDNDSetting;
 @class WMNoDisturb;
 NS_ASSUME_NONNULL_BEGIN
@@ -27,8 +26,6 @@ NS_ASSUME_NONNULL_BEGIN
  The total minute value calculated from 0:00 on the same day, for example, at 8:30 in the morning, is 8 * 60+30=510
  */
 @property (nonatomic,assign) int end;
-
-+ (TPSRemindDistrubModel *)distrubModelWithFWDistrub:(FwRemindDistrubModel *)distrubModel;
 
 // 配置免打扰数据 FitCloudDNDSetting
 + (TPSRemindDistrubModel *)configModelWithDNDSetting:(FitCloudDNDSetting *)dndSet;

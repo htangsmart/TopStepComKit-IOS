@@ -9,7 +9,6 @@
 #ifndef TPSSportTargetModel_h
 #define TPSSportTargetModel_h
 
-@class FwSportTargetModel;
 @class FitCloudDailyGoalObject;
 @class WMSportGoalModel;
 
@@ -41,11 +40,9 @@
 //];
 
 
--(instancetype)initWithFwModel:(FwSportTargetModel*)fwSportTargetModel;
 
 -(instancetype)initWithFCPModel:(FitCloudDailyGoalObject*)fcpSportTargetModel;
 
--(FwSportTargetModel*)toFwModel;
 
 -(WMSportGoalModel*)toWMModel;
 
