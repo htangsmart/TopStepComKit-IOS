@@ -1156,7 +1156,7 @@
 		</data>
 		<key>Headers/ITPSDialAbility.h</key>
 		<data>
-		qdGWv8F3shshhl7gAe1W+wK/bCo=
+		kzH2N76jRoH9gKUSMc4Xte4bSlc=
 		</data>
 		<key>Headers/ITPSEleBookAbility.h</key>
 		<data>
@@ -1176,7 +1176,7 @@
 		</data>
 		<key>Headers/ITPSHeartRateDataAbility.h</key>
 		<data>
-		eXqRYWJnwsIcNe5tQEIhond5fyk=
+		SWUycTjAU6u5Ex57D3wDIMiwX64=
 		</data>
 		<key>Headers/ITPSHttpAbility.h</key>
 		<data>
@@ -1300,7 +1300,7 @@
 		</data>
 		<key>Headers/TPSDevInfoModel.h</key>
 		<data>
-		SM+MqViJ+nYpnPXJNYFwew/UOyI=
+		8SuYznGtmIEGeSWzM9ACKIq3jGg=
 		</data>
 		<key>Headers/TPSDevLimitModel.h</key>
 		<data>
@@ -1386,6 +1386,10 @@
 		<data>
 		qzUSEHcxHJOIGef02wv63rxQGBs=
 		</data>
+		<key>Headers/TPSMangerTool.h</key>
+		<data>
+		fEIXerUtKjSFoI2xlDZx6zWgDas=
+		</data>
 		<key>Headers/TPSMiscSettingModel.h</key>
 		<data>
 		LAK8t47LVXQCKzpACZctg74YUQg=
@@ -1432,7 +1436,7 @@
 		</data>
 		<key>Headers/TPSSdk.h</key>
 		<data>
-		Bs2RyWoA2Lg1UPiCLhxtuVcH5lA=
+		y9zwY4BmeVHeWWGdWUmzBhDiUHE=
 		</data>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
 		<data>
@@ -1528,7 +1532,7 @@
 		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
-		EoBfKzkp+cLldnJ3ERFVK8Maa0Y=
+		wrAVJWgvHaii5wkXFLAyNm3pkd0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -3278,11 +3282,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qdGWv8F3shshhl7gAe1W+wK/bCo=
+			kzH2N76jRoH9gKUSMc4Xte4bSlc=
 			</data>
 			<key>hash2</key>
 			<data>
-			kZgUvwM7lSQewdTAV95HJyoHh944I2BI5CABanyWJ2o=
+			zhUkIgHX+Fmr9pYYH12q0RfF5TFpPH9Krcu/NcjdVJo=
 			</data>
 		</dict>
 		<key>Headers/ITPSEleBookAbility.h</key>
@@ -3333,11 +3337,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eXqRYWJnwsIcNe5tQEIhond5fyk=
+			SWUycTjAU6u5Ex57D3wDIMiwX64=
 			</data>
 			<key>hash2</key>
 			<data>
-			SawIAceqvV3jVkT6cADY73jVHz1VBkC0p3suSUmY/MY=
+			UlnIFIenqUwsWx/BEBdDQPWwGlqGbCrmw0BUKC0yTFE=
 			</data>
 		</dict>
 		<key>Headers/ITPSHttpAbility.h</key>
@@ -3674,11 +3678,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SM+MqViJ+nYpnPXJNYFwew/UOyI=
+			8SuYznGtmIEGeSWzM9ACKIq3jGg=
 			</data>
 			<key>hash2</key>
 			<data>
-			S2I+EfrKNz8+rgzI23WSa6XT3ngSrpveBqk9jT9cU5Y=
+			VNAgaQubGoL7zGDBBPDkNZTeonmUb4uQvFslnineaCg=
 			</data>
 		</dict>
 		<key>Headers/TPSDevLimitModel.h</key>
@@ -3912,6 +3916,17 @@
 			KTAtlEJlnUDOUtWR1g8Zmub9GTLrERHsoFVfjcjm8PY=
 			</data>
 		</dict>
+		<key>Headers/TPSMangerTool.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fEIXerUtKjSFoI2xlDZx6zWgDas=
+			</data>
+			<key>hash2</key>
+			<data>
+			iqTU6Njk0ex+swdeSSa9sQ4x1W8wjroYrsdl3KwqUgs=
+			</data>
+		</dict>
 		<key>Headers/TPSMiscSettingModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -4037,11 +4052,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Bs2RyWoA2Lg1UPiCLhxtuVcH5lA=
+			y9zwY4BmeVHeWWGdWUmzBhDiUHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			0Vkr4ffII3U8KwhhPdnD4HkkbScBNOJ0Uv8gVrXcdpM=
+			cNGY02xFYq7rHE7ZVIXL1bmlegpXtu+xHICg6d4J83o=
 			</data>
 		</dict>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
@@ -4301,11 +4316,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EoBfKzkp+cLldnJ3ERFVK8Maa0Y=
+			wrAVJWgvHaii5wkXFLAyNm3pkd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			//FnZfPJJrxsGnbtoTlEfF10NFB7GQa/OSJXD82j0oA=
+			ejpSE2Kxuz2mrLOgUSvfNkopVh+FLCNzZKMKsl9sx7Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

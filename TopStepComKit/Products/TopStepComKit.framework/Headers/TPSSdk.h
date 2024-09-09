@@ -56,7 +56,6 @@
 #import <TopStepComKit/ITPSHealthMonitorAbility.h>
 
 
-
 @interface TPSSdk : NSObject
 
 +(instancetype)share;
@@ -68,6 +67,7 @@
 
 -(void)initSdk;
 -(void)setTPSLogEnable:(BOOL)isEnable;
+
 
 /**
  设备连接相关

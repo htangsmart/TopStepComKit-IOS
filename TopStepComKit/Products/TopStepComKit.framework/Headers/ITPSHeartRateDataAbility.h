@@ -34,6 +34,9 @@ typedef void(^TPSHeartRateConfigCallback)(TPSHrConfigModel* _Nullable configMode
 /// 设置心率配置
 -(void)setHrConfig:(TPSHrConfigModel*)model block:(TPSSendMsgResult)block;
 
+// 获取静息心率
+- (void)queryRestingHRDataComplete:(void (^)(TPSHistoryHeartRateModel * restHeartRate))complete ;
+
 @end
 
 

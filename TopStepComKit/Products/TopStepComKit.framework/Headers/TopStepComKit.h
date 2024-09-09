@@ -140,7 +140,7 @@ FOUNDATION_EXPORT const unsigned char TopStepComKitVersionString[];
 #import <TopStepComKit/TPSSportPreciseStepItem.h>
 #import <TopStepComKit/ITPSHealthMonitorAbility.h>
 
-
+#import <TopStepComKit/TPSMangerTool.h>
 
 
 

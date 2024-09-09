@@ -81,6 +81,11 @@ typedef void(^TPSDialGetCurDialCallback)(TPSDialModel* model);
  */
 - (void)registerWatchDialBeenChanged:(void(^)(NSString *selectedDialId))changedBlock;
 
+/*
+ * @brief 生成预览图
+ */
+- (void)previewImageViewWithBackgroundImage:(UIImage *)backgroundImage textImage:(UIImage *)textImage imageSize:(CGSize)imageSize cornerRadius:(CGFloat)cornerRadius complete:(void (^)(BOOL, UIImage *))complete;
+
 
 @end
 

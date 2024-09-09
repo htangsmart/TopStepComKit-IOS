@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TopStepComKit'
   s.summary      = 'TopStepComKit module, M1 and above support xcode framworks.'
-  s.version      = '1.2.7'
+  s.version      = '1.2.8'
   s.description      = <<-DESC
   Private M1 and above support xcode framworks..
   DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.vendored_frameworks = 'TopStepComKit/Products/TopStepComKit.framework', 'TopStepComKit/OtherSDK/*.framework'
-  s.resource = 'TopStepComKit/res/WearApi.bundle', 'TopStepComKit/res/TSBundle.bundle'
+  s.resource = 'TopStepComKit/res/TSBundle.bundle'
   
   #拓步-绅聚
   #**********#

@@ -9,9 +9,18 @@
 #ifndef TPSDevInfoModel_h
 #define TPSDevInfoModel_h
 
+typedef NS_ENUM(NSUInteger, TSWatchShape) {
+    eTSWatchShapeCircle,    // 圆形
+    eTSWatchShapeVerticalRectangle,// 纵向长方形
+    eTSWatchShapeTransverseRectangle,// 横向长方形
+    eTSWatchShapeSquare,// 方形
+};
+
 @class FwDevInfoModel;
 
 @interface TPSDevInfoModel : NSObject
+
+@property (nonatomic,assign) TSWatchShape shape;
 
 /// 手表屏幕宽度
 @property(nonatomic, assign) float screenWidth;
