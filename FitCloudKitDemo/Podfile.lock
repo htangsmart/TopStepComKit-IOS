@@ -103,7 +103,7 @@ DEPENDENCIES:
   - QuickTraceiOSLogger
   - SDWebImage (~> 5.0)
   - Toast
-  - TopStepComKit (from `../`)
+  - TopStepComKit (from `https://github.com/htangsmart/TopStepComKit-IOS.git`, branch `NoiseFit`)
   - TSDialWidget (from `https://github.com/htangsmart/TSDialWidget-iOS.git`)
   - YYCategories
   - YYModel
@@ -144,7 +144,8 @@ EXTERNAL SOURCES:
   FitCloudWFKit:
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   TopStepComKit:
-    :path: "../"
+    :branch: NoiseFit
+    :git: https://github.com/htangsmart/TopStepComKit-IOS.git
   TSDialWidget:
     :git: https://github.com/htangsmart/TSDialWidget-iOS.git
 
@@ -161,6 +162,9 @@ CHECKOUT OPTIONS:
   FitCloudWFKit:
     :commit: 3416968bafd88bc146d39b9268a2afc331000683
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
+  TopStepComKit:
+    :commit: b8826216cac7708d6914b98bc0203638bc6f4f08
+    :git: https://github.com/htangsmart/TopStepComKit-IOS.git
   TSDialWidget:
     :commit: c1b5ecc778c1aba19adb6422a56adfedf0af61d7
     :git: https://github.com/htangsmart/TSDialWidget-iOS.git
@@ -196,6 +200,6 @@ SPEC CHECKSUMS:
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: 6e4780c79271222b05b53fa5e9aee8638de61c88
+PODFILE CHECKSUM: 8b2b64c49b4d8c1cd1c7483592914bbb40ccfad6
 
 COCOAPODS: 1.15.2
