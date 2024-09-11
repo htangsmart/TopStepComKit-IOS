@@ -21,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [[TPSSdk share] initSdk];
-    [[TPSSdk share] initDeviceTypeWith:TPSDeviceType_TS9845];
+    [[TPSSdk share] initDeviceTypeWith:TPSDeviceType_OSW805];
     
     //--- 网络监测 ---//这一行会触发使用网络权限提示选择框，其他请求网络的时候貌似也会触发。
     AFNetworkReachabilityManager *net = [AFNetworkReachabilityManager sharedManager];

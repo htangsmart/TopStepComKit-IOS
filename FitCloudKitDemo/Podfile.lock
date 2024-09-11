@@ -17,7 +17,7 @@ PODS:
   - BitByteData (2.0.4)
   - FitCloudDFUKit (1.3.1-beta.24):
     - iOSDFULibrary (~> 4.11.0)
-  - FitCloudKit (1.2.9-beta.174)
+  - FitCloudKit (1.2.9-beta.177)
   - FitCloudNWFKit (1.0.2-beta.1):
     - zipzap (~> 8.1.1)
   - FitCloudWFKit (1.1.7-beta.9)
@@ -25,14 +25,14 @@ PODS:
   - iOSDFULibrary (4.11.1):
     - ZIPFoundation (= 0.9.11)
   - JPImageresizerView (1.11.3)
-  - PromiseKit (8.1.1):
-    - PromiseKit/CorePromise (= 8.1.1)
-    - PromiseKit/Foundation (= 8.1.1)
-    - PromiseKit/UIKit (= 8.1.1)
-  - PromiseKit/CorePromise (8.1.1)
-  - PromiseKit/Foundation (8.1.1):
+  - PromiseKit (8.1.2):
+    - PromiseKit/CorePromise (= 8.1.2)
+    - PromiseKit/Foundation (= 8.1.2)
+    - PromiseKit/UIKit (= 8.1.2)
+  - PromiseKit/CorePromise (8.1.2)
+  - PromiseKit/Foundation (8.1.2):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (8.1.1):
+  - PromiseKit/UIKit (8.1.2):
     - PromiseKit/CorePromise
   - QuickTraceiOSLogger (2.0.7):
     - XLFacility.optimize
@@ -51,7 +51,7 @@ PODS:
     - BitByteData (~> 2.0)
   - SwiftyJSON (5.0.2)
   - Toast (4.1.1)
-  - TopStepComKit (1.2.8):
+  - TopStepComKit (1.3.0):
     - FitCloudDFUKit
     - FitCloudKit
     - FitCloudNWFKit
@@ -103,7 +103,7 @@ DEPENDENCIES:
   - QuickTraceiOSLogger
   - SDWebImage (~> 5.0)
   - Toast
-  - TopStepComKit (from `https://github.com/htangsmart/TopStepComKit-IOS.git`, branch `NoiseFit`)
+  - TopStepComKit (from `../`)
   - TSDialWidget (from `https://github.com/htangsmart/TSDialWidget-iOS.git`)
   - YYCategories
   - YYModel
@@ -144,27 +144,23 @@ EXTERNAL SOURCES:
   FitCloudWFKit:
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   TopStepComKit:
-    :branch: NoiseFit
-    :git: https://github.com/htangsmart/TopStepComKit-IOS.git
+    :path: "../"
   TSDialWidget:
     :git: https://github.com/htangsmart/TSDialWidget-iOS.git
 
 CHECKOUT OPTIONS:
   FitCloudDFUKit:
-    :commit: 3416968bafd88bc146d39b9268a2afc331000683
+    :commit: f25716604a9edbda8371a40bed934944cfd1cfb4
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
-    :commit: 3416968bafd88bc146d39b9268a2afc331000683
+    :commit: f25716604a9edbda8371a40bed934944cfd1cfb4
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudNWFKit:
-    :commit: 3416968bafd88bc146d39b9268a2afc331000683
+    :commit: f25716604a9edbda8371a40bed934944cfd1cfb4
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudWFKit:
-    :commit: 3416968bafd88bc146d39b9268a2afc331000683
+    :commit: f25716604a9edbda8371a40bed934944cfd1cfb4
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
-  TopStepComKit:
-    :commit: b8826216cac7708d6914b98bc0203638bc6f4f08
-    :git: https://github.com/htangsmart/TopStepComKit-IOS.git
   TSDialWidget:
     :commit: c1b5ecc778c1aba19adb6422a56adfedf0af61d7
     :git: https://github.com/htangsmart/TSDialWidget-iOS.git
@@ -173,13 +169,13 @@ SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   BitByteData: 2422ed269fcddc44976d97f171a183d25ef535ce
   FitCloudDFUKit: 605bf66a37748c2c2893323e050c33010d41776d
-  FitCloudKit: cbc5467d5cac25b26b423a2e4c02092071dbdf98
+  FitCloudKit: ca5785bcc458ffbd901f36050fd9abada20e857d
   FitCloudNWFKit: 10f5a3637bf6c192e901a2ed1c2921698c065288
   FitCloudWFKit: 068a9dd5282e5ed8ab786e02437c59a8926aadf8
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   iOSDFULibrary: 3500ac00451aa7d8ec48a752e91099669a2c1d27
   JPImageresizerView: 6e955b869f9141dc2e69510d9a5a36bfec997777
-  PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
+  PromiseKit: e057b5b3c0ce9a0145674d633930924234104ee3
   QuickTraceiOSLogger: 43f2dd860bd7cbaf3e126f09eb0ad25aca26bda3
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   RxCocoa: f5609cb4637587a7faa99c5d5787e3ad582b75a4
@@ -189,7 +185,7 @@ SPEC CHECKSUMS:
   SWCompression: 9379873ad5e9f25b31db88c441649b59a4c2bab7
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
-  TopStepComKit: ba4c153ee97bb0257989934b7eba0c945f3b9112
+  TopStepComKit: 963c4ffec023d135e06edabf06c74ccb1b0afc67
   TSDialWidget: b4142b9522ae99ed3e325d0b037c29921291fd5c
   XLFacility.optimize: 7d3bac61863a29c11868191b3b3db038f1e5f998
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
@@ -200,6 +196,6 @@ SPEC CHECKSUMS:
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: 8b2b64c49b4d8c1cd1c7483592914bbb40ccfad6
+PODFILE CHECKSUM: 6e4780c79271222b05b53fa5e9aee8638de61c88
 
 COCOAPODS: 1.15.2
