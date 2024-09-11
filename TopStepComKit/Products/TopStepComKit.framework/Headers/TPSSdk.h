@@ -60,8 +60,8 @@
 
 +(instancetype)share;
 
-- (void)initDeviceType:(NSString *)deviceType;
-- (void)initDeviceType:(NSString *)deviceType option:(TPSOptions*)option;
+//- (void)initDeviceType:(NSString *)deviceType;
+//- (void)initDeviceType:(NSString *)deviceType option:(TPSOptions*)option;
 - (void)initDeviceTypeWith:(TPSDeviceType)deviceType;
 - (void)initDeviceTypeWith:(TPSDeviceType)deviceType option:(TPSOptions*)option;
 
