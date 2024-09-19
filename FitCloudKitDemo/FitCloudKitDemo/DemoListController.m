@@ -9,7 +9,9 @@
 #import "DemoListController.h"
 #define ConsoleResultToastTip(v) [v makeToast:NSLocalizedString(@"View the results in the console.", nil) duration:3.0f position:CSToastPositionTop]
 
-@interface DemoListController ()<UIDocumentPickerDelegate>
+@interface DemoListController ()<UIDocumentPickerDelegate>{
+    FITCLOUDMN mymnSetting;
+}
 
 - (IBAction)OnGoBack:(id)sender;
 @end
@@ -176,4 +178,26 @@
 - (IBAction)OnGoBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+
+-(void)sendNotificationSetting{
+    __block FITCLOUDMN fit = FITCLOUDMN_NONE;
+    NSLog(@"sendNotificationEnableList result %0llx", mymnSetting);
+    
+    [FitCloudKit setMessageNotification:self->mymnSetting block:^(BOOL succeed, NSError *error) {
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            NSLog(@"sendNotificationEnableList result success");
+        });
+    }];
+}
+
+-(void)getNotificationSetting{
+    [FitCloudKit getMessageNotificationSettingWithBlock:^(BOOL succeed, FITCLOUDMN mnSetting, NSError *error) {
+        NSLog(@"getMessageNotificationSettingWithBlock cur %0llx", mnSetting);
+        self->mymnSetting = mnSetting;
+    }];
+}
+
 @end

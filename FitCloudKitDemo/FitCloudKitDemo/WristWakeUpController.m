@@ -10,7 +10,9 @@
 #define ConsoleResultToastTip(v) [v makeToast:NSLocalizedString(@"View the results in the console.", nil) duration:3.0f position:CSToastPositionTop]
 #define OpResultToastTip(v, success) [v makeToast:success ? NSLocalizedString(@"Op success.", nil) : NSLocalizedString(@"Op failure.", nil) duration:3.0f position:CSToastPositionTop]
 
-@interface WristWakeUpController ()
+@interface WristWakeUpController (){
+    BOOL isOn;
+}
 - (IBAction)OnGoBack:(id)sender;
 @end
 
@@ -18,7 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //监听手表抬手腕亮屏设置是否有变化 Monitor whether there is a change in the wrist lifting and screen on setting of the watch
+    
+    isOn = YES;
+    //监听手表抬手腕亮屏设置是否有变化 Monitor whether there is a change in setting ,such as the wrist lifting and screen on setting of the watch
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onFitcloudConfigChange:) name:FITCLOUDEVENT_WATCHCONFIG_REMOTE_MANUAL_CHANGED_NOTIFY object:nil];
 }
 
@@ -30,6 +34,7 @@
     }];
     [FitCloudKit getDNDSettingWithBlock:^(BOOL succeed, FitCloudDNDSetting *dndSetting, NSError *error) {
             //重新获取并设置app上的按钮 Retrieve and reset buttons on the app
+        NSLog(@"FitCloudDNDSetting come back");
     }];
 }
 
@@ -37,7 +42,15 @@
 {
     if(indexPath.row == 0)
     {
-    
+        FitCloudDNDSetting *dndSetting = [[FitCloudDNDSetting alloc]init];
+        dndSetting.on = NO;
+        dndSetting.dndPeriodOn = isOn;
+        dndSetting.periodBegin = 0;
+        dndSetting.periodEnd = 0;
+        [FitCloudKit setDND:dndSetting block:^(BOOL succeed, NSError *error) {
+            
+        }];
+        isOn = !isOn;
     }
     else if(indexPath.row == 1)
     {

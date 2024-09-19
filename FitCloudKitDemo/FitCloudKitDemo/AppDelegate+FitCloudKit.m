@@ -12,13 +12,7 @@
 
 -(void) fitCloudKitConfig
 {
-    if(!self.fitCloudKit)
-    {
-        FitCloudOption *option = [FitCloudOption defaultOption];
-        option.debugMode = NO;
-        option.shouldAutoConnect = NO;
-        self.fitCloudKit = [FitCloudKit initWithOption:option callback:self];
-    }
+    
 }
 
 /**

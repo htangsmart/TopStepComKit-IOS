@@ -8,10 +8,9 @@
 #ifndef TPSWebResponseModel_h
 #define TPSWebResponseModel_h
 
-
 @interface TPSWebResponseModel : NSObject
 
-@property(nonatomic, assign) int requestId;
+@property(nonatomic, assign) long requestId;
 /**
  0--网络请求成功,1--网络请求失败
  */
@@ -25,7 +24,6 @@
 @property(nonatomic, strong) NSString* remoteSavePath;
 @property(nonatomic, strong) NSDictionary* content;
 @property(nonatomic, strong) NSArray* localPathArr;
-
 
 
 @end

@@ -55,6 +55,10 @@
     self.mTableView.hidden = YES;
     [TPSSdk.share.notificationEnableAbility getNotificationEnableList:^(NSArray<TPSNotificationEnableModel *> *list) {
         self->notificationEnableList = list;
+        for(int i=0;i<list.count;i++){
+            TPSNotification_Type tpsNoteType = list[i].type;
+            NSLog(@"TPSNotification_Type tpsNoteType %d", tpsNoteType);
+        }
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.mTableView reloadData];
             self.mTableView.hidden = NO;
