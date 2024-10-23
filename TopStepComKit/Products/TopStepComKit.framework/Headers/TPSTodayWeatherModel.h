@@ -11,7 +11,6 @@
 #import <TopStepComKit/TPSWeatherDescribeType.h>
 #import <TopStepComKit/TPSFutureHourWeatherModel.h>
 
-
 @interface TPSTodayWeatherModel : NSObject
 
 +(instancetype)new NS_UNAVAILABLE;
@@ -47,7 +46,6 @@
                               uvIndex:(NSInteger)uvIndex
                            visibility:(CGFloat)visibility
                        futureHourList:(NSArray<TPSFutureHourWeatherModel*>*)futureHourWeather;
-
 
 
 

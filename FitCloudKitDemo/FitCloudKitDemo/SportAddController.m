@@ -55,6 +55,7 @@
     NSString *binFilePath = [docsdir stringByAppendingPathComponent:fileName];
     isBusy = YES;
     [self showProgress];
+    
     [SdkUtil downloadUrl:sportToAddList[indexPath.row].binUrl Path:binFilePath Result:^(float progress, JLHTTP_Result result) {
         if (result == JLHTTP_ResultDownload) {
             NSLog(@"Download file progress %f", progress);
@@ -65,13 +66,18 @@
                     if (model.eventType == TPSProgressModel_Event_Type_OnCompleted) {
                         self->isBusy = NO;
                         NSLog(@"push sportui bin ok");
-                        OpResultToastTip(weakSelf.view, YES);
-                        [self removeProgress];
+                        [TPS_Tools mainTask:^{
+                            OpResultToastTip(weakSelf.view, YES);
+                            [self removeProgress];
+                        }];
                     } else if (model.eventType == TPSProgressModel_Event_Type_OnProcess){
                         NSLog(@"sportui bin progress number:%.1f", model.percent);
                     }else if (model.eventType == TPSProgressModel_Event_Type_OnFailed) {
                         NSLog(@"push sportui bin fail");
-                        OpResultToastTip(weakSelf.view, NO);
+                        [TPS_Tools mainTask:^{
+                            OpResultToastTip(weakSelf.view, NO);
+                        }];
+                        
                     }
                 }];
             });

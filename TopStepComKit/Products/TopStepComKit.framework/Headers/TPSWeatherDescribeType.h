@@ -124,6 +124,8 @@ typedef NS_ENUM(UInt8,TPSWeatherSubType){
 +(TPSWeatherLargeCategory)getLargeCategoryWithSubType:(TPSWeatherSubType)subType;
 
 
++ (Byte)weatherTypeWithSubType:(TPSWeatherSubType)subType;
+
 
 @end
 

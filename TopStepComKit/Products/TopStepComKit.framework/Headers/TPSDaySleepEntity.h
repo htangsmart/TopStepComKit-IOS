@@ -18,8 +18,12 @@
 
 @property(nonatomic,assign) double deepTotalMinute;
 @property(nonatomic,assign) int deepTotalSeconds;
+@property(nonatomic,assign) double deepTotalMinuteInNight;
+@property(nonatomic,assign) int deepTotalSecondsInNight;
 @property(nonatomic,assign) double lightTotalMinute;
 @property(nonatomic,assign) int lightTotalSeconds;
+@property(nonatomic,assign) double lightTotalMinuteInNight;
+@property(nonatomic,assign) int lightTotalSecondsInNight;
 /*
  零星小睡有两种睡眠时长统计方式，这种算法会将零星小睡内部的短暂清醒时间也归为睡眠时间
  */
@@ -32,8 +36,12 @@
 @property(nonatomic,assign) int napTotalSecondsWithoutWake;
 @property(nonatomic,assign) double wakeTotalMinute;
 @property(nonatomic,assign) int wakeTotalSeconds;
+@property(nonatomic,assign) double wakeTotalMinuteInNight;
+@property(nonatomic,assign) int wakeTotalSecondsInNight;
 @property(nonatomic,assign) double rapidEyeMoveTotalMinute;
 @property(nonatomic,assign) int rapidEyeMoveTotalSeconds;
+@property(nonatomic,assign) double rapidEyeMoveTotalMinuteInNight;
+@property(nonatomic,assign) int rapidEyeMoveTotalSecondsInNight;
 @property(nonatomic,assign) int deepCount;
 @property(nonatomic,assign) int lightCount;
 @property(nonatomic,assign) int rapidEyeMoveCount;
@@ -47,6 +55,15 @@
 //当前所有的睡眠时长总和，含零星小睡，但是将零星小睡视为一整段（这种算法会将零星小睡内部的短暂清醒时间也归为睡眠时间）
 @property(nonatomic,assign) double totalSleepMinuteWithNap;
 @property(nonatomic,assign) int totalSleepSecondsWithNap;
+//当前所有的睡眠时长总和，含睡眠中间的清醒时间段，也含零星小睡，但是将零星小睡视为一整段（这种算法会将零星小睡内部的短暂清醒时间也归为睡眠时间）
+@property(nonatomic,assign) double totalSleepMinuteWithInnerWakeWithNap;
+@property(nonatomic,assign) int totalSleepSecondsWithInnerWakeWithNap;
+//夜间总睡眠时间，不包含夜间清醒的部分
+@property(nonatomic,assign) double totalNightSleepMinute;
+@property(nonatomic,assign) int totalNightSleepSeconds;
+//夜间总睡眠时间，包含夜间清醒的部分
+@property(nonatomic,assign) double totalNightSleepMinuteWithInnerWake;
+@property(nonatomic,assign) int totalNightSleepSecondsWithInnerWake;
 //当前所有的睡眠时长总和，不含零星小睡及其所代表的深睡浅睡等部分
 @property(nonatomic,assign) double totalSleepMinuteWithoutNap;
 @property(nonatomic,assign) int totalSleepSecondsWithoutNap;
@@ -72,3 +89,4 @@
 
 
 #endif /* TSDaySleepEntity_h */
+

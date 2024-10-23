@@ -13,7 +13,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)share ;
 
+-(UIImage *)createRoundPreviewWithBackgroudImage:(UIImage *)backgroundImage imageSize:(CGSize)imageSize;
+
 - (void)previewImageViewWithBackgroundImage:(UIImage *)backgroundImage textImage:(UIImage *)textImage imageSize:(CGSize)imageSize cornerRadius:(CGFloat)cornerRadius complete:(void (^)(UIImage *resultImage))complete;
+
+-(UIImage *)previewImageViewWithBackgroundImage:(UIImage *)backgroundImage textImage:(UIImage *)textImage imageSize:(CGSize)imageSize;
 
 @end
 

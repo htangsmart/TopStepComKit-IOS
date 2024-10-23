@@ -8,6 +8,7 @@
 #import "DialController.h"
 #import "SdkUtil.h"
 #import "FitCloudKitDemo-Swift.h"
+#import <TopStepComKit/TPSMangerTool.h>
 
 #define ConsoleResultToastTip(v) [v makeToast:NSLocalizedString(@"View the results in the console.", nil) duration:3.0f position:CSToastPositionTop]
 #define OpResultToastTip(v, success) [v makeToast:success ? NSLocalizedString(@"Op success.", nil) : NSLocalizedString(@"Op failure.", nil) duration:3.0f position:CSToastPositionTop]
@@ -101,12 +102,18 @@
             // 准备发送给手表的表盘文件路径
             // Prepare the watch face file path for sending to the watch
             model.filePath = [[NSBundle mainBundle] pathForResource:@"template9845" ofType:@"bin"];
-            // 设置表盘预览图
-            // Set up the watch face preview image
-            model.previewImage = [UIImage imageNamed:@"500198_TB_preview.png"];
             // 设置表盘背景图
             // Set the Watch Face Preview Image
             model.backgroundImage = [UIImage imageNamed:@"500198_TB.png"];
+            // 设置表盘预览图
+            // Set up the watch face preview image
+//            model.previewImage = [UIImage imageNamed:@"500198_TB_preview.png"];
+            float previewWidth = 466*(2.0/3.0);
+            UIImage* img1 = [self reSizeImageWithSize:CGSizeMake(previewWidth, previewWidth) scale:1 img:model.backgroundImage];
+            float aa = CGSizeMake(previewWidth, previewWidth).width/2.0;
+            UIImage* img2 = [self cornerImageWithRadius:CGSizeMake(previewWidth, previewWidth).width/2.0 img:img1];
+            model.previewImage = img2;
+//            model.previewImage = [[TPSMangerTool share] createRoundPreviewWithBackgroudImage:model.backgroundImage imageSize:CGSizeMake(previewWidth, previewWidth)];
         }
         // 设置表盘类型
         // Set the Watch Face Type
@@ -120,6 +127,7 @@
         model.dialName = [NSString stringWithFormat:@"%.f",[NSDate new].timeIntervalSince1970];
         // 向手表推送自定义表盘
         // Push Custom Watch Face to the Watch
+        
         [TPSSdk.share.dialAbility pushCustomerDialWithDial:model block:^(TPSDialProgressModel *model) {
             
             if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
@@ -129,7 +137,9 @@
                 NSLog(@"progress number:%.1f", model.percent);
             }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
                 NSLog(@"push watch face fail");
-                OpResultToastTip(weakSelf.view, NO);
+                [TPS_Tools mainTask:^{
+                    OpResultToastTip(weakSelf.view, NO);
+                }];
             }
         }];
     }else if (indexPath.row == 5){// for cloud watch face
@@ -137,16 +147,21 @@
         TPSSDKType sdkType = [TPSDevice.share fitSDK];
         if (sdkType == eTPSSDKFlyWear) {
         }else if (sdkType == eTPSSDKFitCloudPro) {
-            model.filePath = [[NSBundle mainBundle] pathForResource:@"gui_dial_binfile_watch_500155_1_20240708_MP-515c1edf17afcd2c075e0e11315a7b78" ofType:@"bin"];
+//            model.filePath = [[NSBundle mainBundle] pathForResource:@"9845_cloud" ofType:@"bin"];
+            model.filePath = [[NSBundle mainBundle] pathForResource:@"8808_49_cloud" ofType:@"bin"];
             [TPSSdk.share.dialAbility pushLocalDialWithDial:model block:^(TPSDialProgressModel *model) {
                 if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
                     NSLog(@"push cloud face ok");
-                    OpResultToastTip(weakSelf.view, YES);
+                    [TPS_Tools mainTask:^{
+                        OpResultToastTip(weakSelf.view, YES);
+                    }];
                 } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
                     NSLog(@"progress number:%.1f", model.percent);
                 }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
                     NSLog(@"push cloud face fail");
-                    OpResultToastTip(weakSelf.view, NO);
+                    [TPS_Tools mainTask:^{
+                        OpResultToastTip(weakSelf.view, NO);
+                    }];
                 }
             }];
         }
@@ -154,6 +169,37 @@
         
     }
 }
+
+- (UIImage*)reSizeImageWithSize:(CGSize)size scale:(CGFloat)scale img:(UIImage*)img
+{
+    if(CGSizeEqualToSize(size, CGSizeZero))   {return nil;}
+    UIGraphicsBeginImageContextWithOptions(size, NO, scale);
+    [img drawInRect:CGRectMake(0, 0, size.width, size.height)];
+    UIImage * targetImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return targetImage;
+}
+
+- (UIImage *)cornerImageWithRadius:(CGFloat)cornerRadius img:(UIImage*)img{
+    CGFloat w = img.size.width;
+    CGFloat h = img.size.height;
+    // 防止圆角半径小于0，或者大于宽/高中较小值的一半。
+    if (cornerRadius < 0)
+        cornerRadius = 0;
+    else if (cornerRadius > MIN(w, h))
+        cornerRadius = MIN(w, h) / 2.;
+
+    UIImage *image = nil;
+    CGRect imageFrame = CGRectMake(0., 0., w, h);
+    UIGraphicsBeginImageContextWithOptions(img.size, NO, 1.0);
+    [[UIBezierPath bezierPathWithRoundedRect:imageFrame cornerRadius:cornerRadius] addClip];
+    [img drawInRect:imageFrame];
+    image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    return image;
+}
+
 
 
 + (NSArray *)allColors{

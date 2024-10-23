@@ -27,11 +27,14 @@
     
     if(indexPath.row == 1)
     {
-        [self fetchSportsDataToday];
+        [self getBattery];
+//        [self getNotificationSetting];
+//        [self fetchSportsDataToday];
     }
     else if(indexPath.row == 2)
     {
-        [self manualSyncData];
+        [self sendNotificationSetting];
+//        [self manualSyncData];
     }
     else if(indexPath.row == 3)
     {
@@ -197,6 +200,17 @@
     [FitCloudKit getMessageNotificationSettingWithBlock:^(BOOL succeed, FITCLOUDMN mnSetting, NSError *error) {
         NSLog(@"getMessageNotificationSettingWithBlock cur %0llx", mnSetting);
         self->mymnSetting = mnSetting;
+    }];
+}
+
+-(void)getBattery{
+    [FitCloudKit getFirmwareVersionWithBlock:^(BOOL succeed, FitCloudFirmwareVersionObject *version, NSError *error) {
+        [FitCloudKit getBatteryInfoWithBlock:^(BOOL succeed, FitCloudBatteryInfoObject *batteryInfo, NSError *error) {
+            NSLog(@"getBatteryInfoWithBlock percent %d",batteryInfo.percent);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.view makeToast:[NSString stringWithFormat:@"battery:%d", batteryInfo.percent] duration:5.0 position:CSToastPositionTop];
+            });
+        }];
     }];
 }
 

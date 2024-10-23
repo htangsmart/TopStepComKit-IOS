@@ -32,6 +32,9 @@
     //监听到手表已经在系统层面连上ble,但是手表此时无账号，这意味着手表刚恢复出厂设置
     //Detected that the watch has been connected to BLE at the system level, but the watch currently has no account, which means that the watch has just been restored to factory settings
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onConnectedButNoAccountNumber:) name:FITCLOUDEVENT_PERIPHERAL_ALREADYUNBUND_OR_BIND_BY_OTHERCLIENT_NOTIFY object:nil];
+    //监听这个事件，这个事件发生在完成手表绑定成功之后
+    //Monitor this event, which occurred after successfully binding the watch
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onPrepareSyncWorkEndEvent:) name:FITCLOUDEVENT_PREPARESYNCWORK_END_NOTIFY object:nil];
     return YES;
 }
 
@@ -51,6 +54,20 @@
 //        }];
 //    }
 //    
+//}
+
+// 请在此方法之内 同步数据、设置语言等等
+//Please synchronize data, set language, etc. within this method
+//- (void)onPrepareSyncWorkEndEvent:(NSNotification *)notification{
+//    NSLog(@"onPrepareSyncWorkEndEvent %@",notification);
+//    //从手表端获取手表上的目标设置值
+//    //Retrieve the target setting value on the watch from the watch end
+//    [FitCloudKit getDailyGoalWithBlock:^(BOOL succeed, FitCloudDailyGoalObject *goal, NSError *error) {
+//        NSLog(@"step target from watch %d", goal.stepCountGoal);
+//        NSLog(@"distance target from watch %d (cm)", goal.distanceGoal);
+//        NSLog(@"calories target from watch %d (cal), (note:not kcal)", goal.caloryGoal);
+//        NSLog(@"duration target from watch %d (minute)", goal.durationGoal);
+//    }];
 //}
 
 
