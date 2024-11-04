@@ -11,9 +11,18 @@
 #import "WMAppsModel.h"
 #import "WMDatasSyncModel.h"
 #import "WMConnectModel.h"
+#import <ReactiveObjC/ReactiveObjC.h>
+
 @class WMPeripheralTargetModel;
 
 NS_ASSUME_NONNULL_BEGIN
+
+@protocol WMCustomDataDelegate <NSObject>
+
+// 接受到自定义数据回调
+- (void)devicePushData:(NSData *)data;
+
+@end
 
 @interface WMPeripheral : NSObject
 
@@ -30,11 +39,18 @@ NS_ASSUME_NONNULL_BEGIN
 /// 数据同步 (Data synchronization)
 @property (nonatomic, strong) WMDatasSyncModel *datasSync;
 
+/// 自定义数据
+@property (nonatomic, weak) id<WMCustomDataDelegate> customDataDelegate;
+
 // 外设uuid
 - (NSString * _Nullable)uuidString;
 
 // 外设信号强度
 - (NSNumber * _Nullable)rssi;
+
+/// 进入高能耗模式 （Enter high energy mode）
+- (RACSignal<NSNumber *> *)enterHighEnergyMode;
+
 
 @end
 

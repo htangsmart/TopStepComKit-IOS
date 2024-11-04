@@ -7,7 +7,7 @@
 
 #import "DialController.h"
 #import "SdkUtil.h"
-#import "FitCloudKitDemo-Swift.h"
+//#import "FitCloudKitDemo-Swift.h"
 #import <TopStepComKit/TPSMangerTool.h>
 
 #define ConsoleResultToastTip(v) [v makeToast:NSLocalizedString(@"View the results in the console.", nil) duration:3.0f position:CSToastPositionTop]
@@ -148,7 +148,7 @@
         if (sdkType == eTPSSDKFlyWear) {
         }else if (sdkType == eTPSSDKFitCloudPro) {
 //            model.filePath = [[NSBundle mainBundle] pathForResource:@"9845_cloud" ofType:@"bin"];
-            model.filePath = [[NSBundle mainBundle] pathForResource:@"8808_49_cloud" ofType:@"bin"];
+            model.filePath = [[NSBundle mainBundle] pathForResource:@"4179_106_cloud" ofType:@"bin"];
             [TPSSdk.share.dialAbility pushLocalDialWithDial:model block:^(TPSDialProgressModel *model) {
                 if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
                     NSLog(@"push cloud face ok");

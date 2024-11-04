@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (XEncoderResultModel *) encodeFromImage:(void *)handle jpgData:(NSData *)img_data srcWidth:(int)src_width srcHeight:(int)src_height;
 
 - (NSData*) makeDial:(NSString *)dialFilesDir width:(int)dialWidth height:(int)dialHeight fps:(int)fps;
+- (NSData*) generateJpgHeader:(int)quality width:(int)width height:(int)height;
 
 @end
 

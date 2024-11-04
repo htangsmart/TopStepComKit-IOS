@@ -60,17 +60,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) NSInteger min_step_speed;
 // 平均步频 （Average step frequency）
 @property (assign, nonatomic) NSInteger avg_step_speed;
-// 最快配速 （Maximum pace）
+// 最快配速 单位：秒/公里（Maximum pace unit: s/km）
 @property (assign, nonatomic) NSInteger fast_pace;
-// 最慢配速 （The slowest pace）
+// 最慢配速 单位：秒/公里（The slowest pace unit: s/km）
 @property (assign, nonatomic) NSInteger slowest_pace;
-// 平均配速 （Average pace）
+// 平均配速 单位：秒/公里（Average pace unit: s/km）
 @property (assign, nonatomic) NSInteger avg_pace;
-// 最快速度 （Maximum speed）
+// 最快速度 单位：公里/小时（Maximum speed unit: km/h）
 @property (assign, nonatomic) NSInteger fast_speed;
-// 最慢速度 （Minimum speed）
+// 最慢速度 单位：公里/小时（Minimum speed unit: km/h）
 @property (assign, nonatomic) NSInteger slowest_speed;
-// 平均速度 （Average velocity）
+// 平均速度 单位：公里/小时（Average velocity unit: km/h）
 @property (assign, nonatomic) NSInteger avg_speed;
 
 /// 10秒心率 （10-second heart rate）

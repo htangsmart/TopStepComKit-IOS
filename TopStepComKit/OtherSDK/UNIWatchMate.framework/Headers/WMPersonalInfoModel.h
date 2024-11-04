@@ -27,7 +27,7 @@ typedef NS_ENUM(NSInteger, Gender) {
 /// 性别（none，表示不设置） （Gender (none: not set)）
 @property (nonatomic, assign) Gender gender;
 /// 生日（nil，表示不设置）（Birthday (nil, meaning not set)）
-@property (nonatomic, strong) NSDate * birthDate;
+@property (nonatomic, strong, nullable) NSDate * birthDate;
 
 @end
 

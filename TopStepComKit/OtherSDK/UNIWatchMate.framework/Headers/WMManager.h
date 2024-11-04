@@ -47,6 +47,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameter product: 产品类型 (Product type)
 - (void)stopSearch:(NSString *)product;
 
+/// 是否支持某个产品 (Whether a product is supported)
+/// - Parameter product: 产品类型 (Product type)
+- (BOOL)isEnabledForProduct:(NSString *)product;
+
 @end
 
 NS_ASSUME_NONNULL_END

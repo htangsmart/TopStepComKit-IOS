@@ -17,7 +17,7 @@ PODS:
   - BitByteData (2.0.4)
   - FitCloudDFUKit (1.3.1-beta.24):
     - iOSDFULibrary (~> 4.11.0)
-  - FitCloudKit (1.3.0-beta.5)
+  - FitCloudKit (1.3.0-beta.27)
   - FitCloudNWFKit (1.0.2-beta.1):
     - zipzap (~> 8.1.1)
   - FitCloudWFKit (1.1.7-beta.9)
@@ -51,7 +51,7 @@ PODS:
     - BitByteData (~> 2.0)
   - SwiftyJSON (5.0.2)
   - Toast (4.1.1)
-  - TopStepComKit (1.3.1):
+  - TopStepComKit (1.3.3):
     - FitCloudDFUKit
     - FitCloudKit
     - FitCloudNWFKit
@@ -153,7 +153,7 @@ CHECKOUT OPTIONS:
     :commit: f25716604a9edbda8371a40bed934944cfd1cfb4
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
-    :commit: 499c0040a95cdb3cedd561b6f6dbed016938d55c
+    :commit: 4dc03e0793c4efc5ba57559326dfa047cbfe3e05
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudNWFKit:
     :commit: f25716604a9edbda8371a40bed934944cfd1cfb4
@@ -169,7 +169,7 @@ SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   BitByteData: 2422ed269fcddc44976d97f171a183d25ef535ce
   FitCloudDFUKit: 605bf66a37748c2c2893323e050c33010d41776d
-  FitCloudKit: 212f8878ff3b6f4b8253605325967afe6d87238d
+  FitCloudKit: 0eb80d56362ece0a18e44758b09298e76dd78f68
   FitCloudNWFKit: 10f5a3637bf6c192e901a2ed1c2921698c065288
   FitCloudWFKit: 068a9dd5282e5ed8ab786e02437c59a8926aadf8
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
@@ -185,7 +185,7 @@ SPEC CHECKSUMS:
   SWCompression: 9379873ad5e9f25b31db88c441649b59a4c2bab7
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
-  TopStepComKit: 8365c9babe73e756e024c59d1bb6faae504630af
+  TopStepComKit: cbf0fa4ba2113bcc46438e292b0a1b16ea7081f6
   TSDialWidget: b4142b9522ae99ed3e325d0b037c29921291fd5c
   XLFacility.optimize: 7d3bac61863a29c11868191b3b3db038f1e5f998
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
@@ -196,6 +196,6 @@ SPEC CHECKSUMS:
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: 6e4780c79271222b05b53fa5e9aee8638de61c88
+PODFILE CHECKSUM: 8ac3ca77f3d4df76803b5f014d995e366296c5c4
 
 COCOAPODS: 1.15.2

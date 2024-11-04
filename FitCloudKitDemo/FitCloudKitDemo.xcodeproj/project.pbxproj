@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1D0C75512C20160F0009027E /* MusicManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754D2C20160E0009027E /* MusicManageController.m */; };
 		1D0C75522C20160F0009027E /* NotificationManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C754E2C20160E0009027E /* NotificationManageController.m */; };
+		1DB765D42CD8964500CF891E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB765D32CD8964500CF891E /* Assets.xcassets */; };
+		1DB765D92CD899DF00CF891E /* 76455_TB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB765D62CD899DF00CF891E /* 76455_TB.png */; };
+		1DB765DA2CD899DF00CF891E /* 4179_106_cloud.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1DB765D52CD899DF00CF891E /* 4179_106_cloud.bin */; };
 		1DBA9E632CC90182000A616D /* 1012050_TB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBA9E5D2CC90181000A616D /* 1012050_TB.png */; };
 		1DBA9E642CC90182000A616D /* 8808_50_cloud.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1DBA9E5E2CC90181000A616D /* 8808_50_cloud.bin */; };
 		1DBA9E652CC90182000A616D /* 1012049_TB.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBA9E602CC90182000A616D /* 1012049_TB.png */; };
@@ -54,7 +57,6 @@
 		89A438B222B0D19700555B98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A438B122B0D19700555B98 /* AppDelegate.m */; };
 		89A438B522B0D19700555B98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A438B422B0D19700555B98 /* ViewController.m */; };
 		89A438B822B0D19700555B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A438B622B0D19700555B98 /* Main.storyboard */; };
-		89A438BA22B0D19900555B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A438B922B0D19900555B98 /* Assets.xcassets */; };
 		89A438BD22B0D19900555B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A438BB22B0D19900555B98 /* LaunchScreen.storyboard */; };
 		89A438C022B0D19900555B98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A438BF22B0D19900555B98 /* main.m */; };
 		89A438C822B0DA9500555B98 /* AppDelegate+FitCloudKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A438C722B0DA9500555B98 /* AppDelegate+FitCloudKit.m */; };
@@ -79,6 +81,9 @@
 		1D0C754E2C20160E0009027E /* NotificationManageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManageController.m; sourceTree = "<group>"; };
 		1D0C754F2C20160F0009027E /* MusicManageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicManageController.h; sourceTree = "<group>"; };
 		1D0C75502C20160F0009027E /* NotificationManageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManageController.h; sourceTree = "<group>"; };
+		1DB765D32CD8964500CF891E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DB765D52CD899DF00CF891E /* 4179_106_cloud.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 4179_106_cloud.bin; sourceTree = "<group>"; };
+		1DB765D62CD899DF00CF891E /* 76455_TB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76455_TB.png; sourceTree = "<group>"; };
 		1DBA9E5D2CC90181000A616D /* 1012050_TB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1012050_TB.png; sourceTree = "<group>"; };
 		1DBA9E5E2CC90181000A616D /* 8808_50_cloud.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 8808_50_cloud.bin; sourceTree = "<group>"; };
 		1DBA9E602CC90182000A616D /* 1012049_TB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1012049_TB.png; sourceTree = "<group>"; };
@@ -149,7 +154,6 @@
 		89A438B322B0D19700555B98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		89A438B422B0D19700555B98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		89A438B722B0D19700555B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89A438B922B0D19900555B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89A438BC22B0D19900555B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A438BE22B0D19900555B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89A438BF22B0D19900555B98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -201,6 +205,23 @@
 				8F4468F52E6CD4F606DB58DD /* Pods_FitCloudKitDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DB765D72CD899DF00CF891E /* S1_106 */ = {
+			isa = PBXGroup;
+			children = (
+				1DB765D52CD899DF00CF891E /* 4179_106_cloud.bin */,
+				1DB765D62CD899DF00CF891E /* 76455_TB.png */,
+			);
+			path = S1_106;
+			sourceTree = "<group>";
+		};
+		1DB765D82CD899DF00CF891E /* watchface4179_360_360 2 */ = {
+			isa = PBXGroup;
+			children = (
+				1DB765D72CD899DF00CF891E /* S1_106 */,
+			);
+			path = "watchface4179_360_360 2";
 			sourceTree = "<group>";
 		};
 		1DBA9E5C2CC900D3000A616D /* watchface8808_416_416 */ = {
@@ -304,6 +325,7 @@
 		89A438A422B0D19700555B98 = {
 			isa = PBXGroup;
 			children = (
+				1DB765D32CD8964500CF891E /* Assets.xcassets */,
 				89A438AF22B0D19700555B98 /* FitCloudKitDemo */,
 				89A438AE22B0D19700555B98 /* Products */,
 				C7BF5B98C5B523186DAD65CF /* Pods */,
@@ -322,6 +344,7 @@
 		89A438AF22B0D19700555B98 /* FitCloudKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1DB765D82CD899DF00CF891E /* watchface4179_360_360 2 */,
 				1DBA9E5C2CC900D3000A616D /* watchface8808_416_416 */,
 				1DBBB3C12C537356001EA544 /* tools */,
 				1DBBB39C2C51F9E7001EA544 /* watchface9845 */,
@@ -389,7 +412,6 @@
 				4B84FE072C2BCD3D00E6043E /* watchface850H */,
 				4B9AAEC82C2ABAF500F475E9 /* watchface805 */,
 				89A438B622B0D19700555B98 /* Main.storyboard */,
-				89A438B922B0D19900555B98 /* Assets.xcassets */,
 				89A438BB22B0D19900555B98 /* LaunchScreen.storyboard */,
 				89A438BE22B0D19900555B98 /* Info.plist */,
 				89A438BF22B0D19900555B98 /* main.m */,
@@ -523,9 +545,12 @@
 				1DBBB3BA2C525525001EA544 /* 500114_TB_preview.png in Resources */,
 				1DBA9E652CC90182000A616D /* 1012049_TB.png in Resources */,
 				89A438BD22B0D19900555B98 /* LaunchScreen.storyboard in Resources */,
+				1DB765D42CD8964500CF891E /* Assets.xcassets in Resources */,
 				4B84FE0B2C2BCD9100E6043E /* preview.png in Resources */,
 				1DBBB3BC2C525525001EA544 /* 500197_TB_preview.png in Resources */,
 				1DBA9E642CC90182000A616D /* 8808_50_cloud.bin in Resources */,
+				1DB765D92CD899DF00CF891E /* 76455_TB.png in Resources */,
+				1DB765DA2CD899DF00CF891E /* 4179_106_cloud.bin in Resources */,
 				1DBBB3BD2C525525001EA544 /* 500197_TB.png in Resources */,
 				4B9AAEC92C2ABAF500F475E9 /* backgroundImage.jpeg in Resources */,
 				1DBBB3C62C53812A001EA544 /* 4cd9d022b6a245bb89fbd1f5c609badf.bin in Resources */,
@@ -534,7 +559,6 @@
 				4B84FE092C2BCD8800E6043E /* bg1.png in Resources */,
 				4B84FE062C2BCA8100E6043E /* flywearsdkDial.zip in Resources */,
 				4B9AAECA2C2ABAF500F475E9 /* ic_custom_all_OSW805.bin in Resources */,
-				89A438BA22B0D19900555B98 /* Assets.xcassets in Resources */,
 				1DBBB3B12C52550A001EA544 /* 9845_cloud.bin in Resources */,
 				1DBBB3B02C52550A001EA544 /* device.png in Resources */,
 				1DBBB3BB2C525525001EA544 /* 500114_TB.png in Resources */,
@@ -859,6 +883,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitCloudKitDemo/FitCloudKitDemo-Prefix.pch";
 				INFOPLIST_FILE = FitCloudKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -924,6 +949,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitCloudKitDemo/FitCloudKitDemo-Prefix.pch";
 				INFOPLIST_FILE = FitCloudKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

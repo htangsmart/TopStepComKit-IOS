@@ -73,7 +73,7 @@
         NSMutableArray *images = [NSMutableArray array];
         for(NSInteger i = 300; i < 319; i++)
         {
-            [images addObject:[UIImage imageNamed:[NSString stringWithFormat:@"绑定手环_%@",@(i)]]];
+            [images addObject:[UIImage imageNamed:[NSString stringWithFormat:@"bind_%@",@(i)]]];
         }
         self.bindingImageView.animationImages = images;
         self.bindingImageView.animationDuration = [images count]*2/25.0f;//设置动画时间

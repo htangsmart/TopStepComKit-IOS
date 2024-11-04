@@ -30,21 +30,36 @@ typedef NS_ENUM(NSInteger, WMCustomDialType) {
     WMCustomDialTypeVideo,
 };
 
+/// 自定义表盘资源
+@interface WMCustomDialAssetsModel : NSObject
+
+@property (nonatomic, strong, nullable) NSArray <UIImage *> *timeStyleImages;
+@property (nonatomic, strong, nullable) NSArray <NSString *> *timeStyleNames;
+@property (nonatomic, strong, nullable) NSArray <NSString *> *timeStyleInfos;
+@property (nonatomic, strong, nullable) NSString *baseinfo;
+
+- (instancetype)initWithBundle:(NSBundle *)bundle;
+
+@end
+
 @interface WMCustomDialModel : NSObject
 
+/// 表盘标识
 @property (nonatomic, strong, nullable) NSString *dialId;
-
+/// 背景图片
 @property (nonatomic, strong, nullable) UIImage *backgroundImage;
-
+/// 文本图片
 @property (nonatomic, strong, nullable) UIImage *textImage;
-
+/// 文字颜色
 @property (nonatomic, strong, nullable) UIColor *textColor;
-
+/// 视频地址
 @property (nonatomic, strong, nullable) NSURL *videoUrl;
-
-@property (nonatomic, strong, nullable) NSDictionary *param;
-
+/// 表盘类型
 @property (nonatomic, assign) WMCustomDialType type;
+/// 资源配置文件地址（不同的手表配置文件不同）
+@property (nonatomic, strong) WMCustomDialAssetsModel *assetsModel;
+/// 时间摆放位置
+@property (nonatomic, assign) NSInteger index;
 
 @end
 
