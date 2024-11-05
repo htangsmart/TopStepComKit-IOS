@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TopStepComKit/TSJConnectorAbility.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @interface TPSLanguageModel : NSObject
@@ -16,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithName:(NSString *)name;
 
 
-+ (NSArray<TPSLanguageModel *> *)toTPSLanguageModeArraylWithWMModelArray:(NSArray< NSString*> *)wmModelArray;
 
 
 

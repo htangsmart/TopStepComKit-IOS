@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'TopStepComKit'
   s.summary      = 'TopStepComKit module, M1 and above support xcode framworks.'
-  s.version      = '1.3.4'
+  s.version      = '1.3.5'
   s.description      = <<-DESC
   Private M1 and above support xcode framworks..
   DESC
@@ -18,20 +18,10 @@ Pod::Spec.new do |s|
   s.frameworks       = 'Foundation', 'UIKit', 'CoreBluetooth'
 
   s.requires_arc = true
-  s.vendored_frameworks = 'TopStepComKit/Products/TopStepComKit.framework', 'TopStepComKit/OtherSDK/*.framework'
+  s.vendored_frameworks = 'TopStepComKit/Products/TopStepComKit.framework'
   s.resource = 'TopStepComKit/res/TSBundle.bundle'
   
-  #拓步-绅聚
-  #**********#
-  s.dependency "ReactiveObjC"
-  s.dependency 'RxSwift'
-  s.dependency 'RxCocoa'
-  s.dependency 'PromiseKit'
-  s.dependency 'HandyJSON'
-  s.dependency 'SwiftyJSON'
-  s.dependency 'SWCompression/TAR'
-  #**********#
-  
+  s.dependency 'ReactiveObjC'
   s.dependency 'FitCloudKit'
   s.dependency 'FitCloudDFUKit'
   s.dependency 'FitCloudWFKit'

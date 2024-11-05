@@ -5,13 +5,11 @@
 //  Created by Topstep on 2024/3/21.
 //
 
-#import <TopStepComKit/TSJConnectorAbility.h>
 
 #ifndef TPSHrConfigModel_h
 #define TPSHrConfigModel_h
 
 @class FitCloudHRAlarmObject;
-@class WMHeartRateConfigModel;
 @class  FitCloudHTMSingleObject;
 @interface TPSHrConfigModel : NSObject
 
@@ -52,19 +50,11 @@
 
 
 
--(instancetype)initWithFCPModel:(FitCloudHRAlarmObject*)fcpModel;
 - (FitCloudHRAlarmObject *)toFitHRAlarmModel;
 
 - (FitCloudHTMSingleObject *)toFitSingleModel;
 
-
 -(instancetype)initWithFCPModel:(FitCloudHRAlarmObject*)fcpModel htmSingleModel:(FitCloudHTMSingleObject *)htmModel;
-
-
-
-- (instancetype)initWithWMModel:(WMHeartRateConfigModel *)wmModel;
-
--(WMHeartRateConfigModel*)toWMModel;
 
 
 @end

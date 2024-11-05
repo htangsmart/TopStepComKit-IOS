@@ -10,7 +10,6 @@
 #ifndef TPSNotificationEnableModel_h
 #define TPSNotificationEnableModel_h
 
-@class WMMessageModel;
 
 //NSArray* allNameArray =  @[
 //    @{@"icon":@"device_msg_all",@"msg_title":kJL_TXT("消息一键开启"),@"tool_id":@"all",@"visible":@(1)},
@@ -76,11 +75,6 @@ typedef NS_ENUM(UInt8, TPSNotification_Type){
 @property(nonatomic, strong) NSString* name;
 @property(nonatomic, assign) BOOL enable;
 
-
-
-+(WMMessageModel *)toWMMessageModelWithArray:(NSArray *)array;
-
-+(NSArray<TPSNotificationEnableModel *> *)notificationArrayWithWMModel:(WMMessageModel *)wmMessageModel;
 
 
 

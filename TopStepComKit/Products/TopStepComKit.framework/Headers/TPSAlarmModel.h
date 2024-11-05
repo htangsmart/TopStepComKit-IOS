@@ -6,10 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TopStepComKit/TSJConnectorAbility.h>
 
 @class FitCloudAlarmObject;
-@class WMAlarmModel;
 
 typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
     TPSAlarmRepeatNone      = 0,
@@ -49,10 +47,6 @@ typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
 
 +(NSArray<FitCloudAlarmObject*>*)toFCPArrayWithTPSModelArr:(NSArray<TPSAlarmModel*>*)tpsArr;
 
--(instancetype)initWithWMModel:(WMAlarmModel*)wmAlarmModel;
--(WMAlarmModel*)toWModel;
-+ (NSArray<WMAlarmModel *> *)toWMAlarmModelWithArray:(NSArray *)alarms;
-+ (NSArray<TPSAlarmModel *> *)toTPSAlarmModelWithWMArray:(NSArray *)alarms;
 
 @end
 

@@ -4,13 +4,11 @@
 //
 //  Created by Topstep on 2024/1/25.
 //
-#import <TopStepComKit/TSJConnectorAbility.h>
 
 #ifndef TPSSportTargetModel_h
 #define TPSSportTargetModel_h
 
 @class FitCloudDailyGoalObject;
-@class WMSportGoalModel;
 
 @interface TPSSportTargetModel : NSObject
 
@@ -43,10 +41,6 @@
 
 -(instancetype)initWithFCPModel:(FitCloudDailyGoalObject*)fcpSportTargetModel;
 
-
--(WMSportGoalModel*)toWMModel;
-
--(instancetype)initWithWMModel:(WMSportGoalModel*)wmModel;
 
 
 

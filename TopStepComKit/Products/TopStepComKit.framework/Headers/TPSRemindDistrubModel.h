@@ -9,7 +9,6 @@
 
 
 @class FitCloudDNDSetting;
-@class WMNoDisturb;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TPSRemindDistrubModel : NSObject
@@ -35,8 +34,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSDictionary *)toDictonary;
 
-
-+ (TPSRemindDistrubModel *)distrubModelWithWMDistrub:(WMNoDisturb *)distrubModel;
 
 @end
 
