@@ -77,6 +77,7 @@ DEPENDENCIES:
   - iOSLogBrowserSDK
   - JPImageresizerView
   - Reachability
+  - ReactiveObjC
   - SDWebImage (~> 5.0)
   - Toast
   - TopStepComKit (from `../`)
@@ -158,6 +159,6 @@ SPEC CHECKSUMS:
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: dd7ac403e8710475c5127cdbe3e69f786be79e9e
+PODFILE CHECKSUM: f60782d825c16584fe6cdc2049df2cbb64c2ecde
 
 COCOAPODS: 1.16.2

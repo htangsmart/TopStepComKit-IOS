@@ -1452,7 +1452,7 @@
 		</data>
 		<key>Headers/TPSNameCardModel.h</key>
 		<data>
-		SHoCDnx9FEG1bcMsj9aScR10fY8=
+		AWdQuxI/otY+xYbU6pLlAboL5o0=
 		</data>
 		<key>Headers/TPSNotificationEnableModel.h</key>
 		<data>
@@ -1548,7 +1548,7 @@
 		</data>
 		<key>Headers/TPSWalletModel.h</key>
 		<data>
-		gg8pUHVENZFK889WrKMJKgrQWcY=
+		ohbLAO56aRumBaxx4lfdl59Yh9A=
 		</data>
 		<key>Headers/TPSWearBlockTypeDef.h</key>
 		<data>
@@ -1572,11 +1572,11 @@
 		</data>
 		<key>Headers/TPSWebResponseModel.h</key>
 		<data>
-		wv5pUH+ENFiV6/kK9+1OqPUEG/s=
+		F9W18S6X3scZ9Ype8xiZ33Bs3pE=
 		</data>
 		<key>Headers/TPSWorldClockModel.h</key>
 		<data>
-		+hYi9Zkp0xT1xQWp0oNtKNdtf+E=
+		MuR2D1wnWSZCX/cBqLRaR+9XEU4=
 		</data>
 		<key>Headers/TPS_Tools.h</key>
 		<data>
@@ -4101,11 +4101,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SHoCDnx9FEG1bcMsj9aScR10fY8=
+			AWdQuxI/otY+xYbU6pLlAboL5o0=
 			</data>
 			<key>hash2</key>
 			<data>
-			n8ScqJ681qqCIA0WdPHg5jAK171zWN/2gHB0VDQ2Jk8=
+			Mc75+URTcvYeInORlh/fQRahypnZgnAyjnhlV+XL7F8=
 			</data>
 		</dict>
 		<key>Headers/TPSNotificationEnableModel.h</key>
@@ -4365,11 +4365,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gg8pUHVENZFK889WrKMJKgrQWcY=
+			ohbLAO56aRumBaxx4lfdl59Yh9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			BaFfmDPlFpkOk2mwC6R9Cd1RutVLEsD8av3Ov0XsiZg=
+			pDXaTSaDd19QitRSPpNqCZgaES6vJA8jaFlnFRezd8c=
 			</data>
 		</dict>
 		<key>Headers/TPSWearBlockTypeDef.h</key>
@@ -4431,22 +4431,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wv5pUH+ENFiV6/kK9+1OqPUEG/s=
+			F9W18S6X3scZ9Ype8xiZ33Bs3pE=
 			</data>
 			<key>hash2</key>
 			<data>
-			8lH3rv3rGFV+8JVH0Y2v9nIg07w//mfmfSG1h6ppYrI=
+			4WOOrYeJi+yHexNLepw8IipDFgbuMmMkMfwtEwF0Pb4=
 			</data>
 		</dict>
 		<key>Headers/TPSWorldClockModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+hYi9Zkp0xT1xQWp0oNtKNdtf+E=
+			MuR2D1wnWSZCX/cBqLRaR+9XEU4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ANXrM17V+iPz1iGmEXe8Qgr9T23bsoDYvZixXzhpvgA=
+			PxIO+pccT7oq305vDFL69gO/TRIx2caK/uRQOm1Ij/Y=
 			</data>
 		</dict>
 		<key>Headers/TPS_Tools.h</key>

@@ -15,8 +15,8 @@
 @property(nonatomic, strong) NSString* clockZoneName;
 @property(nonatomic, assign) float UTC;
 
--(FwWorldClockModel*)toFwModel;
-+(NSArray<FwWorldClockModel*>*)toFwArrWithTPSArr:(NSArray<TPSWorldClockModel*>*)tpsArr;
+//-(FwWorldClockModel*)toFwModel;
+//+(NSArray<FwWorldClockModel*>*)toFwArrWithTPSArr:(NSArray<TPSWorldClockModel*>*)tpsArr;
 
 @end
 

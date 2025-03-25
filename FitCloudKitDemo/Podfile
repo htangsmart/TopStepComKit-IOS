@@ -25,6 +25,7 @@ target 'FitCloudKitDemo' do
   pod 'Toast'
   pod 'YYModel'
   
+  pod 'ReactiveObjC'  # 如果 TopStepComKit 使用了 RACSubject
 
 #  pod 'IDOBlueUpdate'
 #  pod 'IQKeyboardManager'
@@ -48,6 +49,7 @@ target 'FitCloudKitDemo' do
 #  pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git' , :branch => 'NoiseFit'
   pod 'TopStepComKit', :path => '../'
   
+
   #################################################################################
   
   
