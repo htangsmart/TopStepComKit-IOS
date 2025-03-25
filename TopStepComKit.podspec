@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.vendored_frameworks = 'TopStepComKit/Products/TopStepComKit.framework'
-#  s.vendored_frameworks = 'TopStepComKit/Products/TopStepComKit.framework', 'TopStepComKit/Rtt/persimwearSDK.framework', 'TopStepComKit/fw/flywearsdk.framework'
 
   s.resource = 'TopStepComKit/res/TSBundle.bundle'
   
