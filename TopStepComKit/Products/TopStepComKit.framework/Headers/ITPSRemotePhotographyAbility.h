@@ -19,14 +19,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// app退出拍照
 - (void)exitRemotePhotography;
 
+
+/// 手环通知App进入拍照
+- (void)remotePhotographyOnOpenCamera ;
+/// 手环通知App退出拍照
+- (void)remotePhotographyOnExitCamera ;
 /// 手环控制手机拍照
 - (void)remotePhotographyOnTakePhotoCtrl ;
 
-
-/// 手环通知App退出拍照
-- (void)remotePhotographyOnExitCamera ;
-/// 手环通知App进入拍照
-- (void)remotePhotographyOnOpenCamera ;
 
 /// 监听手表进入拍照
 - (void)observerWatchOpenCamera:(void(^)(void))openCameraBlock;
@@ -34,6 +34,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 监听手表退出拍照
 - (void)observerWatchExitCamera:(void(^)(void))exitCameraBlock;
 
+/// 监听手表摇一摇拍照
+- (void)observerWatchNoticeAppTakePhoto:(void(^)(void))beginTakePhoto;
 
 @end
 

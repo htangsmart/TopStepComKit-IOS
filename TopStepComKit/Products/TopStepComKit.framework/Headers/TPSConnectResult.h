@@ -8,6 +8,7 @@
 #ifndef TPSConnectResult_h
 #define TPSConnectResult_h
 
+@class FwConnectResult;
 @interface TPSConnectResult : NSObject
 
 typedef NS_ENUM(UInt8, TPSConnnectResult_State){
@@ -28,7 +29,7 @@ typedef NS_ENUM(UInt8, TPSConnnectResult_Error_Code){
     TPSConnnectResult_Error_Code_Wait_Reboot,
     TPSConnnectResult_Error_Code_Other_Fail,
     TPSConnnectResult_Error_Code_Disconnect_By_User_InSystemSetting,
-    TPSConnnectResult_Error_Code_Ota_DFU_Mode,
+    TPSConnnectResult_Error_Code_Ota_Temporary_Disconnect_Mode,
 };
 
 +(instancetype)new NS_UNAVAILABLE;
@@ -36,6 +37,7 @@ typedef NS_ENUM(UInt8, TPSConnnectResult_Error_Code){
 -(instancetype)init NS_UNAVAILABLE;
 
 -(instancetype)initWithState:(TPSConnnectResult_State)state errorCode:(TPSConnnectResult_Error_Code)errorCode;
+-(instancetype)initWithFwModel:(FwConnectResult*)fwConnectResult;
 
 @property(nonatomic, assign) TPSConnnectResult_State state;
 @property(nonatomic, assign) TPSConnnectResult_Error_Code errorCode;

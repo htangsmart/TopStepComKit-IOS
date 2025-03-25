@@ -25,7 +25,7 @@ typedef void(^FwCardPocketNameCardListCallback)(NSMutableArray<FwNameCardModel*>
 
 -(void)getNameCards:(FwCardPocketNameCardListCallback)block;
 
--(void)sendNameCards:(NSArray<FwNameCardModel*>*) namcCardList;
+-(void)sendNameCards:(NSArray<FwNameCardModel*>*) nameCardList;
 
 
 @end

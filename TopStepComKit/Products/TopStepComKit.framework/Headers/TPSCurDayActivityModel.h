@@ -8,6 +8,7 @@
 #ifndef TPSCurDayActivityModel_h
 #define TPSCurDayActivityModel_h
 
+@class FwCurDayActivityModel;
 @interface TPSCurDayActivityModel : NSObject
 
 //读取今日站立时长 小时
@@ -27,6 +28,7 @@
 
 -(instancetype)initWithDcmDict:(NSDictionary *)dict;
 
+-(instancetype)initWithFwModel:(FwCurDayActivityModel*)fwCurDayActivityModel;
 
 
 

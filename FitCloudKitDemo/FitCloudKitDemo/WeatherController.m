@@ -62,11 +62,17 @@
         }];
     } else if (indexPath.row == 1) {
         // 天气开关(开) --- Weather Switch (Open)
-        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Open];
+        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Open completion:^(BOOL isSuccess) {
+                    
+        }];
+//        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Open];
         OpResultToastTip(self.view, YES);
     } else if (indexPath.row == 2) {
         // 天气开关(关) --- Weather Switch (Close)
-        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Close];
+        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Close completion:^(BOOL isSuccess) {
+                    
+        }];
+//        [TPSSdk.share.miscSettingAbility sendWeather_sync_mode:TPSMiscSettingModel_State_Close];
         OpResultToastTip(self.view, YES);
     }
 }

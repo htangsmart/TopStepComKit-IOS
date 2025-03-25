@@ -25,6 +25,7 @@ typedef void(^TPSAlarmListCallback)(NSArray<TPSAlarmModel*>* _Nullable alarmList
 
 - (NSString *)newClockId;
 
+- (void)registerAlarmDidChanged:(TPSAlarmListCallback)didChangedBlock;
 @end
 
 

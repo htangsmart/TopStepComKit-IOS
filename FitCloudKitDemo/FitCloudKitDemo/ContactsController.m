@@ -39,7 +39,10 @@
         TPSContactModel *model1 = [[TPSContactModel alloc] initWithName:@"Lily" phone:@"18910723096" initial:@""];
         TPSContactModel *model2 = [[TPSContactModel alloc] initWithName:@"Jack" phone:@"15603325273" initial:@""];
         NSArray *arr = [NSArray arrayWithObjects:model1, model2, nil];
-        [TPSSdk.share.contactAbility sendCommonContact:arr];
+//        [TPSSdk.share.contactAbility sendCommonContact:arr];
+        [TPSSdk.share.contactAbility sendCommonContact:arr complete:^(BOOL success, NSError *error) {
+                    
+        }];
         OpResultToastTip(self.view, YES);
     } else if (indexPath.row == 2) {
         // 获取紧急联系人 --- Get Emergency Contact
@@ -62,7 +65,10 @@
     } else if (indexPath.row == 3) {
         // 设置紧急联系人 --- Set Emergency Contact
         TPSContactModel *model = [[TPSContactModel alloc] initWithName:@"Lucy" phone:@"18730325788" initial:@""];
-        [TPSSdk.share.contactAbility sendEmergencyContact:model];
+        [TPSSdk.share.contactAbility sendEmergencyContact:model isSOSOn:YES complete:^(BOOL success, NSError *error) {
+            
+        }];
+//        [TPSSdk.share.contactAbility sendEmergencyContact:model];
         OpResultToastTip(self.view, YES);
     }
 }

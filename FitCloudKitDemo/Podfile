@@ -17,7 +17,11 @@ target 'FitCloudKitDemo' do
   #use_frameworks!
   
   # Pods for FitCloudKitDemo
-  pod 'QuickTraceiOSLogger'
+  #pod 'QuickTraceiOSLogger'
+  pod 'iOSLogBrowserSDK'
+  pod 'Reachability'
+
+  #pod 'QuickTraceiOSLogger', :git => 'https://github.com/pcjbird/QuickTraceiOSLogger.git' 
   pod 'YYCategories'
   pod 'Toast'
   pod 'YYModel'

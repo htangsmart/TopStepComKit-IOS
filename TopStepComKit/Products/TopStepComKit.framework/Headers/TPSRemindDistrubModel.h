@@ -8,7 +8,9 @@
 #import <Foundation/Foundation.h>
 
 
+@class FwRemindDistrubModel;
 @class FitCloudDNDSetting;
+@class WMNoDisturb;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TPSRemindDistrubModel : NSObject
@@ -26,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic,assign) int end;
 
++ (TPSRemindDistrubModel *)distrubModelWithFWDistrub:(FwRemindDistrubModel *)distrubModel;
+
 // 配置免打扰数据 FitCloudDNDSetting
 + (TPSRemindDistrubModel *)configModelWithDNDSetting:(FitCloudDNDSetting *)dndSet;
 
@@ -34,6 +38,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSDictionary *)toDictonary;
 
+
++ (TPSRemindDistrubModel *)distrubModelWithWMDistrub:(WMNoDisturb *)distrubModel;
 
 @end
 

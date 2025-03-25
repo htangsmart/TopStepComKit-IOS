@@ -18,7 +18,6 @@
 
 -(void)sendWeather:(TPSWeatherModel*)weatherModel block:(TPSSendMsgResult)block;
 
-
 @end
 
 

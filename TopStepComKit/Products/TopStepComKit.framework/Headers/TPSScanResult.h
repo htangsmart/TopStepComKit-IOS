@@ -26,6 +26,14 @@
 @property(nonatomic, strong) CBCentralManager* central;
 @property (nonatomic, assign) CBPeripheralState state;
 
+@property (nonatomic,assign) BOOL allowConnectWithBT;
+
+// just for FitCloudKit
+@property (nonatomic,copy) NSString *_Nullable mainProjNo;
+@property (nonatomic,copy) NSString *_Nullable subProjNo;
+
+
+
 @end
 
 

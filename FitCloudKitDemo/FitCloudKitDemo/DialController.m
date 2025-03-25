@@ -53,7 +53,9 @@
            
             if (![modelList isKindOfClass:NSArray.class] || modelList.count == 0) { return; }
             //@"500000"是9845的自定义表盘位
-            [TPSSdk.share.dialAbility changeDialWithDialId:modelList.firstObject.dialId block:^(BOOL isSendOK) {
+            
+            
+            [TPSSdk.share.dialAbility changeDialWithDialId:modelList.firstObject.dialId completion:^(BOOL isSendOK) {
                 dispatch_async(dispatch_get_main_queue(), ^{
                     if (isSendOK) {
                         OpResultToastTip(weakSelf.view, YES);
@@ -65,7 +67,7 @@
         }];
     } else if (indexPath.row == 3) {
         // Delete cloud watch face
-        [TPSSdk.share.dialAbility deleteRemoteWatchWithDiaId:@"57417" block:^(BOOL isSendOK, NSDictionary * _Nullable errorInfo) {
+        [TPSSdk.share.dialAbility deleteRemoteWatchWithDiaId:@"57417" completion:^(BOOL isSendOK, NSDictionary * _Nullable errorInfo) {
             
             if (errorInfo) {
                 NSLog(@"-----error = %@", errorInfo);
@@ -128,7 +130,7 @@
         // 向手表推送自定义表盘
         // Push Custom Watch Face to the Watch
         
-        [TPSSdk.share.dialAbility pushCustomerDialWithDial:model block:^(TPSDialProgressModel *model) {
+        [TPSSdk.share.dialAbility pushCustomerDialWithDial:model completion:^(TPSDialProgressModel *model) {
             
             if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
                 NSLog(@"push watch face ok");
@@ -149,7 +151,7 @@
         }else if (sdkType == eTPSSDKFitCloudPro) {
 //            model.filePath = [[NSBundle mainBundle] pathForResource:@"9845_cloud" ofType:@"bin"];
             model.filePath = [[NSBundle mainBundle] pathForResource:@"4179_106_cloud" ofType:@"bin"];
-            [TPSSdk.share.dialAbility pushLocalDialWithDial:model block:^(TPSDialProgressModel *model) {
+            [TPSSdk.share.dialAbility pushLocalDialWithDial:model completion:^(TPSDialProgressModel *model) {
                 if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
                     NSLog(@"push cloud face ok");
                     [TPS_Tools mainTask:^{

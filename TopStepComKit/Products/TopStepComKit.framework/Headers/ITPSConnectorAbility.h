@@ -25,7 +25,9 @@
 +(instancetype)share;
 
 -(CBManagerState)getCBManagerState;
+
 -(TPSConnnectResult_State)getConnectState;
+
 -(RACSubject<TPSScanResult*>*)startScan;
 
 -(void)stopScan;
@@ -40,14 +42,21 @@
 /**
  * 回连设备
  */
--(RACSubject<TPSConnectResult*>*)reconnectWithMac:(NSString*)mac extraParam:(TPSExtraConnectParam*)extraParam;
+-(RACSubject<TPSConnectResult*>*)reconnectWithCBPeripheral:(CBPeripheral*)peripheral mac:(NSString*)mac extraParam:(TPSExtraConnectParam*)extraParam;
 
 -(RACSubject<TPSConnectResult*>*)autoConnectLastPeripheralWithUserInfo:(TPSExtraConnectParam*)extraParam;
+
 -(void)cancelAutoConnectLastPeripheral;
+
 -(RACSubject<TPSConnectResult*>*)observeConnectResult;
+
 -(void)disconnect;
+
 -(void)unbindDevWithUserId:(NSString*)userId block:(TPSSendMsgResult _Nullable)block;
+
 -(TPSExPeripheral*)getPeripheral;
+
+
 -(RACSubject<NSNumber*>*_Nonnull)getIsBtConnected;
 
 @end

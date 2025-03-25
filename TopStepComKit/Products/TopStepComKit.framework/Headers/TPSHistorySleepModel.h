@@ -8,7 +8,7 @@
 #ifndef TPSHistorySleepModel_h
 #define TPSHistorySleepModel_h
 
-
+@class FwHistorySleepModel;
 //该类只表达从手表获取的原始数据，未做任何计算处理
 @interface TPSHistorySleepModel : NSObject
 
@@ -31,7 +31,10 @@ typedef NS_ENUM(UInt8, TPSHistorySleep_Type){
 //该睡眠时段的时长，秒
 @property (nonatomic, assign) int duration;
 
+-(instancetype)initWithFwModel:(FwHistorySleepModel*)fwHistorySleepModel;
 -(NSData*)toJsonNSData;
+
++ (instancetype)modelWithBlongDay:(long)belongDay record_time:(long)record_time start_time:(long)start_time duration:(int)duration type:(TPSHistorySleep_Type)type;
 
 @end
 

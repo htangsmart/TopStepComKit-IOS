@@ -10,6 +10,7 @@
 #ifndef TPSNotificationEnableModel_h
 #define TPSNotificationEnableModel_h
 
+@class WMMessageModel;
 
 //NSArray* allNameArray =  @[
 //    @{@"icon":@"device_msg_all",@"msg_title":kJL_TXT("消息一键开启"),@"tool_id":@"all",@"visible":@(1)},
@@ -38,7 +39,7 @@
 //    @{@"icon":@"device_msg_hike",@"msg_title":kJL_TXT("Hike"),@"tool_id":@"hike",@"visible":@(0)},
 //    @{@"icon":@"device_msg_default",@"msg_title":kJL_TXT("更多提醒"),@"tool_id":@"default",@"visible":@(1)},
 //];
-
+@class FwNotificationEnableModel;
 @interface TPSNotificationEnableModel : NSObject
 
 typedef NS_ENUM(UInt8, TPSNotification_Type){
@@ -75,6 +76,15 @@ typedef NS_ENUM(UInt8, TPSNotification_Type){
 @property(nonatomic, strong) NSString* name;
 @property(nonatomic, assign) BOOL enable;
 
+-(instancetype)initWithFwModel:(FwNotificationEnableModel*)fwNotificationEnableModel;
++(NSArray<TPSNotificationEnableModel*>*)toTPSArrWithFwArr:(NSArray<FwNotificationEnableModel*>*)fwArr;
++(NSArray<FwNotificationEnableModel*>*)toFwArrWithTPSArr:(NSArray<TPSNotificationEnableModel*>*)tpsArr;
+-(FwNotificationEnableModel*)toFwModel;
+
+
++(WMMessageModel *)toWMMessageModelWithArray:(NSArray *)array;
+
++(NSArray<TPSNotificationEnableModel *> *)notificationArrayWithWMModel:(WMMessageModel *)wmMessageModel;
 
 
 

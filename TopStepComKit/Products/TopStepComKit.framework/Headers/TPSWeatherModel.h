@@ -14,6 +14,7 @@
 #import <TopStepComKit/TPSFutureHourWeatherModel.h>
 #import <TopStepComKit/TPSTodayWeatherModel.h>
 
+@class FwWeatherModel;
 @interface TPSWeatherModel : NSObject
 
 +(instancetype)new NS_UNAVAILABLE;
@@ -43,6 +44,10 @@
 //@"weather.wind_speed":[NSNumber numberWithInteger:self->wind_speed],
 //@"weather.humidity":[NSNumber numberWithInteger:self->humidity],
 //@"weather.future_hours":hours,
+
+-(instancetype)initWithFwModel:(FwWeatherModel*)fwWeatherModel;
++(NSArray<TPSWeatherModel*>*)toTPSArrWithFwArr:(NSArray<FwWeatherModel*>*)fwArr;
+-(FwWeatherModel*)toFwModel;
 
 
 

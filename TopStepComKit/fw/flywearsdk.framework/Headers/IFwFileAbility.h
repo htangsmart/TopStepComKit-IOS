@@ -36,6 +36,9 @@ typedef void(^FwFileSizeCallback)(float sizeInByte);
  */
 -(void)cancelPullWithFileName:(NSString*)fileName;
 
+- (void)startPushFile;
+- (void)finishPushFile;
+
 @end
 
 

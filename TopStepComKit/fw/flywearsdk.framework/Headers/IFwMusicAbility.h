@@ -26,6 +26,9 @@ typedef void(^FwMusicListCallback)(NSArray<FwMusicModel*> * musicList);
 ///@param fileName -文件名，不是全路径
 -(void)cancelPushMusicWithFileName:(NSString*)fileName;
 
+- (void)startPushSong;
+- (void)finishPushSong;
+
 @end
 
 

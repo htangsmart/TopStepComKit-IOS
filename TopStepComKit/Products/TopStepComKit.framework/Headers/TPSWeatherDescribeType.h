@@ -116,6 +116,83 @@ typedef NS_ENUM(UInt8,TPSWeatherSubType){
     TPSWeatherSubType_DUST,
 };
 
+//typedef NS_ENUM(UInt8,TPSWeatherSubType){
+//    // 未知天气
+//    TPSWeatherSubType_UNKNOWN = 0,                     // 未知
+//
+//    // 极端天气
+//    TPSWeatherSubType_TORNADO = 1,                     // 龙卷风
+//    TPSWeatherSubType_TROPICAL_STORM = 2,              // 热带风暴
+//    TPSWeatherSubType_HURRICANE = 3,                   // 飓风
+//    TPSWeatherSubType_STORM_WIND = 4,                  // 风暴风
+//
+//    // 降水
+//    TPSWeatherSubType_THUNDER_SHOWER = 5,              // 雷阵雨
+//    TPSWeatherSubType_RAIN_AND_SNOW = 6,               // 雨雪
+//    TPSWeatherSubType_RAIN_AND_HAIL = 7,               // 雨夹冰雹
+//    TPSWeatherSubType_RAIN_MIXED_SNOW = 8,             // 雨夹雪
+//    TPSWeatherSubType_FREEZING_DRIZZLE = 9,            // 冻毛毛雨
+//    TPSWeatherSubType_DRIZZLE = 10,                     // 毛毛雨
+//    TPSWeatherSubType_FREEZING_RAIN = 11,               // 冻雨
+//    TPSWeatherSubType_RAIN_SHOWER = 12,                 // 阵雨
+//    TPSWeatherSubType_RAIN = 13,                        // 雨
+//    TPSWeatherSubType_LIGHT_RAIN = 50,                  // 小雨
+//    TPSWeatherSubType_MODERATE_RAIN = 51,               // 中雨
+//    TPSWeatherSubType_STORM_RAIN = 52,                  // 暴雨
+//    TPSWeatherSubType_HEAVY_RAIN = 41,                  // 大雨
+//
+//    // 雪
+//    TPSWeatherSubType_LIGHT_SNOW = 14,                  // 小雪
+//    TPSWeatherSubType_SNOW_SHOWER = 15,                 // 阵雪
+//    TPSWeatherSubType_DRIFTING_SNOW = 16,               // 风吹雪
+//    TPSWeatherSubType_SNOW = 17,                        // 雪
+//    TPSWeatherSubType_HAIL = 18,                        // 冰雹
+//    TPSWeatherSubType_SLEET = 19,                       // 雨夹雪
+//    TPSWeatherSubType_HEAVY_SNOW = 43,                  // 大雪
+//    TPSWeatherSubType_STORM_SNOW = 44,                  // 暴风雪
+//
+//    // 云层状况
+//    TPSWeatherSubType_OVERCAST_DAY = 27,                // 阴天
+//    TPSWeatherSubType_CLOUDY_NIGHT = 28,               // 多云夜
+//    TPSWeatherSubType_CLOUDY_DAY = 29,                  // 多云天
+//    TPSWeatherSubType_PARTLY_CLOUDY_NIGHT = 30,        // 夜间局部多云
+//    TPSWeatherSubType_PARTLY_CLOUDY_DAY = 31,          // 白天局部多云
+//    TPSWeatherSubType_FEW_CLOUDY_NIGHT = 34,           // 夜间少云
+//    TPSWeatherSubType_FEW_CLOUDY_DAY = 35,             // 白天少云
+//    TPSWeatherSubType_PARTLY_THUNDER_SHOWER = 38,      // 局部雷阵雨
+//    TPSWeatherSubType_PARTLY_THUNDER_SHOWER_DAY = 39,  // 白天局部雷阵雨
+//    TPSWeatherSubType_PARTLY_RAIN_SHOWER_DAY = 40,     // 白天局部阵雨
+//    TPSWeatherSubType_PARTLY_SNOW_SHOWER_DAY = 42,     // 白天局部阵雪
+//
+//    // 能见度
+//    TPSWeatherSubType_SAND_STORM = 20,                  // 沙尘暴
+//    TPSWeatherSubType_FOG = 21,                         // 雾
+//    TPSWeatherSubType_HAZE = 22,                        // 霾
+//    TPSWeatherSubType_SMOKE = 23,                       // 烟雾
+//
+//    // 温度
+//    TPSWeatherSubType_BREEZY = 24,                      // 微风
+//    TPSWeatherSubType_WIND = 25,                        // 风
+//    TPSWeatherSubType_COLD = 49,                        // 寒冷
+//    TPSWeatherSubType_HOT = 37,                         // 热
+//
+//    // 其他
+//    TPSWeatherSubType_ICE_CRYSTALS = 26,                // 冰晶
+//    TPSWeatherSubType_CLEAR_NIGHT = 32,                 // 晴天夜
+//    TPSWeatherSubType_CLEAR_DAY = 33,                   // 晴天
+//    TPSWeatherSubType_RAIN_MIXED_HAIL = 36,             // 雨夹冰雹
+//    TPSWeatherSubType_PARTLY_RAIN_SHOWER_NIGHT = 45,   // 夜间局部阵雨
+//    TPSWeatherSubType_PARTLY_SNOW_SHOWER_NIGHT = 46,   // 夜间局部阵雪
+//    TPSWeatherSubType_PARTLY_THUNDER_SHOWER_NIGHT = 47, // 夜间局部雷阵雨
+//    TPSWeatherSubType_OVERCAST_NIGHT = 48,              // 夜间阴天
+//    TPSWeatherSubType_LIGHT_HAZE = 54,                  // 轻度霾
+//    TPSWeatherSubType_MODERATE_HAZE = 55,               // 中度霾
+//    TPSWeatherSubType_HEAVY_HAZE = 56,                  // 重度霾
+//    TPSWeatherSubType_SAND = 57,                        // 沙
+//    TPSWeatherSubType_DUST = 58,                        // 尘土
+//};
+
+
 
 //+(NSString*)getDesWithType:(TPSWeatherDescribeType_ENUM)type;
 

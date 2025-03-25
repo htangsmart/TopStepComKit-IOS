@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(RACSubject*)observeGameValue;
 
+- (BOOL)isSupportSensorGame;
 
 @end
 

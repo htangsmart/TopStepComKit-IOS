@@ -19,8 +19,6 @@ typedef NS_ENUM(NSUInteger, TSDialTimePosition) {
     eDialTimePositionBottomLeft = 5,
     eDialTimePositionTopRight = 6,
     eDialTimePositionBottomRight = 7,      
-
-    
 };
 
 typedef NS_ENUM(NSUInteger, TSDialType) {
@@ -30,7 +28,7 @@ typedef NS_ENUM(NSUInteger, TSDialType) {
     eDialTypeCloud = 2,
 };
 
-
+@class FwDialModel;
 @class FitCloudWatchfaceSlot;
 
 @interface TPSDialModel : NSObject
@@ -64,6 +62,9 @@ typedef NS_ENUM(NSUInteger, TSDialType) {
 
 
 
+-(instancetype)initWithFwModel:(FwDialModel*)fwDialModel;
+
++(NSArray<TPSDialModel*>*)toTPSArrWithFwArr:(NSArray<FwDialModel*>*)fwArr;
 
 - (instancetype)initWithFitModel:(FitCloudWatchfaceSlot *)fitDialModel;
 

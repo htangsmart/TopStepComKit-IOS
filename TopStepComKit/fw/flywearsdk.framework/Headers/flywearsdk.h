@@ -142,4 +142,14 @@ FOUNDATION_EXPORT const unsigned char flywearsdkVersionString[];
 #import <flywearsdk/FwSportPreciseDistanceItem.h>
 #import <flywearsdk/FwSportPreciseStepItem.h>
 
+#import <flywearsdk/IFwWatchLogAbility.h>
+
+#import <flywearsdk/IFwRecordingAbility.h>
+#import <flywearsdk/FwRecordingModel.h>
+
+#import <flywearsdk/IFwApplicationStoreAbility.h>
+#import <flywearsdk/FwApplicationStoreModel.h>
+
+
+
 

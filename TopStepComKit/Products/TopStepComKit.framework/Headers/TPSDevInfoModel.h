@@ -10,12 +10,14 @@
 #define TPSDevInfoModel_h
 
 typedef NS_ENUM(NSUInteger, TSWatchShape) {
+    eTSWatchShapeUnknow,    // 未知
     eTSWatchShapeCircle,    // 圆形
     eTSWatchShapeVerticalRectangle,// 纵向长方形
     eTSWatchShapeTransverseRectangle,// 横向长方形
     eTSWatchShapeSquare,// 方形
 };
 
+@class FwDevInfoModel;
 
 @interface TPSDevInfoModel : NSObject
 
@@ -66,6 +68,7 @@ typedef NS_ENUM(NSUInteger, TSWatchShape) {
 @property (nonatomic,assign) CGFloat dialPreviewCorner;
 
 
+-(instancetype)initWithFwModel:(FwDevInfoModel*)fwDevInfoModel;
 
 
 

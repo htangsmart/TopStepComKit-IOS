@@ -51,6 +51,11 @@
 
 #import <flywearsdk/IFwUserInfoAbility.h>
 #import <flywearsdk/IFwHealthMonitorAbility.h>
+#import <flywearsdk/IFwWatchLogAbility.h>
+#import <flywearsdk/IFwRecordingAbility.h>
+#import <flywearsdk/IFwApplicationStoreAbility.h>
+
+
 
 @interface FwSdk : NSObject
 
@@ -227,6 +232,18 @@
 @property (nonatomic,strong) id<IFwUserInfoAbility> userInfoAbility;
 
 @property (nonatomic,strong) id<IFwHealthMonitorAbility> healthMonitorAbility;
+
+@property (nonatomic,strong) id<IFwWatchLogAbility> watchLogAbility;
+
+/**
+ 录音控制相关
+ */
+@property (nonatomic,strong) id<IFwRecordingAbility> recordingAbility;
+
+
+@property (nonatomic,strong) id<IFwApplicationStoreAbility> applicationStoreAbility;
+
+
 
 @end
 

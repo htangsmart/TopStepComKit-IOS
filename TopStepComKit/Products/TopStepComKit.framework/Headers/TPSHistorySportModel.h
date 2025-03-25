@@ -12,7 +12,7 @@
 #import <TopStepComKit/TPSSportPreciseModel.h>
 #import <TopStepComKit/TPSSportPreciseHeartRateItem.h>
 
-
+@class FwHistorySportModel;
 @interface TPSHistorySportModel : NSObject
 
 typedef NS_ENUM(UInt8, TPSSportDes_Type){
@@ -161,6 +161,10 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
     TPSSportDes_Type_Kickboxing = 142, //      踢拳
     TPSSportDes_Type_RollerSkating = 143, //      轮滑
     TPSSportDes_Type_Skateboard = 144, //      滑板
+    
+    TPSSportDes_Type_PoolSwimming = 145, //      游泳池游泳
+    TPSSportDes_Type_OpenWaterSwimming = 146, //      公开水域游泳
+
 };
 
 @property (nonatomic, assign) long sport_id;
@@ -170,7 +174,7 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
 @property (nonatomic, assign) long end_time;//单位秒
 @property (nonatomic, assign) long duration;//单位秒
 @property (nonatomic, assign) double distance;//距离米
-@property (nonatomic, assign) double calories;//单位千卡
+@property (nonatomic, assign) double calories;//单位卡（小卡）
 @property (nonatomic, assign) int heartrate;
 @property (nonatomic, assign) double pace;//秒/千米
 @property (nonatomic, assign) int step;
@@ -213,7 +217,6 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
 @property (nonatomic, assign) int avgPace;
 
 
-
 @property (nonatomic, strong) NSArray<TPSSportItemModel*>* detailItemList;
 @property (nonatomic, strong) TPSSportPreciseModel* sportPreciseModel;
 @property (nonatomic, strong) NSMutableDictionary* extraInfo;
@@ -221,12 +224,37 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
 // 运动心率数据
 @property (nonatomic,strong) NSArray<TPSSportPreciseHeartRateItem *> * heartRateItems;
 
+
+@property (nonatomic, assign) int swimStyle;    /* 泳姿   1: 自由泳 2:蛙泳 3:仰泳 4:蝶泳 */
+@property (nonatomic, assign) int swimLaps;  /* 游泳趟数 */
+@property (nonatomic, assign) int swimStrokes;/* 游泳划水次数 */
+@property (nonatomic, assign) int swimStrokeFreq;/* 游泳划水频率 */
+@property (nonatomic, assign) int swolf;/* 游泳效率 */
+
+@property (nonatomic, assign) int jumpCount;/* 跳绳-触发次数 */
+@property (nonatomic, assign) int jumpBkCount;/* 跳绳-中断次数 */
+@property (nonatomic, assign) int jumpConsCount;/* 跳绳-连续次数 */
+
+@property (nonatomic, assign) int elCount; /* 椭圆机-触发次数 */
+@property (nonatomic, assign) int elFrequecy;/* 椭圆机-触发频率 */
+@property (nonatomic, assign) int elMaxFrequecy;/* 椭圆机-最大触发频率 */
+@property (nonatomic, assign) int elMinFrequecy;/* 椭圆机-最小触发频率 */
+
+@property (nonatomic, assign) int rowCount;/* 划船机-触发次数 */
+@property (nonatomic, assign) int rowFrequecy;/* 划船机-触发频率 */
+@property (nonatomic, assign) int rowMaxFrequecy;/* 划船机-最大触发频率 */
+@property (nonatomic, assign) int rowMinFrequecy;/* 划船机-最小触发频率 */
+
+
+
+
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;
 -(instancetype)initWithNSData:(NSData*)jsonData;
 -(NSData*)toJsonNSData;
 -(void)caculateOtherWithStep:(int)step distance:(double)distance duration:(double)duration weight:(double)weight;
 -(double)getSpeedInMeterPerSecond;
 
+-(instancetype)initWithFwModel:(FwHistorySportModel*)fwHistorySportModel;
 
 @end
 

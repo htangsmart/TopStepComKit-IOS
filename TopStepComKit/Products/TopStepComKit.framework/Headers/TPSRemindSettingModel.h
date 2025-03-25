@@ -12,6 +12,8 @@
 @class FitCloudLSRObject;
 @class FitCloudDRObject;
 
+@class WMReminderModel;
+
 NS_ASSUME_NONNULL_BEGIN
 @class FitCloudLSRObject;
 @class FitCloudDRObject;
@@ -66,6 +68,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (TPSRemindSettingModel *)confRemindWithDNDSet:(TPSRemindSettingModel *)remindModel
                                    andDNDConfig:(TPSRemindDistrubModel *)disturbModel;
 
+
++ (TPSRemindSettingModel *)remindSettingModelWithWMDrinkModel:(WMReminderModel *)wmRemind;
+
++ (TPSRemindSettingModel *)remindSettingModelWithWMSedentarinessModel:(WMReminderModel *)wmRemind;
 
 @end
 

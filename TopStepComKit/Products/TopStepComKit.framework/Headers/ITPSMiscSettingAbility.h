@@ -61,7 +61,7 @@ typedef void(^TPSMiscSettingCallback)(TPSMiscSettingModel* miscSettingModel);
 /*
  * @brief 天气开关
  */
--(void)sendWeather_sync_mode:(TPSMiscSettingModel_State)weather_sync_mode;
+-(void)sendWeather_sync_mode:(TPSMiscSettingModel_State)weather_sync_mode completion:(void(^)(BOOL isSuccess))completion;
 /*
  * @brief 运动单位
  */

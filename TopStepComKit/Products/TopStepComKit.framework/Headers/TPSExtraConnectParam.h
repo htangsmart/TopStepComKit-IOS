@@ -8,6 +8,7 @@
 #ifndef TPSExtraConnectParam_h
 #define TPSExtraConnectParam_h
 
+@class FwExtraConnectParam;
 @interface TPSExtraConnectParam : NSObject
 
 typedef NS_ENUM(UInt8, TPSExtraConnectParam_Gender){
@@ -33,6 +34,13 @@ typedef NS_ENUM(UInt8, TPSExtraConnectParam_Gender){
  */
 @property(nonatomic, strong) NSString* authCode;
 
+// for Fitcloud
+@property (nonatomic,copy) NSString * mainProjNum;
+@property (nonatomic,copy) NSString * subProjNum;
+
+@property (nonatomic,assign) BOOL allowConnectWithBT;
+
+-(FwExtraConnectParam*)toFwModel;
 
 
 @end

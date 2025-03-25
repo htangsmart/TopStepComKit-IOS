@@ -19,7 +19,7 @@
     NSMutableArray<SportAddModel*>* sportToAddList;
     //list the types of sports supported in this watch
     NSArray<NSNumber *> *sportSupportedList;
-    NSArray<FitCloudWatchSportModeObject *> *currentWatchSportList;
+    NSArray *currentWatchSportList;
     BOOL isBusy;
     UIActivityIndicatorView* activityIndicator;
 }
@@ -108,8 +108,8 @@
 }
 
 -(void)getSupportSportTypeFromWatch{
-    [FitCloudKit getSupportedWatchSportsWithBlock:^(BOOL succeed, NSArray<NSNumber *> *sports, NSError *error) {
-        self->sportSupportedList = sports;
+    [FitCloudKit querySupportedWorkoutOnWatchWithCompletion:^(BOOL success, NSArray<NSNumber *> * _Nullable workoutTypesArray, NSError * _Nullable error) {
+        self->sportSupportedList = workoutTypesArray;
         dispatch_async(dispatch_get_main_queue(), ^{
             [self getCurrentSportTypeFromWatch];
         });
@@ -117,8 +117,9 @@
 }
 
 -(void)getCurrentSportTypeFromWatch{
-    [FitCloudKit getCurrentWatchSportsWithBlock:^(BOOL succeed, NSArray<FitCloudWatchSportModeObject *> *sports, NSError *error) {
-        self->currentWatchSportList = sports;
+    
+    [FitCloudKit queryWorkoutSlotsOnWatchWithCompletion:^(BOOL success, NSArray<FitCloudWorkoutSlot *> * _Nullable workoutSlots, NSError * _Nullable error) {
+        self->currentWatchSportList = workoutSlots;
         dispatch_async(dispatch_get_main_queue(), ^{
             [self getSportTypeInformationFromServer];
         });
@@ -201,7 +202,9 @@
 
 -(BOOL)isInCurrentWatchSportList:(int)sportType{
     for(int i=0;i<currentWatchSportList.count;i++){
-        if(currentWatchSportList[i].workoutType == sportType){
+//        FitCloudWorkoutSlot
+        FitCloudWorkoutSlot *slot = currentWatchSportList[i];
+        if(slot.workoutType == sportType){
             return YES;
         }
     }

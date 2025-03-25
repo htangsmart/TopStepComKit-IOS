@@ -9,7 +9,9 @@
 #ifndef TPSHrConfigModel_h
 #define TPSHrConfigModel_h
 
+@class FwHrConfigModel;
 @class FitCloudHRAlarmObject;
+@class WMHeartRateConfigModel;
 @class  FitCloudHTMSingleObject;
 @interface TPSHrConfigModel : NSObject
 
@@ -49,12 +51,22 @@
 @property (nonatomic, assign) int maxRestAlarmHr;
 
 
+-(instancetype)initWithFwModel:(FwHrConfigModel*)fwModel;
 
+-(instancetype)initWithFCPModel:(FitCloudHRAlarmObject*)fcpModel;
 - (FitCloudHRAlarmObject *)toFitHRAlarmModel;
 
 - (FitCloudHTMSingleObject *)toFitSingleModel;
 
+
 -(instancetype)initWithFCPModel:(FitCloudHRAlarmObject*)fcpModel htmSingleModel:(FitCloudHTMSingleObject *)htmModel;
+
+-(FwHrConfigModel*)toFwModel;
+
+
+- (instancetype)initWithWMModel:(WMHeartRateConfigModel *)wmModel;
+
+-(WMHeartRateConfigModel*)toWMModel;
 
 
 @end

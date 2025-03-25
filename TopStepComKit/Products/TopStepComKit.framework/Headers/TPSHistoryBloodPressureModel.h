@@ -8,7 +8,7 @@
 #ifndef TPSHistoryBloodPressureModel_h
 #define TPSHistoryBloodPressureModel_h
 
-
+@class FwHistoryBloodPressureModel;
 @interface TPSHistoryBloodPressureModel : NSObject
 
 @property (nonatomic, assign) long record_time;
@@ -17,6 +17,7 @@
 
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;
 -(instancetype)initWithNSData:(NSData*)jsonData;
+-(instancetype)initWithFwModel:(FwHistoryBloodPressureModel*)fwHistoryBloodPressureModel;
 -(NSData*)toJsonNSData;
 
 @end

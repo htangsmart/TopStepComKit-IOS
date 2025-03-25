@@ -141,6 +141,11 @@ FOUNDATION_EXPORT const unsigned char TopStepComKitVersionString[];
 #import <TopStepComKit/ITPSHealthMonitorAbility.h>
 
 #import <TopStepComKit/TPSMangerTool.h>
+#import <TopStepComKit/TPSOTAModel.h>
+
+#import <TopStepComKit/ITPSApplicationStoreAbility.h>
+#import <TopStepComKit/TPSApplicationStoreModel.h>
+
 
 
 

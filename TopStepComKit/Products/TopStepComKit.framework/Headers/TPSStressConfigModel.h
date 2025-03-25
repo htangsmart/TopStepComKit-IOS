@@ -10,8 +10,11 @@
 
 @class FitCloudHTMSingleObject;
 
+@class FwStressConfigModel;
 @interface TPSStressConfigModel : NSObject
 
+-(instancetype)initWithFwModel:(FwStressConfigModel*)fwModel;
+-(FwStressConfigModel*)toFwModel;
 
 
 -(instancetype)initWithFitClpodModel:(FitCloudHTMSingleObject*)fitModel;

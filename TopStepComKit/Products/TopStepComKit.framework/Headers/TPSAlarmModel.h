@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 
 @class FitCloudAlarmObject;
+@class WMAlarmModel;
 
 typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
     TPSAlarmRepeatNone      = 0,
@@ -21,7 +22,7 @@ typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
 };
 
 @class FitCloudAlarmObject;
-
+@class FwAlarmModel;
 @interface TPSAlarmModel : NSObject
 
 @property(nonatomic,assign)int alarmId;
@@ -34,19 +35,25 @@ typedef NS_OPTIONS(uint8_t, TPSAlarmRepeat) {
 @property (nonatomic, copy) NSString * remark;
 @property (nonatomic, assign) TPSAlarmRepeat repeatOptions;
 
-
+-(instancetype)initWithFwModel:(FwAlarmModel*)fwAlarmModel;
+-(FwAlarmModel*)toFwModel;
 
 
 -(instancetype)initWithFCPModel:(FitCloudAlarmObject*)fcpAlarmModel;
 -(FitCloudAlarmObject*)toFCPModel;
 
 
-
++(NSArray<FwAlarmModel*>*)toFwArrayWithTPSModelArr:(NSArray<TPSAlarmModel*>*)tpsArr;
++(NSArray<TPSAlarmModel*>*)toTPSArrayWithFwModelArr:(NSArray<FwAlarmModel*>*)fwArr;
 +(NSArray<TPSAlarmModel*>*)toTPSArrayWithFCPModelArr:(NSArray<FitCloudAlarmObject*>*)fcpArr;
 
 
 +(NSArray<FitCloudAlarmObject*>*)toFCPArrayWithTPSModelArr:(NSArray<TPSAlarmModel*>*)tpsArr;
 
+-(instancetype)initWithWMModel:(WMAlarmModel*)wmAlarmModel;
+-(WMAlarmModel*)toWModel;
++ (NSArray<WMAlarmModel *> *)toWMAlarmModelWithArray:(NSArray *)alarms;
++ (NSArray<TPSAlarmModel *> *)toTPSAlarmModelWithWMArray:(NSArray *)alarms;
 
 @end
 

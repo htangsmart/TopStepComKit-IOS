@@ -139,6 +139,8 @@ typedef void(^TPS_ActionString)(NSString*);
 
 +(BOOL)is12HourFormat;
 
++(BOOL)isUIOTABin:(NSString*)filePath;
+
 @end
 
 

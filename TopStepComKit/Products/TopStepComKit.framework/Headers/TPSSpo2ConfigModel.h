@@ -8,6 +8,7 @@
 #ifndef TPSSpo2ConfigModel_h
 #define TPSSpo2ConfigModel_h
 
+@class FwSpo2ConfigModel;
 @class FitCloudHTMSingleObject;
 
 @interface TPSSpo2ConfigModel : NSObject
@@ -30,6 +31,8 @@
 @property (nonatomic, assign) int maxRestAlarmSpo2;
 
 
+-(instancetype)initWithFwModel:(FwSpo2ConfigModel*)fwModel;
+-(FwSpo2ConfigModel*)toFwModel;
 
 -(instancetype)initWithFitModel:(FitCloudHTMSingleObject*)fitModel;
 -(FitCloudHTMSingleObject*)toFitModel;

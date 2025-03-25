@@ -8,6 +8,7 @@
 #ifndef TPSWebRequestModel_h
 #define TPSWebRequestModel_h
 
+@class FwWebRequestModel;
 @interface TPSWebRequestModel : NSObject
 
 @property(nonatomic, strong) NSString* url;
@@ -21,6 +22,7 @@
 @property(nonatomic, strong) NSDictionary* params;
 @property(nonatomic, strong) NSArray* localPathArr;
 
+-(instancetype)initWithFwModel:(FwWebRequestModel*)fwModel;
 
 @end
 

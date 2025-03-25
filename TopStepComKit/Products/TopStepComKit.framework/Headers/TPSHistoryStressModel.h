@@ -8,6 +8,7 @@
 #ifndef TPSHistoryStressModel_h
 #define TPSHistoryStressModel_h
 
+@class FwHistoryStressModel;
 @interface TPSHistoryStressModel : NSObject
 
 @property (nonatomic, assign) long record_time;
@@ -15,6 +16,7 @@
 
 -(instancetype)initWithTsDbDict:(NSDictionary *)dict;
 -(instancetype)initWithNSData:(NSData*)jsonData;
+-(instancetype)initWithFwModel:(FwHistoryStressModel*)fwHistoryStressModel;
 -(NSData*)toJsonNSData;
 +(NSArray<TPSHistoryStressModel*>*)stressModelFormArray:(NSArray<NSDictionary*>*)fitcloudModelArray;
 

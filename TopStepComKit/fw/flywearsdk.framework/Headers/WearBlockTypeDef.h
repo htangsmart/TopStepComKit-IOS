@@ -17,4 +17,5 @@ typedef void(^FwResultBlock)(BOOL isSendOK, NSDictionary * _Nullable errorInfo);
 typedef void(^FwRttDicResult)(NSDictionary<NSString *, id> * _Nonnull jsonMsg);
 
 
+
 #endif /* WearBlockTypeDef_h */

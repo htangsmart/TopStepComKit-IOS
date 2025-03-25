@@ -12,12 +12,14 @@
 #import <TopStepComKit/TPSWearBlockTypeDef.h>
 #import <TopStepComKit/TPSDevInfoModel.h>
 #import <TopStepComKit/TPSProgressModel.h>
+#import <TopStepComKit/TPSOTAModel.h>
 
 @protocol ITPSOTAAbility <NSObject,ITPSWearBaseAbility>
 
 +(instancetype)share;
 
 -(void)otaUpdateWithLocalPath:(NSString*)localPath block:(onTPSProgressResult)block;
+-(void)otaUpdateWithLocalPath:(NSString*)localPath otaModel:(nullable TPSOTAModel*)otaModel block:(onTPSProgressResult _Nonnull )block;
 
 @end
 

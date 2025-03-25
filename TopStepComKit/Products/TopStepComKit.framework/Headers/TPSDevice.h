@@ -17,12 +17,20 @@ typedef NS_ENUM(NSUInteger, TPSSDKType) {
     eTPSSDKFWM,//绅聚
 };
 
+//设备型号
 typedef NS_ENUM(NSUInteger, TPSDeviceType) {
-    TPSDeviceType_OSW850H,
-    TPSDeviceType_OSW851H,
-    TPSDeviceType_OSW805,
+    TPSDeviceType_OSW850H,//7003
+    TPSDeviceType_OSW851H,//9804
+    TPSDeviceType_OSW805,//8004
     TPSDeviceType_OSW802N,
     TPSDeviceType_TS9845,
+    
+    TPSDeviceType_OSW805f,//809A
+    TPSDeviceType_OSW806N,//8065
+    TPSDeviceType_OSW820,//8809
+    TPSDeviceType_OSW830,//8800
+    TPSDeviceType_OSW832N,//8801
+    
 };
 
 @class FitCloudOption;

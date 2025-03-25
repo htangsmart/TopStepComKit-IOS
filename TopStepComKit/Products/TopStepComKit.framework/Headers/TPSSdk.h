@@ -55,11 +55,18 @@
 #import <TopStepComKit/ITPSLogAbility.h>
 #import <TopStepComKit/ITPSHealthMonitorAbility.h>
 
+#import <TopStepComKit/ITPSRecordingAbility.h>
+
+#import <TopStepComKit/ITPSApplicationStoreAbility.h>
+#import <TopStepComKit/TPSApplicationStoreModel.h>
+
+
 
 @interface TPSSdk : NSObject
 
 +(instancetype)share;
 
+//不再对外提供非枚举类型的接口
 //- (void)initDeviceType:(NSString *)deviceType;
 //- (void)initDeviceType:(NSString *)deviceType option:(TPSOptions*)option;
 - (void)initDeviceTypeWith:(TPSDeviceType)deviceType;
@@ -67,7 +74,6 @@
 
 -(void)initSdk;
 -(void)setTPSLogEnable:(BOOL)isEnable;
-
 
 /**
  设备连接相关
@@ -242,6 +248,18 @@
  健康
  */
 @property(nonatomic, strong) id<ITPSHealthMonitorAbility> healthMonitorAbility;
+
+/**
+ 录音
+ */
+@property(nonatomic, strong) id<ITPSRecordingAbility> recordingAbility;
+
+/**
+ 应用商店
+ */
+@property(nonatomic, strong) id<ITPSApplicationStoreAbility> applicationStoreAbility;
+
+
 
 @end
 

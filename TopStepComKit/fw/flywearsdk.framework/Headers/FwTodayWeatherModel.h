@@ -35,7 +35,7 @@
 
 @property (nonatomic, strong) NSArray<FwFutureHourWeatherModel*>* futureHourWeather;
 
--(instancetype)initWithCurTemperature:(int)curTemperature 
+-(instancetype)initWithCurTemperature:(int)curTemperature
                        minTemperature:(int)minTemperature
                        maxTemperature:(int)maxTemperature
                              describe:(FwWeatherLargeCategory)describe subType:(FwWeatherSubType)subType

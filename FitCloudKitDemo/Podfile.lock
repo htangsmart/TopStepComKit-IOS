@@ -14,22 +14,23 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - FitCloudDFUKit (1.3.1-beta.24):
+  - FitCloudDFUKit (1.3.2):
     - iOSDFULibrary (~> 4.11.0)
-  - FitCloudKit (1.3.0-beta.27)
+  - FitCloudKit (1.3.1-beta.12)
   - FitCloudNWFKit (1.0.2-beta.1):
     - zipzap (~> 8.1.1)
-  - FitCloudWFKit (1.1.7-beta.9)
+  - FitCloudWFKit (1.1.9)
   - iOSDFULibrary (4.11.1):
     - ZIPFoundation (= 0.9.11)
-  - JPImageresizerView (1.11.3)
-  - QuickTraceiOSLogger (2.0.7):
-    - XLFacility.optimize
+  - iOSLogBrowserSDK (1.0.3):
+    - XLFacility
     - YYWebImage
+  - JPImageresizerView (1.12.0)
+  - Reachability (3.7.6)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (5.19.7):
-    - SDWebImage/Core (= 5.19.7)
-  - SDWebImage/Core (5.19.7)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
   - Toast (4.1.1)
   - TopStepComKit (1.3.5):
     - FitCloudDFUKit
@@ -38,21 +39,21 @@ PODS:
     - FitCloudWFKit
     - ReactiveObjC
   - TSDialWidget (0.1.0)
-  - XLFacility.optimize (1.5.20):
-    - XLFacility.optimize/Core (= 1.5.20)
-    - XLFacility.optimize/GCDNetworking (= 1.5.20)
-    - XLFacility.optimize/GCDTelnetServer (= 1.5.20)
-    - XLFacility.optimize/Networking (= 1.5.20)
-    - XLFacility.optimize/UserInterface (= 1.5.20)
-  - XLFacility.optimize/Core (1.5.20)
-  - XLFacility.optimize/GCDNetworking (1.5.20)
-  - XLFacility.optimize/GCDTelnetServer (1.5.20):
-    - XLFacility.optimize/GCDNetworking
-  - XLFacility.optimize/Networking (1.5.20):
-    - XLFacility.optimize/Core
-    - XLFacility.optimize/GCDTelnetServer
-  - XLFacility.optimize/UserInterface (1.5.20):
-    - XLFacility.optimize/Core
+  - XLFacility (1.5.18):
+    - XLFacility/Core (= 1.5.18)
+    - XLFacility/GCDNetworking (= 1.5.18)
+    - XLFacility/GCDTelnetServer (= 1.5.18)
+    - XLFacility/Networking (= 1.5.18)
+    - XLFacility/UserInterface (= 1.5.18)
+  - XLFacility/Core (1.5.18)
+  - XLFacility/GCDNetworking (1.5.18)
+  - XLFacility/GCDTelnetServer (1.5.18):
+    - XLFacility/GCDNetworking
+  - XLFacility/Networking (1.5.18):
+    - XLFacility/Core
+    - XLFacility/GCDTelnetServer
+  - XLFacility/UserInterface (1.5.18):
+    - XLFacility/Core
   - YYCache (1.0.4)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
@@ -73,8 +74,9 @@ DEPENDENCIES:
   - FitCloudKit (from `https://github.com/htangsmart/FitCloudPro-SDK-iOS.git`)
   - FitCloudNWFKit (from `https://github.com/htangsmart/FitCloudPro-SDK-iOS.git`)
   - FitCloudWFKit (from `https://github.com/htangsmart/FitCloudPro-SDK-iOS.git`)
+  - iOSLogBrowserSDK
   - JPImageresizerView
-  - QuickTraceiOSLogger
+  - Reachability
   - SDWebImage (~> 5.0)
   - Toast
   - TopStepComKit (from `../`)
@@ -86,12 +88,13 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - iOSDFULibrary
+    - iOSLogBrowserSDK
     - JPImageresizerView
-    - QuickTraceiOSLogger
+    - Reachability
     - ReactiveObjC
     - SDWebImage
     - Toast
-    - XLFacility.optimize
+    - XLFacility
     - YYCache
     - YYCategories
     - YYImage
@@ -116,36 +119,37 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   FitCloudDFUKit:
-    :commit: f25716604a9edbda8371a40bed934944cfd1cfb4
+    :commit: 25bd6fbecb58a7aeb60a9ff110b8aacd0da8768e
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
-    :commit: 4dc03e0793c4efc5ba57559326dfa047cbfe3e05
+    :commit: 25bd6fbecb58a7aeb60a9ff110b8aacd0da8768e
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudNWFKit:
-    :commit: f25716604a9edbda8371a40bed934944cfd1cfb4
+    :commit: 25bd6fbecb58a7aeb60a9ff110b8aacd0da8768e
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudWFKit:
-    :commit: f25716604a9edbda8371a40bed934944cfd1cfb4
+    :commit: 25bd6fbecb58a7aeb60a9ff110b8aacd0da8768e
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   TSDialWidget:
-    :commit: c1b5ecc778c1aba19adb6422a56adfedf0af61d7
+    :commit: 166f6277a930c6c611b8e40bc07e2109ae8846d2
     :git: https://github.com/htangsmart/TSDialWidget-iOS.git
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  FitCloudDFUKit: 605bf66a37748c2c2893323e050c33010d41776d
-  FitCloudKit: 0eb80d56362ece0a18e44758b09298e76dd78f68
-  FitCloudNWFKit: 10f5a3637bf6c192e901a2ed1c2921698c065288
-  FitCloudWFKit: 068a9dd5282e5ed8ab786e02437c59a8926aadf8
-  iOSDFULibrary: 3500ac00451aa7d8ec48a752e91099669a2c1d27
-  JPImageresizerView: 6e955b869f9141dc2e69510d9a5a36bfec997777
-  QuickTraceiOSLogger: 43f2dd860bd7cbaf3e126f09eb0ad25aca26bda3
+  FitCloudDFUKit: 5e9d64bc80778afc8ee6133b82a185800a11951a
+  FitCloudKit: a0ff91feb22597a2f01301c1abd7ec4dafacde7f
+  FitCloudNWFKit: 42ba3b81663d38570ddac47cfa348ead5b6f2c45
+  FitCloudWFKit: 849fef1c435fd11a01ba55739dbafcc61d3035b6
+  iOSDFULibrary: 1f4139c6c1bb2b2f1f7b127f67dc52504778f8be
+  iOSLogBrowserSDK: 7d5c19bea3f4fb8bd0ca63e2b1898201796a2bc6
+  JPImageresizerView: 5b56be3d69d5b7fa214547409748a7530607cbb1
+  Reachability: fd0ecd23705e2599e4cceeb943222ae02296cbc6
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
-  TopStepComKit: c0c354b53ce8dcf7d16eb9606a36efce67bce051
+  TopStepComKit: 53f6408fa93d4b847c503d50aaa0c95eaa76c9a9
   TSDialWidget: b4142b9522ae99ed3e325d0b037c29921291fd5c
-  XLFacility.optimize: 7d3bac61863a29c11868191b3b3db038f1e5f998
+  XLFacility: f24747c4f586372bddae3525d837ef42b0e26339
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
@@ -154,6 +158,6 @@ SPEC CHECKSUMS:
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: 8ac3ca77f3d4df76803b5f014d995e366296c5c4
+PODFILE CHECKSUM: dd7ac403e8710475c5127cdbe3e69f786be79e9e
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

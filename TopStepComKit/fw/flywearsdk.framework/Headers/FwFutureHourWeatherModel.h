@@ -20,6 +20,13 @@
 @property (nonatomic, assign) FwWeatherSubType subType;
 @property (nonatomic, assign) int temperature;
 
+@property (nonatomic, assign) int windScale;
+
+@property (nonatomic, assign) int uvIndex;
+
+@property (nonatomic, assign) int visibility;
+
+
 -(instancetype)initWithTimestamp:(long)timestamp describe:(FwWeatherLargeCategory)describe subType:(FwWeatherSubType)subType temperature:(int)temperature;
 
 @end

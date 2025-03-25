@@ -8,13 +8,15 @@
 #ifndef TPSWorldClockModel_h
 #define TPSWorldClockModel_h
 
-
+@class FwWorldClockModel;
 @interface TPSWorldClockModel : NSObject
 
 @property(nonatomic, strong) NSString* cityName;
 @property(nonatomic, strong) NSString* clockZoneName;
 @property(nonatomic, assign) float UTC;
 
+-(FwWorldClockModel*)toFwModel;
++(NSArray<FwWorldClockModel*>*)toFwArrWithTPSArr:(NSArray<TPSWorldClockModel*>*)tpsArr;
 
 @end
 

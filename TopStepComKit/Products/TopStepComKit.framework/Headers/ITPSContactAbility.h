@@ -24,14 +24,14 @@ typedef void(^TPSContactListCallback)(NSArray<TPSContactModel*>* list);
 
 -(void)getEmergencyContact:(TPSContactListCallback)block;
 ///
--(void)sendEmergencyContact:(TPSContactModel*)contactModel;
+-(void)sendEmergencyContact:(TPSContactModel*)contactModel isSOSOn:(BOOL)isSOSOn complete:(void(^)(BOOL success,NSError *error))complete;
 
 /**
  所有联系人不包含紧急联系人
  */
 -(RACSubject<NSArray<TPSContactModel*>*>*)getAllContact;
 
--(void)sendCommonContact:(NSArray<TPSContactModel*>*)list;
+-(void)sendCommonContact:(NSArray<TPSContactModel*>*)list complete:(void (^)(BOOL success, NSError *error))complete;
 
 -(RACSubject*)observeContactChange;
 

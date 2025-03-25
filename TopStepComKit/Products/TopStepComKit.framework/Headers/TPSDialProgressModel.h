@@ -8,6 +8,7 @@
 #ifndef TPSDialProgressModel_h
 #define TPSDialProgressModel_h
 
+@class FwDialProgressModel;
 @interface TPSDialProgressModel : NSObject
 
 typedef NS_ENUM(UInt8,TPSDialProgressModel_Event_Type){
@@ -17,12 +18,18 @@ typedef NS_ENUM(UInt8,TPSDialProgressModel_Event_Type){
     TPSDialProgressModel_Event_Type_OnCompleted = 4, //完毕位于成功之后触发
 };
 
+
+
 ///1.0为满进度
 @property(nonatomic, assign) float percent;
 @property(nonatomic, assign) TPSDialProgressModel_Event_Type eventType;
+@property (nonatomic,strong) NSError * error;
 
+-(instancetype)initWithFwModel:(FwDialProgressModel*)fwDialProgressModel;
 
 + (instancetype)progresslWithPercent:(CGFloat)percent eventType:(TPSDialProgressModel_Event_Type)eventType;
+
++ (instancetype)progresslWithPercent:(CGFloat)percent eventType:(TPSDialProgressModel_Event_Type)eventType error:(NSError *)error;
 
 @end
 
