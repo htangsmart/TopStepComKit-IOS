@@ -109,7 +109,6 @@ typedef void(^TPSDialFreeSpaceCallback)(BOOL result,NSInteger freeSpace);
 - (void)previewImageViewWithBackgroundImage:(UIImage *)backgroundImage textImage:(UIImage *)textImage completion:(void (^)(BOOL, UIImage *))completion;
 
 
-- (void)prepareSyncWorkEndEvent;
 
 @end
 

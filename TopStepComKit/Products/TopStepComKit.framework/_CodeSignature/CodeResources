@@ -379,7 +379,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		bgT8yPjTYqgho+Ag4VnkAxkOOOA=
+		UzY8ZsEDZ/SKTVWcL0mH1WEjOoA=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -1196,7 +1196,7 @@
 		</data>
 		<key>Headers/ITPSDialAbility.h</key>
 		<data>
-		dG4BuPn6x4RhRwCWJUa/aWezLu8=
+		nchmVAr9zsKBir841yXFCLDcU2Q=
 		</data>
 		<key>Headers/ITPSEleBookAbility.h</key>
 		<data>
@@ -2149,11 +2149,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bgT8yPjTYqgho+Ag4VnkAxkOOOA=
+			UzY8ZsEDZ/SKTVWcL0mH1WEjOoA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2JTGEIbYg2KBrzW/1PzVJkQ5gAdlD9G+WptpXyRaCGM=
+			142aMTaUupwD8obR3zMKWjWrZQJ7uvTVTHPBucWV06A=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
@@ -3397,11 +3397,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dG4BuPn6x4RhRwCWJUa/aWezLu8=
+			nchmVAr9zsKBir841yXFCLDcU2Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			51VPuiJR2noOtvf3bJy20nVgZH61Zc/Os4OV9yPfLdI=
+			OElmV+xZIMfHh6OdaYosgCLT1w0BuciH2wdfmg9s/jY=
 			</data>
 		</dict>
 		<key>Headers/ITPSEleBookAbility.h</key>
