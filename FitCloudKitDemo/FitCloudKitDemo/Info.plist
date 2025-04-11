@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>是否允许FitCloudKitDemo使用网络</string>
+	<key>NSExceptionAllowsInsecureHTTPLoads</key>
+	<string>ture</string>
+	<key>NSAllowsArbitraryLoads</key>
+	<string>ture</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -20,8 +31,6 @@
 	<string>201908260001</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSAppTransportSecurity</key>
-	<dict/>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>FitCloudKitDemo将使用您的蓝牙外设权限用于与手环设备配对</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>

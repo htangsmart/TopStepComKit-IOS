@@ -15,13 +15,14 @@ Pod::Spec.new do |s|
   #s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   
   s.libraries        = 'c++', 'z', 'sqlite3', 'bz2.1.0'
-  s.frameworks       = 'Foundation', 'UIKit', 'CoreBluetooth'
+  s.frameworks       = 'Foundation', 'UIKit', 'CoreBluetooth', 'AudioToolbox'
 
   s.requires_arc = true
-  s.vendored_frameworks = 'TopStepComKit/Products/TopStepComKit.framework'
+  s.vendored_frameworks = 'TopStepComKit/Products/TopStepComKit.framework', 'TopStepComKit/OtherSDK/*.framework', 'TopStepComKit/OtherSDK/*.xcframework'
 
   s.resource = 'TopStepComKit/res/TSBundle.bundle'
-  
+
+  s.dependency 'SocketRocket'
   s.dependency 'ReactiveObjC'
   s.dependency 'FitCloudKit'
   s.dependency 'FitCloudDFUKit'

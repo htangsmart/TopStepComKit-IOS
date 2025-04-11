@@ -146,6 +146,9 @@ FOUNDATION_EXPORT const unsigned char TopStepComKitVersionString[];
 #import <TopStepComKit/ITPSApplicationStoreAbility.h>
 #import <TopStepComKit/TPSApplicationStoreModel.h>
 
+#import <TopStepComKit/ITPSAIWatchFaceAbility.h>
+
+
 
 
 

@@ -379,7 +379,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		5nmqPUxpESUxl7MK4/Qpc/9VZaI=
+		aqjIOLzqZAm/MIn0gJwtQn3LtBw=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -494,6 +494,15 @@
 			<key>hash</key>
 			<data>
 			FcvCt47hVky57W+n/uFL42gowb4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudKit.bundle/ha.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oJ7AOBpikFne/DIRwxctW9tDtuw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1154,6 +1163,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/ITPSAIWatchFaceAbility.h</key>
+		<data>
+		3Z1JMmGwvESXdWM39Fz2vOdIXkY=
+		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
 		YWtwBn9ctBkQqb0VcjmAkEPSfNI=
@@ -1436,7 +1449,7 @@
 		</data>
 		<key>Headers/TPSMangerTool.h</key>
 		<data>
-		tfieb3nGE1rKFBZHyylIZlNt5/U=
+		13cc/ur/tXT6wrfsTl7FVhQFJAg=
 		</data>
 		<key>Headers/TPSMiscSettingModel.h</key>
 		<data>
@@ -1584,7 +1597,7 @@
 		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
-		OrR/SzBKWHQTam/DF57fW0w1GTA=
+		25X4vXdZtDdymwKpfg1g4xn0aCM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -1597,6 +1610,10 @@
 		<key>TSBundle.bundle/TSSql.sql</key>
 		<data>
 		at80v2oTVU/nQyEhNnTS9bBgqQo=
+		</data>
+		<key>TSBundle.bundle/gui_dial_binfile_watch_1024000_1_20241011_ota.bin</key>
+		<data>
+		aJVS74s3n9n+jvXqmthLeVS1WSM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2149,11 +2166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5nmqPUxpESUxl7MK4/Qpc/9VZaI=
+			aqjIOLzqZAm/MIn0gJwtQn3LtBw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gf9ziV+db+BVHq7xxT0SdEiP1d7lWV7uVT/0Qg0+sUA=
+			+fdsw60MjSqtCWYNlbpcQswmEeTvis9yd9ybh+MgFmk=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
@@ -2321,6 +2338,19 @@
 			<key>hash2</key>
 			<data>
 			KyEP1WBdVbmC3WnhB1bpErgqj6++/d6BQ4vqzLCF+6Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>FitCloudKit.bundle/ha.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oJ7AOBpikFne/DIRwxctW9tDtuw=
+			</data>
+			<key>hash2</key>
+			<data>
+			er7wdDdFUM2Pt5Rink0JK+kapeGfysQSsqsBNaRUrNc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3283,6 +3313,17 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/ITPSAIWatchFaceAbility.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3Z1JMmGwvESXdWM39Fz2vOdIXkY=
+			</data>
+			<key>hash2</key>
+			<data>
+			DMosxqw0dGia/ZF7aZOy6IxKtVSQ5dQSvWcM9lYJsjg=
+			</data>
+		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<dict>
 			<key>hash</key>
@@ -4057,11 +4098,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tfieb3nGE1rKFBZHyylIZlNt5/U=
+			13cc/ur/tXT6wrfsTl7FVhQFJAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			1rdT8YbHnzgwblNjZoug/rlt5JcugeVQoB1x6phc1K8=
+			PmgwCpwAWXUoH6Ndl4i1Fjk5lkLS3woB2lMd519zr/k=
 			</data>
 		</dict>
 		<key>Headers/TPSMiscSettingModel.h</key>
@@ -4464,11 +4505,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OrR/SzBKWHQTam/DF57fW0w1GTA=
+			25X4vXdZtDdymwKpfg1g4xn0aCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			DxevzpmfTcgh5HxV2FnjIHB1qQAL9nw1WMAjWz8kr2I=
+			CB3WabPWhqX6r/4Fsgw+PeHz3tANxgf4dKrtdwMyWPk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -4491,6 +4532,17 @@
 			<key>hash2</key>
 			<data>
 			HbB4C70jTqMaGpOtUifU87mL0zld6t61WfKFdXtFitM=
+			</data>
+		</dict>
+		<key>TSBundle.bundle/gui_dial_binfile_watch_1024000_1_20241011_ota.bin</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aJVS74s3n9n+jvXqmthLeVS1WSM=
+			</data>
+			<key>hash2</key>
+			<data>
+			w8nrNqe/hcBXf7Z8HQXoPfICTKoAW4Z5ioPCE9bPegc=
 			</data>
 		</dict>
 	</dict>
