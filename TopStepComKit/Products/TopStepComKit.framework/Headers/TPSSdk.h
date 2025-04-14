@@ -60,6 +60,8 @@
 #import <TopStepComKit/ITPSApplicationStoreAbility.h>
 #import <TopStepComKit/TPSApplicationStoreModel.h>
 
+#import <TopStepComKit/ITPSAIWatchFaceAbility.h>
+
 
 
 @interface TPSSdk : NSObject
@@ -259,7 +261,10 @@
  */
 @property(nonatomic, strong) id<ITPSApplicationStoreAbility> applicationStoreAbility;
 
-
+/**
+ AI表盘
+ */
+@property (nonatomic,strong) id<ITPSAIWatchFaceAbility> watchFaceAbility;
 
 @end
 

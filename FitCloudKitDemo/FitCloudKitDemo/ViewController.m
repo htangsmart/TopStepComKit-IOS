@@ -41,6 +41,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [TPSSdk.share.watchFaceAbility registerAIWatchFaceCreateResult:^(BOOL isSuccess, NSError * _Nonnull error) {
+        NSLog(@"create AI watch face result : %d error : %@",isSuccess,error);
+    }];
+    
     // Do any additional setup after loading the view.
     
     {
