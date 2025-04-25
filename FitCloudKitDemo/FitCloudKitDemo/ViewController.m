@@ -45,6 +45,10 @@
         NSLog(@"create AI watch face result : %d error : %@",isSuccess,error);
     }];
     
+    [TPSSdk.share.watchFaceAbility registerRecognizeAudioPathResult:^(BOOL isSuccess, NSString * _Nonnull audioPath, NSError * _Nonnull error) {
+        NSLog(@"registerRecognizeAudioPathResult %d audioPath:%@ error:%@",isSuccess,audioPath,error);
+    }];
+    
     // Do any additional setup after loading the view.
     
     {

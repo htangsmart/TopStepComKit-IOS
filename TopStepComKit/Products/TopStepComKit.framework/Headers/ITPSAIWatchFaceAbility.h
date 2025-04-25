@@ -13,8 +13,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^TPSAIWatchFaceCreateResultBlock)(BOOL isSuccess,NSError *error);
 
+typedef void(^TPSAudioResultBlock)(BOOL isSuccess, NSString *audioPath , NSError *error);
+
 
 - (void)registerAIWatchFaceCreateResult:(TPSAIWatchFaceCreateResultBlock)result;
+
+- (void)registerRecognizeAudioPathResult:(TPSAudioResultBlock)audioPathResult;
 
 @end
 
