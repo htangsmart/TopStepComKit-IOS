@@ -103,17 +103,18 @@
 //            model.dialId = @"5";
             // 准备发送给手表的表盘文件路径
             // Prepare the watch face file path for sending to the watch
-            model.filePath = [[NSBundle mainBundle] pathForResource:@"template9845" ofType:@"bin"];
+            model.filePath = [[NSBundle mainBundle] pathForResource:@"gui_dial_binfile_watch_1024000_1_20250714_ota" ofType:@"bin"];
             // 设置表盘背景图
             // Set the Watch Face Preview Image
             model.backgroundImage = [UIImage imageNamed:@"500198_TB.png"];
             // 设置表盘预览图
             // Set up the watch face preview image
 //            model.previewImage = [UIImage imageNamed:@"500198_TB_preview.png"];
-            float previewWidth = 466*(2.0/3.0);
+            float previewWidth = 410*(2.0/3.0);
+            float previewHeight = 502*(2.0/3.0);
+
             UIImage* img1 = [self reSizeImageWithSize:CGSizeMake(previewWidth, previewWidth) scale:1 img:model.backgroundImage];
-            float aa = CGSizeMake(previewWidth, previewWidth).width/2.0;
-            UIImage* img2 = [self cornerImageWithRadius:CGSizeMake(previewWidth, previewWidth).width/2.0 img:img1];
+            UIImage* img2 = [self cornerImageWithRadius:CGSizeMake(previewWidth, previewHeight).width/2.0 img:img1];
             model.previewImage = img2;
 //            model.previewImage = [[TPSMangerTool share] createRoundPreviewWithBackgroudImage:model.backgroundImage imageSize:CGSizeMake(previewWidth, previewWidth)];
         }
@@ -125,24 +126,25 @@
         model.dialTimePosition = eDialTimePositionRight;
         // 设置表盘时间文字颜色 805芯片的手表支持五种颜色
         // Set the Color of the Time Text on the Watch Face. The watch with the 805 chip supports five colors.
-        model.textColor = [DialController allColors][4];
+        model.textColorIndex = 4; // [DialController allColors][4];
         model.dialName = [NSString stringWithFormat:@"%.f",[NSDate new].timeIntervalSince1970];
         // 向手表推送自定义表盘
         // Push Custom Watch Face to the Watch
         
         [TPSSdk.share.dialAbility pushCustomerDialWithDial:model completion:^(TPSDialProgressModel *model) {
-            
-            if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
-                NSLog(@"push watch face ok");
-                OpResultToastTip(weakSelf.view, YES);
-            } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
-                NSLog(@"progress number:%.1f", model.percent);
-            }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
-                NSLog(@"push watch face fail");
-                [TPS_Tools mainTask:^{
-                    OpResultToastTip(weakSelf.view, NO);
-                }];
-            }
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (model.eventType == TPSDialProgressModel_Event_Type_OnCompleted) {
+                    NSLog(@"push watch face ok");
+                    OpResultToastTip(weakSelf.view, YES);
+                } else if (model.eventType == TPSDialProgressModel_Event_Type_OnProcess){
+                    NSLog(@"progress number:%.1f", model.percent);
+                }else if (model.eventType == TPSDialProgressModel_Event_Type_OnFailed) {
+                    NSLog(@"push watch face fail");
+                    [TPS_Tools mainTask:^{
+                        OpResultToastTip(weakSelf.view, NO);
+                    }];
+                };
+            });
         }];
     }else if (indexPath.row == 5){// for cloud watch face
         TPSDialModel *model = [[TPSDialModel alloc] init];

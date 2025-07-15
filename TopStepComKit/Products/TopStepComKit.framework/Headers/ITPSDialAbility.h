@@ -116,6 +116,7 @@ typedef void(^TPSDialFreeSpaceCallback)(BOOL result,NSInteger freeSpace);
 - (void)dealBackgroundImage:(UIImage *)backgroundImage toMaxKBSize:(CGFloat)toMaxKBSize imageSize:(CGSize)imageSize completion:(void (^)(BOOL, UIImage *))completion;
 
 
+
 @end
 
 
