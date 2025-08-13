@@ -20,7 +20,6 @@ typedef void(^TPSNotificationEnableListCallback)(NSArray<TPSNotificationEnableMo
 
 -(void)getNotificationEnableList:(TPSNotificationEnableListCallback)block;
 -(void)sendNotificationEnableList:(NSArray<TPSNotificationEnableModel*>*)list block:(TPSSendMsgResult)block;
--(TPSNotification_Type)getTypeByName:(NSString*)name;
 
 
 @end

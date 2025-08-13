@@ -51,6 +51,17 @@
         [TPSSdk.share.miscSettingAbility sendWeather_temp_unit:TPSMiscSettingModel_Temperature_Unit_F];
 
     }
+    else if(indexPath.row == 6)
+    {
+        [TPSSdk.share.miscSettingAbility sendBody_temp_unit:TPSMiscSettingModel_Temperature_Unit_C];
+
+    }
+    else if(indexPath.row == 7)
+    {
+        [TPSSdk.share.miscSettingAbility sendBody_temp_unit:TPSMiscSettingModel_Temperature_Unit_F];
+
+    }
+
 }
 
 - (IBAction)OnGoBack:(id)sender {

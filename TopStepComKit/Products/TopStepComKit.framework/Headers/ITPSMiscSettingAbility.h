@@ -47,6 +47,11 @@ typedef void(^TPSMiscSettingCallback)(TPSMiscSettingModel* miscSettingModel);
 -(void)sendWeather_temp_unit:(TPSMiscSettingModel_Temperature_Unit)weather_temp_unit;
 
 /*
+ * @brief 体温单位
+ */
+-(void)sendBody_temp_unit:(TPSMiscSettingModel_Temperature_Unit)body_temp_unit;
+
+/*
  * @brief 运动单位
  */
 -(void)sendSport_sportUnit:(TPSMiscSettingModel_System_Unit)sport_sportUnit;

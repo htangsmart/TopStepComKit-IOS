@@ -379,7 +379,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		umK8OajUbVUvuNwqQkMcvzYM0ew=
+		ZPyTAPm1iaQbaF5dsW/2tWgnwnk=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -1206,7 +1206,7 @@
 		</data>
 		<key>Headers/ITPSContactAbility.h</key>
 		<data>
-		M5BRMbD05+9W/EMQEi1b0tBujNk=
+		GLEGcsfqAQeCojcjWbwu2VY8q/o=
 		</data>
 		<key>Headers/ITPSCurDayActivityAbility.h</key>
 		<data>
@@ -1254,7 +1254,7 @@
 		</data>
 		<key>Headers/ITPSMiscSettingAbility.h</key>
 		<data>
-		HuF4h1wxZp2GdKl0N8kh0UzEPEE=
+		SucR4FaNgOL1W6HqF9d2Cla46ng=
 		</data>
 		<key>Headers/ITPSMusicAbility.h</key>
 		<data>
@@ -1266,7 +1266,7 @@
 		</data>
 		<key>Headers/ITPSNotificationEnableAbility.h</key>
 		<data>
-		dVZsHoc7ZBx6bGw+YUNIprUeT/g=
+		y7rBfbGFCSpbwamiB+6NXSdKk+g=
 		</data>
 		<key>Headers/ITPSOTAAbility.h</key>
 		<data>
@@ -1348,9 +1348,13 @@
 		<data>
 		LuX61Uji/+Fs78weiZ1Z+GmydYw=
 		</data>
+		<key>Headers/TPSContactImageSlot.h</key>
+		<data>
+		3h1Thz61lkJbtEBS01HPyAWAMCw=
+		</data>
 		<key>Headers/TPSContactModel.h</key>
 		<data>
-		R/hp9V8u2NJPoJyH5sqwkiY/TRY=
+		S6pIT+QySV7bNeYdR7hksE9FWog=
 		</data>
 		<key>Headers/TPSCurDayActivityModel.h</key>
 		<data>
@@ -1414,11 +1418,11 @@
 		</data>
 		<key>Headers/TPSFutureDayWeatherModel.h</key>
 		<data>
-		FjEbARXs0kr34DNbfFqtjiQrwRc=
+		CIDfcRll/ZOompIXTGe6+tPExfw=
 		</data>
 		<key>Headers/TPSFutureHourWeatherModel.h</key>
 		<data>
-		sYtP5adWSHafMVxFIbqtbyHiwtI=
+		1Ula/xqxr2n7r4udOuZNkFYAf/M=
 		</data>
 		<key>Headers/TPSHistoryActivityModel.h</key>
 		<data>
@@ -1478,7 +1482,7 @@
 		</data>
 		<key>Headers/TPSNotificationEnableModel.h</key>
 		<data>
-		+oZxoonxT0G951R/cct6WRZEcpo=
+		0fORH6yyTjn0+06zg0KczB8F3UM=
 		</data>
 		<key>Headers/TPSOTAModel.h</key>
 		<data>
@@ -1562,7 +1566,7 @@
 		</data>
 		<key>Headers/TPSTodayWeatherModel.h</key>
 		<data>
-		qp8McYYIPZ3ZBzwMyVGJcV6M2Cc=
+		5AOcCHLENaYAfEtcWqXGg/zQFjI=
 		</data>
 		<key>Headers/TPSUserInfoModel.h</key>
 		<data>
@@ -1582,11 +1586,11 @@
 		</data>
 		<key>Headers/TPSWeatherDescribeType.h</key>
 		<data>
-		CMxUuW3xprGCUIupe3Czh9srRfw=
+		LgVkt8uEpa8JDZ+v/gS+NLQqMhE=
 		</data>
 		<key>Headers/TPSWeatherModel.h</key>
 		<data>
-		wfLScAjJ+T0lo4BBR1BUyNRCJQ8=
+		QKQkvHgfgwdXm77QEbQx1pql7cg=
 		</data>
 		<key>Headers/TPSWebRequestModel.h</key>
 		<data>
@@ -1610,7 +1614,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5ehmHeW9jB7dFwfES0IbMKPnLr4=
+		PujP+lHkriV23d2w68vG0IucHp0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2175,11 +2179,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			umK8OajUbVUvuNwqQkMcvzYM0ew=
+			ZPyTAPm1iaQbaF5dsW/2tWgnwnk=
 			</data>
 			<key>hash2</key>
 			<data>
-			l82tqibDxZ6JrToUdP2HOQ85lQ1N7J+mfOSrI8xJ178=
+			8NsZ8Sr8bWVdIwhfGW/bl7pI2egvgWIJSfe+WeJ6kk0=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
@@ -3427,11 +3431,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M5BRMbD05+9W/EMQEi1b0tBujNk=
+			GLEGcsfqAQeCojcjWbwu2VY8q/o=
 			</data>
 			<key>hash2</key>
 			<data>
-			RALLzIUk9td7DPE3JfnLgo0IMdjrGzPKR8GFiPp4JRU=
+			g6+hJlOt3e6OMpIw+Xa1ppR9wtqCnSW+TdzilYxK/fk=
 			</data>
 		</dict>
 		<key>Headers/ITPSCurDayActivityAbility.h</key>
@@ -3559,11 +3563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HuF4h1wxZp2GdKl0N8kh0UzEPEE=
+			SucR4FaNgOL1W6HqF9d2Cla46ng=
 			</data>
 			<key>hash2</key>
 			<data>
-			GTXjtJMPmwFSSKC+EZgz3eW7Cebb8j078+TsNujjGEo=
+			2qtnpKttiOcJo/GsdumBCbpYATYM4m7oaLN8t2gTLdc=
 			</data>
 		</dict>
 		<key>Headers/ITPSMusicAbility.h</key>
@@ -3592,11 +3596,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dVZsHoc7ZBx6bGw+YUNIprUeT/g=
+			y7rBfbGFCSpbwamiB+6NXSdKk+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			eMLUyfq7bFwC/9yuhjG9n1aSRGurnNZXz+E+BlhXh3U=
+			FkRnxAye+/dNRvwyYavMDZMG2jW5U9rs+eENj49QVgY=
 			</data>
 		</dict>
 		<key>Headers/ITPSOTAAbility.h</key>
@@ -3819,15 +3823,26 @@
 			Naaeo0ySwAPPliQ2Em/G+il560SZV8G57Kw6EpYvl5k=
 			</data>
 		</dict>
+		<key>Headers/TPSContactImageSlot.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3h1Thz61lkJbtEBS01HPyAWAMCw=
+			</data>
+			<key>hash2</key>
+			<data>
+			4p1HgSfZ/VAQRRU2VPYUEMF4RtBSN9lc1d4s39j6DlQ=
+			</data>
+		</dict>
 		<key>Headers/TPSContactModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R/hp9V8u2NJPoJyH5sqwkiY/TRY=
+			S6pIT+QySV7bNeYdR7hksE9FWog=
 			</data>
 			<key>hash2</key>
 			<data>
-			uTk6HXvf9q6FDC+k8riHzN8x44loNk9Hj4iTNlNoTHE=
+			Z3MNZI2zjgveUbKyPrgDrhli7oQ7IUAaExJU5dK56ZM=
 			</data>
 		</dict>
 		<key>Headers/TPSCurDayActivityModel.h</key>
@@ -3999,22 +4014,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FjEbARXs0kr34DNbfFqtjiQrwRc=
+			CIDfcRll/ZOompIXTGe6+tPExfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q6lf/K0aVlI+dRrZZPOIKNHauZ4VGPXSttewsKanmsk=
+			rfnRB6RYnypSgGaNxGzSnZyaqY0qKM72Tp2mvdoAvWg=
 			</data>
 		</dict>
 		<key>Headers/TPSFutureHourWeatherModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sYtP5adWSHafMVxFIbqtbyHiwtI=
+			1Ula/xqxr2n7r4udOuZNkFYAf/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			JXWtOpdUu10qykhLIUrJhukBKsbcjKr5qoShI/R6rl0=
+			hWF19chP93mZVERLXrRwqNtGJ17qG6p1O7W7g9iIHCk=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryActivityModel.h</key>
@@ -4175,11 +4190,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+oZxoonxT0G951R/cct6WRZEcpo=
+			0fORH6yyTjn0+06zg0KczB8F3UM=
 			</data>
 			<key>hash2</key>
 			<data>
-			xon0X4TcesE+ZI8YFPqQcGAo1n+bDcqY8a5AvQ6QbvE=
+			KigCdc/Uohj5tDgxIMgSbzj/TqGol8mNmvYwHMTOXXU=
 			</data>
 		</dict>
 		<key>Headers/TPSOTAModel.h</key>
@@ -4406,11 +4421,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qp8McYYIPZ3ZBzwMyVGJcV6M2Cc=
+			5AOcCHLENaYAfEtcWqXGg/zQFjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			BT/KXPflINIvby/iG8PogfCd1iPsTliKQC8yzWzlF8k=
+			nm89lVma28eoi8PhBaMB9FQc2sGVELZ5uYvPBbhayp4=
 			</data>
 		</dict>
 		<key>Headers/TPSUserInfoModel.h</key>
@@ -4461,22 +4476,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CMxUuW3xprGCUIupe3Czh9srRfw=
+			LgVkt8uEpa8JDZ+v/gS+NLQqMhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bJ3f+lAOaXKF8hSQ/0eQZh7Yo2X3YACpI4f822IinpM=
+			H7QHt92ICt5xhcs/rT61mNNd6tyIullPDFnzZqYCkzg=
 			</data>
 		</dict>
 		<key>Headers/TPSWeatherModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wfLScAjJ+T0lo4BBR1BUyNRCJQ8=
+			QKQkvHgfgwdXm77QEbQx1pql7cg=
 			</data>
 			<key>hash2</key>
 			<data>
-			PTZwyilwAr5FgVtU4/xVE7DpEg3uit7wkSz8xqJLZSo=
+			DBs66ZjkUbiaq87E2d0ISIQbD9L62Oin97PQPqUWMYo=
 			</data>
 		</dict>
 		<key>Headers/TPSWebRequestModel.h</key>

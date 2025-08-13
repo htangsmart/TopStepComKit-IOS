@@ -40,7 +40,10 @@
         
         NSArray<TPSFutureHourWeatherModel *> *futureHourModelArr = [NSArray arrayWithObjects:futureHourModel1, futureHourModel2, nil];
         
-        TPSTodayWeatherModel *todayModel = [[TPSTodayWeatherModel alloc] initWithCurTemperature:28 minTemperature:22 maxTemperature:34 airpressure:50 wind:3 windAngle:2 windSpeed:10 humidity:10 uvIndex:3 visibility:10 futureHourList:futureHourModelArr];
+//        TPSTodayWeatherModel *todayModel = [[TPSTodayWeatherModel alloc] initWithCurTemperature:28 minTemperature:22 maxTemperature:34 airpressure:50 wind:3 windAngle:2 windSpeed:10 humidity:10 uvIndex:3 visibility:10 futureHourList:futureHourModelArr];
+        TPSTodayWeatherModel *todayModel = [[TPSTodayWeatherModel alloc]initWithCurTemperature:28 minTemperature:22 maxTemperature:34 airpressure:50 wind:2 windAngle:2 windSpeed:10 humidity:56 uvIndex:12 airQuality:44 visibility:120 futureHourList:futureHourModelArr];
+        todayModel.subType = TPSWeatherSubType_MODERATE_OR_HEAVY_SLEET_SHOWERS;
+        todayModel.describe = [TPSWeatherDescribeType getLargeCategoryWithSubType:todayModel.subType];
         
         TPSFutureDayWeatherModel *futureModel1 = [[TPSFutureDayWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 86400 describe:TPSWeatherLargeCategory_CLEAR minTemperature:23 maxTemperature:33];
         TPSFutureDayWeatherModel *futureModel2 = [[TPSFutureDayWeatherModel alloc] initWithTimestamp:[[NSDate date] timeIntervalSince1970] + 172800 describe:TPSWeatherLargeCategory_CLEAR minTemperature:25 maxTemperature:35];

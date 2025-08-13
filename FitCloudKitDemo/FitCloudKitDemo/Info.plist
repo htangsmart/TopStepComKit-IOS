@@ -2,17 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
-	<key>NSLocalNetworkUsageDescription</key>
-	<string>是否允许FitCloudKitDemo使用网络</string>
-	<key>NSExceptionAllowsInsecureHTTPLoads</key>
-	<string>ture</string>
-	<key>NSAllowsArbitraryLoads</key>
-	<string>ture</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -28,15 +17,26 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>201908260001</string>
+	<string>2508121200</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAllowsArbitraryLoads</key>
+	<string>ture</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>FitCloudKitDemo将使用您的蓝牙外设权限用于与手环设备配对</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>FitCloudKitDemo将使用您的蓝牙外设权限用于与手环设备配对</string>
 	<key>NSCameraUsageDescription</key>
 	<string>FitCloudKitDemo需要获得相机权限用于摇一摇拍照等</string>
+	<key>NSExceptionAllowsInsecureHTTPLoads</key>
+	<string>ture</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>是否允许FitCloudKitDemo使用网络</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>FitCloudKitDemo需要获得相册创建权限用于保存摇一摇拍照照片等</string>
 	<key>NSPhotoLibraryUsageDescription</key>

@@ -10,7 +10,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ContactsController : UITableViewController
+@interface ContactsController : UITableViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+
+/**
+ * @brief Result image view to display the processed contact background image
+ * @chinese 用于显示处理后的联系人背景图的结果图片视图
+ */
+@property (nonatomic, strong) UIImageView *resultImageView;
 
 @end
 
