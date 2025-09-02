@@ -26,6 +26,14 @@
     
     // 初始化结果图片视图
     [self setupResultImageView];
+    
+    [self registerSOSRequest];
+}
+
+- (void)registerSOSRequest{
+    [[[TPSSdk share] contactAbility] registerDeviceSOSRequest:^(NSError *error) {
+        NSLog(@"receive sos request");
+    }];
 }
 
 /**

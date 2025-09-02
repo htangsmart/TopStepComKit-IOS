@@ -255,6 +255,33 @@ typedef void(^TPSContactListCallback)(NSArray<TPSContactModel*>* list);
 -(void)deleteContactBackgroundImageAtSlot:(NSInteger)slotIndex
                                completion:(void(^)(BOOL success, NSError *error))completion;
 
+/**
+ * @brief Register device SOS request
+ * @chinese 注册设备SOS请求
+ *
+ * @discussion
+ * [EN]: Registers a callback to handle SOS requests from the wearable device.
+ * This method allows the app to receive and respond to emergency SOS signals
+ * sent by the device when the user triggers the SOS function.
+ * [CN]: 注册一个回调来处理来自可穿戴设备的SOS请求。此方法允许应用程序
+ * 接收并响应用户触发SOS功能时设备发送的紧急SOS信号。
+ *
+ * @param sosRequestBlock Callback block to handle SOS requests
+ * @chinese 处理SOS请求的回调块
+ *
+ * @note
+ * [EN]: 1. The SOS request block will be called whenever the device sends an SOS signal.
+ * 2. The block receives an error object that contains SOS request information.
+ * 3. Only one SOS request handler can be registered at a time; calling this method again will replace the previous handler.
+ * 4. This method is essential for implementing emergency response features in wearable device applications.
+ * [CN]: 1. 当设备发送SOS信号时，SOS请求块将被调用。
+ * 2. 该块接收一个包含SOS请求信息的错误对象。
+ * 3. 一次只能注册一个SOS请求处理器；再次调用此方法将替换之前的处理器。
+ * 4. 此方法对于在可穿戴设备应用程序中实现紧急响应功能至关重要。
+ */
+-(void)registerDeviceSOSRequest:(void(^)(NSError *error))sosRequestBlock;
+
+
 @end
 
 #endif /* ITPSContactSync_h */
