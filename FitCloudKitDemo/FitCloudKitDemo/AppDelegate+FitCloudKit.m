@@ -85,7 +85,7 @@
     {
         XLOG_INFO(@"%@", message);
     }
-    else if(level == FITCLOUDKITLOGLEVEL_WARNING)
+    else if(level == FITCLOUDKITLOGLEVEL_WARN)
     {
         XLOG_WARNING(@"%@", message);
     }

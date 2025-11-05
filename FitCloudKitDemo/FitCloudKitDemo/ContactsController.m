@@ -102,7 +102,9 @@
         // 设置普通联系人 --- Set Normal Contacts
         TPSContactModel *model1 = [[TPSContactModel alloc] initWithName:@"Lily" phone:@"18910723096" initial:@""];
         TPSContactModel *model2 = [[TPSContactModel alloc] initWithName:@"Jack" phone:@"15603325273" initial:@""];
-        NSArray *arr = [NSArray arrayWithObjects:model1, model2, nil];
+        TPSContactModel *model3 = [[TPSContactModel alloc] initWithName:@"jeseka" phone:@"15201063278" initial:@""];
+
+        NSArray *arr = [NSArray arrayWithObjects:model1, model2,model3, nil];
 //        [TPSSdk.share.contactAbility sendCommonContact:arr];
         [TPSSdk.share.contactAbility sendCommonContact:arr complete:^(BOOL success, NSError *error) {
                     
@@ -295,8 +297,16 @@
         NSLog(@"[ContactBG] Failed to save image to local");
     }
     
+    
+    
+//    TPSContactModel *model1 = [[TPSContactModel alloc] initWithName:@"Lily" phone:@"18910723096" initial:@""];
+//    TPSContactModel *model2 = [[TPSContactModel alloc] initWithName:@"Jack" phone:@"15603325273" initial:@""];
+//    TPSContactModel *model3 = [[TPSContactModel alloc] initWithName:@"jeseka" phone:@"15201063278" initial:@""];
+
     // 4. 开始上传
-    NSString *phone = @"15603325273";
+    NSInteger slotIndex = 2;
+    NSString *phone = @"15201063278";
+
     
     // 在上传开始前显示结果图片
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -305,7 +315,7 @@
         XLOG_INFO(@"[ContactBG] Displaying result image before upload");
     });
     
-    NSInteger slotIndex = 0;
+
     [[[TPSSdk share] contactAbility] updateContactBackgroundImageAtSlot:slotIndex contactPhone:phone backgroundImage:compressedImage progress:^(CGFloat progress) {
         XLOG_INFO(@"[ContactBG] update progress: %.0f%%", progress * 100.0);
     } completion:^(BOOL success, NSError *error) {
