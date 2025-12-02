@@ -53,7 +53,7 @@
 
 #import <TopStepComKit/ITPSUserInfoAbility.h>
 #import <TopStepComKit/ITPSLogAbility.h>
-#import <TopStepComKit/ITPSHealthMonitorAbility.h>
+#import <TopStepComKit/ITPSHealthMeasureAbility.h>
 
 #import <TopStepComKit/ITPSRecordingAbility.h>
 
@@ -62,6 +62,7 @@
 
 #import <TopStepComKit/ITPSAIWatchFaceAbility.h>
 
+#import <TopStepComKit/ITPSTempDataAbility.h>
 
 
 @interface TPSSdk : NSObject
@@ -249,7 +250,7 @@
 /**
  健康
  */
-@property(nonatomic, strong) id<ITPSHealthMonitorAbility> healthMonitorAbility;
+@property(nonatomic, strong) id<ITPSHealthMeasureAbility> healthMeasureAbility;
 
 /**
  录音
@@ -265,6 +266,11 @@
  AI表盘
  */
 @property (nonatomic,strong) id<ITPSAIWatchFaceAbility> watchFaceAbility;
+
+/**
+ 体温
+ */
+@property (nonatomic,strong) id<ITPSTempDataAbility> temperatureAbility;
 
 @end
 

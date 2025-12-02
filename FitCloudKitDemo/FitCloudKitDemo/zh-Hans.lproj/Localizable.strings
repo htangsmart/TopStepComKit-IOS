@@ -109,8 +109,9 @@
 
 "Realtime Measurement" = "实时测量";
 "Start Heart Rate Realtime Measurement" = "启动心率实时测量";
-"One Click to Start All Measurement" = "一键测量";
+"One Click to Start All Measurement" = "启动所有测量";
 "Stop the Measurement" = "停止测量";
+"Start Temperature Realtime Measurement" = "启动体温实时测量";
 
 "Set Daily Goal" = "设置每日目标";
 

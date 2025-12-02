@@ -16,21 +16,73 @@
  */
 
 @interface RealtimeMeasureController ()
+@property (weak, nonatomic) IBOutlet UILabel *reslutLabel;
 - (IBAction)OnGoBack:(id)sender;
 @end
 
 @implementation RealtimeMeasureController
 
 - (void)viewDidLoad {
+    
+    [[TPSSdk.share.healthMeasureAbility observeMeasureValue] subscribeNext:^(TPSMeasureValue * _Nullable x) {
+       
+        NSLog(@"observeMeasureValue : %@",x.debugDescription);
+        self.reslutLabel.text = x.debugDescription;
+    }];
+    
     [super viewDidLoad];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    __weak typeof(self) weakSelf = self;
+
     if (indexPath.row == 0) {
+        
+        TPSMeasureConfig *config = [[TPSMeasureConfig alloc]init];
+        config.type = TPSHealthMeasureHeartRate;
+        config.duration = 1;
+        config.interval = 10;
+        [TPSSdk.share.healthMeasureAbility startMeasureWithConfig:config completion:^(BOOL isSendOK, NSError * _Nullable error) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                OpResultToastTip(weakSelf.view, isSendOK);
+            });
+        }];
+        
         
     } else if (indexPath.row == 1) {
         
+        TPSMeasureConfig *config = [[TPSMeasureConfig alloc]init];
+        config.type = TPSHealthMeasureTemperature;
+        config.duration = 1;
+        config.interval = 10;
+        [TPSSdk.share.healthMeasureAbility startMeasureWithConfig:config completion:^(BOOL isSendOK, NSError * _Nullable error) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                OpResultToastTip(weakSelf.view, isSendOK);
+            });
+        }];
+        
+    } else if (indexPath.row == 2) {
+        
+        TPSMeasureConfig *config = [[TPSMeasureConfig alloc]init];
+        config.type = TPSHealthMeasureAll;
+        config.duration = 1;
+        config.interval = 10;
+
+        [TPSSdk.share.healthMeasureAbility startMeasureWithConfig:config completion:^(BOOL isSendOK, NSError * _Nullable error) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                OpResultToastTip(weakSelf.view, isSendOK);
+            });
+        }];
+        
+        
+    } else if (indexPath.row == 3) {
+        
+        [TPSSdk.share.healthMeasureAbility stopMeasureWithCompletion:^(BOOL isSendOK, NSError * _Nullable error) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                OpResultToastTip(weakSelf.view, isSendOK);
+            });
+        }];
     }
 }
 

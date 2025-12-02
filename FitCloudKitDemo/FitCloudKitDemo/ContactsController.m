@@ -100,7 +100,9 @@
         }];
     } else if (indexPath.row == 1) {
         // 设置普通联系人 --- Set Normal Contacts
-        TPSContactModel *model1 = [[TPSContactModel alloc] initWithName:@"Lily" phone:@"18910723096" initial:@""];
+        TPSContactModel *model1 = [[TPSContactModel alloc] initWithName:@"Lily" phone:@"917505052317" initial:@""];
+
+//        TPSContactModel *model1 = [[TPSContactModel alloc] initWithName:@"Lily" phone:@"18910723096" initial:@""];
         TPSContactModel *model2 = [[TPSContactModel alloc] initWithName:@"Jack" phone:@"15603325273" initial:@""];
         TPSContactModel *model3 = [[TPSContactModel alloc] initWithName:@"jeseka" phone:@"15201063278" initial:@""];
 
@@ -304,9 +306,11 @@
 //    TPSContactModel *model3 = [[TPSContactModel alloc] initWithName:@"jeseka" phone:@"15201063278" initial:@""];
 
     // 4. 开始上传
-    NSInteger slotIndex = 2;
-    NSString *phone = @"15201063278";
+    NSInteger slotIndex = 0;
+//    NSString *phone = @"18910723096";
+    NSString *phone = @"917505052317";
 
+    
     
     // 在上传开始前显示结果图片
     dispatch_async(dispatch_get_main_queue(), ^{

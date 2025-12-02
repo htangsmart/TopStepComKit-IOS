@@ -38,9 +38,11 @@ typedef NS_OPTIONS(NSInteger, TSDataType) {
     TSDataType_RealTimeHeartRate     = 1 << 11,
     /// 实时血氧
     TSDataType_RealTimeSPO2     = 1 << 12,
+    /// 体温
+    TSDataType_Temperature      = 1 << 13,
 
     /// 全部
-    TSDataType_All = TSDataType_HeartRate | TSDataType_Step | TSDataType_BP | TSDataType_BO | TSDataType_Stress | TSDataType_Sport | TSDataType_SportGPS | TSDataType_Activity | TSDataType_RestQuietHeartRate | TSDataType_TodayTotalActivity | TSDataType_RealTimeHeartRate | TSDataType_RealTimeSPO2,
+    TSDataType_All = TSDataType_HeartRate | TSDataType_Step | TSDataType_BP | TSDataType_BO | TSDataType_Stress | TSDataType_Sport | TSDataType_SportGPS | TSDataType_Activity | TSDataType_RestQuietHeartRate | TSDataType_TodayTotalActivity | TSDataType_RealTimeHeartRate | TSDataType_RealTimeSPO2 | TSDataType_Temperature,
 };
 
 @protocol ITPSSynchronousDataAbility <NSObject, ITPSWearBaseAbility>

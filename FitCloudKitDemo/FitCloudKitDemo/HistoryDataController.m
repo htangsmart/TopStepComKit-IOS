@@ -118,6 +118,17 @@
                 }];
             }];
         }];
+    }else if (indexPath.row == 9) {
+        [TPSSdk.share.synchronousDataAbility synchronousDataWithUserID:@"" result:^(TSDataType errorTypes) {
+            NSTimeInterval startTime = 0;
+            NSTimeInterval endTime = [[NSDate date] timeIntervalSince1970];
+            [TPSSdk.share.temperatureAbility queryHistoryTempDataWithStartTime:startTime endTime:endTime block:^(NSArray<TPSHistoryTempModel *> * _Nullable historyTempList) {
+                ConsoleResultToastTip(weakSelf.view);
+                [historyTempList enumerateObjectsUsingBlock:^(TPSHistoryTempModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                    XLOG_INFO(@"Temp --- time: %ld  wrist: %f body: %f isManual: %d", obj.timestamp, obj.wrist,obj.body,obj.isManual);
+                }];                
+            }];
+        }];
     }
 }
 

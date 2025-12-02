@@ -89,6 +89,8 @@
         [connectRacDispose dispose];
     }
     connectRacDispose = [[[TPSSdk share].connectorAbility observeConnectResult] subscribeNext:^(TPSConnectResult * _Nullable x) {
+        
+        NSLog(@"observeConnectResult x.state: %d x.errorCode: %d",x.state,x.errorCode);
         if(x.state == TPSConnnectResult_State_Connected){
             dispatch_async(dispatch_get_main_queue(), ^{
                 if(self.indicator.isAnimating)[self.indicator stopAnimating];

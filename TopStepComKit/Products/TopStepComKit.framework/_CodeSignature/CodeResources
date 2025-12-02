@@ -1268,9 +1268,9 @@
 		<data>
 		X3uoUStdcEzD3Vz571IYY0NbJa0=
 		</data>
-		<key>Headers/ITPSHealthMonitorAbility.h</key>
+		<key>Headers/ITPSHealthMeasureAbility.h</key>
 		<data>
-		Zap+FVid0eJwFTEu6CCAN29/OHE=
+		QhK0cusKaA/RFNlxV6OHCmn7alg=
 		</data>
 		<key>Headers/ITPSHeartRateDataAbility.h</key>
 		<data>
@@ -1346,7 +1346,11 @@
 		</data>
 		<key>Headers/ITPSSynchronousDataAbility.h</key>
 		<data>
-		zQs8iL7aqPpd4nBZ5eDLBuwlwjI=
+		XqyNGIF+YT3muHEgVQbvC7q8tpE=
+		</data>
+		<key>Headers/ITPSTempDataAbility.h</key>
+		<data>
+		2pKrCquSUhrCF7oSo5Z1xdhjJ6g=
 		</data>
 		<key>Headers/ITPSUserInfoAbility.h</key>
 		<data>
@@ -1488,6 +1492,10 @@
 		<data>
 		jdVRvkXbJ3YZgFqhwjTq86uLQVI=
 		</data>
+		<key>Headers/TPSHistoryTempModel.h</key>
+		<data>
+		uXfnwVVJ+7IZB55uXXObIBx4olk=
+		</data>
 		<key>Headers/TPSHrConfigModel.h</key>
 		<data>
 		Oxr+y9RXGJSXlGx2e2JhPnrDqK4=
@@ -1499,6 +1507,14 @@
 		<key>Headers/TPSMangerTool.h</key>
 		<data>
 		13cc/ur/tXT6wrfsTl7FVhQFJAg=
+		</data>
+		<key>Headers/TPSMeasureConfig.h</key>
+		<data>
+		5BBqAV77a3LC7JpOKV3R7c2k4cg=
+		</data>
+		<key>Headers/TPSMeasureValue.h</key>
+		<data>
+		7wAavJsu7JF+UlJkNEZoKPw8MK4=
 		</data>
 		<key>Headers/TPSMiscSettingModel.h</key>
 		<data>
@@ -1554,7 +1570,7 @@
 		</data>
 		<key>Headers/TPSSdk.h</key>
 		<data>
-		z3FM1leoc1QHI0hxiTrxnk9TK5E=
+		8yMyIZYdv+aGfTFhnvdTHDHzI6U=
 		</data>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
 		<data>
@@ -1600,6 +1616,10 @@
 		<data>
 		pOitqCTaoDV3j1b+bsWW1rpu7/Q=
 		</data>
+		<key>Headers/TPSTempConfigModel.h</key>
+		<data>
+		MF4vVI5OHdoKYiwaxEVwINhqoKI=
+		</data>
 		<key>Headers/TPSTodayWeatherModel.h</key>
 		<data>
 		5AOcCHLENaYAfEtcWqXGg/zQFjI=
@@ -1614,7 +1634,7 @@
 		</data>
 		<key>Headers/TPSWearBlockTypeDef.h</key>
 		<data>
-		cyk43O4B74Tzw3rGtNBUc1dAiz4=
+		Q/61Sp7CoTZ+yzw0puMbga96W3Q=
 		</data>
 		<key>Headers/TPSWearFactory.h</key>
 		<data>
@@ -1646,11 +1666,11 @@
 		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
-		sksava2XLiwiNrRp92ajEgNg+9c=
+		3jqrgCCf2R4XJnUZ1wR+lg2HBsI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NrL6EC1yJ9fFsYxcqJC1voYlR3U=
+		w926d5C5IAPacqShqcc577QvWps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1658,7 +1678,7 @@
 		</data>
 		<key>TSBundle.bundle/TSSql.sql</key>
 		<data>
-		at80v2oTVU/nQyEhNnTS9bBgqQo=
+		JrqSsu/MM01f5coycrQl3PTSwqA=
 		</data>
 		<key>TSBundle.bundle/gui_dial_binfile_watch_1024000_1_20250430.bin</key>
 		<data>
@@ -3592,15 +3612,15 @@
 			22HGRmbCx92LtZDYzrbfitWi5x/zZ/Izr47tXRzb8Yk=
 			</data>
 		</dict>
-		<key>Headers/ITPSHealthMonitorAbility.h</key>
+		<key>Headers/ITPSHealthMeasureAbility.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zap+FVid0eJwFTEu6CCAN29/OHE=
+			QhK0cusKaA/RFNlxV6OHCmn7alg=
 			</data>
 			<key>hash2</key>
 			<data>
-			IPQFHvYFoqcxE/Gyiu7LYyWmU0zoguZX4jC2vi1kbg4=
+			LBszPst1lVi3HIDJ9HwRqZN3m0SP8d6BgOEzwuvCkYA=
 			</data>
 		</dict>
 		<key>Headers/ITPSHeartRateDataAbility.h</key>
@@ -3805,11 +3825,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zQs8iL7aqPpd4nBZ5eDLBuwlwjI=
+			XqyNGIF+YT3muHEgVQbvC7q8tpE=
 			</data>
 			<key>hash2</key>
 			<data>
-			zS9c/2hN0sDuL5UCqJfVuuHpUIsIe1+rMgjf+8Q1h3g=
+			xTnsTT2Wl4GrP5xL3QWwgXjyJ4PtHgwtqy4kvoEhhf4=
+			</data>
+		</dict>
+		<key>Headers/ITPSTempDataAbility.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2pKrCquSUhrCF7oSo5Z1xdhjJ6g=
+			</data>
+			<key>hash2</key>
+			<data>
+			hDkdpjqGKhWMy20DnarKpyCLIuas5Y/TBYfw88mc0HU=
 			</data>
 		</dict>
 		<key>Headers/ITPSUserInfoAbility.h</key>
@@ -4197,6 +4228,17 @@
 			j5LVaM1ThkJF+6AiBhz+GqZ8VW4d3PVEW/trr6hUdDA=
 			</data>
 		</dict>
+		<key>Headers/TPSHistoryTempModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uXfnwVVJ+7IZB55uXXObIBx4olk=
+			</data>
+			<key>hash2</key>
+			<data>
+			MuL/0jovdy3Jj+ii3OxLbViTf9+iNhqq6VqNPJZSRe4=
+			</data>
+		</dict>
 		<key>Headers/TPSHrConfigModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -4228,6 +4270,28 @@
 			<key>hash2</key>
 			<data>
 			PmgwCpwAWXUoH6Ndl4i1Fjk5lkLS3woB2lMd519zr/k=
+			</data>
+		</dict>
+		<key>Headers/TPSMeasureConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5BBqAV77a3LC7JpOKV3R7c2k4cg=
+			</data>
+			<key>hash2</key>
+			<data>
+			4Ml+cWT7FjEr8cSIccNphSdNDuS2tlWUNrf7ewJAWyA=
+			</data>
+		</dict>
+		<key>Headers/TPSMeasureValue.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7wAavJsu7JF+UlJkNEZoKPw8MK4=
+			</data>
+			<key>hash2</key>
+			<data>
+			xaarLCDfiaUH6fGZ7bNmWsQ++kN1/t/6ZWciVQy6Vkk=
 			</data>
 		</dict>
 		<key>Headers/TPSMiscSettingModel.h</key>
@@ -4377,11 +4441,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z3FM1leoc1QHI0hxiTrxnk9TK5E=
+			8yMyIZYdv+aGfTFhnvdTHDHzI6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			kOZn4BmWDwLSJnSePPiqgWTF8D1sznJDUzGQ6k55v20=
+			vS/0Xsz0H28GtYjOBrqHK2y1+fyqdq4RUP40/uP+Oso=
 			</data>
 		</dict>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
@@ -4505,6 +4569,17 @@
 			kSl0YEONlEyiy5wbZPehBcpQdtl+Lotyr6wfCi0LBPA=
 			</data>
 		</dict>
+		<key>Headers/TPSTempConfigModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MF4vVI5OHdoKYiwaxEVwINhqoKI=
+			</data>
+			<key>hash2</key>
+			<data>
+			C5Bt3i58K3wTQWqjbtd+q4GhZ58HLVWViIN0lA5QMnI=
+			</data>
+		</dict>
 		<key>Headers/TPSTodayWeatherModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -4542,11 +4617,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cyk43O4B74Tzw3rGtNBUc1dAiz4=
+			Q/61Sp7CoTZ+yzw0puMbga96W3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			YX20go3pJlCyq/cVKZQy9TDHf63uzcuUowJWNRUhugA=
+			YyHTQJcuIpO690RbY8BD2sKPXqOB1BQel88u9oyTgVg=
 			</data>
 		</dict>
 		<key>Headers/TPSWearFactory.h</key>
@@ -4630,11 +4705,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sksava2XLiwiNrRp92ajEgNg+9c=
+			3jqrgCCf2R4XJnUZ1wR+lg2HBsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gUQaaFbhJFcIzFqy+aQoO146aSugR6wxGjP2l8xzGyY=
+			WJxayPpfPpN5fkSvon0n7a7QpvZrZNikY/HZZQLNyK0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -4652,11 +4727,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			at80v2oTVU/nQyEhNnTS9bBgqQo=
+			JrqSsu/MM01f5coycrQl3PTSwqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			HbB4C70jTqMaGpOtUifU87mL0zld6t61WfKFdXtFitM=
+			XGwP4paLjds8qpuRBXuCaZaz43gC3U0jf3oKvRINJYo=
 			</data>
 		</dict>
 		<key>TSBundle.bundle/gui_dial_binfile_watch_1024000_1_20250430.bin</key>

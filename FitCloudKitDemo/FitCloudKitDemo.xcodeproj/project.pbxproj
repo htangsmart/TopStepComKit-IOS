@@ -42,6 +42,7 @@
 		4BF7394E2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7394D2C1AEA7500FF0FD8 /* BasicDeviceInfoController.m */; };
 		4BF739512C1AEAB800FF0FD8 /* RemotePhotographyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */; };
 		4BF739542C1D81A200FF0FD8 /* DialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF739532C1D81A200FF0FD8 /* DialController.m */; };
+		528C17232EDD3F2900C2E48D /* TemperatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C17222EDD3F2900C2E48D /* TemperatureController.m */; };
 		52F416322E250625001E6820 /* gui_dial_binfile_watch_1024000_1_20250714_ota.bin in Resources */ = {isa = PBXBuildFile; fileRef = 52F416312E250625001E6820 /* gui_dial_binfile_watch_1024000_1_20250714_ota.bin */; };
 		8902EA55230C2B97003FF418 /* DemoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902EA54230C2B97003FF418 /* DemoListController.m */; };
 		891FA8D6231A98AD0097E996 /* SedentaryRemindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891FA8D5231A98AD0097E996 /* SedentaryRemindController.m */; };
@@ -125,6 +126,8 @@
 		4BF739502C1AEAB700FF0FD8 /* RemotePhotographyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemotePhotographyController.m; sourceTree = "<group>"; };
 		4BF739522C1D81A200FF0FD8 /* DialController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DialController.h; sourceTree = "<group>"; };
 		4BF739532C1D81A200FF0FD8 /* DialController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialController.m; sourceTree = "<group>"; };
+		528C17212EDD3F2900C2E48D /* TemperatureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureController.h; sourceTree = "<group>"; };
+		528C17222EDD3F2900C2E48D /* TemperatureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureController.m; sourceTree = "<group>"; };
 		52F416312E250625001E6820 /* gui_dial_binfile_watch_1024000_1_20250714_ota.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = gui_dial_binfile_watch_1024000_1_20250714_ota.bin; sourceTree = "<group>"; };
 		8902EA53230C2B97003FF418 /* DemoListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoListController.h; sourceTree = "<group>"; };
 		8902EA54230C2B97003FF418 /* DemoListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoListController.m; sourceTree = "<group>"; };
@@ -423,6 +426,8 @@
 				89A438C922B0DB6000555B98 /* FitCloudKitDemo-Prefix.pch */,
 				1DED0FCF2C577CB900C75112 /* SwiftUtil.swift */,
 				1DED0FCE2C577CB800C75112 /* FitCloudKitDemo-Bridging-Header.h */,
+				528C17212EDD3F2900C2E48D /* TemperatureController.h */,
+				528C17222EDD3F2900C2E48D /* TemperatureController.m */,
 			);
 			path = FitCloudKitDemo;
 			sourceTree = "<group>";
@@ -585,9 +590,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -624,9 +633,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -646,6 +659,7 @@
 				89A891AC2A56B08F0073CEBA /* WomenHealthController.m in Sources */,
 				1DED0FD32C57A37B00C75112 /* SportAddModel.m in Sources */,
 				891FA8D6231A98AD0097E996 /* SedentaryRemindController.m in Sources */,
+				528C17232EDD3F2900C2E48D /* TemperatureController.m in Sources */,
 				89C5155023083B22000BD54C /* LocalizedLabel.m in Sources */,
 				893B4499231D54870057EC21 /* RealtimeMeasureController.m in Sources */,
 				89A438C022B0D19900555B98 /* main.m in Sources */,
@@ -845,7 +859,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2508121200;
+				CURRENT_PROJECT_VERSION = 2512021400;
 				DEVELOPMENT_TEAM = H4FAC5B5WL;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -888,6 +902,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitCloudKitDemo/FitCloudKitDemo-Prefix.pch";
 				INFOPLIST_FILE = FitCloudKitDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TopStepKitDemo;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -913,7 +928,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2508121200;
+				CURRENT_PROJECT_VERSION = 2512021400;
 				DEVELOPMENT_TEAM = H4FAC5B5WL;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -956,6 +971,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitCloudKitDemo/FitCloudKitDemo-Prefix.pch";
 				INFOPLIST_FILE = FitCloudKitDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TopStepKitDemo;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
