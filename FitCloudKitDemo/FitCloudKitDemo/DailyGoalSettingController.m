@@ -31,6 +31,8 @@
         model.sport_num = 3;
         model.calorie = 350;
         model.distance = 3000;
+    
+        NSLog(@"distance is %f",model.distance);
         __weak typeof(self) weakSelf = self;
         [TPSSdk.share.sportTargetAbility sendSportTargets:model block:^(BOOL isSendOK) {
             dispatch_async(dispatch_get_main_queue(), ^{
