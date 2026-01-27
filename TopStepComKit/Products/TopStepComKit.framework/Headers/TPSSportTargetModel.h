@@ -4,6 +4,7 @@
 //
 //  Created by Topstep on 2024/1/25.
 //
+#import <TopStepComKit/TSJConnectorAbility.h>
 
 #ifndef TPSSportTargetModel_h
 #define TPSSportTargetModel_h

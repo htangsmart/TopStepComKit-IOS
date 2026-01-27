@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <TopStepComKit/TSJConnectorAbility.h>
 
 @class FitCloudAlarmObject;
 @class WMAlarmModel;

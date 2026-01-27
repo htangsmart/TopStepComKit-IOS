@@ -26,7 +26,7 @@
 @property(nonatomic, strong) NSDictionary* content;
 @property(nonatomic, strong) NSArray* localPathArr;
 
-//-(FwWebResponseModel*)toFwModel;
+-(FwWebResponseModel*)toFwModel;
 
 @end
 

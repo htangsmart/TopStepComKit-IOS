@@ -68,12 +68,6 @@ typedef NS_ENUM(NSUInteger, TSWatchShape) {
 @property (nonatomic,assign) CGFloat dialPreviewCorner;
 
 
-@property (nonatomic,assign) NSInteger lcd;
-@property (nonatomic,assign) BOOL isNextGUI;
-@property (nonatomic,strong) NSString * toolVersion;
-@property (nonatomic,strong) NSString * platform;
-
-
 -(instancetype)initWithFwModel:(FwDevInfoModel*)fwDevInfoModel;
 
 

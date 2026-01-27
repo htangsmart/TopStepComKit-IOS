@@ -21,7 +21,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (RACSubject*)setCurrentLangue:(TPSLanguageModel *)language;
 
-- (void)querySupportLanguageSuccess:(void(^)(NSArray <NSString *>*languages,NSArray <TPSLanguageModel *>*languagesModels))success ;
+- (void)querySupportLanguageCompletion:(void(^)(NSArray <NSString *>*languages))completion ;
+
+
 
 @end
 

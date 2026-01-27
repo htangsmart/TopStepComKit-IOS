@@ -12,9 +12,8 @@ typedef void(^TPSSendMsgResult)(BOOL isSendOK);
 
 typedef void(^TPSResultBlock)(BOOL isSendOK, NSDictionary * _Nullable errorInfo);
 
-typedef void(^TPSResultCompletion)(BOOL isSendOK, NSError * _Nullable error);
-
 typedef void(^TPSRttDicResult)(NSDictionary<NSString *, id> * _Nonnull jsonMsg);
 
+typedef void(^TPSCompletionBlock)(BOOL isSuccess, NSError * _Nullable error);
 
 #endif /* TPSWearBlockTypeDef_h */

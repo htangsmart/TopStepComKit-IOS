@@ -44,7 +44,7 @@ typedef NS_ENUM(NSUInteger, TSDialType) {
 @property(nonatomic, strong) NSString* icon;
 @property(nonatomic, strong) NSString* version;
 
-@property (nonatomic,assign) NSInteger textColorIndex;
+@property (nonatomic,strong) UIColor * textColor;
 @property (nonatomic,strong) UIImage * textImage;
 
 @property(nonatomic, assign) BOOL isEditable;
