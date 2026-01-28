@@ -129,14 +129,12 @@ typedef void(^TPSHistorySportCallback)(NSArray<TPSHistorySportModel*>* _Nullable
  *             每个槽位包含以下信息：
  *             - 槽位索引（slotIndex）：槽位在设备上的位置编号
  *             - 运动类型（workoutType）：该槽位对应的运动类型标识符
- *             - 允许推送（allowPush）：该槽位是否允许接收推送
- * 
+ *
  *             This method queries all currently configured workout slot information from 
  *             the connected wearable device. Each slot contains the following information:
  *             - Slot Index (slotIndex): The position number of the slot on the device
  *             - Workout Type (workoutType): The sport type identifier corresponding to this slot
- *             - Allow Push (allowPush): Whether this slot allows push
- * 
+ *
  * @note 在调用此方法前，建议先检查 allowEditWorkoutSlots 属性，确保设备支持此功能
  *       Before calling this method, it is recommended to check the allowEditWorkoutSlots 
  *       property to ensure the device supports this functionality
@@ -147,7 +145,7 @@ typedef void(^TPSHistorySportCallback)(NSArray<TPSHistorySportModel*>* _Nullable
  *          parameter in the completion callback will be NO, and the error parameter 
  *          will contain corresponding error information
  */
-- (void)queryWorkoutSlotsOnWatchWithCompletion:(void (^_Nullable)(BOOL success, NSArray<TSWorkoutSlot *> *_Nullable workoutSlots, NSError *_Nullable error))completion;
+- (void)queryEditableWorkoutSlotsOnWatchWithCompletion:(void (^_Nullable)(BOOL success, NSArray<TSWorkoutSlotEditModel *> *_Nullable workoutSlots, NSError *_Nullable error))completion;
 
 /**
  * @method editWorkoutSlotsOnWatch:completion:
@@ -205,8 +203,7 @@ typedef void(^TPSHistorySportCallback)(NSArray<TPSHistorySportModel*>* _Nullable
  *          parameter in the completion callback will be NO, and the error parameter 
  *          will contain corresponding error information
  */
-- (void)editWorkoutSlotsOnWatch:(NSArray<TSWorkoutSlotEditModel*>*)workoutSlots completion:(void(^)(BOOL success, NSError *_Nullable error))completion;
-
+- (void)updateEditableWorkoutSlotsOnWatch:(NSArray<TSWorkoutSlotEditModel*>*_Nonnull)workoutSlots completion:(void(^_Nonnull)(BOOL success, NSError *_Nullable error))completion;
 @end
 
 #endif /* IWearCurDayActivitySync_h */
