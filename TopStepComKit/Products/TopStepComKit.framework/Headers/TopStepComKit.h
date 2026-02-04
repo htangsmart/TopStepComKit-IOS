@@ -96,8 +96,8 @@ FOUNDATION_EXPORT const unsigned char TopStepComKitVersionString[];
 #import <TopStepComKit/ITPSWorldClockAbility.h>
 
 #import <TopStepComKit/ITPSPrayAbility.h>
-#import <TopStepComKit/TPSPrayTimes.h>
-#import <TopStepComKit/TPSPrayConfigs.h>
+#import <TopStepComKit/TPSPrayModel.h>
+#import <TopStepComKit/TPSDayPrayModel.h>
 
 #import <TopStepComKit/TPSStressConfigModel.h>
 #import <TopStepComKit/TPSSpo2ConfigModel.h>
@@ -138,13 +138,17 @@ FOUNDATION_EXPORT const unsigned char TopStepComKitVersionString[];
 #import <TopStepComKit/TPSSportPreciseCaloriesItem.h>
 #import <TopStepComKit/TPSSportPreciseDistanceItem.h>
 #import <TopStepComKit/TPSSportPreciseStepItem.h>
-#import <TopStepComKit/ITPSHealthMonitorAbility.h>
+#import <TopStepComKit/ITPSHealthMeasureAbility.h>
 
 #import <TopStepComKit/TPSMangerTool.h>
 #import <TopStepComKit/TPSOTAModel.h>
 
 #import <TopStepComKit/ITPSApplicationStoreAbility.h>
 #import <TopStepComKit/TPSApplicationStoreModel.h>
+
+#import <TopStepComKit/ITPSAIWatchFaceAbility.h>
+
+
 
 
 

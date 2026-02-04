@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TopStepComKit/TSJConnectorAbility.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @class FwLanguageModel;

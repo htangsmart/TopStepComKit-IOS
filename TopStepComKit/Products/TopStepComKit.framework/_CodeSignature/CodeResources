@@ -6,7 +6,7 @@
 	<dict>
 		<key>FitCloudDFUKit.bundle/Info.plist</key>
 		<data>
-		tU3bvmtRhWOE0A11F06xFyNhOik=
+		R5goQuTqPY+xnng1zzungCPyXTQ=
 		</data>
 		<key>FitCloudDFUKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -397,7 +397,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		9S/TAg9SOdBwvnj+U5QSSmi9Ql0=
+		kPaBRNTVg77tR6s7DE7l0U8k3/k=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -484,7 +484,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z1SEHWEvGlJXc1XTk1zUy/iuAP8=
+			Oa+O+cCxOj9+WHOLHfju/wKakTE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -781,7 +781,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dr4T3w4uVfl/TWTGMaOJKqELYKw=
+			WOZgS/2kBYbS71LG0z2ACRzNJec=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -819,7 +819,7 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/Info.plist</key>
 		<data>
-		drRb1iJYmSIr7AUNEXT/6BGcqKk=
+		zf790EwtfF7eup2v7T8yENRg7EI=
 		</data>
 		<key>FitCloudWFKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -1208,6 +1208,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/ITPSAIWatchFaceAbility.h</key>
+		<data>
+		7OgLkDWO5IYZ8yJ8tTqiVu4irq8=
+		</data>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<data>
 		YWtwBn9ctBkQqb0VcjmAkEPSfNI=
@@ -1238,7 +1242,7 @@
 		</data>
 		<key>Headers/ITPSContactAbility.h</key>
 		<data>
-		M5BRMbD05+9W/EMQEi1b0tBujNk=
+		3S8/5WB+1QCTIJmDpv9PozDatFA=
 		</data>
 		<key>Headers/ITPSCurDayActivityAbility.h</key>
 		<data>
@@ -1250,7 +1254,7 @@
 		</data>
 		<key>Headers/ITPSDialAbility.h</key>
 		<data>
-		kaFP/LXQ04E/65uuMcuwZ2d/vHc=
+		qlhHs41LNZGxE/IrcexuPAVqKic=
 		</data>
 		<key>Headers/ITPSEleBookAbility.h</key>
 		<data>
@@ -1264,9 +1268,9 @@
 		<data>
 		X3uoUStdcEzD3Vz571IYY0NbJa0=
 		</data>
-		<key>Headers/ITPSHealthMonitorAbility.h</key>
+		<key>Headers/ITPSHealthMeasureAbility.h</key>
 		<data>
-		Zap+FVid0eJwFTEu6CCAN29/OHE=
+		QhK0cusKaA/RFNlxV6OHCmn7alg=
 		</data>
 		<key>Headers/ITPSHeartRateDataAbility.h</key>
 		<data>
@@ -1278,7 +1282,7 @@
 		</data>
 		<key>Headers/ITPSLanguageAbility.h</key>
 		<data>
-		eLkUkFZXKW47zd1ODcdKZk/oRLU=
+		K5Ed+bZ1KNdAGMAY9+aQWxTxDr4=
 		</data>
 		<key>Headers/ITPSLogAbility.h</key>
 		<data>
@@ -1286,7 +1290,7 @@
 		</data>
 		<key>Headers/ITPSMiscSettingAbility.h</key>
 		<data>
-		HuF4h1wxZp2GdKl0N8kh0UzEPEE=
+		SucR4FaNgOL1W6HqF9d2Cla46ng=
 		</data>
 		<key>Headers/ITPSMusicAbility.h</key>
 		<data>
@@ -1298,7 +1302,7 @@
 		</data>
 		<key>Headers/ITPSNotificationEnableAbility.h</key>
 		<data>
-		HuvsAXh6PW/SpYogoq5UmfVOsEU=
+		y7rBfbGFCSpbwamiB+6NXSdKk+g=
 		</data>
 		<key>Headers/ITPSOTAAbility.h</key>
 		<data>
@@ -1306,7 +1310,7 @@
 		</data>
 		<key>Headers/ITPSPrayAbility.h</key>
 		<data>
-		lvh84LnB/H5eIWpRxkaH2QnEArA=
+		l6r28l84JCOl08w+kNPqq5Abj0M=
 		</data>
 		<key>Headers/ITPSRecordingAbility.h</key>
 		<data>
@@ -1330,7 +1334,7 @@
 		</data>
 		<key>Headers/ITPSSportDataAbility.h</key>
 		<data>
-		mjjwZI7GEaS+FKltyCzxGnJnoO0=
+		i4ROQb6xzVh+OcGqyCktagkw03M=
 		</data>
 		<key>Headers/ITPSSportTargetAbility.h</key>
 		<data>
@@ -1342,7 +1346,11 @@
 		</data>
 		<key>Headers/ITPSSynchronousDataAbility.h</key>
 		<data>
-		zQs8iL7aqPpd4nBZ5eDLBuwlwjI=
+		XqyNGIF+YT3muHEgVQbvC7q8tpE=
+		</data>
+		<key>Headers/ITPSTempDataAbility.h</key>
+		<data>
+		2pKrCquSUhrCF7oSo5Z1xdhjJ6g=
 		</data>
 		<key>Headers/ITPSUserInfoAbility.h</key>
 		<data>
@@ -1366,7 +1374,7 @@
 		</data>
 		<key>Headers/TPSAlarmModel.h</key>
 		<data>
-		DRhofjmLB8BNTE7lZ2hbuKsA7yw=
+		XgEJCSReaO4mte2oY1yASp05o9s=
 		</data>
 		<key>Headers/TPSAlbumUpdateModel.h</key>
 		<data>
@@ -1380,13 +1388,21 @@
 		<data>
 		LuX61Uji/+Fs78weiZ1Z+GmydYw=
 		</data>
+		<key>Headers/TPSContactImageSlot.h</key>
+		<data>
+		3h1Thz61lkJbtEBS01HPyAWAMCw=
+		</data>
 		<key>Headers/TPSContactModel.h</key>
 		<data>
-		6fo96uYKdGANJgPP7XBi9a2O3Ro=
+		S6pIT+QySV7bNeYdR7hksE9FWog=
 		</data>
 		<key>Headers/TPSCurDayActivityModel.h</key>
 		<data>
 		fWrY1Rk2ITwvd3sstuFd66NDvqM=
+		</data>
+		<key>Headers/TPSDayPrayModel.h</key>
+		<data>
+		hkDFG3zOz7Zs7UwmZWtdzVFzY5A=
 		</data>
 		<key>Headers/TPSDaySleepEntity.h</key>
 		<data>
@@ -1398,7 +1414,7 @@
 		</data>
 		<key>Headers/TPSDevInfoModel.h</key>
 		<data>
-		hh/RF5bFmPEkeFWGUyWKMwKvxWk=
+		Cs3XAqZzbEal1sUZ6CMzDHIP0Sw=
 		</data>
 		<key>Headers/TPSDevLimitModel.h</key>
 		<data>
@@ -1414,7 +1430,7 @@
 		</data>
 		<key>Headers/TPSDialModel.h</key>
 		<data>
-		zdtiGRtRDqC6yME6sogTt8x6CUE=
+		tuaQkV86UXMuuxU5yLreN/OCVxs=
 		</data>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<data>
@@ -1442,11 +1458,11 @@
 		</data>
 		<key>Headers/TPSFutureDayWeatherModel.h</key>
 		<data>
-		FjEbARXs0kr34DNbfFqtjiQrwRc=
+		CIDfcRll/ZOompIXTGe6+tPExfw=
 		</data>
 		<key>Headers/TPSFutureHourWeatherModel.h</key>
 		<data>
-		wdf/iyzuXQVcEFOO9hAgwR0LCyo=
+		1Ula/xqxr2n7r4udOuZNkFYAf/M=
 		</data>
 		<key>Headers/TPSHistoryActivityModel.h</key>
 		<data>
@@ -1476,17 +1492,29 @@
 		<data>
 		jdVRvkXbJ3YZgFqhwjTq86uLQVI=
 		</data>
+		<key>Headers/TPSHistoryTempModel.h</key>
+		<data>
+		uXfnwVVJ+7IZB55uXXObIBx4olk=
+		</data>
 		<key>Headers/TPSHrConfigModel.h</key>
 		<data>
-		zFIcGeZ/1/Q+skyRpf9dVy5R6IU=
+		Oxr+y9RXGJSXlGx2e2JhPnrDqK4=
 		</data>
 		<key>Headers/TPSLanguageModel.h</key>
 		<data>
-		qzUSEHcxHJOIGef02wv63rxQGBs=
+		0L9h0w5+htEpWw6DsGazNH0dQe4=
 		</data>
 		<key>Headers/TPSMangerTool.h</key>
 		<data>
-		zJm7PYmDkYVNNq+sLdRsDURMkxc=
+		13cc/ur/tXT6wrfsTl7FVhQFJAg=
+		</data>
+		<key>Headers/TPSMeasureConfig.h</key>
+		<data>
+		5BBqAV77a3LC7JpOKV3R7c2k4cg=
+		</data>
+		<key>Headers/TPSMeasureValue.h</key>
+		<data>
+		7wAavJsu7JF+UlJkNEZoKPw8MK4=
 		</data>
 		<key>Headers/TPSMiscSettingModel.h</key>
 		<data>
@@ -1502,11 +1530,11 @@
 		</data>
 		<key>Headers/TPSNameCardModel.h</key>
 		<data>
-		SHoCDnx9FEG1bcMsj9aScR10fY8=
+		AWdQuxI/otY+xYbU6pLlAboL5o0=
 		</data>
 		<key>Headers/TPSNotificationEnableModel.h</key>
 		<data>
-		yhPWINdYYHjEdLA/PyHGCT43EvA=
+		0fORH6yyTjn0+06zg0KczB8F3UM=
 		</data>
 		<key>Headers/TPSOTAModel.h</key>
 		<data>
@@ -1516,13 +1544,9 @@
 		<data>
 		kWDCRKRUKFjmDAgD7YjVbYuqbWI=
 		</data>
-		<key>Headers/TPSPrayConfigs.h</key>
+		<key>Headers/TPSPrayModel.h</key>
 		<data>
-		kVYC07mIptZliaAn8BJlPlI4OZs=
-		</data>
-		<key>Headers/TPSPrayTimes.h</key>
-		<data>
-		Hqw9M45/u93bU2LoazQVzYRlZo8=
+		Ge6qO22YKJEx59GkZawPTGTH2QI=
 		</data>
 		<key>Headers/TPSProgressModel.h</key>
 		<data>
@@ -1538,7 +1562,7 @@
 		</data>
 		<key>Headers/TPSRemindSettingModel.h</key>
 		<data>
-		ONIbNf7AiYi53hHxwXTUA9AHhzs=
+		XxXNn6QlLf0qELcLzc03Xn40v6w=
 		</data>
 		<key>Headers/TPSScanResult.h</key>
 		<data>
@@ -1546,7 +1570,7 @@
 		</data>
 		<key>Headers/TPSSdk.h</key>
 		<data>
-		DeRqotpw3nOqKb7fgrVPRmGgCDA=
+		8yMyIZYdv+aGfTFhnvdTHDHzI6U=
 		</data>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
 		<data>
@@ -1586,15 +1610,19 @@
 		</data>
 		<key>Headers/TPSSportTargetModel.h</key>
 		<data>
-		NleYFus0eYzq2rEWXevwmVGq0qk=
+		rMrMtFuLmG+ba8+DmgJfVz7Neh4=
 		</data>
 		<key>Headers/TPSStressConfigModel.h</key>
 		<data>
 		pOitqCTaoDV3j1b+bsWW1rpu7/Q=
 		</data>
+		<key>Headers/TPSTempConfigModel.h</key>
+		<data>
+		MF4vVI5OHdoKYiwaxEVwINhqoKI=
+		</data>
 		<key>Headers/TPSTodayWeatherModel.h</key>
 		<data>
-		qp8McYYIPZ3ZBzwMyVGJcV6M2Cc=
+		5AOcCHLENaYAfEtcWqXGg/zQFjI=
 		</data>
 		<key>Headers/TPSUserInfoModel.h</key>
 		<data>
@@ -1602,11 +1630,11 @@
 		</data>
 		<key>Headers/TPSWalletModel.h</key>
 		<data>
-		gg8pUHVENZFK889WrKMJKgrQWcY=
+		ohbLAO56aRumBaxx4lfdl59Yh9A=
 		</data>
 		<key>Headers/TPSWearBlockTypeDef.h</key>
 		<data>
-		/rLp2xrMde0wJQfGSTAgoVKrhSg=
+		gwQmJdi+W/XGMCWo95BPNBbN4QQ=
 		</data>
 		<key>Headers/TPSWearFactory.h</key>
 		<data>
@@ -1614,11 +1642,11 @@
 		</data>
 		<key>Headers/TPSWeatherDescribeType.h</key>
 		<data>
-		g9quEocB46ShylL5e73kaHGannw=
+		LgVkt8uEpa8JDZ+v/gS+NLQqMhE=
 		</data>
 		<key>Headers/TPSWeatherModel.h</key>
 		<data>
-		wfLScAjJ+T0lo4BBR1BUyNRCJQ8=
+		QKQkvHgfgwdXm77QEbQx1pql7cg=
 		</data>
 		<key>Headers/TPSWebRequestModel.h</key>
 		<data>
@@ -1626,7 +1654,7 @@
 		</data>
 		<key>Headers/TPSWebResponseModel.h</key>
 		<data>
-		wv5pUH+ENFiV6/kK9+1OqPUEG/s=
+		F9W18S6X3scZ9Ype8xiZ33Bs3pE=
 		</data>
 		<key>Headers/TPSWorldClockModel.h</key>
 		<data>
@@ -1636,21 +1664,13 @@
 		<data>
 		Wiea7NlZqOyQMl+N+Pe8Qn3tmCE=
 		</data>
-		<key>Headers/TSJConnectorAbility.h</key>
-		<data>
-		UF1N7NK2Tkfd7va3wgUDIoqPqI4=
-		</data>
-		<key>Headers/TSWorkoutSlotEditModel.h</key>
-		<data>
-		TWPyRB81MXDMUfTHIM7Wgw9hb84=
-		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
-		XXU6ssMkBRYKjGCZlaNAGt0QO4Y=
+		3jqrgCCf2R4XJnUZ1wR+lg2HBsI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0Qhsl6PAUTJTeAFGzgjOwGdcsUo=
+		w926d5C5IAPacqShqcc577QvWps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1658,20 +1678,32 @@
 		</data>
 		<key>TSBundle.bundle/TSSql.sql</key>
 		<data>
-		at80v2oTVU/nQyEhNnTS9bBgqQo=
+		JrqSsu/MM01f5coycrQl3PTSwqA=
+		</data>
+		<key>TSBundle.bundle/gui_dial_binfile_watch_1024000_1_20250430.bin</key>
+		<data>
+		aJVS74s3n9n+jvXqmthLeVS1WSM=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>FitCloudDFUKit.bundle/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			R5goQuTqPY+xnng1zzungCPyXTQ=
+			</data>
 			<key>hash2</key>
 			<data>
-			J1T4XCVr4bVw9h5gbp7ZiMz5mlgRxtcKQeYyMXac5rM=
+			lSk7b6zPr6/FldmecR9sLpoy83uOjh/JhYs7aDGYCpE=
 			</data>
 		</dict>
 		<key>FitCloudDFUKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TMQMD5PvSgp40ZJNCA8g62LXM8Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			L7Y5QTrjFPWBlstq04xI0nhVdrtFYrnfMfD19G1j6eM=
@@ -1681,6 +1713,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/bg.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Y5CAjSWavr3Qc0lu9iLMF2801J4=
+			</data>
 			<key>hash2</key>
 			<data>
 			r8eKPyArtaKRmSASi2PN7hTmiRHg4fh1Kr7ZB+QYTmU=
@@ -1690,6 +1726,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/bn.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			</data>
 			<key>hash2</key>
 			<data>
 			jUVdYOmrXBY+BSQPPAWmwJ5a2bX2SiKl+zMDY8OuESw=
@@ -1699,6 +1739,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/cs.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			zbdVzow0weKK8RRqt+9tWJIMNtc=
+			</data>
 			<key>hash2</key>
 			<data>
 			0wcM+B4nVDUQUwo69Y22/iMHRRmHVN4WL8N5Bt1ZZWA=
@@ -1708,6 +1752,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/da.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			sERtpZOFfxdDEZ3UyYjXJ4TI1oY=
+			</data>
 			<key>hash2</key>
 			<data>
 			Vva5exCtbznKwUzxKuRcSLuoelT5yYnwrSDWIvw4CYI=
@@ -1717,6 +1765,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/de.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			54PIuWTGiS+ijsgQTLsC3ruo5LQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			TTIT/5QOsk+gSthdFahVJde69iIv6C9BF5fetWg1tqI=
@@ -1726,6 +1778,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/el.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+RF/phk80ca10vyvU4n6Qla2qxQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			jrM7FA4JjFDwPYoiKD/YU1MghbgGGrG2uodGTdk/2j8=
@@ -1735,6 +1791,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/en.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1ppf8Otb2UgO4YtQ/K1UGCXkpes=
+			</data>
 			<key>hash2</key>
 			<data>
 			jUVdYOmrXBY+BSQPPAWmwJ5a2bX2SiKl+zMDY8OuESw=
@@ -1744,6 +1804,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/es.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ESBlsSPjZ+iULLFWSE8j883bLS8=
+			</data>
 			<key>hash2</key>
 			<data>
 			lbyRI5yzjE+91i/1P3YEoeXGNeoLrIGdBmcBGFKGJGM=
@@ -1753,6 +1817,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/et.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wIBUiqrXnuFja3JDUgaKK8s3b/A=
+			</data>
 			<key>hash2</key>
 			<data>
 			iWKhCABaiGn69VbStU+lci72vKafavf0GlI0e9W0XHw=
@@ -1762,6 +1830,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/fa.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vOffAvwrM96XTccnH/CDZ9G0ClI=
+			</data>
 			<key>hash2</key>
 			<data>
 			eDlDmOMEPu1FXvBe3mDR/+zXJeq/MuZwMGIF2gJ3u/M=
@@ -1771,6 +1843,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/fi.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Z7VIfi9V6gW0STDnYiECIFX+aIA=
+			</data>
 			<key>hash2</key>
 			<data>
 			y3Q8vyEsBe0qGZc7HMfi89RhkSAEvh3YOSSB0dbBVJ0=
@@ -1780,6 +1856,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			bminZ0UPFtu7d9hL9gx65GUyUBs=
+			</data>
 			<key>hash2</key>
 			<data>
 			9QaewY5DQHAdnsZrFmyarwni14aeVgTpLdBJ7mm59fg=
@@ -1789,6 +1869,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/he.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			60meYigiTm95ZuZgLfVCne+mIl8=
+			</data>
 			<key>hash2</key>
 			<data>
 			GIKXwXjaXdKgPG2RxAVzBj2Fq0dCKSB+AnId06EeCv4=
@@ -1798,6 +1882,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/hi.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			FWS9/HJye/KGf9k3Kbzzcxx5vdA=
+			</data>
 			<key>hash2</key>
 			<data>
 			pnVqQWm7Tu/WZojN7GcISuZvRX+nK8R2GmInGAzCamU=
@@ -1807,6 +1895,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/hr.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qLbRvQisuvD3k5+sWq8z+4wxJsI=
+			</data>
 			<key>hash2</key>
 			<data>
 			pCdQzKMlcjFQEBrJkfUTnswXmEPi05v2gYE7Q4vOjHE=
@@ -1816,6 +1908,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/hu.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			JHnR1YtCP2W0CKUubZ3kIxxWphU=
+			</data>
 			<key>hash2</key>
 			<data>
 			V3mCwGgAc5+HCjh0SQaqpQXgUaGTsrc5bsxDNI/ouHI=
@@ -1825,6 +1921,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/id.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			JjdyzYJOdEyzREtUDpNMzRR+84k=
+			</data>
 			<key>hash2</key>
 			<data>
 			dxKvpGcxgXfgAwL5JmcD6Ryjx9mNmKon4qcln3W0MsI=
@@ -1834,6 +1934,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/it.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wFkcfqlRlJBbmQPYWLc3zSCk/jY=
+			</data>
 			<key>hash2</key>
 			<data>
 			u/PguOwzGKWQHR2npXN5Qo2qmpMV1dL9vQEFN88uFqQ=
@@ -1843,6 +1947,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			YOq6zitMfF9NbWNIMyb9KEyJ0vA=
+			</data>
 			<key>hash2</key>
 			<data>
 			Dv3PX98VEBFF+KZTX8CA5VMps/IDzy/T6JO44tNgYWs=
@@ -1852,6 +1960,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/km.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qM98rCk8sWoF25APJqqyjk1BfKc=
+			</data>
 			<key>hash2</key>
 			<data>
 			MJodgrCNu097Rsv77PvAjLfvDoeqq2bjIsyWytjv4jk=
@@ -1861,6 +1973,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/ko-KP.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6o14CdjdOpMgqbMpOu2K1YnYNUE=
+			</data>
 			<key>hash2</key>
 			<data>
 			RYSv+gMZkknU9J+OT3fuU0WFna9n6IsLPsuKfB40ejE=
@@ -1870,6 +1986,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			U0iAeIEzWhFrGmCQwaT0yuqomnk=
+			</data>
 			<key>hash2</key>
 			<data>
 			nJaoQSLu7XjgfeQNR07wbM6/QnLOV2oDdSsoqyzRmiE=
@@ -1879,6 +1999,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/lt.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			aDeZIgbgAiEgvRYXBJ9Mm3upc4U=
+			</data>
 			<key>hash2</key>
 			<data>
 			jkwh1InhEEM+vGC7eeDvbFZyQi4LtgBRA2mfWWjZ3N4=
@@ -1888,6 +2012,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/lv.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			IEKLLnu0QX4r7Xadp4rRsVVqD4Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			5fzUYNIFkVivlvSf8ekKr0JR1jpnSxOOICMoAPmpdMY=
@@ -1897,6 +2025,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/ms.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			fA/9CXU5OPL1BQHWU4KBTUg2kRg=
+			</data>
 			<key>hash2</key>
 			<data>
 			1q4ZBKhG2m1gK3CcQ0AG2vf+r7UrBzis7ylxgzSF758=
@@ -1906,6 +2038,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/nb.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MH2vymxfC6dzSXjMuNVNHvLOx+k=
+			</data>
 			<key>hash2</key>
 			<data>
 			8EFdJZYVHzl9iqBwbBmTCwJUaFzC6Tnudi0Ij2+xNHs=
@@ -1915,6 +2051,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/nl.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7lMEjRrht0P57IwmaGydeSaU9Q0=
+			</data>
 			<key>hash2</key>
 			<data>
 			j+sGzBAFRv9cJmL5GS+pfPJ0S2mHsMqO4E9d6GMXYrc=
@@ -1924,6 +2064,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/pl.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			t72R/g8MBra+ify7UjBCY+tJn+8=
+			</data>
 			<key>hash2</key>
 			<data>
 			5H4inliWjHLitg5MyQ2rJ2gHW7V3xbpth6wdSPUZFuQ=
@@ -1933,6 +2077,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/pt.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ARQ9SuFbuWjubUgxLba+qnG4IIE=
+			</data>
 			<key>hash2</key>
 			<data>
 			3ia4lGWtQDSx93YYXy9Tit+rOTWd2g/AKEsDZx0nibA=
@@ -1942,6 +2090,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/ro.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Dieq7BrIU1iMb5A1MeNWtVO3oEU=
+			</data>
 			<key>hash2</key>
 			<data>
 			1yN/qvDtqRw3iBbMexIAs+TyTzukqEk0mE7t5F3J+8A=
@@ -1951,6 +2103,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/ru.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			0M4RzDmXY4n6ABbnezZCXuG5450=
+			</data>
 			<key>hash2</key>
 			<data>
 			qEbPlDCbNs1njLNE3pBDrjMvNMmzeM6eWcSM+R2y3Ag=
@@ -1960,6 +2116,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/sk.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			PUwm2bi0IO4bRsHcX9R5B+o+Eg0=
+			</data>
 			<key>hash2</key>
 			<data>
 			9yFU2xwRTte0N345uPGUw2NFXTBUQ0ptuT13pcbYfKM=
@@ -1969,6 +2129,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/sl.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RgUCYYyrMtGat0xJ6qS9L+fBt9c=
+			</data>
 			<key>hash2</key>
 			<data>
 			w4O9jVNlS8A6IgqHjuS03z+6yIUwlIqBST/UoAUeZWo=
@@ -1978,6 +2142,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/sq.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			SnBiFnuGCAhKWC0kuvrS6do9ab0=
+			</data>
 			<key>hash2</key>
 			<data>
 			xGaJr3qHCc1+OHuIOjIFQ8YJSxHXA/FiiE+e+HBBdx8=
@@ -1987,6 +2155,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/sv.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			+UYGCKnUOlRXBXtFgFHqXQ+iUWs=
+			</data>
 			<key>hash2</key>
 			<data>
 			UoD1OZz0654TSCLJ9ouBc0Gixt6Oq9pXoJsfy7ikm+o=
@@ -1996,6 +2168,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/th.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			e8kdqL6njQGJP0XyJhZG48oDTec=
+			</data>
 			<key>hash2</key>
 			<data>
 			qzYrhwoM+48geTnysenhSMGD5K0CnvtH4PlyoOQL0dg=
@@ -2005,6 +2181,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/tr.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			DCjF2imnsUU/mFhHRo93E72STes=
+			</data>
 			<key>hash2</key>
 			<data>
 			4yKksM7p8khpiVNud2rH2QaEHfW4cr5ZcJiwCCyjtFY=
@@ -2014,6 +2194,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/uk.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hZtnM+uyPF720Zfy2pcOIXhAip4=
+			</data>
 			<key>hash2</key>
 			<data>
 			qpsBmYNJhMKCgEfPowOt8YwDnh/7gU0GPc1418msewo=
@@ -2023,6 +2207,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/ur.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gemaK+j0DFshrWJGAxGuhC8lnog=
+			</data>
 			<key>hash2</key>
 			<data>
 			bf35ycBXnAzsU4XjhAKkapVU7HWCqFODiLt6WCUASKo=
@@ -2032,6 +2220,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/vi.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Lwa2X+YRkXffx068/zJ0XZ/Wh8s=
+			</data>
 			<key>hash2</key>
 			<data>
 			gwsDpQZOjRxzvivsEohOgA5VB51HbUV9Uxo0sVoy1z4=
@@ -2041,6 +2233,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6azKkREX8B9YmPZDBXqCha80jFU=
+			</data>
 			<key>hash2</key>
 			<data>
 			mhf1yURYeRZHkm4Homvo94nivQmVSSVTQMbT7SO4qG4=
@@ -2050,6 +2246,10 @@
 		</dict>
 		<key>FitCloudDFUKit.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/ssBh5nDS7eahEYw0bZKPFBugns=
+			</data>
 			<key>hash2</key>
 			<data>
 			ogMmzyWmRjM6UYyw0K8QSTopAzSeLgZxwT3XezHD9lM=
@@ -2059,13 +2259,21 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kPaBRNTVg77tR6s7DE7l0U8k3/k=
+			</data>
 			<key>hash2</key>
 			<data>
-			2yMZKQEN5KQDJSNQuV3AilMBn68o9ALK/IZXw9gSpJ0=
+			G5MXbYjSPC2/r9ZW+WZzKepYMRlXx/mlPRJImfMvwQc=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TuPfDqGpWdq+1yLil0YyULbViYI=
+			</data>
 			<key>hash2</key>
 			<data>
 			DuTQP5ehNG6EQOmT8jVzYbNTpih75CqF9to9LcmKLuA=
@@ -2075,6 +2283,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/bg.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			W0vsbH1PtyWMpfKxSQIgReQA6Zo=
+			</data>
 			<key>hash2</key>
 			<data>
 			EArQqWqAekjg7TOuPTL3p04JuCnul0EdLs5fWnAD/mA=
@@ -2084,6 +2296,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/bn.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			UuDL8E7wAsVJi8AqSH9I1iEHL9o=
+			</data>
 			<key>hash2</key>
 			<data>
 			35YMyUjVeVeVu09o8j4/us4Vd2Bi+YBOEpn2rWKfaFg=
@@ -2093,6 +2309,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/cs.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			V2tsNQTzC3bH+cB0RlIOhJ5CvhY=
+			</data>
 			<key>hash2</key>
 			<data>
 			yttN7xRNMB4abHp25Zz6McYBGsvFgLOXslgDBC4o8CI=
@@ -2102,6 +2322,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/da.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			BMaIV2lyk7QKDL87dMlRp+okHoU=
+			</data>
 			<key>hash2</key>
 			<data>
 			zvzihFnmi9gBZtFtWjT+AF4wehSaNxIQagjp/Fln4Gk=
@@ -2111,6 +2335,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/de.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			EU7UL1nVO4ivJgwgEZTjmhnj8Gg=
+			</data>
 			<key>hash2</key>
 			<data>
 			6eg7Y4Iq3uaIpb54AaoOBfaR0ofv7mPm8vXlBwkibx0=
@@ -2120,6 +2348,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/el.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			zcShToqyEKFa4mZ2NEWaTxvY4lI=
+			</data>
 			<key>hash2</key>
 			<data>
 			nhAGe3rT2LDlaoooMHvg6a8EOe7496ja0eucIs8lzik=
@@ -2129,6 +2361,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/en.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			dgPy7uOTHeepYzQGyh3ZufSiNTo=
+			</data>
 			<key>hash2</key>
 			<data>
 			MIhpk1pifDnGi4Y+tZR9yuVC6OkIF72cQ7ETBCUvo0I=
@@ -2138,6 +2374,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/es.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4L30pztMFQHyHkweSj3CS8TdrE0=
+			</data>
 			<key>hash2</key>
 			<data>
 			tu28ZW1Cr3PWDls4bPTSH7/HbSs/c2CC4coPiaUOGb0=
@@ -2147,15 +2387,23 @@
 		</dict>
 		<key>FitCloudKit.bundle/et.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Oa+O+cCxOj9+WHOLHfju/wKakTE=
+			</data>
 			<key>hash2</key>
 			<data>
-			JMId+nz7TOFNZmmyZMWrylMjCjhh2JfjkIjG5B32qII=
+			Kn2mz2vP93A7n0NjJ+3w+lwVk4jZ/zNWv4EZMXfpqVU=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>FitCloudKit.bundle/fa.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			sykV9Zj5MeuWZJ+6cSLf1YN8Tj4=
+			</data>
 			<key>hash2</key>
 			<data>
 			E85nkEJMs4+RJhh/5bOhwuJc6uSeZAAWSNXTBRU4PNQ=
@@ -2165,6 +2413,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/fi.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vwvTmFKJVPllkCxRVUGiDTFhyZc=
+			</data>
 			<key>hash2</key>
 			<data>
 			0syN9cZPujmTCqBWRBa6ZYPqSRBPLbMLnma6CGhF55E=
@@ -2174,6 +2426,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Ihw9jHa4/gGPVj33uvzOoeK7Eak=
+			</data>
 			<key>hash2</key>
 			<data>
 			mQMroCQ1CyEUFqSyOThuqe4gPZaQ0Q2iZnT059T6Da8=
@@ -2183,6 +2439,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/ha.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			L6IZ/jbyq0KA2UVZoP4Mw8uJjRc=
+			</data>
 			<key>hash2</key>
 			<data>
 			Q5HXP60BLBaQyLO6wrwiXSGaKJtxJe194mKE2bLPkOU=
@@ -2192,6 +2452,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/he.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			D5t6cjFN3Su6pIN30xFWJwNpP34=
+			</data>
 			<key>hash2</key>
 			<data>
 			rvz4rCT/0EP7du6UVZbSow3oL3jgim3NDpzt8pcn8zQ=
@@ -2201,6 +2465,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/hi.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			oL+h6bLF0uoL0084wkI3GrfA4Sk=
+			</data>
 			<key>hash2</key>
 			<data>
 			9bTQDEJR7VqQN79mw63ejA1tSe7r4XNkjrx5/M2KVQg=
@@ -2210,6 +2478,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/hr.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ludjaLAOeIhjASQa4w5iuDy0OyE=
+			</data>
 			<key>hash2</key>
 			<data>
 			phBN8RZqCHRjteGvkAEZLG4SPvLg9WxKsagPkBz+CJc=
@@ -2219,6 +2491,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/hu.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			5hTgJ5mE1h/Cod0toYDG/cqaOUY=
+			</data>
 			<key>hash2</key>
 			<data>
 			UBtvqRQrfcGofnWA2saHKxICTSgN7SqcJOvw9ViEZVY=
@@ -2228,6 +2504,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/id.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			oCzYifMtleusRq8XRSYoXAGh6Lo=
+			</data>
 			<key>hash2</key>
 			<data>
 			QbbsngfkabLx+VdGK1e9460XWpyIDY4t0JPSJ/x8W0M=
@@ -2237,6 +2517,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/it.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			SpCHIOjFEwhoisy0uhklRATBGjM=
+			</data>
 			<key>hash2</key>
 			<data>
 			c1hA/uekrPBcR7aHH4qsIkoJ2aqVou5jbpCXEhqrjks=
@@ -2246,6 +2530,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6NuNw0U3FT0dAxi+2NHUIecM/Rk=
+			</data>
 			<key>hash2</key>
 			<data>
 			DmsdcdqEJhQmLkIVQavMkuloUxtWOo8TJg1Cx+qdwI0=
@@ -2255,6 +2543,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/km.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kWt0SQ46v6netIvinbQeaaiAPiU=
+			</data>
 			<key>hash2</key>
 			<data>
 			njAWVOyRDjayMVYbCTW/yu4ALj8uK0+/M5RZiRAGcPs=
@@ -2264,6 +2556,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/ko-KP.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			xafxngmbIYp+ynhPXVCtQHkHkj0=
+			</data>
 			<key>hash2</key>
 			<data>
 			x27JxF/855nLdBGHFoYCDbqFFjYoS90heUbLtL09mDU=
@@ -2273,6 +2569,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Z2PdnAhCmvl4WvlYkVSrA8N/Tbg=
+			</data>
 			<key>hash2</key>
 			<data>
 			c7OXVP8vLxFdSs0VOSe4ChhwhMphVht+tS6xdB4cgDg=
@@ -2282,6 +2582,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/lt.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			OPxlb3MO644kaYgQnIOQvjvDIOA=
+			</data>
 			<key>hash2</key>
 			<data>
 			KbwDxnu1fGCIUqANUsadIdxBP9+SWjP22ufwi352KaI=
@@ -2291,6 +2595,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/lv.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			PomQ/IJIPweRBUkqiCytGA4iDZA=
+			</data>
 			<key>hash2</key>
 			<data>
 			oumhQgUr+KAytCuFFg6UG/ZhUTrfJv6Z32xgysTNWqw=
@@ -2300,6 +2608,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/ms.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qHAQLGivgfpxVcYvpSEn6ABvCoo=
+			</data>
 			<key>hash2</key>
 			<data>
 			uubuvyZukl4osN6P3Geq7U8m1/qD1Y6zaysXZ6gdwVQ=
@@ -2309,6 +2621,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/nb.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RY0rOHcAD5CDADxI37tSVOpZqss=
+			</data>
 			<key>hash2</key>
 			<data>
 			5KoTm3hKrI7DJGuPnA8bZad3iwAZx8DSyvXjSNol9tE=
@@ -2318,6 +2634,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/nl.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			xpEiVh2FCRc2yOhHsvrXh5jkdBk=
+			</data>
 			<key>hash2</key>
 			<data>
 			JzktLfHLC/bn79B83OAYjZhMIuoAU8uqtUpeGFhNbR0=
@@ -2327,6 +2647,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/pl.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7M/PxoCm5DqR22YjdhmlsplrK24=
+			</data>
 			<key>hash2</key>
 			<data>
 			Gm54ZM0Ta10bnyhJyKfn6Q7+JmWGAXehpb/erfdZle4=
@@ -2336,6 +2660,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/pt.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			SeqqN68UU88RtEi1Qem3kkjpqeQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			UfJiUkFzN7kZsCyHxdONBb5qFYM2tZ9RptvlR6IQKrw=
@@ -2345,6 +2673,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/ro.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			n4IQHD7zznlRKjxsbXujCP0UIn4=
+			</data>
 			<key>hash2</key>
 			<data>
 			oDEI/uElEeS4WRracaVfiI+vlAwBzchLnvNQHTgYe4E=
@@ -2354,6 +2686,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/ru.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kkdZDHA77ZKoPOZAD+R7H+sQL0o=
+			</data>
 			<key>hash2</key>
 			<data>
 			T5rwiIEThxV6ZaGfykHxlUj0y8C0o2o6H+zx+sOpMJ8=
@@ -2363,6 +2699,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/sk.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WivnEgDUiPCzKmHcEPdLWlwexkg=
+			</data>
 			<key>hash2</key>
 			<data>
 			oHA0Knn1E/lpGBbeXnyDZgsrKuF0a6nBdngocWDA/ns=
@@ -2372,6 +2712,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/sl.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TsctEy4ZR0gYMow+3NLQlogkvyk=
+			</data>
 			<key>hash2</key>
 			<data>
 			UE5oeDOtlcGPbWjybu1+uesLaItkEyT+77OVOZrYdDA=
@@ -2381,6 +2725,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/sq.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MtiLoazRypD1qH2Sf62dRbDrV3U=
+			</data>
 			<key>hash2</key>
 			<data>
 			unqmK6a2RB3G1v52iLflSO13Yj2fSOaxjLZWO/bc0r8=
@@ -2390,6 +2738,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/sv.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3E5rOZCT3d+LR1ZSaC1o79Fs45k=
+			</data>
 			<key>hash2</key>
 			<data>
 			P0FdaWMc8PSBXAFmFDIdVf8fEEXcZb9BjVfxECmZOFM=
@@ -2399,6 +2751,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/th.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			9diHkm0yGA133CJzXBYhE2ILpLA=
+			</data>
 			<key>hash2</key>
 			<data>
 			whgOuXvxuC8Rrs/3ZfCUa/PH9XrLHbuX3AV+mQ+xeUE=
@@ -2408,6 +2764,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/tr.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Wl3Es97zXCVkFEEnoYxrrKAgeT0=
+			</data>
 			<key>hash2</key>
 			<data>
 			Xx4eqrxPWThkQzn6AVuLK+UmSunLoEtVQvloOw6joPg=
@@ -2417,6 +2777,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/uk.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RcD+HKOc8lR2vQZ8JZe641CemKU=
+			</data>
 			<key>hash2</key>
 			<data>
 			8w9WQdZ+RoNAi0HDN7ce/44CBkKH+F+Zt2w6Iq+vU70=
@@ -2426,6 +2790,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/ur.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			HMEVUIOhoPyDwhR9vjKs7N8+Rgc=
+			</data>
 			<key>hash2</key>
 			<data>
 			R3M9iHkAECXK5C54C9e6Uo3i/VNnMwa0OtplQO+0cuI=
@@ -2435,6 +2803,10 @@
 		</dict>
 		<key>FitCloudKit.bundle/vi.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Ehd5YaPb2Uge3Jw1A/v4/f81Dnw=
+			</data>
 			<key>hash2</key>
 			<data>
 			51yO9Z5ATA2tduKSpPdSLcA0mBXSKdi6Vmxf5kCxwZQ=
@@ -2444,15 +2816,23 @@
 		</dict>
 		<key>FitCloudKit.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WOZgS/2kBYbS71LG0z2ACRzNJec=
+			</data>
 			<key>hash2</key>
 			<data>
-			O2GO6ZHU8CbqiEYrKtI9rRuxkCVSDpI4iUhGkRMTnNI=
+			pNPrOvHnHUOdI+7UzxQy0fIgA9WQwwdS5aeh8PhxbhA=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>FitCloudKit.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			FPv/yrS4YxadgBwjDRevyr1gEWY=
+			</data>
 			<key>hash2</key>
 			<data>
 			Ckrua+hhPXqTQuBgyypPPPpjDfa0wB2HpJxwEIE1CWo=
@@ -2462,6 +2842,10 @@
 		</dict>
 		<key>FitCloudNWFKit.bundle/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			LJL3i5ZMHHzmPma95hvQcbPSmuM=
+			</data>
 			<key>hash2</key>
 			<data>
 			07OrLzZY5+w8ywofPTgKOVvcAi8Vbk+Y38rCZ4vaVYI=
@@ -2469,6 +2853,10 @@
 		</dict>
 		<key>FitCloudNWFKit.bundle/en.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			nMpIYjlo7BOndfRL+kJqXmrDWTA=
+			</data>
 			<key>hash2</key>
 			<data>
 			+M4pUnGLsBuipncO93GNfcE5ipJ9XeeTlL//Fvzy/cA=
@@ -2478,6 +2866,10 @@
 		</dict>
 		<key>FitCloudNWFKit.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			l7E6M5H0/lX9j/dtV2oK4Yo09aA=
+			</data>
 			<key>hash2</key>
 			<data>
 			JRcwcpgG7xsDIEuC2tkKjNcIC+SJjfrdd8HxqJ7x9zc=
@@ -2487,13 +2879,21 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			zf790EwtfF7eup2v7T8yENRg7EI=
+			</data>
 			<key>hash2</key>
 			<data>
-			GWlmoGR3+XhniTXkEKfhvdnw2NbPbixTTeC++i2ZR/k=
+			BI3UxxyZzpYseUkVPacBMspiW5uvk4C24f0P1lpF7Nk=
 			</data>
 		</dict>
 		<key>FitCloudWFKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tiLTRpoCi1LR70SKls9FPnP487I=
+			</data>
 			<key>hash2</key>
 			<data>
 			mRJkgxodzXELO26ONrJJtqFbRu+kVabMpqMeza7mZzY=
@@ -2503,6 +2903,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/bg.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			iOw328VB79HnwLWyCoo2qB7rXR8=
+			</data>
 			<key>hash2</key>
 			<data>
 			SWzwmgk5N4vb8tYT+Uv8HCWiidEtMJ1nlxDI8NZJbIc=
@@ -2512,6 +2916,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/bn.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wszWVjWdNlXoNYu4f7iwURHsx8Y=
+			</data>
 			<key>hash2</key>
 			<data>
 			AT5yO8gdvePkjCV6kmeFtCY/SO+YR8mlAtnj2I5+zag=
@@ -2521,6 +2929,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/cs.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			NFSeNnN8G98nqDa9cDiSdpy/MW4=
+			</data>
 			<key>hash2</key>
 			<data>
 			5k1HGZYDlFvKFOr0i3Nm6xIYRxPv3BEGVV2OjUSz2I8=
@@ -2530,6 +2942,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/da.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Wv0ruU93tDJVR6p7MDPTzhnKviU=
+			</data>
 			<key>hash2</key>
 			<data>
 			dPx0Dk+Z2EwsOsfG84V0MZxUYhs1xMbpl6P1tRW7He0=
@@ -2539,6 +2955,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/de.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vaOUwwCqahwwzRbnT18t9de5Jlc=
+			</data>
 			<key>hash2</key>
 			<data>
 			WI6sxgujVzac6OjWprvF+AtTFUDY97WckFI5tdCAhMI=
@@ -2548,6 +2968,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/el.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			I/txjN+GYTXoQCQXl8OOuy7EqPI=
+			</data>
 			<key>hash2</key>
 			<data>
 			D/COOl0jjkqpEvYQzmvm2oyH8bSLsB+DM75ptr7VMAc=
@@ -2557,6 +2981,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/en.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wszWVjWdNlXoNYu4f7iwURHsx8Y=
+			</data>
 			<key>hash2</key>
 			<data>
 			AT5yO8gdvePkjCV6kmeFtCY/SO+YR8mlAtnj2I5+zag=
@@ -2566,6 +2994,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/es.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			VMWyMBAHQXQr/IhQLJeZjrgA7RQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			yb6EsjdyTBb6ZPYLHsDD9euQ18afmeEsU0UiONTE/IU=
@@ -2575,6 +3007,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/et.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wWnaYDaLmiY2aq8M5rrMPgzIvMI=
+			</data>
 			<key>hash2</key>
 			<data>
 			qWrgyyGWzqlw94bcuiSXb5hNdX+2BY6f5NN0vyr3a+o=
@@ -2584,6 +3020,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/fa.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WwvgLNTdFfJ6F1kD4qYOEue+oUQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			pR/RuwWyYCCj6Kb34gtjQIxewP4/bOMtlhDXQpq/Vk4=
@@ -2593,6 +3033,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/fi.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kpfh/n7XmwL6Kb2mPplBq2gvs8U=
+			</data>
 			<key>hash2</key>
 			<data>
 			jfxQ+yIK9P3idPJXP9eqoeaRzjDxz7NPcmwOu6hR1YA=
@@ -2602,6 +3046,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			C3imH2wWuhTHq0beP64qyCJECAs=
+			</data>
 			<key>hash2</key>
 			<data>
 			/Vlvm6/oz7gQHaSizs3qT1p2mN/hpBItBkighYN0er8=
@@ -2611,6 +3059,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/he.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1S/hU1/wWOcyC94TCpbolftFuj4=
+			</data>
 			<key>hash2</key>
 			<data>
 			0CqcSk/f2FDG5Gsm94U7g92w6dPl0qaUxUy22do/0hY=
@@ -2620,6 +3072,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/hi.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			iJ6qnGOygAdkWf/tVQkLaGuvLjo=
+			</data>
 			<key>hash2</key>
 			<data>
 			6rudlYcSDh0UXLR97AT6uGLRlPjXGifduewEcxN274c=
@@ -2629,6 +3085,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/hr.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1WVSBej/ydyYOdq3NUsDlJ9cpnQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			fMtfjkyQdxDh6WHqEomKWZYrAlzmTIH9BhrLuDWvkWI=
@@ -2638,6 +3098,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/hu.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			enjgrIaVLT9mz5k693y6bGUSECc=
+			</data>
 			<key>hash2</key>
 			<data>
 			nEppv/Hl5ZzRoOyMNsSfbKiXWzpUSkNKfYomZB8d0uw=
@@ -2647,6 +3111,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/id.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			9xkWSzQl+Obd1S/WbD2bwa9fKCo=
+			</data>
 			<key>hash2</key>
 			<data>
 			Iuq5OBzegNPg110EMYv4ukeLDxdL2IzOYNaszHvidKM=
@@ -2656,6 +3124,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/it.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			35n7hXkQs9M4nfyocQyEJB9fQco=
+			</data>
 			<key>hash2</key>
 			<data>
 			FsMHETiHU4M85HI0a5meTdmhGt8IGxmFrCFOBPdiRPg=
@@ -2665,6 +3137,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2rlX+NaMS0GZqrSLGVRSbrLgzbI=
+			</data>
 			<key>hash2</key>
 			<data>
 			gR5kY/Az/uI9ZJ4KCyEjOsKLCHbbxxo6gf/4De1fB0Y=
@@ -2674,6 +3150,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/km.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			DV1WlV2yU7iZxa/tdzZXwuoU7n4=
+			</data>
 			<key>hash2</key>
 			<data>
 			9ZScP2QYFb6TECibMRuqjokUdb1XftWPtXwgAXQExLM=
@@ -2683,6 +3163,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/ko-KP.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			IUTyZvDc5bf1oLXGWneKo9jL8zw=
+			</data>
 			<key>hash2</key>
 			<data>
 			tBb5yyKu2SwOlmZoVRxWBWC6zBHRG11829NEBO7CqGA=
@@ -2692,6 +3176,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			k/ADqihJ6W1elpjabBFui9ntQVA=
+			</data>
 			<key>hash2</key>
 			<data>
 			CtbvKhKmd6G6gkuKdKN1zscOMzkM4nx9iUoEMc7j9QY=
@@ -2701,6 +3189,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/lt.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			dyzGRMu2jbG8DMLYUg1fstkLFFA=
+			</data>
 			<key>hash2</key>
 			<data>
 			e3HIg6k8Lg4glL1ozk+OJvKZeNkPX025HgS7u5DmMYU=
@@ -2710,6 +3202,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/lv.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			96zv+Erbmvn36oFV7Fxkf9HCLS4=
+			</data>
 			<key>hash2</key>
 			<data>
 			5Dhx/eyTbW/ZUyLSiC3vKuO8u5J1oDQ83uILf6+XLrk=
@@ -2719,6 +3215,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/ms.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Bcb8SC3Mp8S6OcBfVhbeNT2QEZE=
+			</data>
 			<key>hash2</key>
 			<data>
 			zIT+rcqtr6IUtlJsJPRhNgg3OnZ5d7SGSN3Y0yiEUXg=
@@ -2728,6 +3228,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/nb.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qfwWFq/BNDKXxUsI1qomQjLyVX4=
+			</data>
 			<key>hash2</key>
 			<data>
 			RstymK7XUMYFxGdo63vBUUwWUPHczI0VBu8KiRKUTwQ=
@@ -2737,6 +3241,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/nl.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			w3WeJJKY/UQOlBza9nXY559fVVA=
+			</data>
 			<key>hash2</key>
 			<data>
 			pqQJCWRTJkmyfsOBzz2TD4Vl+mBRx7d006OMofd4RNc=
@@ -2746,6 +3254,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/pl.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lyY7r58X/CPf5HOmZhxomWGQNck=
+			</data>
 			<key>hash2</key>
 			<data>
 			unMXd7RvyOhj4liH0T10QdgCbWXH2Tab0VdlwwtkqyQ=
@@ -2755,6 +3267,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/pt.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			OvvzIM5f/UsfPT5oEuP6c21OFQQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			j0DRKzTR3J2T35w/2c74ZUFa+R+c4ClAO4Z5cHJ9UMo=
@@ -2764,6 +3280,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/ro.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			uV2+wX7ghR/HWCoR4PSsRRgQYIo=
+			</data>
 			<key>hash2</key>
 			<data>
 			/XD+rfQZmcC7YI39UYqeOjpS1nmAmRsJXTVnZoIp20o=
@@ -2773,6 +3293,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/ru.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			UgY5OyN3aDBRerA3ORJpNkxUV9E=
+			</data>
 			<key>hash2</key>
 			<data>
 			tsi/d26wfWwhxNbLskVvn6PpEQssKw9dq8aBxoOSHUE=
@@ -2782,6 +3306,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/sk.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wKad9HA3KrI6ug13YNq6eotTPtM=
+			</data>
 			<key>hash2</key>
 			<data>
 			CnzjL2cMFVPY+BB/vBjAOLhDuLQ7XWIHvev5rW7GFXI=
@@ -2791,6 +3319,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/sl.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			S6QrlgFRdj8Cp7wEaRXQlaMcvH0=
+			</data>
 			<key>hash2</key>
 			<data>
 			7yv038oAXUdqtqlM3EPlzLS52sM+uYlxfjYm3KuZicY=
@@ -2800,6 +3332,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/sq.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			UxUFFYjvMm04VFfmUpCdFEUeLiM=
+			</data>
 			<key>hash2</key>
 			<data>
 			HJv75QSwFMxbCDjX/h6+q2ZVNAsVboqovQKUr6xBvuM=
@@ -2809,6 +3345,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/sv.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			dNByutuS/xPhoF6fSs7374Zq5Gs=
+			</data>
 			<key>hash2</key>
 			<data>
 			bijxQ3vFuoVi9j93ng+UqbYSsjUh0WRWVFrloe39G8s=
@@ -2818,6 +3358,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/th.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			HNpxxS9o+Ero6TfWNBmN1Zg8zr4=
+			</data>
 			<key>hash2</key>
 			<data>
 			w3sdJiwYcurRR9UyWW9F5sXTaoH4Vn5vK7nThHRDkAU=
@@ -2827,6 +3371,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/tr.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			uCEKPz18VKn3Wz3yxKcG/aTWF+Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			PTO7Wz446OWZcO36NUb3gOenwucwJ/tri30EJIdwIzI=
@@ -2836,6 +3384,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/uk.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			PJHHgeKn2yhhAi59pNXl5t+nGW0=
+			</data>
 			<key>hash2</key>
 			<data>
 			KxU76/qAsMp8Gmway0ZCOrm8kNP2Vo/lHW+Kd+he6AM=
@@ -2845,6 +3397,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/ur.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MViSfHom0dFCxNdwLbIQfrnbbws=
+			</data>
 			<key>hash2</key>
 			<data>
 			cF3mlb3Q6afkpiKXSXzkHKsegdrGKYTbG5k8d3YCWSg=
@@ -2854,6 +3410,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/vi.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3QoP71TqdLGrAUhNaHMc5xbACtQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			RdyN0PtXd6riHUXqtsk5SmlMzV89kZRTu9Hju6sUN4k=
@@ -2863,6 +3423,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			47v+JmOssAlQlxDYSZyWIVnBgbk=
+			</data>
 			<key>hash2</key>
 			<data>
 			7JdU9Xxu8+ZUk5SS7q0RAmby/RwFZjgK/VkGjZduxLM=
@@ -2872,6 +3436,10 @@
 		</dict>
 		<key>FitCloudWFKit.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			OohhhX0HQb7wstow+us7vSXBdMU=
+			</data>
 			<key>hash2</key>
 			<data>
 			R47ZQYrUbVtu6Kb7AbybkBcEOUIE6Fg+bczz89o8GGc=
@@ -2879,8 +3447,23 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/ITPSAIWatchFaceAbility.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7OgLkDWO5IYZ8yJ8tTqiVu4irq8=
+			</data>
+			<key>hash2</key>
+			<data>
+			9Ox6JGnwlsfBZlGtQTu1K+ZF/JDK7tEhtFcOXfEKWTY=
+			</data>
+		</dict>
 		<key>Headers/ITPSActivityDataAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			YWtwBn9ctBkQqb0VcjmAkEPSfNI=
+			</data>
 			<key>hash2</key>
 			<data>
 			coAAV0oZzAdi1QXS6WbyIevXOIJR4TqrBJr9uxEPq+I=
@@ -2888,6 +3471,10 @@
 		</dict>
 		<key>Headers/ITPSAlarmAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7FWjv29k2inEVGVftTsRLstOREc=
+			</data>
 			<key>hash2</key>
 			<data>
 			/bu/Z6e9K41WdHRjtDfYEDvBP6I0+Qy0TkHaSptxFkk=
@@ -2895,6 +3482,10 @@
 		</dict>
 		<key>Headers/ITPSAlbumAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qItd128LVsRqVxT3xHE0YGQPUhE=
+			</data>
 			<key>hash2</key>
 			<data>
 			cexZ+9GQo5bHHh4/pNkYVLJmxPLrYlB7EKOnIq/xTQg=
@@ -2902,6 +3493,10 @@
 		</dict>
 		<key>Headers/ITPSApplicationStoreAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wMUVCRF0R3Va+gdcr9oPGA3YTvI=
+			</data>
 			<key>hash2</key>
 			<data>
 			0OxY/z0ERjFyt+bAdSjg+ZClYhFswcuSnEdHB4I6pcY=
@@ -2909,6 +3504,10 @@
 		</dict>
 		<key>Headers/ITPSBloodPressureDataAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7g1ZhW8rUReIeBENWp4RU6+D8c0=
+			</data>
 			<key>hash2</key>
 			<data>
 			hMqf+3cfERsuROgGlkPvZtz0Ya+UMkvrcXAP2bogWPw=
@@ -2916,6 +3515,10 @@
 		</dict>
 		<key>Headers/ITPSCardPocketAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2x9LyrP5q7gUqmX3rQi+NUycHQg=
+			</data>
 			<key>hash2</key>
 			<data>
 			HGAtaeWTNdy59z2vsv18jRlRql5eW7OdtsxR50Ss/nM=
@@ -2923,6 +3526,10 @@
 		</dict>
 		<key>Headers/ITPSConnectorAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XrRk1FL8VCE8eqL66y0DhGjPlGg=
+			</data>
 			<key>hash2</key>
 			<data>
 			L2Jven9qrJe+q0BkNx5TA+unmjR1GDIieC/GFj5JXqU=
@@ -2930,13 +3537,21 @@
 		</dict>
 		<key>Headers/ITPSContactAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3S8/5WB+1QCTIJmDpv9PozDatFA=
+			</data>
 			<key>hash2</key>
 			<data>
-			RALLzIUk9td7DPE3JfnLgo0IMdjrGzPKR8GFiPp4JRU=
+			GZ2AVRtS3uAW2sGLwQExcdD1C74HJUJ6oOtzRNz6Sgw=
 			</data>
 		</dict>
 		<key>Headers/ITPSCurDayActivityAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			K9vDBdl8RwtxiM7HqlO7wDDztBU=
+			</data>
 			<key>hash2</key>
 			<data>
 			bZD2icbdIhDMtqsC3kAFEyPW1bw8TRW9osK5HrOhvQo=
@@ -2944,6 +3559,10 @@
 		</dict>
 		<key>Headers/ITPSDevInfoAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			jEKZPWsgVku/o4KPbNk0e7RSVUw=
+			</data>
 			<key>hash2</key>
 			<data>
 			dyrGC88W8kUCX4jX2IK2CS52Qg4CD4UmE80Wb4Dr200=
@@ -2951,13 +3570,21 @@
 		</dict>
 		<key>Headers/ITPSDialAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qlhHs41LNZGxE/IrcexuPAVqKic=
+			</data>
 			<key>hash2</key>
 			<data>
-			dLtAMAYGVpAUKLrEZ2fj078vNZrkl189lwOsDHPlZng=
+			8iTWw6LIsds7Rb9i6vlIFX7GmQFItPB4DMy4qJvVAVo=
 			</data>
 		</dict>
 		<key>Headers/ITPSEleBookAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			R/MHzP9NTGQcdxfEFkeRDUJy43g=
+			</data>
 			<key>hash2</key>
 			<data>
 			B9618xHOTU191neVhlQdPc3d+p8zDxJ55iwkeoKLlEw=
@@ -2965,6 +3592,10 @@
 		</dict>
 		<key>Headers/ITPSFileAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			yzt+NU/QWAJnvOVUCn7dQtNsv78=
+			</data>
 			<key>hash2</key>
 			<data>
 			oIp8WUSkSiTqGD1WySGjFg3lCduPdbvfjUqZY5sIyLE=
@@ -2972,20 +3603,32 @@
 		</dict>
 		<key>Headers/ITPSFinderAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			X3uoUStdcEzD3Vz571IYY0NbJa0=
+			</data>
 			<key>hash2</key>
 			<data>
 			22HGRmbCx92LtZDYzrbfitWi5x/zZ/Izr47tXRzb8Yk=
 			</data>
 		</dict>
-		<key>Headers/ITPSHealthMonitorAbility.h</key>
+		<key>Headers/ITPSHealthMeasureAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			QhK0cusKaA/RFNlxV6OHCmn7alg=
+			</data>
 			<key>hash2</key>
 			<data>
-			IPQFHvYFoqcxE/Gyiu7LYyWmU0zoguZX4jC2vi1kbg4=
+			LBszPst1lVi3HIDJ9HwRqZN3m0SP8d6BgOEzwuvCkYA=
 			</data>
 		</dict>
 		<key>Headers/ITPSHeartRateDataAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			SWUycTjAU6u5Ex57D3wDIMiwX64=
+			</data>
 			<key>hash2</key>
 			<data>
 			UlnIFIenqUwsWx/BEBdDQPWwGlqGbCrmw0BUKC0yTFE=
@@ -2993,6 +3636,10 @@
 		</dict>
 		<key>Headers/ITPSHttpAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			IxtgDXX/cG5F2jux0Q54iIw/eXs=
+			</data>
 			<key>hash2</key>
 			<data>
 			CddI67EWjNAd7tciswp0nEmX3LXyuHXYXP8a/XRA+Fw=
@@ -3000,13 +3647,21 @@
 		</dict>
 		<key>Headers/ITPSLanguageAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			K5Ed+bZ1KNdAGMAY9+aQWxTxDr4=
+			</data>
 			<key>hash2</key>
 			<data>
-			OtclIcH9jTBUnjj+3Ec+2rk+iSOyqEo7zgF8FwhQE/8=
+			vkApnl7sf2sv+VUlC/bwH5t6ebNEoyI2jkajKn0svXo=
 			</data>
 		</dict>
 		<key>Headers/ITPSLogAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			txA7qr1EYcf+CXUgejFbaOkJJjU=
+			</data>
 			<key>hash2</key>
 			<data>
 			ByUNo5/f5GXaoBT1C+HKYQ6EJs2EI42NQtP5y8LW0T8=
@@ -3014,13 +3669,21 @@
 		</dict>
 		<key>Headers/ITPSMiscSettingAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			SucR4FaNgOL1W6HqF9d2Cla46ng=
+			</data>
 			<key>hash2</key>
 			<data>
-			GTXjtJMPmwFSSKC+EZgz3eW7Cebb8j078+TsNujjGEo=
+			2qtnpKttiOcJo/GsdumBCbpYATYM4m7oaLN8t2gTLdc=
 			</data>
 		</dict>
 		<key>Headers/ITPSMusicAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1wG39QoWbhj3vawy+O2QNgbDOek=
+			</data>
 			<key>hash2</key>
 			<data>
 			IcRIr+mWnbUdpUiQkXkp5u5LDIKg5aATwoHMpxh23M0=
@@ -3028,6 +3691,10 @@
 		</dict>
 		<key>Headers/ITPSNavAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			133cRQ0Atx65bNja0yL8BQ2KM4Y=
+			</data>
 			<key>hash2</key>
 			<data>
 			l9dZ6LAIDmch2PBmRzr2effj01IRFYsts2bhS4SzcgY=
@@ -3035,13 +3702,21 @@
 		</dict>
 		<key>Headers/ITPSNotificationEnableAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			y7rBfbGFCSpbwamiB+6NXSdKk+g=
+			</data>
 			<key>hash2</key>
 			<data>
-			vnK5ipcmAl879CltoJe0885dzVTxUNykVdddZSk+vjM=
+			FkRnxAye+/dNRvwyYavMDZMG2jW5U9rs+eENj49QVgY=
 			</data>
 		</dict>
 		<key>Headers/ITPSOTAAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			nbO/P1G8NP8JrxjHQQq0L12UTLs=
+			</data>
 			<key>hash2</key>
 			<data>
 			dzr2WBe9OsLZahAILsE1OMeKi5i9EHR++LXtCGE13Ys=
@@ -3049,13 +3724,21 @@
 		</dict>
 		<key>Headers/ITPSPrayAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			l6r28l84JCOl08w+kNPqq5Abj0M=
+			</data>
 			<key>hash2</key>
 			<data>
-			pK9rikmx6rfvpK1wMUuoJJKCzv/Y+a0SHWN3KAAY7iM=
+			mFzg4d7NIVlFDiIDtiG1VtYGwWM8TbuUI5NS6y4mYzU=
 			</data>
 		</dict>
 		<key>Headers/ITPSRecordingAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3Ovso6gmYHF5y1dP1vA9U+TXdEI=
+			</data>
 			<key>hash2</key>
 			<data>
 			9DyUw6Z04y5efJpCUxfyfI7uU1xBvqAzvZxcmdVJ7ls=
@@ -3063,6 +3746,10 @@
 		</dict>
 		<key>Headers/ITPSRemindSettingAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			GMgpcZh73PP5ndq2QncOTv7G2GM=
+			</data>
 			<key>hash2</key>
 			<data>
 			FxqXS7IqQjqME81mQzoX5ZwTPggQaxas5SrCr5d/Wq4=
@@ -3070,6 +3757,10 @@
 		</dict>
 		<key>Headers/ITPSRemotePhotographyAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			FedLjAR7DX6krq3UkuVxTh597Mg=
+			</data>
 			<key>hash2</key>
 			<data>
 			uOlM2O5gWTDq2g+aVUZ+jbwHdyRTwR/lRzsiSF+MwT8=
@@ -3077,6 +3768,10 @@
 		</dict>
 		<key>Headers/ITPSSPO2Ability.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			J+u+ZPX5du9uOqLb80T9B7/uXo4=
+			</data>
 			<key>hash2</key>
 			<data>
 			oQXwNafejpSK0IB2bkKxY6s3cQMxsxPmUSK/BPB9Bhk=
@@ -3084,6 +3779,10 @@
 		</dict>
 		<key>Headers/ITPSSleepDataAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			mAd/X6Yf3nYiKqzQeFqJc9b8ya8=
+			</data>
 			<key>hash2</key>
 			<data>
 			HTQkLfUrS3eBKYvWMGGRRdXBQ9x5vMW7fw4PH8+6jaQ=
@@ -3091,13 +3790,21 @@
 		</dict>
 		<key>Headers/ITPSSportDataAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			i4ROQb6xzVh+OcGqyCktagkw03M=
+			</data>
 			<key>hash2</key>
 			<data>
-			OZFrEZnF/E5Amu9VPcaDGO7HGJdBKaYJgdQn/OD2khY=
+			5p6gtX8z42nCLHEY3B9QPqgkYX2uJpTVQ8+knwWepKc=
 			</data>
 		</dict>
 		<key>Headers/ITPSSportTargetAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Fqvg9I2CG7PvT0Oyewquc2JRh/U=
+			</data>
 			<key>hash2</key>
 			<data>
 			Lrv9CjPcVzx2Wcw4a9+xTfTfCCzZ8ln+W1dJEOlOO6s=
@@ -3105,6 +3812,10 @@
 		</dict>
 		<key>Headers/ITPSStressDataAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			cJanS63u6AHxZom/C0hT5LAMHms=
+			</data>
 			<key>hash2</key>
 			<data>
 			DtVUA++OHrvMnpEIU2T6OJgYs/5sree2oQFNOvkEswo=
@@ -3112,13 +3823,32 @@
 		</dict>
 		<key>Headers/ITPSSynchronousDataAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XqyNGIF+YT3muHEgVQbvC7q8tpE=
+			</data>
 			<key>hash2</key>
 			<data>
-			zS9c/2hN0sDuL5UCqJfVuuHpUIsIe1+rMgjf+8Q1h3g=
+			xTnsTT2Wl4GrP5xL3QWwgXjyJ4PtHgwtqy4kvoEhhf4=
+			</data>
+		</dict>
+		<key>Headers/ITPSTempDataAbility.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2pKrCquSUhrCF7oSo5Z1xdhjJ6g=
+			</data>
+			<key>hash2</key>
+			<data>
+			hDkdpjqGKhWMy20DnarKpyCLIuas5Y/TBYfw88mc0HU=
 			</data>
 		</dict>
 		<key>Headers/ITPSUserInfoAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			DR8m4w/YGPBxtxVTbiAQT9bwE5k=
+			</data>
 			<key>hash2</key>
 			<data>
 			JJMJcUPBheJpen8TCii6nja0TfUcpY9489lpdCcLNJg=
@@ -3126,6 +3856,10 @@
 		</dict>
 		<key>Headers/ITPSWearBaseAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			U7+lcX6TI7zFaM54R8eqW6Djx7U=
+			</data>
 			<key>hash2</key>
 			<data>
 			15/mKOX+RsEmRopCl4ezKI9SkUBzmXFKqGWRMwb3OAs=
@@ -3133,6 +3867,10 @@
 		</dict>
 		<key>Headers/ITPSWeatherAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/fibR+EDP+PdJPdehq1E8ZHINU4=
+			</data>
 			<key>hash2</key>
 			<data>
 			YeS/FDVZvXRx+F4Vsy9X0qFCdr+hz3bdW3bkiXjZuDI=
@@ -3140,6 +3878,10 @@
 		</dict>
 		<key>Headers/ITPSWorldClockAbility.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			eYuwQ4bYsVmQV8+mkgLmO4WGTtk=
+			</data>
 			<key>hash2</key>
 			<data>
 			XEyp0W2OFmonVvNVG0Mn8t6rV30vow/6nLXS7nr3Wwo=
@@ -3147,6 +3889,10 @@
 		</dict>
 		<key>Headers/OrmAdapter.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qY79XDA6t68l+MvmGSHCT40iOPI=
+			</data>
 			<key>hash2</key>
 			<data>
 			p8EHGIt2vak2cA4qBIVsdLcL6GdknbABybdazfBMhsc=
@@ -3154,13 +3900,21 @@
 		</dict>
 		<key>Headers/TPSAlarmModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XgEJCSReaO4mte2oY1yASp05o9s=
+			</data>
 			<key>hash2</key>
 			<data>
-			bytsJCjFQfETBOMJwyuToT174f7AnLTOS46v4BUxMOY=
+			EODZhQrbkjx32VJ6pMHuHcCUl5UH70/X0lnJoBFXbdk=
 			</data>
 		</dict>
 		<key>Headers/TPSAlbumUpdateModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7cchhND7ivdzAmyY9MUTkK5a4hY=
+			</data>
 			<key>hash2</key>
 			<data>
 			YOzh4ujifE3JPO45In/Kd7LZeGFneBRC5qNZIt5YJgs=
@@ -3168,6 +3922,10 @@
 		</dict>
 		<key>Headers/TPSApplicationStoreModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			W1FTCTABnNi23a5LH5W+HsK1cVY=
+			</data>
 			<key>hash2</key>
 			<data>
 			haZD68/BQ6sRC8SztFfN1p23TEcZOqIOtXESaR8SIdY=
@@ -3175,27 +3933,65 @@
 		</dict>
 		<key>Headers/TPSConnectResult.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			LuX61Uji/+Fs78weiZ1Z+GmydYw=
+			</data>
 			<key>hash2</key>
 			<data>
 			Naaeo0ySwAPPliQ2Em/G+il560SZV8G57Kw6EpYvl5k=
 			</data>
 		</dict>
-		<key>Headers/TPSContactModel.h</key>
+		<key>Headers/TPSContactImageSlot.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3h1Thz61lkJbtEBS01HPyAWAMCw=
+			</data>
 			<key>hash2</key>
 			<data>
-			IUQeZg9jwLCFONkur7pvu7rAqzVgeYxnrSP1dbfom+w=
+			4p1HgSfZ/VAQRRU2VPYUEMF4RtBSN9lc1d4s39j6DlQ=
+			</data>
+		</dict>
+		<key>Headers/TPSContactModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S6pIT+QySV7bNeYdR7hksE9FWog=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z3MNZI2zjgveUbKyPrgDrhli7oQ7IUAaExJU5dK56ZM=
 			</data>
 		</dict>
 		<key>Headers/TPSCurDayActivityModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			fWrY1Rk2ITwvd3sstuFd66NDvqM=
+			</data>
 			<key>hash2</key>
 			<data>
 			HXZ/3SpuVLE1HMutRkNckFeH1j82JGUBNWSidz+CJt0=
 			</data>
 		</dict>
+		<key>Headers/TPSDayPrayModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hkDFG3zOz7Zs7UwmZWtdzVFzY5A=
+			</data>
+			<key>hash2</key>
+			<data>
+			W40eYZTN2LVBxpDoT9GLZkvzBZp8mh3TsmQhnsbkYTY=
+			</data>
+		</dict>
 		<key>Headers/TPSDaySleepEntity.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/dFgeZCNMIcw+hKWmwY0iOnE4wA=
+			</data>
 			<key>hash2</key>
 			<data>
 			PojXS0WrWgeswEEfOBJB3uE8iG3tMJNE5wT/tCkWqL0=
@@ -3203,6 +3999,10 @@
 		</dict>
 		<key>Headers/TPSDevFileDesModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RG+3rjXC6A3LK1Qx/iDYkeEefv4=
+			</data>
 			<key>hash2</key>
 			<data>
 			pA/jhtzwuVDDCWgVCZXNR+y2ahtn7M9Leox8ZKB1sS4=
@@ -3210,13 +4010,21 @@
 		</dict>
 		<key>Headers/TPSDevInfoModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Cs3XAqZzbEal1sUZ6CMzDHIP0Sw=
+			</data>
 			<key>hash2</key>
 			<data>
-			7jRWLRsiQWJoQ1GcQDDruQr4CI6zZfu/RBwCcuW82zY=
+			A5MOvybOqdi7f/4SAJVhFUtqawnq9mHZ+fDse835VN4=
 			</data>
 		</dict>
 		<key>Headers/TPSDevLimitModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Q9souPMtGh7fNNUu48k5V57Uakg=
+			</data>
 			<key>hash2</key>
 			<data>
 			mRr0xVeNMilX8hgXNIPyTzeRDzJ0PqMgPpYCHTuX8mI=
@@ -3224,6 +4032,10 @@
 		</dict>
 		<key>Headers/TPSDevice.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AoZJD7hZqgKahcpO6skuQj9vwKc=
+			</data>
 			<key>hash2</key>
 			<data>
 			vyynvn6n1xiOdIeuqK6/Dx4bz35jJlXsoLLbflMfz/Q=
@@ -3231,6 +4043,10 @@
 		</dict>
 		<key>Headers/TPSDeviceTypeOperation.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			yGgN56XIQpfKqUDfNHSBEn/ghyY=
+			</data>
 			<key>hash2</key>
 			<data>
 			W6KmAlodzINSBAiRk08HeXamJOmrJqobcefk1wqUhOg=
@@ -3238,13 +4054,21 @@
 		</dict>
 		<key>Headers/TPSDialModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tuaQkV86UXMuuxU5yLreN/OCVxs=
+			</data>
 			<key>hash2</key>
 			<data>
-			eh3FlvFBHqYTMoG3wZQ7mcfg9MqNm3g7JdOpnoR/3iw=
+			2xEQs0KOvm63bL+8gOaT6Nf3XCqflycDBh25A4ZylzQ=
 			</data>
 		</dict>
 		<key>Headers/TPSDialProgressModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gb95IzYVIXWKlmxC7aA36ShLlWc=
+			</data>
 			<key>hash2</key>
 			<data>
 			Wpf5UpngOgtQAE5reGgSWK/RBNKhSFUyEhPP7XaCh+A=
@@ -3252,6 +4076,10 @@
 		</dict>
 		<key>Headers/TPSEBookModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			nF4FnL5e+6cFrUmltaF41MrVQYE=
+			</data>
 			<key>hash2</key>
 			<data>
 			JiNoStpD6UxKS75+rLalKmQ13etnfKw8hqeFnL83msY=
@@ -3259,6 +4087,10 @@
 		</dict>
 		<key>Headers/TPSEBookUpdateModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			nScJsVGjMnnDB+Wa7hI4syjx/S4=
+			</data>
 			<key>hash2</key>
 			<data>
 			csp1jJFASrPsxBM3JjtlijDYkT+Cmc72cIWbwiFBAqc=
@@ -3266,6 +4098,10 @@
 		</dict>
 		<key>Headers/TPSExPeripheral.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			FqpKe9uNY4XQgDReXVE4T/hiqxw=
+			</data>
 			<key>hash2</key>
 			<data>
 			LJgrc1G4DyNl17d4cRyUN9DMYI6RTGeDdFziVSMD8nQ=
@@ -3273,6 +4109,10 @@
 		</dict>
 		<key>Headers/TPSExtraConnectParam.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vaNP3bAGqYh7HtDEh+VMoVbtUOE=
+			</data>
 			<key>hash2</key>
 			<data>
 			WBcoLtrZfpVzcGKvIWZQtcZ8qUWnDy0ijkn7d2NDiwY=
@@ -3280,6 +4120,10 @@
 		</dict>
 		<key>Headers/TPSFileUpdateModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Ngw/iQEvSBEDf4qM26YkLPzeZeQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			r6QRZPnO00xWVapCiU0zyIeFTjfF5JJdq8q5PC/Ne3w=
@@ -3287,20 +4131,32 @@
 		</dict>
 		<key>Headers/TPSFutureDayWeatherModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CIDfcRll/ZOompIXTGe6+tPExfw=
+			</data>
 			<key>hash2</key>
 			<data>
-			Q6lf/K0aVlI+dRrZZPOIKNHauZ4VGPXSttewsKanmsk=
+			rfnRB6RYnypSgGaNxGzSnZyaqY0qKM72Tp2mvdoAvWg=
 			</data>
 		</dict>
 		<key>Headers/TPSFutureHourWeatherModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1Ula/xqxr2n7r4udOuZNkFYAf/M=
+			</data>
 			<key>hash2</key>
 			<data>
-			iVIiy62HEvlXUiK1LDfpD/RDtXXrEUujAPnYVpdKBB8=
+			hWF19chP93mZVERLXrRwqNtGJ17qG6p1O7W7g9iIHCk=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryActivityModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ygoxtv7EKIvxOvkdVfvuueXb/gk=
+			</data>
 			<key>hash2</key>
 			<data>
 			P1knWTe6vuEBTWiEHfSHm+9an7NWraS0izXPf6mmyB8=
@@ -3308,6 +4164,10 @@
 		</dict>
 		<key>Headers/TPSHistoryBloodPressureModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			W2LxkJ0SpP0Bh1Dmln/IpoSYAqg=
+			</data>
 			<key>hash2</key>
 			<data>
 			KREvLAgl/mmCvu/kfhxOhJPlcE23j/JWtuZE61gRrf8=
@@ -3315,6 +4175,10 @@
 		</dict>
 		<key>Headers/TPSHistoryHeartRateModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MZNY/KYspliXk3DNfJRDrX5ftDg=
+			</data>
 			<key>hash2</key>
 			<data>
 			ICosLEete1UMagFr8TvxGB3VvkaS3bjVKa6010e5PXM=
@@ -3322,6 +4186,10 @@
 		</dict>
 		<key>Headers/TPSHistorySPO2Model.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			sFXl8M/Hn9exYQr+Ly2TPiCLouc=
+			</data>
 			<key>hash2</key>
 			<data>
 			CLa09XmnSw/WOtdDS8hSs1X8iOMsloS160bQspqgLZ8=
@@ -3329,6 +4197,10 @@
 		</dict>
 		<key>Headers/TPSHistorySleepModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			E8iAhwPH9adAzqDeB4CUVkJz/z8=
+			</data>
 			<key>hash2</key>
 			<data>
 			L9G+tHg+6l5WKmlJiRFoR9OVdh60hZf1hftiRnQs/dg=
@@ -3336,6 +4208,10 @@
 		</dict>
 		<key>Headers/TPSHistorySportModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			dktzOAlx0soJGdn7+ZGhYTaN8hQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			wLk368kGk2J9H0lU0SVlUD2zWbaGkqJmvdcJ7g/lD3w=
@@ -3343,34 +4219,87 @@
 		</dict>
 		<key>Headers/TPSHistoryStressModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			jdVRvkXbJ3YZgFqhwjTq86uLQVI=
+			</data>
 			<key>hash2</key>
 			<data>
 			j5LVaM1ThkJF+6AiBhz+GqZ8VW4d3PVEW/trr6hUdDA=
 			</data>
 		</dict>
-		<key>Headers/TPSHrConfigModel.h</key>
+		<key>Headers/TPSHistoryTempModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			uXfnwVVJ+7IZB55uXXObIBx4olk=
+			</data>
 			<key>hash2</key>
 			<data>
-			WHK4vK0kcBUOJ/deESEbzXFlmgvyLhdaPIK3N/7YUR8=
+			MuL/0jovdy3Jj+ii3OxLbViTf9+iNhqq6VqNPJZSRe4=
+			</data>
+		</dict>
+		<key>Headers/TPSHrConfigModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Oxr+y9RXGJSXlGx2e2JhPnrDqK4=
+			</data>
+			<key>hash2</key>
+			<data>
+			4/gle+3R5NEVp3Bk8jUBfdZFuaTW90m6u4ZpyQ2UQ8M=
 			</data>
 		</dict>
 		<key>Headers/TPSLanguageModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			0L9h0w5+htEpWw6DsGazNH0dQe4=
+			</data>
 			<key>hash2</key>
 			<data>
-			KTAtlEJlnUDOUtWR1g8Zmub9GTLrERHsoFVfjcjm8PY=
+			5cwez2gixnI3ScKcCzOzDAPo9zzFDJ1SLcTnuGvyP3A=
 			</data>
 		</dict>
 		<key>Headers/TPSMangerTool.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			13cc/ur/tXT6wrfsTl7FVhQFJAg=
+			</data>
 			<key>hash2</key>
 			<data>
-			cWDzI94FnwXU3yHmS4h75mq9YEHVf5wGuqEPe5QZdug=
+			PmgwCpwAWXUoH6Ndl4i1Fjk5lkLS3woB2lMd519zr/k=
+			</data>
+		</dict>
+		<key>Headers/TPSMeasureConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5BBqAV77a3LC7JpOKV3R7c2k4cg=
+			</data>
+			<key>hash2</key>
+			<data>
+			4Ml+cWT7FjEr8cSIccNphSdNDuS2tlWUNrf7ewJAWyA=
+			</data>
+		</dict>
+		<key>Headers/TPSMeasureValue.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7wAavJsu7JF+UlJkNEZoKPw8MK4=
+			</data>
+			<key>hash2</key>
+			<data>
+			xaarLCDfiaUH6fGZ7bNmWsQ++kN1/t/6ZWciVQy6Vkk=
 			</data>
 		</dict>
 		<key>Headers/TPSMiscSettingModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			LAK8t47LVXQCKzpACZctg74YUQg=
+			</data>
 			<key>hash2</key>
 			<data>
 			dJhg2O+CbJ7G4/nfG3kWVTnVAR3k5Dtgc8AOJEqPxT4=
@@ -3378,6 +4307,10 @@
 		</dict>
 		<key>Headers/TPSMusicModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WmF1erZZRKGT2ltR47SWejeQIZg=
+			</data>
 			<key>hash2</key>
 			<data>
 			5jJeies2nRiWDB5pzn0OwsDHlL+KwkIjPZWI7TJf9pY=
@@ -3385,6 +4318,10 @@
 		</dict>
 		<key>Headers/TPSMusicUpdateModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Isni0Sr9pxwodx0BoWkEpknmkiY=
+			</data>
 			<key>hash2</key>
 			<data>
 			jmb0YP4IS4N2mK/+Zram7P54KinA3Jh5sUlbHoorUTU=
@@ -3392,20 +4329,32 @@
 		</dict>
 		<key>Headers/TPSNameCardModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AWdQuxI/otY+xYbU6pLlAboL5o0=
+			</data>
 			<key>hash2</key>
 			<data>
-			n8ScqJ681qqCIA0WdPHg5jAK171zWN/2gHB0VDQ2Jk8=
+			Mc75+URTcvYeInORlh/fQRahypnZgnAyjnhlV+XL7F8=
 			</data>
 		</dict>
 		<key>Headers/TPSNotificationEnableModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			0fORH6yyTjn0+06zg0KczB8F3UM=
+			</data>
 			<key>hash2</key>
 			<data>
-			yo2+G/qmImbufFAMsK+rRnwGBbOZ56IEB21ywwF5WjY=
+			KigCdc/Uohj5tDgxIMgSbzj/TqGol8mNmvYwHMTOXXU=
 			</data>
 		</dict>
 		<key>Headers/TPSOTAModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3QPxQSUhgYkV+OdJiMa4sGr4PmU=
+			</data>
 			<key>hash2</key>
 			<data>
 			UjvCv951QRvZpNVmj2Vysfj0WXM44eqnHxbU6Cx84ho=
@@ -3413,27 +4362,32 @@
 		</dict>
 		<key>Headers/TPSOptions.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			kWDCRKRUKFjmDAgD7YjVbYuqbWI=
+			</data>
 			<key>hash2</key>
 			<data>
 			tzUH8hmB9CJVQeTnZV2ZkxFMdDHe+8WYFvLLbTXDNX4=
 			</data>
 		</dict>
-		<key>Headers/TPSPrayConfigs.h</key>
+		<key>Headers/TPSPrayModel.h</key>
 		<dict>
-			<key>hash2</key>
+			<key>hash</key>
 			<data>
-			FnqZ+dRNBnZmpyk1zdtLaG8XLQvNLC0TB45OAuwt2eE=
+			Ge6qO22YKJEx59GkZawPTGTH2QI=
 			</data>
-		</dict>
-		<key>Headers/TPSPrayTimes.h</key>
-		<dict>
 			<key>hash2</key>
 			<data>
-			yiyZPP+8Boeiuo68MOJdsZV0CxtCtWYZaoSffFZsmeg=
+			rSWF3QXl+34toC0sH0FBe+SDr6SxtdwMDWbNbpHrVSM=
 			</data>
 		</dict>
 		<key>Headers/TPSProgressModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			K9ZGs/90QEgaVpKJAJTbB4+pdz4=
+			</data>
 			<key>hash2</key>
 			<data>
 			KkKSY07A9G8Ia+6Squ0oqOG89UgOho5vo1J1aHQqRxE=
@@ -3441,6 +4395,10 @@
 		</dict>
 		<key>Headers/TPSRecordingModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			yj5mUsR9E0ntIkdkRztt53PxQqc=
+			</data>
 			<key>hash2</key>
 			<data>
 			psG0EfNo5TKAvN29jcM8WpA1tU+glWlHL1Pg15Ig+ME=
@@ -3448,6 +4406,10 @@
 		</dict>
 		<key>Headers/TPSRemindDistrubModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AaxX4cMc9URdaiyxn+3hSPcNY0A=
+			</data>
 			<key>hash2</key>
 			<data>
 			Y/0kU/QoA6bdMo2DU1IAPO6vkUWpES9cU+2nZ2XewnA=
@@ -3455,13 +4417,21 @@
 		</dict>
 		<key>Headers/TPSRemindSettingModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			XxXNn6QlLf0qELcLzc03Xn40v6w=
+			</data>
 			<key>hash2</key>
 			<data>
-			9rSzyYVQV+YRHK1bLyymOc2XMQuV5ScgUTaSsxbHu8s=
+			saLhEwwz7ubZM/Wdaurv12WzdrbhGEqPMvbfphCmqGY=
 			</data>
 		</dict>
 		<key>Headers/TPSScanResult.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			inU0zBONbFb0rW+wYMZPnS7fi9U=
+			</data>
 			<key>hash2</key>
 			<data>
 			7Qdi2YK9vzOz98N+y4V9D4RWDSRr9FBbP1JIpz3e4FQ=
@@ -3469,13 +4439,21 @@
 		</dict>
 		<key>Headers/TPSSdk.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8yMyIZYdv+aGfTFhnvdTHDHzI6U=
+			</data>
 			<key>hash2</key>
 			<data>
-			mV2iYA9ecYMjbAwWlK+HF+jD0ZJHfmk8wHswB9ixwGk=
+			vS/0Xsz0H28GtYjOBrqHK2y1+fyqdq4RUP40/uP+Oso=
 			</data>
 		</dict>
 		<key>Headers/TPSSleepBigItemEntity.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			VBiUgU6sPgND3lZ+aGaJKacdu5w=
+			</data>
 			<key>hash2</key>
 			<data>
 			RDxt3FtbL0c6buccVpDWFkDQmVgT+5mzIgCmBRui2tA=
@@ -3483,6 +4461,10 @@
 		</dict>
 		<key>Headers/TPSSleepDataAbilityProxy.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			xo5B59VW0fhPQtvBf7+RuyPrV3s=
+			</data>
 			<key>hash2</key>
 			<data>
 			lEz11oB7q/7ntX1hwgMuNjXnnvHsIn7VUU3NSU87k8Y=
@@ -3490,6 +4472,10 @@
 		</dict>
 		<key>Headers/TPSSpo2ConfigModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			taP/zcZZ4ssIsceXE5LzwHzez7Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			XkJIu4P35HrK/Z3cuTTotLs2qM8i7f8Jnnod06ulq5s=
@@ -3497,6 +4483,10 @@
 		</dict>
 		<key>Headers/TPSSportItemModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qEFa4bBdUlDyyfQIKoPqLBuF4NQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			vQrhouYhJWlhGvOrJes8H0dqEaD3Nmfef5Z/7ptyp3k=
@@ -3504,6 +4494,10 @@
 		</dict>
 		<key>Headers/TPSSportPreciseCaloriesItem.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			oOiV+jwCsTXkzUOmg9DN1I4xc3c=
+			</data>
 			<key>hash2</key>
 			<data>
 			eTacwBLhDC5WK9daPCdC9ELuEV09Tz/TQwLe9HCfkkQ=
@@ -3511,6 +4505,10 @@
 		</dict>
 		<key>Headers/TPSSportPreciseDistanceItem.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6ka/V0O9WKeo5S1PiWlG7oztyig=
+			</data>
 			<key>hash2</key>
 			<data>
 			PTW5VaGawgEE0EV2vCiJh8vVN42pwYJq8Ij9mBi67CY=
@@ -3518,6 +4516,10 @@
 		</dict>
 		<key>Headers/TPSSportPreciseHeartRateItem.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4XL1GorkbV2lRfYn2L7GhUsKm6g=
+			</data>
 			<key>hash2</key>
 			<data>
 			WBP8nflmqoMZf6LCznZumnvoT3TgB6lXMX5MC9BFCAI=
@@ -3525,6 +4527,10 @@
 		</dict>
 		<key>Headers/TPSSportPreciseModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			K5p6Dd97xTa0CtbYdc5NO7cEQv8=
+			</data>
 			<key>hash2</key>
 			<data>
 			FhFrWg6ypn2IQSAXH2/lGzbP6Ln2EQSWEtsDxO91R3w=
@@ -3532,6 +4538,10 @@
 		</dict>
 		<key>Headers/TPSSportPreciseStepItem.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			qcQEnla3UPWQmXF1pq8CnMiVPb8=
+			</data>
 			<key>hash2</key>
 			<data>
 			j3KFzI5L/GI4NCWOvcChpoFOLSKt7FTzMFO4rqeaYK4=
@@ -3539,27 +4549,54 @@
 		</dict>
 		<key>Headers/TPSSportTargetModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			rMrMtFuLmG+ba8+DmgJfVz7Neh4=
+			</data>
 			<key>hash2</key>
 			<data>
-			deC47GihuhrGpOJUjbTdS8StkkIIDq5L4Qkunyr7Pjc=
+			T/9HjHIL5C/Tprc2NoRNfEGDxRlZz2r2xhK8n20jBAc=
 			</data>
 		</dict>
 		<key>Headers/TPSStressConfigModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			pOitqCTaoDV3j1b+bsWW1rpu7/Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			kSl0YEONlEyiy5wbZPehBcpQdtl+Lotyr6wfCi0LBPA=
 			</data>
 		</dict>
-		<key>Headers/TPSTodayWeatherModel.h</key>
+		<key>Headers/TPSTempConfigModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MF4vVI5OHdoKYiwaxEVwINhqoKI=
+			</data>
 			<key>hash2</key>
 			<data>
-			BT/KXPflINIvby/iG8PogfCd1iPsTliKQC8yzWzlF8k=
+			C5Bt3i58K3wTQWqjbtd+q4GhZ58HLVWViIN0lA5QMnI=
+			</data>
+		</dict>
+		<key>Headers/TPSTodayWeatherModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5AOcCHLENaYAfEtcWqXGg/zQFjI=
+			</data>
+			<key>hash2</key>
+			<data>
+			nm89lVma28eoi8PhBaMB9FQc2sGVELZ5uYvPBbhayp4=
 			</data>
 		</dict>
 		<key>Headers/TPSUserInfoModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ucJWF+UYLVj6IkoZXnyvU15pYC0=
+			</data>
 			<key>hash2</key>
 			<data>
 			9JDtUH+TwsmRK2lbg/xlubdUTCuVkkjQRAOToYLiDRI=
@@ -3567,20 +4604,32 @@
 		</dict>
 		<key>Headers/TPSWalletModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ohbLAO56aRumBaxx4lfdl59Yh9A=
+			</data>
 			<key>hash2</key>
 			<data>
-			BaFfmDPlFpkOk2mwC6R9Cd1RutVLEsD8av3Ov0XsiZg=
+			pDXaTSaDd19QitRSPpNqCZgaES6vJA8jaFlnFRezd8c=
 			</data>
 		</dict>
 		<key>Headers/TPSWearBlockTypeDef.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gwQmJdi+W/XGMCWo95BPNBbN4QQ=
+			</data>
 			<key>hash2</key>
 			<data>
-			6e9gbyUE9cFmeFZm2E7fAdOxGL/QqHKsLXv8xC7voUw=
+			tUOkuyNHOreOX+9HE+7JrY61rzxd16W76nWBWcsZbUE=
 			</data>
 		</dict>
 		<key>Headers/TPSWearFactory.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lxNxJnfKTi+prWlx4lLAFzezY6s=
+			</data>
 			<key>hash2</key>
 			<data>
 			umJ9MO1DOKEYEqPM9yBL2KZ9z+kiWCM+i3rTUCutN9g=
@@ -3588,20 +4637,32 @@
 		</dict>
 		<key>Headers/TPSWeatherDescribeType.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			LgVkt8uEpa8JDZ+v/gS+NLQqMhE=
+			</data>
 			<key>hash2</key>
 			<data>
-			FPhbOItDSCOfju0UOT/czvGMkG1UIy+wuKfJzLMAVb8=
+			H7QHt92ICt5xhcs/rT61mNNd6tyIullPDFnzZqYCkzg=
 			</data>
 		</dict>
 		<key>Headers/TPSWeatherModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			QKQkvHgfgwdXm77QEbQx1pql7cg=
+			</data>
 			<key>hash2</key>
 			<data>
-			PTZwyilwAr5FgVtU4/xVE7DpEg3uit7wkSz8xqJLZSo=
+			DBs66ZjkUbiaq87E2d0ISIQbD9L62Oin97PQPqUWMYo=
 			</data>
 		</dict>
 		<key>Headers/TPSWebRequestModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ZL6m3WJoFhMoFzi/ecF4UA2Sg1U=
+			</data>
 			<key>hash2</key>
 			<data>
 			k6vahlgz0q2fTmqARbGzBx7b6/nPqp4+gd3/MSbkqi0=
@@ -3609,13 +4670,21 @@
 		</dict>
 		<key>Headers/TPSWebResponseModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			F9W18S6X3scZ9Ype8xiZ33Bs3pE=
+			</data>
 			<key>hash2</key>
 			<data>
-			8lH3rv3rGFV+8JVH0Y2v9nIg07w//mfmfSG1h6ppYrI=
+			4WOOrYeJi+yHexNLepw8IipDFgbuMmMkMfwtEwF0Pb4=
 			</data>
 		</dict>
 		<key>Headers/TPSWorldClockModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			EYuPWG8baqUcRVQhL58Kf0X7ZFM=
+			</data>
 			<key>hash2</key>
 			<data>
 			uFXs1uMFtHkFXf3+U9p71EGGkHNNlK50Mxq1IHTzhbQ=
@@ -3623,34 +4692,32 @@
 		</dict>
 		<key>Headers/TPS_Tools.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Wiea7NlZqOyQMl+N+Pe8Qn3tmCE=
+			</data>
 			<key>hash2</key>
 			<data>
 			QPMewdQ427GgBqAB6USpqblfjqAxqHyuvS1g7J54I2k=
 			</data>
 		</dict>
-		<key>Headers/TSJConnectorAbility.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8bO+vF130YWbZyAK1biXoNRF5/tu5JY9fZMEWnE/vcY=
-			</data>
-		</dict>
-		<key>Headers/TSWorkoutSlotEditModel.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IlwBBIES+3UABQziH29MtLANS5GPCZErn+mFqejZ/hk=
-			</data>
-		</dict>
 		<key>Headers/TopStepComKit.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3jqrgCCf2R4XJnUZ1wR+lg2HBsI=
+			</data>
 			<key>hash2</key>
 			<data>
-			K/WqsYLBzvbZfIhcv7sDrhU9gjMpThaEUm0edH0gONM=
+			WJxayPpfPpN5fkSvon0n7a7QpvZrZNikY/HZZQLNyK0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ebLAzk2BlupC09j1Mh6ABrnytkI=
+			</data>
 			<key>hash2</key>
 			<data>
 			zt0B8wDkFhPBfJBUEKMZLTXzsFYGibOKN6Q7B5A8BDg=
@@ -3658,9 +4725,24 @@
 		</dict>
 		<key>TSBundle.bundle/TSSql.sql</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			JrqSsu/MM01f5coycrQl3PTSwqA=
+			</data>
 			<key>hash2</key>
 			<data>
-			HbB4C70jTqMaGpOtUifU87mL0zld6t61WfKFdXtFitM=
+			XGwP4paLjds8qpuRBXuCaZaz43gC3U0jf3oKvRINJYo=
+			</data>
+		</dict>
+		<key>TSBundle.bundle/gui_dial_binfile_watch_1024000_1_20250430.bin</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aJVS74s3n9n+jvXqmthLeVS1WSM=
+			</data>
+			<key>hash2</key>
+			<data>
+			w8nrNqe/hcBXf7Z8HQXoPfICTKoAW4Z5ioPCE9bPegc=
 			</data>
 		</dict>
 	</dict>

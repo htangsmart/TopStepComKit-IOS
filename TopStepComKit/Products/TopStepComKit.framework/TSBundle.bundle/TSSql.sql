@@ -162,6 +162,7 @@ CREATE TABLE IF NOT EXISTS tb_activity_record (
     data                BLOB                                /* ??? */
 );
 
+
 /* 跑步运动信息 添加运动心率 次/min */
 ALTER TABLE [tb_sport_running] ADD [heartRate] INT NOT NULL DEFAULT 0;
 /* 跑步运动信息 热量 小卡 */
@@ -218,3 +219,18 @@ CREATE TABLE IF NOT EXISTS tb_sport_heartrate (
 ALTER TABLE [tb_sport_running] ADD [end_time] double NOT NULL DEFAULT 0;
 /* 运动数据-新增结束时间 */
 ALTER TABLE [tb_sport_speed_per_km] ADD [end_time] double NOT NULL DEFAULT 0;
+
+
+/* 体温图表数据表 */
+CREATE TABLE IF NOT EXISTS tb_temperature (
+    ID                  INTEGER PRIMARY KEY AUTOINCREMENT,  /* 数据ID */
+    user_id             TEXT,                               /* 用户ID */
+    device_mac          TEXT,                               /* 设备mac地址(设备ID) */
+    timestamp           DOUBLE,                             /* 时间戳 */
+    date                TEXT,                               /* ??? */
+    time                TEXT,                               /* ??? */
+    interval            INT,                                /* ??? */
+    wrist               DOUBLE,                             /* 腕温 */
+    body                DOUBLE,                             /* 体温 */
+    isManual            BOOLEAN                             /* 是否主动测量 */
+);

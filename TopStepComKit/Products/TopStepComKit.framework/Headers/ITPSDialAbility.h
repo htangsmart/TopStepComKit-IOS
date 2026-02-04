@@ -108,11 +108,14 @@ typedef void(^TPSDialFreeSpaceCallback)(BOOL result,NSInteger freeSpace);
  */
 - (void)previewImageViewWithBackgroundImage:(UIImage *)backgroundImage textImage:(UIImage *)textImage completion:(void (^)(BOOL, UIImage *))completion;
 
+
 /*
  * @brief 生成背景图
  * @param backgroundImage 背景图
  */
 - (void)dealBackgroundImage:(UIImage *)backgroundImage toMaxKBSize:(CGFloat)toMaxKBSize imageSize:(CGSize)imageSize completion:(void (^)(BOOL, UIImage *))completion;
+
+
 
 @end
 

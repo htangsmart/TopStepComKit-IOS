@@ -5,7 +5,6 @@
 //  Created by Topstep on 2024/3/21.
 //
 
-#import <TopStepComKit/TSJConnectorAbility.h>
 
 #ifndef TPSHrConfigModel_h
 #define TPSHrConfigModel_h
