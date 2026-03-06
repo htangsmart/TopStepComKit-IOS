@@ -74,6 +74,7 @@
 		89C5156023085958000BD54C /* MoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C5155D23085958000BD54C /* MoView.m */; };
 		89C5156123085958000BD54C /* MoCurveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C5155E23085958000BD54C /* MoCurveLayer.m */; };
 		89EA5159230ED2A200EDC1F0 /* MessageReminderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EA5158230ED2A200EDC1F0 /* MessageReminderController.m */; };
+		A1B2C3D42026030600AABBCC /* SportSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D32026030600AABBCC /* SportSortController.m */; };
 		AE0CA95BEBF38D271D6F6C9D /* Pods_FitCloudKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4468F52E6CD4F606DB58DD /* Pods_FitCloudKitDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -190,6 +191,8 @@
 		89EA5157230ED2A200EDC1F0 /* MessageReminderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageReminderController.h; sourceTree = "<group>"; };
 		89EA5158230ED2A200EDC1F0 /* MessageReminderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageReminderController.m; sourceTree = "<group>"; };
 		8F4468F52E6CD4F606DB58DD /* Pods_FitCloudKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitCloudKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D22026030600AABBCC /* SportSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SportSortController.h; sourceTree = "<group>"; };
+		A1B2C3D32026030600AABBCC /* SportSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportSortController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,6 +416,8 @@
 				1DED0FCC2C57736000C75112 /* SportAddController.m */,
 				1DED0FD12C57A36C00C75112 /* SportAddModel.h */,
 				1DED0FD22C57A37B00C75112 /* SportAddModel.m */,
+				A1B2C3D22026030600AABBCC /* SportSortController.h */,
+				A1B2C3D32026030600AABBCC /* SportSortController.m */,
 				89C515552308499D000BD54C /* DeviceCell.h */,
 				89C515562308499D000BD54C /* DeviceCell.m */,
 				4B84FE072C2BCD3D00E6043E /* watchface850H */,
@@ -590,13 +595,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -633,13 +634,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FitCloudKitDemo/Pods-FitCloudKitDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -677,6 +674,7 @@
 				4BF7394B2C1AD2F300FF0FD8 /* SettingsController.m in Sources */,
 				898ADEB3231EB43C00342172 /* ContactsController.m in Sources */,
 				1DED0FCD2C57736000C75112 /* SportAddController.m in Sources */,
+				A1B2C3D42026030600AABBCC /* SportSortController.m in Sources */,
 				89C515572308499D000BD54C /* DeviceCell.m in Sources */,
 				4B17E0252C11B7F8002A7E94 /* HistoryDataController.m in Sources */,
 				89A438B222B0D19700555B98 /* AppDelegate.m in Sources */,

@@ -16,6 +16,7 @@
 @interface TPSHistorySportModel : NSObject
 
 typedef NS_ENUM(UInt8, TPSSportDes_Type){
+    TPSSportDes_Type_None = 255, //      无运动
     TPSSportDes_Type_Other = 0, //      其他
     TPSSportDes_Type_OutdoorRunning = 1, //      户外跑步
     TPSSportDes_Type_Marathon = 2, //      马拉松

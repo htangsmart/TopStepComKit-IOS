@@ -860,6 +860,26 @@
                                             <segue destination="ZAD-kj-PPY" kind="show" id="SzK-T2-uQP"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="54" id="xQ7-sS-rB3">
+                                        <rect key="frame" x="0.0" y="1527" width="414" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xQ7-sS-rB3" id="fK9-dW-pL2">
+                                            <rect key="frame" x="0.0" y="0.0" width="395.5" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sport sort" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nW3-tR-vK8" customClass="LocalizedLabel">
+                                                    <rect key="frame" x="24" y="18" width="119" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="mR4-bN-gY7" kind="show" id="pW2-kA-xD5"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -3725,6 +3745,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p4A-nk-wJ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8468" y="1527"/>
+        </scene>
+        <!--Sport Sort Controller-->
+        <scene sceneID="sR7-cQ-nT4">
+            <objects>
+                <viewController id="mR4-bN-gY7" customClass="SportSortController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vZ3-hK-wM6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jL5-eF-aR9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wT8-qN-dK3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9446" y="1527"/>
         </scene>
         <!--Notification Manage Controller-->
         <scene sceneID="k3Q-L6-6Y2">

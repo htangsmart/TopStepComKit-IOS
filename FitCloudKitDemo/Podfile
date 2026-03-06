@@ -34,7 +34,9 @@ target 'FitCloudKitDemo' do
   
   #############################---拓步Pod---######################################
   # 拓步智能手表 SDK
-  pod 'FitCloudKit', git: 'https://github.com/htangsmart/FitCloudPro-SDK-iOS.git'
+#  pod 'FitCloudKit', git: 'https://github.com/htangsmart/FitCloudPro-SDK-iOS.git'
+  pod 'FitCloudKit', git: 'https://github.com/htangsmart/FitCloudPro-SDK-iOS.git', :commit => '0772e3ab365236729946ec23399d9de1fe47760b'
+
   # 拓步能手环固件升级 SDK
   pod 'FitCloudDFUKit', git: 'https://github.com/htangsmart/FitCloudPro-SDK-iOS.git'
   # 拓步能手表表盘 SDK 适用于 Realtek 芯片

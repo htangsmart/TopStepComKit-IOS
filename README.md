@@ -1607,3 +1607,43 @@ pod 'TopStepComKit', git: 'https://github.com/htangsmart/TopStepComKit-IOS.git'
 调用举例：
 
 
+
+28.运动排序
+1、查询可编辑运动槽位
+```
+-(void)queryEditableSportSlots:(TPSSportSlotListCallback)block
+```
+调用举例：
+```
+[TPSSdk.share.sportDataAbility queryEditableSportSlots:^(NSArray *sportSlotList) {
+    for (id slot in sportSlotList) {
+        NSUInteger slotIndex = [[slot valueForKey:@"slotIndex"] unsignedIntegerValue];
+        UInt16 sportType = [[slot valueForKey:@"sportType"] unsignedShortValue];
+        NSLog(@"slot[%lu] sportType=%d", (unsigned long)slotIndex, sportType);
+    }
+}];
+```
+
+2、更新运动槽位排序
+```
+-(void)updateEditableSportSlots:(NSArray<TPSSportSlotModel *> *)slots completion:(TPSCompletionBlock)completion
+```
+调用举例：
+```
+// 构建重新排序后的槽位数组
+NSMutableArray *slotsToSend = [NSMutableArray array];
+Class slotModelClass = NSClassFromString(@"TPSSportSlotModel");
+for (NSUInteger i = 0; i < reorderedList.count; i++) {
+    id slotModel = [[slotModelClass alloc] init];
+    [slotModel setValue:@(i) forKey:@"slotIndex"];
+    [slotModel setValue:@(sportType) forKey:@"sportType"];
+    [slotsToSend addObject:slotModel];
+}
+[TPSSdk.share.sportDataAbility updateEditableSportSlots:slotsToSend completion:^(BOOL isSuccess, NSError *error) {
+    NSLog(@"save result: %@", isSuccess ? @"success" : error.localizedDescription);
+}];
+```
+说明：测试页面为 SportSortController，可以在 Demo 菜单中找到 "sport sort" 入口。
+进入页面后自动查询设备运动槽位列表，支持拖拽排序，点击 Save 按钮将新排序发送到设备。
+
+

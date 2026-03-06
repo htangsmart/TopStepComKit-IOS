@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - FitCloudDFUKit (1.3.4-beta.1):
     - iOSDFULibrary (~> 4.11.0)
-  - FitCloudKit (1.3.2-beta.17)
+  - FitCloudKit (1.3.2-beta.51)
   - FitCloudNWFKit (1.0.2-beta.1):
     - zipzap (~> 8.1.1)
   - FitCloudWFKit (1.2.1-beta.1)
@@ -73,7 +73,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 4.0)
   - FitCloudDFUKit (from `https://github.com/htangsmart/FitCloudPro-SDK-iOS.git`)
-  - FitCloudKit (from `https://github.com/htangsmart/FitCloudPro-SDK-iOS.git`)
+  - FitCloudKit (from `https://github.com/htangsmart/FitCloudPro-SDK-iOS.git`, commit `0772e3ab365236729946ec23399d9de1fe47760b`)
   - FitCloudNWFKit (from `https://github.com/htangsmart/FitCloudPro-SDK-iOS.git`)
   - FitCloudWFKit (from `https://github.com/htangsmart/FitCloudPro-SDK-iOS.git`)
   - iOSLogBrowserSDK
@@ -111,6 +111,7 @@ EXTERNAL SOURCES:
   FitCloudDFUKit:
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
+    :commit: 0772e3ab365236729946ec23399d9de1fe47760b
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudNWFKit:
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
@@ -126,7 +127,7 @@ CHECKOUT OPTIONS:
     :commit: 713758753e71c8bd59981aa3ad83e5f97d7dc0fe
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudKit:
-    :commit: 713758753e71c8bd59981aa3ad83e5f97d7dc0fe
+    :commit: 0772e3ab365236729946ec23399d9de1fe47760b
     :git: https://github.com/htangsmart/FitCloudPro-SDK-iOS.git
   FitCloudNWFKit:
     :commit: 713758753e71c8bd59981aa3ad83e5f97d7dc0fe
@@ -141,7 +142,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   FitCloudDFUKit: bb1fbf7e0f4bdf11b1d55146b46f015bd08c1334
-  FitCloudKit: 80eb9d571352afa6aa8d799e43acc45740814b53
+  FitCloudKit: 1e1b484a08eb7c08493eb40c0db67485ae819d85
   FitCloudNWFKit: 42ba3b81663d38570ddac47cfa348ead5b6f2c45
   FitCloudWFKit: 595ed4542c4b1e5efb518245b7c3129d2f452cfc
   iOSDFULibrary: 1f4139c6c1bb2b2f1f7b127f67dc52504778f8be
@@ -163,6 +164,6 @@ SPEC CHECKSUMS:
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: f60782d825c16584fe6cdc2049df2cbb64c2ecde
+PODFILE CHECKSUM: 06892cf412b31f67ad6cabd788cca3ab1f2e2996
 
 COCOAPODS: 1.16.2

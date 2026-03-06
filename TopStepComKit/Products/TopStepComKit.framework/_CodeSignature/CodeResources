@@ -397,7 +397,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		kPaBRNTVg77tR6s7DE7l0U8k3/k=
+		sF7wVmrmw3vU4PK4zSaHFH/ebyc=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -484,7 +484,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Oa+O+cCxOj9+WHOLHfju/wKakTE=
+			Z1SEHWEvGlJXc1XTk1zUy/iuAP8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -781,7 +781,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WOZgS/2kBYbS71LG0z2ACRzNJec=
+			dr4T3w4uVfl/TWTGMaOJKqELYKw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1334,7 +1334,7 @@
 		</data>
 		<key>Headers/ITPSSportDataAbility.h</key>
 		<data>
-		i4ROQb6xzVh+OcGqyCktagkw03M=
+		sznxpLio5E+Awpm1pHy76BjJJn0=
 		</data>
 		<key>Headers/ITPSSportTargetAbility.h</key>
 		<data>
@@ -1486,7 +1486,7 @@
 		</data>
 		<key>Headers/TPSHistorySportModel.h</key>
 		<data>
-		dktzOAlx0soJGdn7+ZGhYTaN8hQ=
+		TiTDUVjV7UiJjKVNcqSQeQWf6ig=
 		</data>
 		<key>Headers/TPSHistoryStressModel.h</key>
 		<data>
@@ -1608,6 +1608,10 @@
 		<data>
 		qcQEnla3UPWQmXF1pq8CnMiVPb8=
 		</data>
+		<key>Headers/TPSSportSlotModel.h</key>
+		<data>
+		dfmQW3msjGMVshxd+uWaEl4u8l4=
+		</data>
 		<key>Headers/TPSSportTargetModel.h</key>
 		<data>
 		rMrMtFuLmG+ba8+DmgJfVz7Neh4=
@@ -1666,7 +1670,7 @@
 		</data>
 		<key>Headers/TopStepComKit.h</key>
 		<data>
-		3jqrgCCf2R4XJnUZ1wR+lg2HBsI=
+		EwOwJV/GglpLko/P6zdmIZc1awo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -2261,11 +2265,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kPaBRNTVg77tR6s7DE7l0U8k3/k=
+			sF7wVmrmw3vU4PK4zSaHFH/ebyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			G5MXbYjSPC2/r9ZW+WZzKepYMRlXx/mlPRJImfMvwQc=
+			j7C0pZwRYeTwKMcqlSihSG16KBS05nRRQ/7sV/hkvfc=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
@@ -2389,11 +2393,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Oa+O+cCxOj9+WHOLHfju/wKakTE=
+			Z1SEHWEvGlJXc1XTk1zUy/iuAP8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kn2mz2vP93A7n0NjJ+3w+lwVk4jZ/zNWv4EZMXfpqVU=
+			JMId+nz7TOFNZmmyZMWrylMjCjhh2JfjkIjG5B32qII=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2818,11 +2822,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WOZgS/2kBYbS71LG0z2ACRzNJec=
+			dr4T3w4uVfl/TWTGMaOJKqELYKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			pNPrOvHnHUOdI+7UzxQy0fIgA9WQwwdS5aeh8PhxbhA=
+			O2GO6ZHU8CbqiEYrKtI9rRuxkCVSDpI4iUhGkRMTnNI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3792,11 +3796,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i4ROQb6xzVh+OcGqyCktagkw03M=
+			sznxpLio5E+Awpm1pHy76BjJJn0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5p6gtX8z42nCLHEY3B9QPqgkYX2uJpTVQ8+knwWepKc=
+			st+mQbhwI/0G+1QHQz9xSDiUVCgVeTA6bp/9zwGcSGo=
 			</data>
 		</dict>
 		<key>Headers/ITPSSportTargetAbility.h</key>
@@ -4210,11 +4214,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dktzOAlx0soJGdn7+ZGhYTaN8hQ=
+			TiTDUVjV7UiJjKVNcqSQeQWf6ig=
 			</data>
 			<key>hash2</key>
 			<data>
-			wLk368kGk2J9H0lU0SVlUD2zWbaGkqJmvdcJ7g/lD3w=
+			5358mq0O2YdDc2Elk1xXTgwAbgbqJAvLkFfToNOaUa0=
 			</data>
 		</dict>
 		<key>Headers/TPSHistoryStressModel.h</key>
@@ -4547,6 +4551,17 @@
 			j3KFzI5L/GI4NCWOvcChpoFOLSKt7FTzMFO4rqeaYK4=
 			</data>
 		</dict>
+		<key>Headers/TPSSportSlotModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dfmQW3msjGMVshxd+uWaEl4u8l4=
+			</data>
+			<key>hash2</key>
+			<data>
+			Yl/7y3jGu5SyfeliguxFPP8PsDx2ktCBpMJh9nDYokE=
+			</data>
+		</dict>
 		<key>Headers/TPSSportTargetModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -4705,11 +4720,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3jqrgCCf2R4XJnUZ1wR+lg2HBsI=
+			EwOwJV/GglpLko/P6zdmIZc1awo=
 			</data>
 			<key>hash2</key>
 			<data>
-			WJxayPpfPpN5fkSvon0n7a7QpvZrZNikY/HZZQLNyK0=
+			XJhMtXo+snFgsdMx2o/n6fMSRLHq1F1DY+csaHTwRAU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
