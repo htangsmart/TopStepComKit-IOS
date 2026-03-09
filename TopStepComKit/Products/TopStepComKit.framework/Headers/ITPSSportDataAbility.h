@@ -107,8 +107,11 @@ typedef void(^TPSSportSlotListCallback)(NSArray<TPSSportSlotModel *> * _Nullable
  * @chinese 更新设备上的运动类型槽位信息
  *
  * @param slots
- * EN: An array of TPSSportSlotModel objects containing the updated slot information
- * CN: 包含更新槽位信息的TPSSportSlotModel对象数组
+ * EN: A non-empty array of TPSSportSlotModel objects containing the updated slot information.
+ *     Must not be nil and must contain at least one sport item.
+ *     Passing nil or an empty array will cause the callback to return failure immediately.
+ * CN: 包含更新槽位信息的TPSSportSlotModel对象数组，不能为nil，且必须至少保留一个运动。
+ *     传入nil或空数组时回调将立即返回失败。
  *
  * @param completion
  * EN: Callback block indicating whether the update was successful, with an error object if it failed
@@ -116,11 +119,40 @@ typedef void(^TPSSportSlotListCallback)(NSArray<TPSSportSlotModel *> * _Nullable
  *
  * @discussion
  * [EN]: Updates the sport type slot configuration on the wearable device.
- * Pass an array of TPSSportSlotModel objects with the desired slot index and sport type assignments.
+ * Pass a non-empty array of TPSSportSlotModel objects with the desired slot index and sport type assignments.
+ * The array must not be nil and must contain at least one sport item, otherwise the update will fail immediately.
  * [CN]: 更新穿戴设备上的运动类型槽位配置。
- * 传入包含目标槽位索引和运动类型分配的TPSSportSlotModel对象数组。
+ * 传入包含目标槽位索引和运动类型分配的TPSSportSlotModel对象数组，不能为nil且至少保留一个运动，否则更新将立即失败。
  */
 -(void)updateEditableSportSlots:(NSArray<TPSSportSlotModel *> * _Nonnull)slots completion:(TPSCompletionBlock _Nullable)completion;
+
+/**
+ * @brief Callback block for querying all sport types configured on the watch
+ * @chinese 查询手表设置的所有运动类型的回调block
+ *
+ * @discussion
+ * [EN]: Called when the sport type query completes. Returns an array of NSNumber objects
+ * wrapping TPSSportDes_Type enum values configured on the device, or nil if query fails.
+ * [CN]: 查询运动类型完成时调用。返回NSNumber对象数组，
+ * 每个元素为TPSSportDes_Type枚举值，表示设备上配置的运动类型，查询失败时返回nil。
+ */
+typedef void(^TPSAllSportTypesCallback)(NSArray<NSNumber *> * _Nullable sportTypes, NSError * _Nullable error);
+
+/**
+ * @brief Query all sport types configured on the watch
+ * @chinese 查询手表设置的所有运动类型
+ *
+ * @param block
+ * EN: Callback block that returns an array of NSNumber sport type identifiers,
+ *     and an NSError object if the query fails
+ * CN: 回调block，返回NSNumber运动类型标识符数组，查询失败时返回NSError对象
+ *
+ * @discussion
+ * [EN]: Queries all sport types currently configured on the wearable device,
+ * including both fixed and editable slots.
+ * [CN]: 查询穿戴设备上当前配置的所有运动类型，包括固定槽位和可编辑槽位。
+ */
+-(void)queryAllSportTypes:(TPSAllSportTypesCallback _Nullable)block;
 
 @end
 
