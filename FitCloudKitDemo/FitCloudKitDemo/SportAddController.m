@@ -34,6 +34,7 @@
     NSMutableArray<SportSlotEditModel *> *displayList;
 
     UIActivityIndicatorView *activityIndicator;
+    BOOL hasUnsavedChanges; // 标记是否有未保存的修改
 }
 - (IBAction)OnGoBack:(id)sender;
 @end
@@ -44,14 +45,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"运动槽位管理";
-    displayList   = [NSMutableArray new];
-    allSportTypes = [NSMutableArray new];
+    displayList      = [NSMutableArray new];
+    allSportTypes    = [NSMutableArray new];
+    hasUnsavedChanges = NO;
 
-    self.tableView.delegate        = self;
-    self.tableView.dataSource      = self;
-    self.tableView.allowsSelection = YES;
-    self.tableView.editing         = YES; // 开启编辑模式以支持拖动
-    self.tableView.allowsSelectionDuringEditing = YES; // 允许编辑模式下点击选择
+    // 右上角保存按钮
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
+                                              initWithTitle:@"保存"
+                                              style:UIBarButtonItemStyleDone
+                                              target:self
+                                              action:@selector(onSave)];
+
+    self.tableView.delegate                     = self;
+    self.tableView.dataSource                   = self;
+    self.tableView.allowsSelection              = YES;
+    self.tableView.editing                      = YES;
+    self.tableView.allowsSelectionDuringEditing = YES;
 
     [self queryAllWorkoutSlots];
 }
@@ -200,35 +209,14 @@
     return NO;
 }
 
-// 拖动后更新所有槽位的 slotIndex，并同步到手表
+// 拖动后更新所有槽位的 slotIndex（仅更新本地数据，不立即同步）
 -(void)updateSlotIndicesAfterReorder {
-    NSMutableArray<TPSSportSlotModel *> *updatedSlots = [NSMutableArray new];
-
     for (NSUInteger i = 0; i < displayList.count; i++) {
         SportSlotEditModel *dm = displayList[i];
-        // 更新本地显示模型的 slotIndex
         dm.slotIndex = i;
-
-        // 构建要发送到手表的槽位模型
-        TPSSportSlotModel *slot = [[TPSSportSlotModel alloc] init];
-        slot.slotIndex  = i;
-        slot.sportType  = dm.sportType;
-        [updatedSlots addObject:slot];
     }
-
-    // 同步到手表
-    if (updatedSlots.count > 0) {
-        [TPSSdk.share.sportDataAbility updateEditableSportSlots:updatedSlots completion:^(BOOL isSuccess, NSError * _Nullable error) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                if (isSuccess) {
-                    NSLog(@"[SportAdd] 槽位排序已同步到手表");
-                } else {
-                    NSLog(@"[SportAdd] 槽位排序同步失败: %@", error.localizedDescription);
-                    OpResultToastTip(self.view, NO);
-                }
-            });
-        }];
-    }
+    hasUnsavedChanges = YES;
+    NSLog(@"[SportAdd] 槽位排序已更新（未保存），请点击保存按钮同步到手表");
 }
 
 #pragma mark - 运动类型选择弹窗
@@ -246,6 +234,31 @@
         return;
     }
 
+    // 收集已被其他槽位使用的运动类型（排除当前槽位）
+    NSMutableSet<NSNumber *> *usedSportTypes = [NSMutableSet new];
+    for (SportSlotEditModel *dm in displayList) {
+        if (dm.slotIndex != slotModel.slotIndex && !dm.isEmpty) {
+            [usedSportTypes addObject:@(dm.sportType)];
+        }
+    }
+
+    // 过滤出可选的运动类型（未被其他槽位使用）
+    NSMutableArray<SportAddModel *> *availableSportTypes = [NSMutableArray new];
+    for (SportAddModel *sport in allSportTypes) {
+        if (![usedSportTypes containsObject:@(sport.sportType)]) {
+            [availableSportTypes addObject:sport];
+        }
+    }
+
+    if (availableSportTypes.count == 0) {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示"
+                                                                       message:@"所有运动类型已被使用，无可选项"
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil]];
+        [self presentViewController:alert animated:YES completion:nil];
+        return;
+    }
+
     NSString *title = slotModel.isEmpty
         ? [NSString stringWithFormat:@"槽位 %lu — 选择运动类型", (unsigned long)slotModel.slotIndex]
         : [NSString stringWithFormat:@"槽位 %lu — 修改运动类型", (unsigned long)slotModel.slotIndex];
@@ -255,7 +268,7 @@
                                                              preferredStyle:UIAlertControllerStyleActionSheet];
 
     __weak typeof(self) weakSelf = self;
-    for (SportAddModel *sport in allSportTypes) {
+    for (SportAddModel *sport in availableSportTypes) {
         UIAlertAction *action = [UIAlertAction actionWithTitle:sport.sportName
                                                          style:UIAlertActionStyleDefault
                                                        handler:^(UIAlertAction *act) {
@@ -282,26 +295,9 @@
     slotModel.sportType = (TPSSportDes_Type)sport.sportType;
     slotModel.sportName = sport.sportName;
 
+    hasUnsavedChanges = YES;
     [self.tableView reloadData];
-
-    TPSSportSlotModel *update = [[TPSSportSlotModel alloc] init];
-    update.slotIndex  = slotModel.slotIndex;
-    update.sportType  = (TPSSportDes_Type)sport.sportType;
-    NSArray *slots = @[update];
-
-    if (slots.count == 0) {
-        NSLog(@"updateEditableSportSlots: slots 不能为空，已跳过");
-        return;
-    }
-
-    [TPSSdk.share.sportDataAbility updateEditableSportSlots:slots completion:^(BOOL isSuccess, NSError * _Nullable error) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            OpResultToastTip(self.view, isSuccess);
-            if (!isSuccess) {
-                NSLog(@"updateEditableSportSlots failed: %@", error.localizedDescription);
-            }
-        });
-    }];
+    NSLog(@"[SportAdd] 运动类型已更新（未保存），请点击保存按钮同步到手表");
 }
 
 #pragma mark - 辅助
@@ -481,6 +477,42 @@
 -(void)removeProgress {
     [activityIndicator stopAnimating];
     [activityIndicator removeFromSuperview];
+}
+
+#pragma mark - 保存按钮点击事件
+
+-(void)onSave {
+    if (!hasUnsavedChanges) {
+        [self.view makeToast:@"没有需要保存的修改" duration:2.0f position:CSToastPositionTop];
+        return;
+    }
+
+    NSMutableArray<TPSSportSlotModel *> *updatedSlots = [NSMutableArray new];
+    for (SportSlotEditModel *dm in displayList) {
+        TPSSportSlotModel *slot = [[TPSSportSlotModel alloc] init];
+        slot.slotIndex = dm.slotIndex;
+        slot.sportType = dm.sportType;
+        [updatedSlots addObject:slot];
+    }
+
+    if (updatedSlots.count == 0) {
+        NSLog(@"[SportAdd] onSave: 没有槽位数据可保存");
+        return;
+    }
+
+    [self showProgress];
+    [TPSSdk.share.sportDataAbility updateEditableSportSlots:updatedSlots completion:^(BOOL isSuccess, NSError * _Nullable error) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self removeProgress];
+            OpResultToastTip(self.view, isSuccess);
+            if (isSuccess) {
+                self->hasUnsavedChanges = NO;
+                NSLog(@"[SportAdd] 所有槽位已成功同步到手表");
+            } else {
+                NSLog(@"[SportAdd] 槽位同步失败: %@", error.localizedDescription);
+            }
+        });
+    }];
 }
 
 @end
