@@ -49,12 +49,8 @@
     allSportTypes    = [NSMutableArray new];
     hasUnsavedChanges = NO;
 
-    // 右上角保存按钮
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]
-                                              initWithTitle:@"保存"
-                                              style:UIBarButtonItemStyleDone
-                                              target:self
-                                              action:@selector(onSave)];
+    // 在自定义 header 右侧添加保存按钮
+    [self addSaveButtonToHeader];
 
     self.tableView.delegate                     = self;
     self.tableView.dataSource                   = self;
@@ -63,6 +59,24 @@
     self.tableView.allowsSelectionDuringEditing = YES;
 
     [self queryAllWorkoutSlots];
+}
+
+-(void)addSaveButtonToHeader {
+    UIView *headerView = self.tableView.tableHeaderView;
+    if (!headerView) return;
+
+    UIButton *saveButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    [saveButton setTitle:@"保存" forState:UIControlStateNormal];
+    [saveButton setTitleColor:[UIColor systemBlueColor] forState:UIControlStateNormal];
+    saveButton.titleLabel.font = [UIFont systemFontOfSize:16 weight:UIFontWeightMedium];
+    [saveButton addTarget:self action:@selector(onSave) forControlEvents:UIControlEventTouchUpInside];
+    saveButton.translatesAutoresizingMaskIntoConstraints = NO;
+    [headerView addSubview:saveButton];
+
+    [NSLayoutConstraint activateConstraints:@[
+        [saveButton.trailingAnchor constraintEqualToAnchor:headerView.trailingAnchor constant:-16],
+        [saveButton.centerYAnchor constraintEqualToAnchor:headerView.centerYAnchor constant:-10]
+    ]];
 }
 
 #pragma mark - 方法1: 查询所有运动槽位信息
@@ -453,8 +467,19 @@
             @(TPSSportDes_Type_Kickboxing) : @"Kickboxing",
             @(TPSSportDes_Type_RollerSkating) : @"Roller Skating",
             @(TPSSportDes_Type_Skateboard) : @"Skateboard",
+            @(TPSSportDes_Type_Swimming) : @"Swimming",
             @(TPSSportDes_Type_PoolSwimming) : @"Pool Swimming",
             @(TPSSportDes_Type_OpenWaterSwimming) : @"Open Water Swimming",
+            @(TPSSportDes_Type_Diving) : @"Diving",
+            @(TPSSportDes_Type_Surfing) : @"Surfing",
+            @(TPSSportDes_Type_Snorkeling) : @"Snorkeling",
+            @(TPSSportDes_Type_CoolDown) : @"Cool Down",
+            @(TPSSportDes_Type_CrossCoordination) : @"Cross Coordination",
+            @(TPSSportDes_Type_RecumbentBike) : @"Recumbent Bike",
+            @(TPSSportDes_Type_ExerciseBike) : @"Exercise Bike",
+            @(TPSSportDes_Type_SpinningBike) : @"Spinning Bike",
+            @(TPSSportDes_Type_FreeExercise) : @"Free Exercise",
+            @(TPSSportDes_Type_Rowing) : @"Rowing",
         };
     });
     return sportNameMap[@(sportType)];

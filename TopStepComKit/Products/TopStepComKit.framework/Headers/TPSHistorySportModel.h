@@ -163,8 +163,19 @@ typedef NS_ENUM(UInt8, TPSSportDes_Type){
     TPSSportDes_Type_RollerSkating = 143, //      轮滑
     TPSSportDes_Type_Skateboard = 144, //      滑板
     
-    TPSSportDes_Type_PoolSwimming = 145, //      游泳池游泳
-    TPSSportDes_Type_OpenWaterSwimming = 146, //      公开水域游泳
+    TPSSportDes_Type_Swimming = 145, //      游泳
+    TPSSportDes_Type_PoolSwimming = 146, //      泳池游泳
+    TPSSportDes_Type_OpenWaterSwimming = 147, //      开放水域游泳
+    TPSSportDes_Type_Diving = 148, //      跳水
+    TPSSportDes_Type_Surfing = 149, //      冲浪
+    TPSSportDes_Type_Snorkeling = 150, //      浮潜
+    TPSSportDes_Type_CoolDown = 151, //      整理放松
+    TPSSportDes_Type_CrossCoordination = 152, //      交叉配合
+    TPSSportDes_Type_RecumbentBike = 153, //      懒人车
+    TPSSportDes_Type_ExerciseBike = 154, //      健身车
+    TPSSportDes_Type_SpinningBike = 155, //      动感单车
+    TPSSportDes_Type_FreeExercise = 156, //      自由运动
+    TPSSportDes_Type_Rowing = 157, //      划船
 
 };
 
