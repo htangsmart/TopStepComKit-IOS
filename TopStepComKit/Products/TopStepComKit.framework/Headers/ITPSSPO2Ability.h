@@ -17,7 +17,7 @@
 @protocol ITPSSPO2Ability <NSObject,ITPSWearBaseAbility>
 
 typedef void(^TPSHistorySPO2Callback)(NSArray<TPSHistorySPO2Model*>* _Nullable historySPO2ModelList);
-typedef void(^TPSSpo2ConfigCallback)(TPSSpo2ConfigModel* _Nullable configModel);
+typedef void(^TPSSpo2ConfigCallback)(TPSSpo2ConfigModel* _Nullable configModel, NSError * _Nullable error);
 
 +(instancetype _Nonnull )share;
 

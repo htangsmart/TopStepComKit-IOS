@@ -16,7 +16,7 @@
 @protocol ITPSStressDataAbility <NSObject,ITPSWearBaseAbility>
 
 typedef void(^TPSHistoryStressCallback)(NSArray<TPSHistoryStressModel*>* _Nullable historyStressModelList);
-typedef void(^TPSStressConfigCallback)(TPSStressConfigModel* _Nullable configModel);
+typedef void(^TPSStressConfigCallback)(TPSStressConfigModel* _Nullable configModel, NSError * _Nullable error);
 
 +(instancetype _Nonnull )share;
 

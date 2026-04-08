@@ -10,6 +10,7 @@
 
 @class FwSpo2ConfigModel;
 @class FitCloudHTMSingleObject;
+@class FitCloudHTMObject;
 
 @interface TPSSpo2ConfigModel : NSObject
 
@@ -36,6 +37,9 @@
 
 -(instancetype)initWithFitModel:(FitCloudHTMSingleObject*)fitModel;
 -(FitCloudHTMSingleObject*)toFitModel;
+
+-(instancetype)initWithFitCloudHTMObject:(FitCloudHTMObject*)model;
+-(FitCloudHTMObject*)toFitCloudHTMObject;
 
 
 @end

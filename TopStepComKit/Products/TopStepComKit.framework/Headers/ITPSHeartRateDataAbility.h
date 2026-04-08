@@ -16,7 +16,7 @@
 @protocol ITPSHeartRateDataAbility <NSObject,ITPSWearBaseAbility>
 
 typedef void(^TPSHistoryHeartRateCallback)(NSArray<TPSHistoryHeartRateModel*>* _Nullable historyHeartRateModelList);
-typedef void(^TPSHeartRateConfigCallback)(TPSHrConfigModel* _Nullable configModel);
+typedef void(^TPSHeartRateConfigCallback)(TPSHrConfigModel* _Nullable configModel, NSError * _Nullable error);
 
 +(instancetype _Nonnull )share;
 /// 获取历史静息心率

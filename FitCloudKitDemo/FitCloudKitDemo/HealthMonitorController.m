@@ -28,7 +28,7 @@
     __weak typeof(self) weakSelf = self;
     if (indexPath.row == 0) {
         // 获取心率监测配置 --- Fetch Heart Rate Monitor Settings
-        [TPSSdk.share.heartRateDataAbility getHrConfig:^(TPSHrConfigModel * _Nullable configModel) {
+        [TPSSdk.share.heartRateDataAbility getHrConfig:^(TPSHrConfigModel * _Nullable configModel, NSError * _Nullable error) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 weakSelf.configLabel.text = configModel.debugDescription;
                 ConsoleResultToastTip(weakSelf.view);
@@ -38,16 +38,20 @@
     } else if (indexPath.row == 1) {
         // 设置心率监测配置 --- Do Heart Rate Monitor Settings
         TPSHrConfigModel *model = [TPSHrConfigModel new];
-        model.sportAlarmEnable = YES;
-        model.restAlarmEnable = YES;
-        model.maxSportAlarmHr = 180;
-        model.maxRestAlarmHr = 120;
+        
         model.autoMonitorEnable = YES;
-//        model.autoMonitorStartTime = 600;
-//        model.autoMonitorEndTime = 1200;
-//        model.autoMonitorInterval = 1;
-//        model.minSportAlarmHr = 60;
-//        model.minRestAlarmHr = 40;
+        model.autoMonitorStartTime = 360;
+        model.autoMonitorEndTime = 1200;
+        model.autoMonitorInterval = 30;
+
+        model.sportAlarmEnable = YES;
+        model.maxSportAlarmHr = 180;
+        model.minSportAlarmHr = 90;
+
+        model.restAlarmEnable = YES;
+        model.maxRestAlarmHr = 120;
+        model.minRestAlarmHr = 50;
+
         [TPSSdk.share.heartRateDataAbility setHrConfig:model block:^(BOOL isSendOK) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 if (isSendOK) {
@@ -59,13 +63,17 @@
         }];
     } else if (indexPath.row == 2) {
         // 获取血氧监测配置 --- Fetch Spo2 Monitor Settings
-        [TPSSdk.share.spo2Ability getSpo2Config:^(TPSSpo2ConfigModel * _Nullable configModel) {
+        
+        [TPSSdk.share.spo2Ability getSpo2Config:^(TPSSpo2ConfigModel * _Nullable configModel, NSError * _Nullable error) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 weakSelf.configLabel.text = configModel.debugDescription;
-                NSLog(@"configModel is %@",configModel.debugDescription);
                 ConsoleResultToastTip(weakSelf.view);
             });
-            XLOG_INFO(@"Spo2 --- autoMonitorEnable: %d autoMonitorStartTime: %d autoMonitorEndTime：%d autoMonitorInterval: %d", configModel.autoMonitorEnable, configModel.autoMonitorStartTime, configModel.autoMonitorEndTime, configModel.autoMonitorInterval);
+            XLOG_INFO(@"Spo2 --- autoMonitorEnable: %d autoMonitorStartTime: %d autoMonitorEndTime：%d autoMonitorInterval: %d",
+                      configModel.autoMonitorEnable,
+                      configModel.autoMonitorStartTime,
+                      configModel.autoMonitorEndTime,
+                      configModel.autoMonitorInterval);
         }];
     } else if (indexPath.row == 3) {
         // 设置血氧监测配置 --- Do Spo2 Monitor Settings
@@ -91,7 +99,7 @@
         }];
     } else if (indexPath.row == 4) {
         // 获取压力监测配置 --- Fetch Stress Monitor Settings
-        [TPSSdk.share.stressDataAbility getHrConfig:^(TPSStressConfigModel * _Nullable configModel) {
+        [TPSSdk.share.stressDataAbility getHrConfig:^(TPSStressConfigModel * _Nullable configModel, NSError * _Nullable error) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 weakSelf.configLabel.text = configModel.debugDescription;
 
@@ -122,14 +130,12 @@
             });
         }];
     } else if (indexPath.row == 6) {
-        [TPSSdk.share.temperatureAbility getTempConfigWithBlock:^(TPSTempConfigModel * _Nullable configModel) {
+        [TPSSdk.share.temperatureAbility getTempConfigWithBlock:^(TPSTempConfigModel * _Nullable configModel, NSError * _Nullable error) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 weakSelf.configLabel.text = configModel.debugDescription;
-                NSLog(@"configModel is %@",configModel.debugDescription);
-
                 ConsoleResultToastTip(weakSelf.view);
             });
-            XLOG_INFO(@"Temperature --- autoMonitorEnable: %d autoMonitorStartTime: %d autoMonitorEndTime：%d autoMonitorInterval: %d", configModel.isEnable, configModel.startTime, configModel.endTime, configModel.interval);
+            XLOG_INFO(@"Temperature --- autoMonitorEnable: %d autoMonitorStartTime: %ld autoMonitorEndTime：%ld autoMonitorInterval: %ld", configModel.isEnable, (long)configModel.startTime, (long)configModel.endTime, (long)configModel.interval);
 
         }];
     } else if (indexPath.row == 7) {

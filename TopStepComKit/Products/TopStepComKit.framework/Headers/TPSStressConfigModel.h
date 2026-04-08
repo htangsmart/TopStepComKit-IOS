@@ -11,14 +11,16 @@
 @class FitCloudHTMSingleObject;
 
 @class FwStressConfigModel;
+@class FitCloudHTMSingleObject;
+@class FitCloudHTMObject;
 @interface TPSStressConfigModel : NSObject
-
--(instancetype)initWithFwModel:(FwStressConfigModel*)fwModel;
--(FwStressConfigModel*)toFwModel;
 
 
 -(instancetype)initWithFitClpodModel:(FitCloudHTMSingleObject*)fitModel;
 -(FitCloudHTMSingleObject*)toFitModel;
+
+-(instancetype)initWithFitCloudHTMObject:(FitCloudHTMObject*)model;
+-(FitCloudHTMObject*)toFitCloudHTMObject;
 
 @property (nonatomic, assign) BOOL autoMonitorEnable;
 /**

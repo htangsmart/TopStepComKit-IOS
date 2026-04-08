@@ -9,36 +9,32 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ * @brief Historical wrist temperature data model
+ * @chinese 历史腕温数据模型
+ */
 @interface TPSHistoryTempModel : NSObject
 
 /**
- * @brief Timestamp of the measurement.
- * @chinese 测量的时间戳
+ * @brief Measurement timestamp
+ * @chinese 测量时间戳
  */
 @property (nonatomic, assign) long timestamp;
 
 /**
- * @brief Wrist temperature.
- * @chinese 腕温
- *
- * @discussion
- * [EN]: Unit: Celsius.
- * [CN]: 单位：摄氏度。
+ * @brief Wrist temperature in Celsius
+ * @chinese 腕温，单位：摄氏度
  */
 @property (nonatomic, assign) double wrist;
 
 /**
- * @brief Body temperature.
- * @chinese 体温
- *
- * @discussion
- * [EN]: Unit: Celsius.
- * [CN]: 单位：摄氏度。
+ * @brief Body temperature in Celsius
+ * @chinese 体温，单位：摄氏度
  */
 @property (nonatomic, assign) double body;
 
 /**
- * @brief Whether it is a manual measurement.
+ * @brief Whether this record is a manual measurement
  * @chinese 是否为手动测量
  *
  * @discussion
@@ -48,22 +44,28 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isManual;
 
 /**
- * @brief Initialize with database dictionary.
- * @chinese 使用数据库字典初始化
+ * @brief Initialize with a database row dictionary
+ * @chinese 使用数据库行字典初始化
  *
- * @param dict Database dictionary
- * @return Instance
+ * @param dict
+ * EN: Dictionary from SQLite query result
+ * CN: SQLite 查询结果字典
+ *
+ * @return TPSHistoryTempModel instance
  */
-- (instancetype)initWithTsDbDict:(NSDictionary *)dict;
+- (instancetype)initWithDatabaseDict:(NSDictionary *)dict;
 
 /**
- * @brief Convert database array to model array.
- * @chinese 将数据库数组转换为模型数组
+ * @brief Convert a database result array to model array
+ * @chinese 将数据库结果数组转换为模型数组
  *
- * @param array Database array
+ * @param array
+ * EN: Array of SQLite row dictionaries
+ * CN: SQLite 行字典数组
+ *
  * @return Model array
  */
-+ (NSArray<TPSHistoryTempModel *> *)modelFormArray:(NSArray<NSDictionary *> *)array;
++ (NSArray<TPSHistoryTempModel *> *)modelFromArray:(NSArray<NSDictionary *> *)array;
 
 @end
 

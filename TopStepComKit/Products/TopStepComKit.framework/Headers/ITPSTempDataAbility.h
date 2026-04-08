@@ -15,12 +15,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol ITPSTempDataAbility <NSObject,ITPSWearBaseAbility>
-
 typedef void(^TPSHistoryTempCallback)(NSArray<TPSHistoryTempModel *> * _Nullable historyTempList);
-typedef void(^TPSTempConfigCallback)(TPSTempConfigModel * _Nullable configModel);
+typedef void(^TPSTempConfigCallback)(TPSTempConfigModel * _Nullable configModel, NSError * _Nullable error);
 
-+ (instancetype _Nonnull)share;
+@protocol ITPSTempDataAbility <NSObject, ITPSWearBaseAbility>
+
++ (instancetype)share;
 
 /**
  * @brief Query historical wrist temperature data

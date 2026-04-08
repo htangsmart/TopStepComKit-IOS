@@ -397,7 +397,7 @@
 		</dict>
 		<key>FitCloudKit.bundle/Info.plist</key>
 		<data>
-		sF7wVmrmw3vU4PK4zSaHFH/ebyc=
+		RY1HwumWqP1YHo4mcZcjpNuFHlk=
 		</data>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -1230,7 +1230,7 @@
 		</data>
 		<key>Headers/ITPSBloodPressureDataAbility.h</key>
 		<data>
-		7g1ZhW8rUReIeBENWp4RU6+D8c0=
+		UDZaXYBh2gseWbV7b/25y21/IAE=
 		</data>
 		<key>Headers/ITPSCardPocketAbility.h</key>
 		<data>
@@ -1274,7 +1274,7 @@
 		</data>
 		<key>Headers/ITPSHeartRateDataAbility.h</key>
 		<data>
-		SWUycTjAU6u5Ex57D3wDIMiwX64=
+		KaraMlkjRPSH71+7oEu5lMJYqmk=
 		</data>
 		<key>Headers/ITPSHttpAbility.h</key>
 		<data>
@@ -1326,7 +1326,7 @@
 		</data>
 		<key>Headers/ITPSSPO2Ability.h</key>
 		<data>
-		J+u+ZPX5du9uOqLb80T9B7/uXo4=
+		A7NXkGOcl2MSLCoEGOQUerDLTLE=
 		</data>
 		<key>Headers/ITPSSleepDataAbility.h</key>
 		<data>
@@ -1342,7 +1342,7 @@
 		</data>
 		<key>Headers/ITPSStressDataAbility.h</key>
 		<data>
-		cJanS63u6AHxZom/C0hT5LAMHms=
+		97w90iqMHjCjJHcpXNTUJ1PhYk0=
 		</data>
 		<key>Headers/ITPSSynchronousDataAbility.h</key>
 		<data>
@@ -1350,7 +1350,7 @@
 		</data>
 		<key>Headers/ITPSTempDataAbility.h</key>
 		<data>
-		2pKrCquSUhrCF7oSo5Z1xdhjJ6g=
+		gJj85Yzy0QfoIIrrLInYjRFMrXY=
 		</data>
 		<key>Headers/ITPSUserInfoAbility.h</key>
 		<data>
@@ -1383,6 +1383,10 @@
 		<key>Headers/TPSApplicationStoreModel.h</key>
 		<data>
 		W1FTCTABnNi23a5LH5W+HsK1cVY=
+		</data>
+		<key>Headers/TPSBloodPressureConfigModel.h</key>
+		<data>
+		HGGOFPwCwr5yf0TawzNPbqQ+jrw=
 		</data>
 		<key>Headers/TPSConnectResult.h</key>
 		<data>
@@ -1494,7 +1498,7 @@
 		</data>
 		<key>Headers/TPSHistoryTempModel.h</key>
 		<data>
-		uXfnwVVJ+7IZB55uXXObIBx4olk=
+		996Vb7oHICoUE+1PMJQ+VeM40nM=
 		</data>
 		<key>Headers/TPSHrConfigModel.h</key>
 		<data>
@@ -1582,7 +1586,7 @@
 		</data>
 		<key>Headers/TPSSpo2ConfigModel.h</key>
 		<data>
-		taP/zcZZ4ssIsceXE5LzwHzez7Q=
+		+LlgKkbRk6gUKIOhthyNDqw7tSk=
 		</data>
 		<key>Headers/TPSSportItemModel.h</key>
 		<data>
@@ -1618,7 +1622,7 @@
 		</data>
 		<key>Headers/TPSStressConfigModel.h</key>
 		<data>
-		pOitqCTaoDV3j1b+bsWW1rpu7/Q=
+		N93gOgTDj/opJiRE5wWqMBTdG38=
 		</data>
 		<key>Headers/TPSTempConfigModel.h</key>
 		<data>
@@ -1674,7 +1678,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		w926d5C5IAPacqShqcc577QvWps=
+		jeJv6atE3JWVLsyfRoONk3HfYhE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2265,11 +2269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sF7wVmrmw3vU4PK4zSaHFH/ebyc=
+			RY1HwumWqP1YHo4mcZcjpNuFHlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			j7C0pZwRYeTwKMcqlSihSG16KBS05nRRQ/7sV/hkvfc=
+			CfaCne7b5vWNXbHNghMu3wvw4fZpJkpVH+saC36QqAY=
 			</data>
 		</dict>
 		<key>FitCloudKit.bundle/ar.lproj/Localizable.strings</key>
@@ -3510,11 +3514,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7g1ZhW8rUReIeBENWp4RU6+D8c0=
+			UDZaXYBh2gseWbV7b/25y21/IAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			hMqf+3cfERsuROgGlkPvZtz0Ya+UMkvrcXAP2bogWPw=
+			YpsPRmjRiAZRBcZgaeTgvPZrMiS1DdzBzQ68kEWebTM=
 			</data>
 		</dict>
 		<key>Headers/ITPSCardPocketAbility.h</key>
@@ -3631,11 +3635,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SWUycTjAU6u5Ex57D3wDIMiwX64=
+			KaraMlkjRPSH71+7oEu5lMJYqmk=
 			</data>
 			<key>hash2</key>
 			<data>
-			UlnIFIenqUwsWx/BEBdDQPWwGlqGbCrmw0BUKC0yTFE=
+			Fx5Ry071FwCJWVpoBpuvNkWugkkWOdCvZRLJkVI9tU8=
 			</data>
 		</dict>
 		<key>Headers/ITPSHttpAbility.h</key>
@@ -3774,11 +3778,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J+u+ZPX5du9uOqLb80T9B7/uXo4=
+			A7NXkGOcl2MSLCoEGOQUerDLTLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			oQXwNafejpSK0IB2bkKxY6s3cQMxsxPmUSK/BPB9Bhk=
+			eM6vVW9v1ZOOpPoOgesdKXg2NrYRJan2ATkM/3K2ak8=
 			</data>
 		</dict>
 		<key>Headers/ITPSSleepDataAbility.h</key>
@@ -3818,11 +3822,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cJanS63u6AHxZom/C0hT5LAMHms=
+			97w90iqMHjCjJHcpXNTUJ1PhYk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			DtVUA++OHrvMnpEIU2T6OJgYs/5sree2oQFNOvkEswo=
+			h+VjE/xbah1YM17JwcJ0Wm36eaDebrspcU5RsVPCJM8=
 			</data>
 		</dict>
 		<key>Headers/ITPSSynchronousDataAbility.h</key>
@@ -3840,11 +3844,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2pKrCquSUhrCF7oSo5Z1xdhjJ6g=
+			gJj85Yzy0QfoIIrrLInYjRFMrXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			hDkdpjqGKhWMy20DnarKpyCLIuas5Y/TBYfw88mc0HU=
+			DihWa3lzxmQZ7aJjoHHltyZuJSfcFOX6duSj6sIv5Ks=
 			</data>
 		</dict>
 		<key>Headers/ITPSUserInfoAbility.h</key>
@@ -3933,6 +3937,17 @@
 			<key>hash2</key>
 			<data>
 			haZD68/BQ6sRC8SztFfN1p23TEcZOqIOtXESaR8SIdY=
+			</data>
+		</dict>
+		<key>Headers/TPSBloodPressureConfigModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HGGOFPwCwr5yf0TawzNPbqQ+jrw=
+			</data>
+			<key>hash2</key>
+			<data>
+			FUWtyD9f+7moTqHXs/t7+JgB3X5ZcL2ua3WCTtKnSyc=
 			</data>
 		</dict>
 		<key>Headers/TPSConnectResult.h</key>
@@ -4236,11 +4251,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uXfnwVVJ+7IZB55uXXObIBx4olk=
+			996Vb7oHICoUE+1PMJQ+VeM40nM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MuL/0jovdy3Jj+ii3OxLbViTf9+iNhqq6VqNPJZSRe4=
+			bLO+RU/CeoMoFlA2n6GaOx0UrqTpmmWlQf516p/wN4g=
 			</data>
 		</dict>
 		<key>Headers/TPSHrConfigModel.h</key>
@@ -4478,11 +4493,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			taP/zcZZ4ssIsceXE5LzwHzez7Q=
+			+LlgKkbRk6gUKIOhthyNDqw7tSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			XkJIu4P35HrK/Z3cuTTotLs2qM8i7f8Jnnod06ulq5s=
+			A/cXPpD0ASIKXbDTIF6sHZZB3SKrmcX7n/v/z8ANJdA=
 			</data>
 		</dict>
 		<key>Headers/TPSSportItemModel.h</key>
@@ -4577,11 +4592,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pOitqCTaoDV3j1b+bsWW1rpu7/Q=
+			N93gOgTDj/opJiRE5wWqMBTdG38=
 			</data>
 			<key>hash2</key>
 			<data>
-			kSl0YEONlEyiy5wbZPehBcpQdtl+Lotyr6wfCi0LBPA=
+			m42RqMWfNZ+/Zk/8rRKTrYTJj48tpQVLJCPKVWzsgQo=
 			</data>
 		</dict>
 		<key>Headers/TPSTempConfigModel.h</key>
